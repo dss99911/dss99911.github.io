@@ -1,4 +1,9 @@
-
+---
+layout: post
+title:  "Publish Jekyll on Gihub Pages"
+date:   2023-12-03 21:05:37 +0900
+categories: Jekyll
+---
 
 https://docs.github.com/ko/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
 
@@ -21,7 +26,7 @@ ruby -v
 
 ```
 
-
+create repository name {user-name}.github.io
 install gekyll
 ```
 gem install bundler jekyll
@@ -29,3 +34,6 @@ jekyll new site
 cd site
 
 ```
+
+
+automatic deploy on commit
