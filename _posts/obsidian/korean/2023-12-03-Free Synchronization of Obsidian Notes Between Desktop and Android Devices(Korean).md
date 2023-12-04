@@ -3,6 +3,7 @@ layout: post
 title:  "데스크톱과 안드로이드 장치 간의 Obsidian 노트 무료 동기화"
 date:   2023-12-03 21:05:37 +0900
 categories: obsidian korean
+locale: ko-KR
 ---
 이 블로그 글에서는 데스크톱과 안드로이드 장치 간에 Obsidian 노트를 어떻게 무료로 동기화하는지 알아볼 거예요. Mac과 iPhone 사용자들은 iCloud를 이용해서 노트 파일을 쉽게 동기화할 수 있고, Obsidian Pro 사용자들은 내장된 동기화 기능을 가지고 있지만, 안드로이드 사용자들은 다른 방법이 필요하죠.
 

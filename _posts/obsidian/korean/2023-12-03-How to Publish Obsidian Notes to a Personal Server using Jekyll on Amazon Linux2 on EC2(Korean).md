@@ -3,6 +3,7 @@ layout: post
 title: Obsidian 노트를 개인 서버에 Jekyll을 이용해 게시하기 (Amazon Linux2 on EC2 환경)
 date: 2023-12-03 21:05:37 +0900
 categories: obsidian korean
+locale: ko-KR
 ---
 이 가이드는 Amazon Linux2 EC2 인스턴스에서 Jekyll을 설정하고 Obsidian 노트를 개인 서버에 게시하는 과정을 안내합니다.
 

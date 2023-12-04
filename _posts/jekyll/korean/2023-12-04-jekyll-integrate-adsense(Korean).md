@@ -3,8 +3,7 @@ layout: post
 title: Jekyll에서 Adsense의 자동 광고 연동하기
 date: 2023-12-04 04:05:37 +0900
 categories: jekyll korean
-functions_page: _posts/Jekyll/2023-12-04-jekyll-functions.md
-has_variable: "true"
+locale: ko-KR
 ---
 
 이 가이드에서는 Adsense의 자동 광고를 웹사이트에 추가하는 방법을 안내하겠습니다.
