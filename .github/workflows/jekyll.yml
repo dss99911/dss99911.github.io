@@ -31,6 +31,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Clean Workspace
+        uses: AutoModality/action-clean@v1
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Ruby
