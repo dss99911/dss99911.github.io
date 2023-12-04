@@ -2,7 +2,7 @@
 layout: post
 title:  "스크립트를 이용한 Evernote에서 Obsidian으로 노트 이전하기"
 date:   2023-12-03 21:05:37 +0900
-categories: Obsidian
+categories: obsidian korean
 ---
 이 블로그 글에서는 스크립트를 이용해서 Evernote에서 Obsidian으로 모든 노트를 이전하는 과정을 알아볼 거예요. 이 과정은 크게 두 단계로 나뉘는데, 모든 노트를 ENEX 파일로 백업하는 것과 이 파일들을 Obsidian에서 사용할 수 있는 Markdown으로 변환하는 것이죠.
 

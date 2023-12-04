@@ -2,7 +2,7 @@
 layout: post
 title:  "Free Synchronization of Obsidian Notes Between Desktop and Android Devices"
 date:   2023-12-03 21:05:37 +0900
-categories: Obsidian
+categories: obsidian
 ---
 
 In this blog post, we will explore how to synchronize Obsidian notes between your desktop and Android device for free. While Mac and iPhone users can easily sync their note files using iCloud, and Obsidian Pro users have built-in sync functionality, Android users need a different solution.

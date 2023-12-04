@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll Variables Usage
 date: 2023-12-04 04:05:37 +0900
-categories: Jekyll
+categories: jekyll
 page_variable: "some_page_variable"
 pages: site.categories
 ---

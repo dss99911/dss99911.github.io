@@ -1,5 +1,5 @@
 ---
 layout: home
 title: Obsidian
-category: Obsidian
+category: obsidian
 ---

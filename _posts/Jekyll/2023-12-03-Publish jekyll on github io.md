@@ -2,7 +2,7 @@
 layout: post
 title:  "Publish Jekyll on Gihub Pages"
 date:   2023-12-03 21:05:37 +0900
-categories: Jekyll
+categories: jekyll
 ---
 
 https://docs.github.com/ko/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll

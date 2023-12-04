@@ -1,5 +1,5 @@
 ---
 layout: home
 title: Jekyll
-category: Jekyll
+category: jekyll
 ---
