@@ -40,7 +40,9 @@ def foo():
 
 {% endhighlight %}
 ### [Link](https://jekyllrb.com/docs/liquid/tags/#link)
-- [Link by Tag]({% link _posts/Jekyll/2023-12-04-jekyll-functions.md %}): this can be used only for the blog. but, provide link validation on building time.
+- [Link by Tag]({% link _posts/Jekyll/2023-12-04-jekyll-functions.md %}): provides link validation on build time. if front matter not exists, the error below occurs.
+  - Liquid Exception: Could not find document '_posts/Jekyll/2023-12-04-jekyll-functions.md' in tag 'link'. Make sure the document exists and the path is correct. in /github/workspace/_posts/Jekyll/2023-12-04-jekyll-liquid.md
+- [Link by variables](% link {{ page.functions_page }} %): this way is not supported on Github Pages.
 - [Link by post_url]({% post_url 2023-12-03-Free Synchronization of Obsidian Notes Between Desktop and Android Devices %}): able to access other directory's post with post name
 
 
