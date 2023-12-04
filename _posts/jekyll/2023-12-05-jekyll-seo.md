@@ -49,12 +49,19 @@ Sitemap: https://dss99911.github.io/sitemap.xml
 ```
 
 
-## 4. google_site_verification
+## 4. site_verification
+
+### google site verification
 if you already integrated google analytics
 you can just register your domain on [search console](https://search.google.com/search-console)
 
 if not, perform the below
 <Describe how to do it>
+
+### naver site verification
+
+https://searchadvisor.naver.com/console/board
+
 
 
 ## 3. Meta tag
@@ -78,6 +85,11 @@ add the below to each page's front matter
 use header tag properly. don't use header too much
 
 easy url
+
+
+## 5. Site Checking
+
+https://searchadvisor.naver.com/tools/sitecheck
 
 
 ## Reference

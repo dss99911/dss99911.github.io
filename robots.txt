@@ -1,4 +1,3 @@
-user-agent: *
-allow: /
-
+User-agent: *
+Allow: /
 Sitemap: https://dss99911.github.io/sitemap.xml

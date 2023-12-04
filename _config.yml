@@ -20,12 +20,8 @@
 
 title: Hyun's Tech Blog
 email: dss99911@gmail.com
-tagline: >-
-  about Obsidian, Jekyll. Syncthing, Adsense, Evernote, AWS, Android, Github Pages
-  other subjects will be added.
 description: >- # this means to ignore newlines until "baseurl:"
-  about Obsidian, Jekyll. Syncthing, Adsense, Evernote, AWS, Android, Github Pages
-  other subjects will be added.
+  about IT, Blog, Note
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dss99911.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: 'https://github.com/dss99911/dss99911.github.io'
