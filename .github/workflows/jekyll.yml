@@ -34,7 +34,7 @@ jobs:
       - name: Delete files in a directory
         run: |
           rm -f /github/workspace/*
-  working-directory: ${{ github.workspace }}
+        working-directory: ${{ github.workspace }}
   build:
     runs-on: ubuntu-latest
     needs: clean
