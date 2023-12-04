@@ -33,7 +33,7 @@ jobs:
     steps:
       - name: Delete files in a directory
         run: |
-          find /github/workspace -type f -delete
+          find /home/runner/work/dss99911.github.io/dss99911.github.io -type f -delete
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Ruby
