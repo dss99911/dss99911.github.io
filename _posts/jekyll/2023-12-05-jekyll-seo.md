@@ -1,96 +1,82 @@
 ---
 layout: post
-title: Jekyll with SEO
+title: Optimizing Jekyll for SEO
 date: 2023-12-05 01:57:37 +0900
 categories: jekyll
-page_variable: "some_page_variable"
-pages: site.categories
+description: Optimize your Jekyll site for SEO with our guide. Learn about SEO plugins, robots.txt, site verification, meta tags, and more. Boost your site’s visibility.
 ---
 
+Search Engine Optimization (SEO) is crucial for increasing visibility and improving the ranking of your website on search engine results pages. This guide will walk you through some strategies to optimize your Jekyll website for SEO.
 
-# Jekyll reflect SEO
+## 1. Utilize the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) plugin
 
+The `jekyll-seo-tag` plugin adds metadata tags for search engines and social networks to better index and display your site's content.
 
-## 1. Use [`jekyll-seo-tag` plugin](https://github.com/jekyll/jekyll-seo-tag)
+### Installation
 
-### [Install](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md)
-add `gem 'jekyll-seo-tag'` to `Gemfile`
+To install the plugin, add `gem 'jekyll-seo-tag'` to your `Gemfile`. Then, include the following in your `_config.yml` file:
 
-add the below to `_config.yml`
 ```
 plugins:
   - jekyll-seo-tag
-
 ```
 
+## 2. Implement the [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap) plugin
 
+The `jekyll-sitemap` plugin creates a sitemap for your Jekyll site which helps search engines to index your webpages more efficiently.
 
+To use this plugin, add `gem 'jekyll-sitemap'` to your `Gemfile` and include the following in your `_config.yml` file:
 
-## 2. Use `jekyll-sitemap` plugin
-
-add `gem 'jekyll-sitemap'` to `Gemfile`
-
-add the below to `_config.yml`
 ```
 plugins:
   - jekyll-sitemap
 ```
 
-## 3. robots.txt
+## 3. Create a robots.txt file
 
-allow all pages for search robots to search
-and teach where the sitemap is
+A `robots.txt` file tells search engine crawlers which pages or files the crawler can or can't request from your site. It's important to allow all pages for search robots to search and specify the location of your sitemap. Here's an example:
+
 ```
-user-agent: *
-allow: /
+User-agent: *
+Allow: /
 
 Sitemap: https://dss99911.github.io/sitemap.xml
-
 ```
 
+## 4. Site Verification
 
-## 4. site_verification
+Site verification allows search engines to confirm that you're the owner of the website. This can be done through various search engine consoles.
 
-### google site verification
-if you already integrated google analytics
-you can just register your domain on [search console](https://search.google.com/search-console)
+### Google Site Verification
 
-if not, perform the below
-<Describe how to do it>
+If you've already integrated Google Analytics, you can simply register your domain on the [Google Search Console](https://search.google.com/search-console). If not, you'll need to follow the steps provided by Google to verify your site. Once registered, request indexing for faster indexing.
 
-### naver site verification
+### Naver Site Verification
 
-https://searchadvisor.naver.com/console/board
+You can verify your site with Naver at their [Search Advisor Console](https://searchadvisor.naver.com/console/board).
 
+### Bing Site Verification
 
+Bing allows you to use your Google site verification data, so there's no need to verify again. You can do this at the [Bing Webmaster Tools](https://www.bing.com/webmasters). After registration, request indexing for faster indexing.
 
-## 3. Meta tag
+## 5. Meta Tags
 
-add the below to _config.xml
-
-- title
-- tagline: short description
-- description: longer description. if no description on page, this site.description is used
-- locale
-
-
-add the below to each page's front matter
+Meta tags provide metadata about your webpage and are used by search engines to understand the content of your pages. You can add the following to your `_config.yml` file:
 
 - title
-- description: for search engine to know what information in the page
-- locale: if the locale is different with site.locale
+- tagline: A short description of your site.
+- description: A longer description of your site. If no description is provided on a page, this site.description is used.
+- locale: The locale of your site.
 
+For each page's front matter, you can add:
 
-## 4. Contents
-use header tag properly. don't use header too much
+- title
+- description: For search engine results, it's recommended to keep this under 160 characters.
+- locale: If the locale is different from site.locale.
 
-easy url
+## 6. Content
 
+Ensure you use header tags properly and avoid overusing them. Also, make sure your URLs are user-friendly and easy to read.
 
-## 5. Site Checking
-
-https://searchadvisor.naver.com/tools/sitecheck
-
-
-## Reference
-- https://github.com/jekyll/jekyll-seo-tag
+## References
+- [Jekyll SEO Tag GitHub](https://github.com/jekyll/jekyll-seo-tag)

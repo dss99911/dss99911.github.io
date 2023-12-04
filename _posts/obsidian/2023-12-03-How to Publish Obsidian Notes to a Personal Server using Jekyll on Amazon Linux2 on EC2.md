@@ -3,6 +3,7 @@ layout: post
 title: How to Publish Obsidian Notes to a Personal Server using Jekyll on Amazon Linux2 on EC2
 date: 2023-12-03 21:05:37 +0900
 categories: obsidian
+description: Publish Obsidian notes to a personal server using Jekyll on Amazon Linux2 on EC2. Learn setup, running as a service, note formatting, and uploading files.
 ---
 This guide will walk you through the process of setting up Jekyll on an Amazon Linux2 EC2 instance and using it to publish your Obsidian notes to your personal server.
 

@@ -3,6 +3,7 @@ layout: post
 title: How to Integrate Auto Ads of Adsense on Jekyll
 date: 2023-12-04 04:05:37 +0900
 categories: jekyll
+description: Integrate Auto Ads from Adsense on your Jekyll site with our step-by-step guide. Learn to create a new site, add auto ads.
 ---
 
 In this guide, we’ll walk through the steps to add auto ads from Adsense to your website.
