@@ -41,7 +41,6 @@ def foo():
 {% endhighlight %}
 ### [Link](https://jekyllrb.com/docs/liquid/tags/#link)
 - [Link by Tag]({% link _posts/Jekyll/2023-12-04-jekyll-functions.md %}): this can be used only for the blog. but, provide link validation on building time.
-- [Link by variables]({% link {{ page.functions_page }} %})
 - [Link by post_url]({% post_url 2023-12-03-Free Synchronization of Obsidian Notes Between Desktop and Android Devices %}): able to access other directory's post with post name
 
 
