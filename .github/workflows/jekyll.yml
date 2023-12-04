@@ -31,9 +31,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Delete files in a directory
-        run: |
-          find /home/runner/work/dss99911.github.io/dss99911.github.io -type f -delete
+      # - name: Delete files in a directory
+      #   run: |
+      #     find /home/runner/work/dss99911.github.io/dss99911.github.io -type f -delete
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Ruby
