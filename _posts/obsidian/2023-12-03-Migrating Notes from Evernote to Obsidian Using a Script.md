@@ -31,7 +31,7 @@ However, please note that this tool does not support folders recursively. Theref
 
 ```bash
 # convert enex on 'output_dir' directory to 'md_output_dir'
-find output_dir -type f -name "*.enex" -exec bash -c 'evernote2md $0 "md_${0%.enex}"' {} \;
+find output_dir -type f -name "*.enex" -exec bash -c 'evernote2md "$0" "md_${0%.enex}"' {} \;
 ```
 
 ## Script For Mac

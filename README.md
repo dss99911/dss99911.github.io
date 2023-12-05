@@ -2,8 +2,11 @@
 
 
 ## TODO
-- Adsense
-- google analytics
+
+- Waiting
+    - Adsense
+    - google analytics
+    - Google, Bing indexing
 - html structure
     - Directory Structure
     - Liquid
@@ -13,13 +16,3 @@
     - Permalinks
     - theme
     - Pagination
-
-- SEO
-    - jekyll-sitemap
-    - jekyll-seo-tag
-- add android blog
-- add contents related to working
-    - add sagemaker
-    - add gevent
-    - add spot instance
-
