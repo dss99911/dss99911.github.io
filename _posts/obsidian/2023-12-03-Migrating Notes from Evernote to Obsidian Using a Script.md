@@ -24,6 +24,10 @@ evernote-backup export output_dir/  # export db file to enext files on output_di
 ```
 
 ## Converting ENEX Files to Markdown
+> **Note:**
+> This script has been tested on Mac. If you're using a different operating system, you may need to adjust the script for the same purpose.
+
+(This script has been tested on Mac. If you're using a different operating system, you may need to adjust the script for the same purpose.)
 
 Obsidian uses Markdown, so we need to convert the ENEX files to Markdown. For this, we will use another tool available on GitHub called [evernote2md](https://github.com/wormi4ok/evernote2md).
 
@@ -34,7 +38,24 @@ However, please note that this tool does not support folders recursively. Theref
 find output_dir -type f -name "*.enex" -exec bash -c 'evernote2md -t \#{{tag}} "$0" "md_${0%.enex}"' {} \;
 ```
 
-## Script For Mac
+## Converting images files without file name
+there are many image files like '.png', '.jpg' without file name after using evernote2md.
+and the image file without file name is not recognized by Obsidian.
+so, need to add file name to those image files.
+
+
+```bash
+# change file name
+DIR=md_output_dir
+find $DIR -type f \( -name ".png" -o -name ".jpg" -o -name ".gif" \) -exec bash -c 'mv "$0" "${0%.*}no-name-image.${0##*.}"' {} \;
+
+# change links on markdown files.
+LC_ALL=C find $DIR -type f -exec sed -i '' 's/(image\/.png)/(image\/no-name-image.png)/g' {} \;
+LC_ALL=C find $DIR -type f -exec sed -i '' 's/(image\/.jpg)/(image\/no-name-image.jpg)/g' {} \;
+LC_ALL=C find $DIR -type f -exec sed -i '' 's/(image\/.gif)/(image\/no-name-image.gif)/g' {} \;
+```
+
+## Full Script
 ```bash
 # install the packages
 brew install evernote-backup
@@ -47,6 +68,15 @@ evernote-backup export output_dir/  # export db file to enext files on output_di
 
 # convert enex on 'output_dir' directory to 'md_output_dir'
 find output_dir -type f -name "*.enex" -exec bash -c 'evernote2md -t \#{{tag}} $0 "md_${0%.enex}"' {} \;
+
+# change file name
+DIR=md_output_dir
+find $DIR -type f \( -name ".png" -o -name ".jpg" -o -name ".gif" \) -exec bash -c 'mv "$0" "${0%.*}no-name-image.${0##*.}"' {} \;
+
+# change links on markdown files.
+LC_ALL=C find $DIR -type f -exec sed -i '' 's/(image\/.png)/(image\/no-name-image.png)/g' {} \;
+LC_ALL=C find $DIR -type f -exec sed -i '' 's/(image\/.jpg)/(image\/no-name-image.jpg)/g' {} \;
+LC_ALL=C find $DIR -type f -exec sed -i '' 's/(image\/.gif)/(image\/no-name-image.gif)/g' {} \;
 
 ```
 

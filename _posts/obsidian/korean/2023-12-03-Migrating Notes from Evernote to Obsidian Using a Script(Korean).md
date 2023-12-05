@@ -25,6 +25,10 @@ evernote-backup export output_dir/  # db 파일을 output_dir에 있는 enext �
 
 ## ENEX 파일을 Markdown으로 변환하기
 
+> **참고:**
+> 이 스크립트는 Mac에서 테스트되었습니다. 다른 운영 체제를 사용하는 경우 동일한 목적을 위해 스크립트를 조정해야 할 수 있습니다.
+
+
 Obsidian은 Markdown을 사용하므로, 우리는 ENEX 파일을 Markdown으로 변환해야 해요. 이를 위해 GitHub에서 사용할 수 있는 또 다른 도구인 evernote2md를 사용할 거에요.
 
 하지만 이 도구는 폴더를 재귀적으로 지원하지 않는다는 점을 알아두세요. 그래서 디렉토리를 재귀적으로 변환하기 위해 아래의 명령을 사용해야 해요:
@@ -34,7 +38,7 @@ Obsidian은 Markdown을 사용하므로, 우리는 ENEX 파일을 Markdown으로
 find output_dir -type f -name "*.enex" -exec bash -c 'evernote2md $0 "md_${0%.enex}"' {} \;
 ```
 
-## 맥을 위한 스크립트
+## 전체 스크립트
 
 ```bash
 # 패키지 설치하기
@@ -48,6 +52,15 @@ evernote-backup export output_dir/  # db 파일을 output_dir에 있는 enext �
 
 # 'output_dir' 디렉토리에 있는 enex를 'md_output_dir'로 변환하기
 find output_dir -type f -name "*.enex" -exec bash -c 'evernote2md $0 "md_${0%.enex}"' {} \;
+
+# 이미지 파일명 변경
+DIR=md_output_dir
+find $DIR -type f \( -name ".png" -o -name ".jpg" -o -name ".gif" \) -exec bash -c 'mv "$0" "${0%.*}no-name-image.${0##*.}"' {} \;
+
+# 마크다운 파일에 링크 파일명 변경
+LC_ALL=C find $DIR -type f -exec sed -i '' 's/(image\/.png)/(image\/no-name-image.png)/g' {} \;
+LC_ALL=C find $DIR -type f -exec sed -i '' 's/(image\/.jpg)/(image\/no-name-image.jpg)/g' {} \;
+LC_ALL=C find $DIR -type f -exec sed -i '' 's/(image\/.gif)/(image\/no-name-image.gif)/g' {} \;
 
 ```
 

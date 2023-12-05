@@ -78,5 +78,11 @@ For each page's front matter, you can add:
 
 Ensure you use header tags properly and avoid overusing them. Also, make sure your URLs are user-friendly and easy to read.
 
+## 7. AI Created Text
+
+https://ai-detector.net/
+https://www.scribbr.com/ai-detector/
+
+
 ## References
 - [Jekyll SEO Tag GitHub](https://github.com/jekyll/jekyll-seo-tag)

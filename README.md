@@ -16,3 +16,7 @@
     - Permalinks
     - theme
     - Pagination
+    - tags
+        - https://jekyllrb.com/docs/posts/
+- AI composed text check
+
