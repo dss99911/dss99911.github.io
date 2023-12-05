@@ -31,7 +31,7 @@ However, please note that this tool does not support folders recursively. Theref
 
 ```bash
 # convert enex on 'output_dir' directory to 'md_output_dir'
-find output_dir -type f -name "*.enex" -exec bash -c 'evernote2md "$0" "md_${0%.enex}"' {} \;
+find output_dir -type f -name "*.enex" -exec bash -c 'evernote2md -t \#{{tag}} "$0" "md_${0%.enex}"' {} \;
 ```
 
 ## Script For Mac
@@ -46,7 +46,7 @@ evernote-backup sync  # download all notes to sqlite db file
 evernote-backup export output_dir/  # export db file to enext files on output_dir
 
 # convert enex on 'output_dir' directory to 'md_output_dir'
-find output_dir -type f -name "*.enex" -exec bash -c 'evernote2md $0 "md_${0%.enex}"' {} \;
+find output_dir -type f -name "*.enex" -exec bash -c 'evernote2md -t \#{{tag}} $0 "md_${0%.enex}"' {} \;
 
 ```
 
