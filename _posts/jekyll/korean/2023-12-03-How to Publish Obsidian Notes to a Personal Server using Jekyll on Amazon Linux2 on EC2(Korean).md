@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Obsidian 노트를 개인 서버에 Jekyll을 이용해 게시하기 (Amazon Linux2 on EC2 환경)
+title: Amazon Linux2 on EC2 환경에서 Jekyll사용하여 블로그 만들기
 date: 2023-12-03 21:05:37 +0900
 categories: obsidian korean
 description: Amazon Linux2 on EC2에서 Jekyll을 이용해 Obsidian 노트를 개인 서버에 게시하는 방법을 알아보세요. 설정부터 업로드까지 단계별 안내를 제공합니다
 locale: ko-KR
 ---
-이 가이드는 Amazon Linux2 EC2 인스턴스에서 Jekyll을 설정하고 Obsidian 노트를 개인 서버에 게시하는 과정을 안내합니다.
+이 가이드는 Amazon Linux2 EC2 인스턴스에서 Jekyll을 설정하고 글을 개인 서버에 게시하는 과정을 안내합니다.
 
 ## Jekyll 설정
 
@@ -84,9 +84,9 @@ sudo systemctl enable jekyll.service
 sudo systemctl start jekyll.service
 ```
 
-## Obsidian 노트를 Jekyll에 맞게 형식 변경하기
+## 글을 Jekyll에 맞게 형식 변경하기
 
-Obsidian 노트를 Jekyll과 호환되도록 하려면, 각 노트에 다음 헤더를 추가해야 합니다:
+글을 Jekyll과 호환되도록 하려면, 각 글에 다음 헤더를 추가해야 합니다:
 
 ```markdown
 ---
@@ -97,9 +97,9 @@ categories: obsidian
 ---
 ```
 
-또한, 노트 파일 이름 형식을 `{date format of yyyy-MM-dd}-{title}.md`로 변경해야 합니다.
+또한, 파일 이름 형식을 `{date format of yyyy-MM-dd}-{title}.md`로 변경해야 합니다.
 
-아래 스크립트는 노트 이름으로 제목을 추가하고, 디렉토리 이름으로 카테고리를 설정하며, 파일 수정 날짜를 설정합니다. 스크립트를 실행하기 전에, 파일을 백업하는 것을 잊지 마세요. 파일 이름에 "가 포함되어 있거나 알 수 없는 경우에는 제대로 작동하지 않을 수 있습니다.
+아래 스크립트는 파일 이름으로 제목을 추가하고, 디렉토리 이름으로 카테고리를 설정하며, 파일 수정 날짜를 설정합니다. 스크립트를 실행하기 전에, 파일을 백업하는 것을 잊지 마세요. 파일 이름에 "가 포함되어 있거나 알 수 없는 경우에는 제대로 작동하지 않을 수 있습니다.
 
 ```bash
 PUBLISH_DIRECTORY={your-note-directory-to-publish}
@@ -134,7 +134,7 @@ done
 
 ## EC2 서버에 파일 업로드하기
 
-마지막으로, 노트를 EC2 서버에 업로드할 수 있습니다:
+마지막으로, 파일을 EC2 서버에 업로드할 수 있습니다:
 
 ```bash
 #!/bin/bash
@@ -147,4 +147,4 @@ rsync -av --delete -e "ssh -i $KEY_PATH" "$PUBLISH_DIRECTORY" ec2-user@"$EC2_IP"
 ```
 `--delete` 옵션은 로컬에서 파일이 삭제되면 서버에서도 해당 파일을 삭제하도록 하는 기능입니다. 만약 파일을 삭제하면 안 된다면, `--delete` 옵션을 제외하고 명령어를 실행해 주세요.
 
-그럼 이제 다 됐습니다! Amazon Linux2 on EC2에서 Jekyll을 사용하여 Obsidian 노트를 개인 서버에 성공적으로 게시했습니다. 블로그 쓰는 즐거움을 느껴보세요!
+그럼 이제 다 됐습니다! Amazon Linux2 on EC2에서 Jekyll을 사용하여 글을 개인 서버에 성공적으로 게시했습니다. 블로그 쓰는 즐거움을 느껴보세요!

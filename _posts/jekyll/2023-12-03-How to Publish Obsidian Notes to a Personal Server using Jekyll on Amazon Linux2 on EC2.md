@@ -1,11 +1,11 @@
 ---
 layout: post
-title: How to Publish Obsidian Notes to a Personal Server using Jekyll on Amazon Linux2 on EC2
+title: To make blog with Jekyll on Amazon Linux2 on EC2
 date: 2023-12-03 21:05:37 +0900
 categories: obsidian
-description: Publish Obsidian notes to a personal server using Jekyll on Amazon Linux2 on EC2. Learn setup, running as a service, note formatting, and uploading files.
+description: This guide will walk you through the process of setting up Jekyll on an Amazon Linux2 EC2 instance and using it to publish your post to your personal server
 ---
-This guide will walk you through the process of setting up Jekyll on an Amazon Linux2 EC2 instance and using it to publish your Obsidian notes to your personal server.
+This guide will walk you through the process of setting up Jekyll on an Amazon Linux2 EC2 instance and using it to publish your post to your personal server.
 
 ## Setting Up Jekyll
 
@@ -83,22 +83,22 @@ sudo systemctl enable jekyll.service
 sudo systemctl start jekyll.service
 ```
 
-## Formatting Obsidian Notes for Jekyll
+## Formatting post for Jekyll
 
-To make your Obsidian notes compatible with Jekyll, you need to add the following header to each note:
+To make your post compatible with Jekyll, you need to add the following header to each note:
 
 ```markdown
 ---
 layout: post
 title:  "{your post title}"
 date:   2023-12-03 10:24:45 +0000
-categories: obsidian
+categories: some_category
 ---
 ```
 
-Also, you need to change the note file name format to `{date format of yyyy-MM-dd}-{title}.md`.
+Also, you need to change the post file name format to `{date format of yyyy-MM-dd}-{title}.md`.
 
-The script below adds the title with the note name, sets the categories with the directory name, and sets the file modified date. Before running the script, don’t forget to backup your files. It may not work properly if the file name contains " or in some unknown cases.
+The script below adds the title with the file name, sets the categories with the directory name, and sets the file modified date. Before running the script, don’t forget to backup your files. It may not work properly if the file name contains " or in some unknown cases.
 
 ```bash
 PUBLISH_DIRECTORY={your-note-directory-to-publish}
@@ -133,7 +133,7 @@ done
 
 ## Uploading Files to the EC2 Server
 
-Finally, you can upload your notes to your EC2 server:
+Finally, you can upload your post to your EC2 server:
 
 ```bash
 #!/bin/bash
@@ -146,4 +146,4 @@ rsync -av --delete -e "ssh -i $KEY_PATH" "$PUBLISH_DIRECTORY" ec2-user@"$EC2_IP"
 ```
 The `--delete` option allows for the deletion of files on the server if they have been deleted locally. If you do not want files to be deleted, please execute the command without the `--delete` option.
 
-And that’s it! You’ve successfully published your Obsidian notes to your personal server using Jekyll on Amazon Linux2 on EC2. Happy blogging!
+And that’s it! You’ve successfully published your post to your personal server using Jekyll on Amazon Linux2 on EC2. Happy blogging!
