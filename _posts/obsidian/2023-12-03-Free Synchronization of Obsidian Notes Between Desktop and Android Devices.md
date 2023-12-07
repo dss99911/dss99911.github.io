@@ -37,14 +37,14 @@ Another option is [Syncthing](https://syncthing.net/), which synchronizes note f
 **Cons:**
 - If the network connection on both devices is not functioning, synchronization cannot take place.
 
-7/30
-
 ## Handling Sync Errors
 
 When using these notes on Android, be aware that the Android file system does not support certain special characters in file names. These include /, <, >, *, ", :, ?, , and |. You can remove these characters using the following command:
 
 ```bash
-find md_output_dir -type f -name "*[:/<>|*?\\\\"'"'"]*" -exec bash -c 'mv -i '"'{}'"' $(echo '"'{}'"' | tr '"'"':<>*?|\\"'"'"' "_")' \;
+DIR=md_output_dir
+
+find $DIR -type f -name "*[:/<>|*?\\\\"'"'"]*" -exec bash -c 'mv -i ${0} $(echo ${0} | tr '"'"':<>*?|\\"'"'"' "_")' {} \;
 ```
 
 And that’s it! You now have two free options for synchronizing your Obsidian notes between your desktop and Android device. Happy note-taking!
