@@ -37,6 +37,18 @@ Another option is [Syncthing](https://syncthing.net/), which synchronizes note f
 **Cons:**
 - If the network connection on both devices is not functioning, synchronization cannot take place.
 
+
+## Auto Sync Plan
+
+Android device <-> Desktop -> Github
+
+- for synchronization between Android and Desktop, use Syncthing.
+- for backing-up the notes, use [Obsidian Git](https://github.com/denolehov/obsidian-git)
+
+
+
+
+
 ## Handling Sync Errors
 
 When using these notes on Android, be aware that the Android file system does not support certain special characters in file names. These include /, <, >, *, ", :, ?, , and |. You can remove these characters using the following command:

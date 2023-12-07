@@ -1,8 +1,8 @@
 ---
 layout: post
-title: To make blog with Jekyll on Amazon Linux2 on EC2
+title: Publish Jekyll on Amazon Linux2 on EC2
 date: 2023-12-03 21:05:37 +0900
-categories: obsidian
+categories: jekyll
 description: This guide will walk you through the process of setting up Jekyll on an Amazon Linux2 EC2 instance and using it to publish your post to your personal server
 ---
 This guide will walk you through the process of setting up Jekyll on an Amazon Linux2 EC2 instance and using it to publish your post to your personal server.

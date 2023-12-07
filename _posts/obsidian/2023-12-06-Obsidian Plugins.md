@@ -7,6 +7,8 @@ description:
 ---
 
 
-Tag navigator
+[Tag navigator](https://github.com/alexobenauer/obsidian-tag-navigator)
 - nested tag
-https://github.com/alexobenauer/obsidian-tag-navigator
+
+
+[Obsidian Git](https://github.com/denolehov/obsidian-git)
