@@ -12,3 +12,8 @@ description:
 
 
 [Obsidian Git](https://github.com/denolehov/obsidian-git)
+- Automatic Synchronization
+
+[Tasks](https://publish.obsidian.md/tasks/Introduction)
+- Manage tasks
+- https://forum.obsidian.md/t/tasks-due-today-based-on-daily-note-not-current-date/54707/2

@@ -38,15 +38,28 @@ Another option is [Syncthing](https://syncthing.net/), which synchronizes note f
 - If the network connection on both devices is not functioning, synchronization cannot take place.
 
 
+## Git by Termux
+[Setting guide](https://gist.github.com/Makeshift/43c7ecb3f1c28a623ea4386552712114)
+
+**Pros:**
+- Same way with desktop
+- able to backup when desktop is not available
+
+**Cons:**
+- Complicated setup
+- Periodic push, pull occurs. it'll spend much battery. 
+- push, pull by shortcut on homescreen: we should touch the shortcut every time the note changed.
+- seems heavy.
+
+**Opinion:**
+- If [Obsidian git](https://github.com/denolehov/obsidian-git#mobile) provides the function on Android with push function on file changes, and share the option with desktop. we can consider to use git. but, otherwise, I prefer Syncthing.
+
 ## Auto Sync Plan
 
 Android device <-> Desktop -> Github
 
 - for synchronization between Android and Desktop, use Syncthing.
 - for backing-up the notes, use [Obsidian Git](https://github.com/denolehov/obsidian-git)
-
-
-
 
 
 ## Handling Sync Errors
