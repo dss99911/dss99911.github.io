@@ -1,0 +1,28 @@
+---
+layout: post
+title: Ads.txt not found error. check ads.txt format
+date: 2023-12-05 01:57:37 +0900
+categories: jekyll
+description: one possible reason of the ads.txt not found error
+---
+
+## Validating Ads.txt through a Third-Party Service
+To ensure your ads.txt file is correctly formatted, use a validation service like https://adstxt.guru/validator/.
+This tool can confirm the validity of your file.
+However, you might encounter a situation where the file passes validation here
+but still results in an "ads.txt not found" error in AdSense.
+
+### The Importance of a New Line in ads.txt
+The structure of your ads.txt file is crucial. A common mistake is not including a newline character at the end of the file.
+For example, if your ads.txt looks like this:
+
+```
+google.com, pub-0000000000, DIRECT, f08c47fec0942fa0
+```
+
+Modify it to include a newline character (\n) at the end, like this:
+```
+google.com, pub-0000000000, DIRECT, f08c47fec0942fa0
+```
+
+This small change can fix the error on your ads.txt file.
