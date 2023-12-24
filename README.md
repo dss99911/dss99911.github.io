@@ -1,6 +1,21 @@
 
 
 
+
+## install new plugin
+```
+bundle
+```
+
+# Run on local
+```
+bundle exec jekyll serve
+# => Now browse to http://localhost:4000
+```
+
+
+
+
 ## TODO
 
 - Waiting
