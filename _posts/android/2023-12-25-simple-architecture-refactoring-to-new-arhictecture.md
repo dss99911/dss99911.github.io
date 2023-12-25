@@ -4,7 +4,7 @@ title: "Simple Android Architecture : Refactoring to new architecture"
 date: 2023-12-25 01:05:37 +0900
 categories: android
 ---
-![](https://cdn-images-1.medium.com/max/1600/1*grWLNKMDiveBfzwv_FDjAA.jpeg)
+![](/assets/images/posts/android/1_grWLNKMDiveBfzwv_FDjAA.webp)
 
 This is one of [series of Simple Android Architecture](https://github.com/dss99911/kotlin-simple-architecture/tree/android-architecture). and you can check sample code there.
 
