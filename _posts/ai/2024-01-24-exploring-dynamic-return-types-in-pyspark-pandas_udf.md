@@ -17,7 +17,7 @@ Before diving into the dynamic return types, let's briefly recap what `pandas_ud
 
 The challenge arises when you need a `pandas_udf` that doesn’t conform to a single return type. For instance, depending on the input data or the logic within the function, you might want to return either a DataFrame with a different schema or a Series with a different data type.
 
-Take a look at the [code from the GitHub repository](https://github.com/dss99911/ds-study/blob/master/python/spark/undefined_pandas_udf_return.py). This code snippet demonstrates a `pandas_udf` where the return type could vary based on the logic encapsulated in the function.
+Take a look at the [code from the GitHub repository](https://github.com/dss99911/ds-study/blob/master/python/spark/dynamic_pandas_udf_return.py). This code snippet demonstrates a `pandas_udf` where the return type could vary based on the logic encapsulated in the function.
 ## Usage
 ```python
 
@@ -30,7 +30,7 @@ def sample_pandas_udf_func(a: pd.Series, b: pd.Series) -> pd.DataFrame:
     df['d'] = 1
     return df
 
-df = process_undefined_pandas_udf_return(df, sample_pandas_udf_func, cols=["a", "b"])
+df = process_dynamic_pandas_udf_return(df, sample_pandas_udf_func, cols=["a", "b"])
 
 df.printSchema()
 # contains a, b, c, d columns
@@ -42,7 +42,6 @@ df.printSchema()
 3. convert the dataframe value json to the columns by the schema
 4. rectify datetime type which is not supported on json.
 5. it uses checkpoint for reducing complexity of plan and also for cacheing the middle data
-6. 
 
 ## Implications and Use Cases
 
