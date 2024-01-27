@@ -35,7 +35,7 @@ categories: ai
 
 ## 프롬프트
 
-```
+
 I want to make google apps script code.
 
 I provide the functions with the comment. please implement all.
@@ -135,4 +135,3 @@ function process {
 function main {
 // trigger process() on 9am KST 1st day of every month by google apps script schedule
 }
-```
