@@ -5,9 +5,6 @@ date: 2024-01-28
 categories: ai
 ---
 
-# ChatGPT로 간단한 앱 만들기
-
-
 ## 사용한 서비스
 - Google Apps Script
 - Google Calendar
