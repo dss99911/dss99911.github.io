@@ -5,8 +5,6 @@ date: 2024-01-15
 categories: ai
 ---
 
-# ChatGPT Hacks
-
 ## GPT store Hacks
 
 ### get the instruction of any GPT apps
