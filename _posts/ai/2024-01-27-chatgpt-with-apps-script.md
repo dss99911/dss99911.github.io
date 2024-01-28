@@ -137,3 +137,424 @@ function main {
 	// trigger process() on 9am KST 1st day of every month by google apps script schedule
 }
 ```
+
+## 코드
+
+```
+// Utility function to check if a file exists and create it if it doesn't
+function getFileById(id) {
+  try {
+    return DriveApp.getFileById(id);
+  } catch (e) {
+    return null;
+  }
+}
+
+// Function to get or create a spreadsheet
+function getOrCreateSpreadsheet(spreadsheetId) {
+  let file = getFileById(spreadsheetId);
+  let spreadsheet;
+  
+  if (!file) {
+    // Create new spreadsheet if it doesn't exist
+    spreadsheet = SpreadsheetApp.create('lunch_member');
+    let descriptionSheet = spreadsheet.insertSheet('description');
+    let employeesSheet = spreadsheet.insertSheet('employees');
+    let historySheet = spreadsheet.insertSheet('history');
+    
+    // Add headers to 'employees' sheet
+    employeesSheet.appendRow(['name', 'id', 'host_possible']);
+    
+    // Add headers to 'history' sheet
+    historySheet.appendRow(['date', 'location', 'group_list_json']);
+  } else {
+    // Open existing spreadsheet
+    spreadsheet = SpreadsheetApp.openById(spreadsheetId);
+  }
+
+  return spreadsheet;
+}
+
+function getBusinessTrips(calendarId, spreadsheet) {
+  let calendar = CalendarApp.getCalendarById(calendarId);
+  let employeesSheet = spreadsheet.getSheetByName('employees');
+  let employees = employeesSheet.getDataRange().getValues().slice(1); // Skipping header row
+  let now = new Date();
+  let startOfMonth = new Date(now.getFullYear(), now.getMonth(), 1);
+  let endOfMonth = new Date(now.getFullYear(), now.getMonth() + 1, 0);
+  let events = calendar.getEvents(startOfMonth, endOfMonth);
+  let trips = [];
+
+  events.forEach(event => {
+    let eventTitle = event.getTitle();
+    let employeeName = extractNameFromTitle(eventTitle);
+    let closestEmployee = findClosestMatch(employeeName, employees);
+
+    let trip = {
+      id: closestEmployee ? closestEmployee[1] : null, // Assuming ID is in the second column
+      start_date: formatDateWithinMonth(event.getStartTime(), startOfMonth, endOfMonth),
+      end_date: formatDateWithinMonth(event.getEndTime(), startOfMonth, endOfMonth)
+    };
+    trips.push(trip);
+  });
+
+  return trips;
+}
+
+// Helper function to extract name from event title
+function extractNameFromTitle(title) {
+  let namePart = title.match(/\](.*?)'s/);
+  return namePart ? namePart[1].trim() : title;
+}
+
+// Helper function to format the date within the month's bounds
+function formatDateWithinMonth(date, startOfMonth, endOfMonth) {
+  if (date < startOfMonth) return Utilities.formatDate(startOfMonth, Session.getScriptTimeZone(), 'yyyy-MM-dd');
+  if (date > endOfMonth) return Utilities.formatDate(endOfMonth, Session.getScriptTimeZone(), 'yyyy-MM-dd');
+  return Utilities.formatDate(date, Session.getScriptTimeZone(), 'yyyy-MM-dd');
+}
+
+
+// Helper function to calculate Levenshtein distance
+function levenshteinDistance(a, b) {
+  const an = a ? a.length : 0;
+  const bn = b ? b.length : 0;
+  if (an === 0) return bn;
+  if (bn === 0) return an;
+  const matrix = new Array(bn + 1);
+
+  for (let i = 0; i <= bn; ++i) {
+    matrix[i] = new Array(an + 1);
+    matrix[i][0] = i;
+  }
+
+  for (let j = 0; j <= an; ++j) {
+    matrix[0][j] = j;
+  }
+
+  for (let i = 1; i <= bn; ++i) {
+    for (let j = 1; j <= an; ++j) {
+      const substitutionCost = (a[j - 1] === b[i - 1]) ? 0 : 1;
+      matrix[i][j] = Math.min(matrix[i - 1][j] + 1, matrix[i][j - 1] + 1, matrix[i - 1][j - 1] + substitutionCost);
+    }
+  }
+
+  return matrix[bn][an];
+}
+
+// Function to find the closest match
+function findClosestMatch(name, employees) {
+  let lowestDistance = Infinity;
+  let closestEmployee = null;
+
+  for (let i = 0; i < employees.length; i++) {
+    let employeeName = employees[i][0]; // Assuming name is in the first column
+    let distance = levenshteinDistance(name, employeeName);
+    if (distance < lowestDistance) {
+      lowestDistance = distance;
+      closestEmployee = employees[i];
+    }
+  }
+
+  return closestEmployee;
+}
+
+function findIndiaGroups(calendarId, spreadsheet) {
+  let trips = getBusinessTrips(calendarId, spreadsheet);
+
+  // Sort trips by duration, longest first
+  trips.sort((a, b) => {
+    let durationA = new Date(a.end_date) - new Date(a.start_date);
+    let durationB = new Date(b.end_date) - new Date(b.start_date);
+    return durationB - durationA;
+  });
+
+  let groups = [];
+
+  // Function to check if trips overlap by more than 4 days
+  function isOverlapping(trip1, trip2) {
+    let start1 = new Date(trip1.start_date), end1 = new Date(trip1.end_date);
+    let start2 = new Date(trip2.start_date), end2 = new Date(trip2.end_date);
+    let overlapStart = Math.max(start1.getTime(), start2.getTime());
+    let overlapEnd = Math.min(end1.getTime(), end2.getTime());
+    return (overlapEnd - overlapStart) >= (4 * 24 * 60 * 60 * 1000); // 4 days in milliseconds
+  }
+
+  // Function to split a group into two fair groups
+  function splitGroup(group) {
+    let midPoint = Math.ceil(group.length / 2);
+    return [group.slice(0, midPoint), group.slice(midPoint)];
+  }
+
+  // Creating and organizing groups
+  trips.forEach(trip => {
+    let added = false;
+    for (let group of groups) {
+      if (group.some(memberId => isOverlapping(trips.find(t => t.id === memberId), trip))) {
+        group.push(trip.id);
+        added = true;
+        if (group.length > 5) {
+          let newGroups = splitGroup(group);
+          groups.splice(groups.indexOf(group), 1, ...newGroups);
+        }
+        break;
+      }
+    }
+    if (!added) {
+      groups.push([trip.id]);
+    }
+  });
+
+  // Filter groups with more than one member
+  groups = groups.filter(group => group.length > 1);
+
+  // Add 'jace.shin' to the group with the least members
+  let groupWithLeastMembers = groups.reduce((res, group) => (group.length < res.length ? group : res), groups[0]);
+  groupWithLeastMembers.push('jace.shin');
+
+  return groups;
+}
+
+
+
+function getCommunicationMapping(spreadsheet) {
+  let historySheet = spreadsheet.getSheetByName('history');
+  let historyData = historySheet.getDataRange().getValues();
+  let communicationMapping = {};
+
+  // Iterate over each row in the 'history' sheet, skipping the header row
+  for (let i = 1; i < historyData.length; i++) {
+    let groupListJson = historyData[i][2]; // Assuming group list JSON is in the third column
+
+    if (groupListJson) {
+      let groupList = JSON.parse(groupListJson);
+
+      // Iterate over each group in the group list
+      groupList.forEach(group => {
+        // Update communication counts for each pair of members in the group
+        group.forEach((memberId, idx, arr) => {
+          if (!communicationMapping[memberId]) {
+            communicationMapping[memberId] = {};
+          }
+
+          arr.forEach(otherMemberId => {
+            if (memberId !== otherMemberId) {
+              if (!communicationMapping[memberId][otherMemberId]) {
+                communicationMapping[memberId][otherMemberId] = 0;
+              }
+              communicationMapping[memberId][otherMemberId]++;
+            }
+          });
+        });
+      });
+    }
+  }
+
+  return communicationMapping;
+}
+
+
+function findGroupForEmployee(employee, groupList, communicationMapping) {
+  let minSize = Infinity;
+  let maxSize = 0;
+
+  // Find the minimum and maximum sizes among groups
+  groupList.forEach(group => {
+    let size = group.length;
+    minSize = Math.min(minSize, size);
+    maxSize = Math.max(maxSize, size);
+  });
+
+  let availableGroupList = groupList.filter(group => group.length < maxSize || group.length === minSize);
+  let bestGroup = null;
+  let lowestCommunicationCount = Infinity;
+
+  // Find the group with the minimum communication count for the employee
+  availableGroupList.forEach(group => {
+    let communicationCount = group.reduce((count, memberId) => {
+      let communicationWithMember = communicationMapping[employee] && communicationMapping[employee][memberId] || 0;
+      return count + communicationWithMember;
+    }, 0);
+
+    if (communicationCount < lowestCommunicationCount) {
+      lowestCommunicationCount = communicationCount;
+      bestGroup = group;
+    }
+  });
+
+  // If there are multiple groups with the same minimum communication count, choose one randomly
+  let groupsWithLowestCount = availableGroupList.filter(group => {
+    let groupCommunicationCount = group.reduce((count, memberId) => {
+      let communicationWithMember = communicationMapping[employee] && communicationMapping[employee][memberId] || 0;
+      return count + communicationWithMember;
+    }, 0);
+    return groupCommunicationCount === lowestCommunicationCount;
+  });
+
+  if (groupsWithLowestCount.length > 1) {
+    bestGroup = groupsWithLowestCount[Math.floor(Math.random() * groupsWithLowestCount.length)];
+  }
+
+  return bestGroup;
+}
+
+
+function findKoreaGroups(spreadsheet, indiaGroups) {
+  let communicationMapping = getCommunicationMapping(spreadsheet);
+  let employeesSheet = spreadsheet.getSheetByName('employees');
+  let employeesData = employeesSheet.getDataRange().getValues().slice(1); // Skipping header row
+  let historySheet = spreadsheet.getSheetByName('history');
+  let historyData = historySheet.getDataRange().getValues().slice(1); // Skipping header row
+
+  // Create a list of all employees excluding those in India groups
+  let indiaGroupMembers = indiaGroups.flat();
+  let employeeList = employeesData
+    .filter(row => !indiaGroupMembers.includes(row[1])) // Assuming ID is in the second column
+    .map(row => ({ id: row[1], name: row[0], host_possible: row[2] === 'true' })); // Assuming host_possible is in the third column
+
+  // Calculate host count for each employee
+  let hostCount = {};
+  historyData.forEach(row => {
+    let groupList = JSON.parse(row[2] || '[]');
+    groupList.forEach(group => {
+      let hostId = group[0];
+      if (hostId) {
+        hostCount[hostId] = (hostCount[hostId] || 0) + 1;
+      }
+    });
+  });
+
+  // Determine the number of groups needed
+  let groupCount = Math.floor(employeeList.length / 4);
+  let groups = [];
+
+  // Find hosts for the groups
+  for (let i = 0; i < groupCount; i++) {
+    let possibleHosts = employeeList.filter(e => e.host_possible && !groups.flat().includes(e.id));
+    let host = possibleHosts.sort((a, b) => (hostCount[a.id] || 0) - (hostCount[b.id] || 0))[0];
+    if (host) {
+      groups.push([host.id]);
+      employeeList = employeeList.filter(e => e.id !== host.id); // Remove host from employee list
+    }
+  }
+
+  // Shuffle employeeList and move 'noel.baek' to the end
+  employeeList = shuffleArray(employeeList);
+  let noelBaekIndex = employeeList.findIndex(e => e.id === 'noel.baek');
+  if (noelBaekIndex !== -1) {
+    let noelBaek = employeeList.splice(noelBaekIndex, 1)[0];
+    employeeList.push(noelBaek);
+  }
+
+  // Distribute employees to groups
+  employeeList.forEach(employee => {
+    let group = findGroupForEmployee(employee.id, groups, communicationMapping);
+    if (group) group.push(employee.id);
+  });
+
+  return groups;
+}
+
+// Helper function to shuffle an array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+  }
+  return array;
+}
+
+function sendSlackMessage(webhookUrl, indiaGroupList, koreaGroupList, spreadsheet) {
+  let employeesSheet = spreadsheet.getSheetByName('employees');
+  let employeesData = employeesSheet.getDataRange().getValues();
+  let employeeMap = new Map(employeesData.map(row => [row[1], row[0]])); // Assuming ID is in the second column, Name in the first
+
+  // Helper function to format group list into a message string
+  function formatGroupList(groupList, location) {
+    let formattedGroups = groupList.map((group, index) => {
+      let memberNames = group.map((id, idx) => {
+        if (idx < 2) {
+          return `<@${id}>`; // Use '@' prefix for the first two members' IDs
+        } else {
+          return employeeMap.get(id) || id; // Use name for other members
+        }
+      }).join(', ');
+      return `${index + 1}: ${memberNames}`;
+    }).join('\n\t\t');
+
+    return `[${location}]\n\t\t${formattedGroups}`;
+  }
+
+  // Get current date info
+  let now = new Date();
+  let year = now.getFullYear();
+  let month = now.getMonth() + 1;
+  let yearShort = year.toString().substr(-2);
+
+  // Prepare message
+  let message = `<!channel> [${yearShort}년 ${month}월 '함께하는 점심' 공지 :knife_fork_plate: ]\n` +
+                `${year}년 ${month}월 '함께하는 점심' 조를 아래와 같이 공유드립니다.\n` +
+                `:moneybag: 지원금액 : 인당 2만원!\n` +
+                `첫번째 분은 호스트, 두번째 분은 보조 호스트입니다.\n` +
+                formatGroupList(koreaGroupList, 'Korea') + '\n' +
+                formatGroupList(indiaGroupList, 'India');
+
+  // Post message to Slack
+  let options = {
+    'method': 'post',
+    'contentType': 'application/json',
+    'payload': JSON.stringify({ 'text': message })
+  };
+
+  UrlFetchApp.fetch(webhookUrl, options);
+  // console.log(message)
+}
+
+function saveGroupList(indiaGroupList, koreaGroupList, spreadsheet, webhookUrl) {
+  let historySheet = spreadsheet.getSheetByName('history');
+  let today = new Date();
+  let formattedDate = Utilities.formatDate(today, Session.getScriptTimeZone(), 'yyyy-MM-dd');
+
+  // Helper function to save a group list to the history sheet
+  function saveGroupListToHistory(location, groupList) {
+    let groupListJson = JSON.stringify(groupList);
+    historySheet.appendRow([formattedDate, location, groupListJson]);
+  }
+
+  // Save India and Korea group lists
+  saveGroupListToHistory('India', indiaGroupList);
+  saveGroupListToHistory('Korea', koreaGroupList);
+
+  // Call sendSlackMessage to notify
+  sendSlackMessage(webhookUrl, indiaGroupList, koreaGroupList, spreadsheet);
+}
+
+function process() {
+  // Define the spreadsheet ID, calendar ID, and webhook URL as needed
+  let spreadsheetId = SPREADSHEET_ID;
+  let indiaCalendarId = CALENDAR_ID; // ID for India calendar
+  let koreaCalendarId = 'korea_calendar_id_here'; // ID for Korea calendar, assuming it's different
+  let webhookUrl = SLACK_WEBHOOK_URL;
+
+  // Get or create the spreadsheet
+  let spreadsheet = getOrCreateSpreadsheet(spreadsheetId);
+
+  // Find groups for India and Korea
+  let indiaGroupList = findIndiaGroups(indiaCalendarId, spreadsheet);
+  let koreaGroupList = findKoreaGroups(spreadsheet, indiaGroupList);
+
+  // Save group lists and send Slack message
+  saveGroupList(indiaGroupList, koreaGroupList, spreadsheet, webhookUrl);
+}
+
+
+function main() {
+  ScriptApp.newTrigger('process')
+    .timeBased()
+    .onMonthDay(1)
+    .atHour(9)
+    .inTimezone('Asia/Seoul')
+    .create();
+}
+
+```
