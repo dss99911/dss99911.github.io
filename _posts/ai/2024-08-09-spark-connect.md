@@ -41,7 +41,9 @@ spark = SparkSession.builder \
 
 
 # spark context
-on spark connect, sparkContext not exists
+on spark connect, sparkContext is deprecated,
+not sure how to use `spark.sparkContext.setCheckpointDir()`
+
 and only single connect server can be running at the same time.
 need to check how several users can use spark connect.
 
