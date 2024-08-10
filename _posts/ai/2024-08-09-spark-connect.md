@@ -5,6 +5,8 @@ date: 2024-08-09
 categories: ai
 ---
 
+# Reference
+https://spark.apache.org/docs/latest/spark-connect-overview.html
 
 # run connect server on EMR cluster
 it's supported from 3.4.0
