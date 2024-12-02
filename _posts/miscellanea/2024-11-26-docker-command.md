@@ -24,8 +24,9 @@ docker pull ndb796/docker-practice
 - 이미지가 remote repo에 있는 경우에도 run으로 실행시켜도 됨(이 경우, 이미지를 다운 받고, 실행 시킴.)
 - -p : port
 - -d : detached (background에서 실행)
+- -e : environment variable
 ```
-docker run -p 8080:8080 --rm --name zeppelin apache/zeppelin:0.9.0
+docker run -p 8080:8080 -e VAR1=abc --rm --name zeppelin apache/zeppelin:0.9.0
 ```
 
 ### 이미지 실행명령어와 다른 명령어 호출하기
