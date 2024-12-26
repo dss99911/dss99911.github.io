@@ -22,7 +22,7 @@ categories: miscellanea
 ![img2](/assets/images/posts/miscellanea/docker-repository2.png)
 
 ```bash
-docker build -t project:0.1.0 .
+docker build -t project .
 ```
 
 ## Run
@@ -31,7 +31,7 @@ docker build -t project:0.1.0 .
 ![img3](/assets/images/posts/miscellanea/docker-repository3.png)
 
 ```bash
-docker run --name docker-tutorial hyun123/project:0.1.0
+docker run --name docker-tutorial project
 ```
 
 ## Push Repository
@@ -41,7 +41,7 @@ docker run --name docker-tutorial hyun123/project:0.1.0
 - 예를 들어 AWS ECR로 푸시하려면 다음과 같은 명령을 사용할 수 있습니다.
 
 ```shell
-docker tag project:latest hyun123/project:latest
+docker tag project hyun123/project:latest
 docker push hyun123/project:latest
 ```
 
