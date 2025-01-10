@@ -82,5 +82,6 @@ transcripts = [(f'{item["start"]}s', item["text"]) for item in transcripts]
 ### 구현 코드
 docker compose를 이용하여, Tor Proxy와 YouTube Transcript API를 통합한 코드를 [여기](https://github.com/dss99911/llm-slack-bot)에서 확인하실 수 있습니다.
 
-
-
+- [youtube transcript api 호출](https://github.com/dss99911/llm-slack-bot/blob/8b178cf8eada582f8cb877f607e2fde5fae54b50/tools/tools.py#L36-L46)
+- [Docker compose 설정](https://github.com/dss99911/llm-slack-bot/blob/401746c82aca34798e5bb0dc9eba123722b410bd/docker-compose.yml#L3-L10)
+- [매번 exit node 변경하는 Tor 설정](https://github.com/dss99911/llm-slack-bot/blob/401746c82aca34798e5bb0dc9eba123722b410bd/torrc)
