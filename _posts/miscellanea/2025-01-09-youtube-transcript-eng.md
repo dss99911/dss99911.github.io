@@ -40,7 +40,7 @@ This script fetches the transcript and prints the text along with the start time
 
 When using the YouTube Transcript API, some server environments, such as AWS EC2, may block requests. A Tor proxy can help you bypass such restrictions by acting as an intermediary and changing your IP address.
 
-Installing and Setting Up Tor
+### Installing and Setting Up Tor
 
 Install Tor on your EC2 instance or local environment:
 ```bash
@@ -51,7 +51,7 @@ Start Tor using the following command:
 ```
 tor
 ```
-Integrating Tor Proxy with the YouTube Transcript API
+### Integrating Tor Proxy with the YouTube Transcript API
 
 The default port for Tor is 9050. You can configure the proxy as follows:
 ```python
