@@ -4,7 +4,7 @@ title: Mac에서 s3 uri 링크를 클릭하면 브라우저에서 s3 콘솔이 �
 date: 2025-06-14 01:57:37 +0900
 categories: miscellanea
 ---
-π
+
 # macOS Script Editor로 s3 URL 핸들러 앱 만들기
 
 ## 1. Script Editor로 AppleScript 앱 만들기
