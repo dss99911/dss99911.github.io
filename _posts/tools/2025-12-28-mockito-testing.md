@@ -1,0 +1,286 @@
+---
+layout: post
+title: "Mockito로 Java 단위 테스트 작성하기"
+date: 2025-12-28 12:11:00 +0900
+categories: tools
+tags: [mockito, java, testing, unit-test, mock]
+description: "Mockito 프레임워크를 사용하여 효과적인 단위 테스트를 작성하는 방법을 설명합니다."
+---
+
+Mockito는 Java에서 가장 많이 사용되는 모킹(Mocking) 프레임워크입니다. 의존성을 모의 객체로 대체하여 단위 테스트를 격리된 환경에서 실행할 수 있게 해줍니다.
+
+## 1. 초기 설정
+
+### 의존성 추가
+
+```groovy
+testImplementation 'org.mockito:mockito-core:5.8.0'
+testImplementation 'junit:junit:4.13.2'
+```
+
+### 테스트 클래스 설정
+
+```java
+@RunWith(MockitoJUnitRunner.class)
+public class PortfolioTester {
+    // 테스트 코드
+}
+```
+
+Mockito 클래스의 멤버들을 static import해서 사용합니다:
+
+```java
+import static org.mockito.Mockito.*;
+```
+
+## 2. Mock 생성
+
+### 어노테이션 방식
+
+```java
+@Mock
+StockService stockService;
+```
+
+### 프로그래매틱 방식
+
+```java
+stockService = mock(StockService.class);
+```
+
+### Mock Injection
+
+```java
+// @InjectMocks: mock을 생성하고 주입
+@InjectMocks
+MathApplication mathApplication = new MathApplication();
+
+// @Mock: 주입될 mock 객체
+@Mock
+CalculatorService calcService;
+```
+
+## 3. Mocking Method
+
+### 기본 when/thenReturn
+
+```java
+when(stockService.getPrice(googleStock)).thenReturn(50.00);
+when(stockService.getPrice(microsoftStock)).thenReturn(1000.00);
+```
+
+### Argument Matcher
+
+```java
+// 어떤 int 값이든 매칭
+when(list.get(anyInt())).thenReturn("dfdf");
+
+// 다양한 matcher
+any(), anyString(), anyList(), anyMap()
+eq(value)  // 특정 값
+```
+
+### 연속 호출시 다른 값 반환
+
+```java
+when(stockService.getPrice(googleStock))
+    .thenReturn(50.00)
+    .thenReturn(100.00)
+    .thenReturn(150.00);
+// 첫 호출: 50.00, 두 번째: 100.00, 세 번째: 150.00
+```
+
+### 예외 발생
+
+```java
+doThrow(new RuntimeException("divide operation not implemented"))
+    .when(calcService).add(10.0, 20.0);
+```
+
+### 커스텀 응답 (Answer)
+
+```java
+when(calcService.add(any(), eq(10.0))).thenAnswer(new Answer<Double>() {
+    @Override
+    public Double answer(InvocationOnMock invocation) throws Throwable {
+        Object[] args = invocation.getArguments();
+        Object mock = invocation.getMock();
+        return 30.0;
+    }
+});
+```
+
+## 4. Spy
+
+실제 객체를 사용하되, 호출을 감시합니다:
+
+```java
+Calculator calculator = new Calculator();
+
+// 실제 인스턴스를 spy로 감싸기
+calcService = spy(calculator);
+
+// 실제 메서드가 호출됨
+Assert.assertEquals(mathApplication.add(20.0, 10.0), 30.0, 0);
+
+// 특정 메서드만 stub
+doReturn(100.0).when(calcService).add(10.0, 20.0);
+```
+
+### Spy vs Mock
+
+- **Mock**: 모든 메서드가 stub됨 (기본값 반환)
+- **Spy**: 실제 메서드 호출, 필요한 것만 stub
+
+## 5. Verify
+
+### 기본 검증
+
+```java
+Assert.assertEquals(mathApplication.add(10.0, 20.0), 30.0, 0);
+
+// 특정 인자로 호출되었는지 확인
+verify(calcService).add(10.0, 20.0);
+```
+
+### 호출 횟수 검증
+
+```java
+verify(calcService, times(1)).add(10.0, 20.0);
+verify(calcService, never()).multiply(10.0, 20.0);
+
+// 기타 옵션
+atLeast(2)      // 최소 2회
+atLeastOnce()   // 최소 1회
+atMost(3)       // 최대 3회
+```
+
+### 호출 순서 검증
+
+```java
+InOrder inOrder = inOrder(calcService);
+
+// add가 먼저 호출되고, 그 다음 subtract 호출 확인
+inOrder.verify(calcService).add(20.0, 10.0);
+inOrder.verify(calcService).subtract(20.0, 10.0);
+```
+
+### 처리 시간 검증
+
+```java
+// 100ms 이내에 호출되었는지 확인
+verify(calcService, timeout(100)).add(20.0, 10.0);
+```
+
+### Mock 초기화
+
+```java
+reset(calcService);
+```
+
+## 6. ArgumentCaptor
+
+호출 시 전달된 인자를 캡처합니다:
+
+```java
+@Captor
+private ArgumentCaptor<Callback<List<Repository>>> captor;
+
+@Test
+public void test_getRepositories() {
+    // arrange
+    String user = "testUser";
+    List<Repository> repositories = new ArrayList<>();
+    repositories.add(new Repository());
+
+    when(gitHubAPI.GetRepos(user)).thenReturn(mockCall);
+    Response<List<Repository>> response = Response.success(repositories);
+
+    // act
+    presenter.start();
+
+    // assert - 콜백 캡처
+    verify(mockCall).enqueue(captor.capture());
+    captor.getValue().onResponse(null, response);
+
+    verify(progressBarProvider).showProgressBar();
+    verify(progressBarProvider).hideProgressBar();
+    verify(view).updateRepositoryList(repositories);
+}
+```
+
+## 7. API 테스트 전체 예제
+
+```java
+public class RepositoryUnitTest {
+
+    @Mock
+    private RepositoryContract.View view;
+
+    @Mock
+    private ProgressBarProvider progressBarProvider;
+
+    @Mock
+    private GitHubAPI gitHubAPI;
+
+    @Mock
+    private Call<List<Repository>> mockCall;
+
+    @Captor
+    private ArgumentCaptor<Callback<List<Repository>>> captor;
+
+    private RepositoryPresenter presenter;
+
+    @Before
+    public void setup() {
+        MockitoAnnotations.initMocks(this);
+        presenter = new RepositoryPresenter(gitHubAPI, progressBarProvider);
+        presenter.setView(view);
+    }
+
+    @Test
+    public void test_getRepositories() {
+        // arrange
+        String user = BuildConfig.GITHUB_OWNER;
+        List<Repository> repositories = new ArrayList<>();
+        repositories.add(new Repository());
+
+        when(gitHubAPI.GetRepos(user)).thenReturn(mockCall);
+        Response<List<Repository>> response = Response.success(repositories);
+
+        // act
+        presenter.start();
+
+        // assert
+        verify(mockCall).enqueue(captor.capture());
+        captor.getValue().onResponse(null, response);
+
+        verify(progressBarProvider).showProgressBar();
+        verify(progressBarProvider).hideProgressBar();
+        verify(view).updateRepositoryList(repositories);
+    }
+}
+```
+
+## 8. 베스트 프랙티스
+
+### AAA 패턴
+
+- **Arrange**: 테스트 준비
+- **Act**: 테스트 대상 실행
+- **Assert**: 결과 검증
+
+### 테스트당 하나의 개념
+
+- 하나의 테스트는 하나의 동작만 검증
+- 여러 assert보다 여러 테스트 메서드가 낫다
+
+### Mock vs Stub
+
+- **Mock**: 행위 검증 (verify)
+- **Stub**: 상태 검증 (assert on result)
+
+## 참고 자료
+
+- [Mockito Tutorial](https://www.tutorialspoint.com/mockito/mockito_useful_resources.htm)
+- [Mockito Documentation](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
