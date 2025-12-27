@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: category
 permalink: /Law/
 title: Law
 category: law

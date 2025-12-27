@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<div class="category-page">
+  <!-- Category Header -->
+  <div class="category-header">
+    <h1>{{ page.title }}</h1>
+    <p class="category-description">
+      {% assign post_count = 0 %}
+      {% for post in site.posts %}
+        {% if post.categories contains page.category %}
+          {% assign post_count = post_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      <span class="post-count">{{ post_count }} Posts</span>
+    </p>
+  </div>
+
+  <!-- Posts Grid -->
+  <div class="category-posts">
+    {% assign filtered_posts = "" | split: "" %}
+    {% for post in site.posts %}
+      {% if post.categories contains page.category %}
+        {% assign filtered_posts = filtered_posts | push: post %}
+      {% endif %}
+    {% endfor %}
+
+    {% if filtered_posts.size > 0 %}
+      <div class="posts-grid">
+        {% for post in filtered_posts %}
+          <article class="post-card">
+            <div class="card-content">
+              <div class="card-date">{{ post.date | date: "%b %d, %Y" }}</div>
+              <h2 class="card-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h2>
+              {% if post.description %}
+                <p class="card-excerpt">{{ post.description | truncate: 120 }}</p>
+              {% elsif post.excerpt %}
+                <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+              {% endif %}
+              {% if post.tags.size > 0 %}
+                <div class="card-tags">
+                  {% for tag in post.tags limit:3 %}
+                    <span class="tag">{{ tag }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="no-posts">No posts found in this category.</p>
+    {% endif %}
+  </div>
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: category
 permalink: /Obsidian/
 title: Obsidian
 category: obsidian

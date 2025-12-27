@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: category
 permalink: /DevOps/
 title: DevOps
 category: devops

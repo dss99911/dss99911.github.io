@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: category
 permalink: /Android/
 title: Android
 category: android
