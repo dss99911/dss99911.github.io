@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Publish Jekyll on Gihub Pages"
+title:  "Publish Jekyll on GitHub Pages"
 date:   2023-12-03 21:05:37 +0900
 categories: jekyll
-description: "A step-by-step guide on how to install Jekyll on your desktop and publish it on Github Pages."
+description: "A step-by-step guide on how to install Jekyll on your desktop and publish it on GitHub Pages. Learn Ruby installation, Jekyll setup, and deployment configuration."
+tags: [Jekyll, GitHub Pages, Ruby, Static Site, Blog]
 ---
 
 In this blog post, we will walk through the process of installing Jekyll on your desktop and publishing it on Github Pages. This is a great way to create and manage your own website or blog.

@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Simple Android Architecture : Coroutine Api call and error handling in Retrofit2"
+title: "Android Coroutine API Call and Error Handling in Retrofit2"
 date: 2023-12-25 01:05:37 +0900
 categories: android
+description: "Compare 5 approaches for Android API calls: Threading, Callback, Chaining, RxJava, and Coroutine. Learn why Kotlin Coroutines provide the simplest and most maintainable code."
+tags: [Android, Kotlin, Coroutine, Retrofit, API, Error Handling, MVVM]
 ---
 This is one of [series of Simple Android Architecture](https://github.com/dss99911/kotlin-simple-architecture/tree/android-architecture). and you can check sample code there.
 

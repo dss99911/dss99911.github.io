@@ -37,6 +37,16 @@ plugins:
 include:
   - _pages
 
+# Giscus Comments (https://giscus.app)
+# 1. Enable Discussions in your GitHub repository
+# 2. Install giscus app: https://github.com/apps/giscus
+# 3. Get your config at: https://giscus.app
+giscus:
+  repo: dss99911/dss99911.github.io
+  repo_id: "R_kgDOK1J8gQ"
+  category: "Announcements"
+  category_id: "DIC_kwDOK1J8gc4C0Sct"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

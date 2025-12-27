@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Develop Obsidian Plugin"
+title:  "How to Develop an Obsidian Plugin - Getting Started Guide"
 date:   2023-12-06 21:05:37 +0900
 categories: obsidian
-description: Describe how to develop obsidian plugin 
+description: "Step-by-step guide to developing Obsidian plugins. Learn how to set up your development environment, install the sample plugin, and debug using Chrome developer tools."
+tags: [Obsidian, Plugin Development, JavaScript, TypeScript, Node.js]
 ---
 
 # Develop Obsidian Plugin

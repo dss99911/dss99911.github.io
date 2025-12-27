@@ -1,0 +1,166 @@
+---
+layout: default
+title: Search
+permalink: /search/
+---
+
+<div class="search-container">
+  <h1>Search</h1>
+
+  <div class="search-input-wrapper">
+    <input type="text" id="search-input" placeholder="Search posts..." autocomplete="off" autofocus>
+    <span class="search-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+    </span>
+  </div>
+
+  <div class="search-info">
+    <span id="results-count"></span>
+  </div>
+
+  <ul id="results-container"></ul>
+</div>
+
+<style>
+.search-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.search-container h1 {
+  margin-bottom: 30px;
+}
+
+.search-input-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  width: 100%;
+  padding: 15px 20px 15px 50px;
+  font-size: 18px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#search-input:focus {
+  border-color: #0366d6;
+  box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.1);
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.search-info {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+#results-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#results-container li {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+#results-container li:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+#results-container li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+#results-container li .result-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0366d6;
+  margin-bottom: 8px;
+}
+
+#results-container li .result-meta {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+#results-container li .result-meta .category {
+  background: #f0f0f0;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#results-container li .result-excerpt {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  #search-input {
+    font-size: 16px;
+    padding: 12px 15px 12px 45px;
+  }
+
+  #results-container li {
+    padding: 15px;
+  }
+}
+</style>
+
+<script src="{{ '/assets/js/simple-jekyll-search.min.js' | relative_url }}"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ "/search.json" | relative_url }}',
+    searchResultTemplate: '<li><a href="{url}"><div class="result-title">{title}</div><div class="result-meta"><span class="category">{category}</span><span class="date">{date}</span></div><div class="result-excerpt">{content}</div></a></li>',
+    noResultsText: '<li class="no-results">No results found</li>',
+    limit: 20,
+    fuzzy: false,
+    exclude: []
+  });
+
+  // Update results count
+  document.getElementById('search-input').addEventListener('keyup', function() {
+    setTimeout(function() {
+      var count = document.querySelectorAll('#results-container li:not(.no-results)').length;
+      var countEl = document.getElementById('results-count');
+      if (document.getElementById('search-input').value.length > 0) {
+        countEl.textContent = count + ' result(s) found';
+      } else {
+        countEl.textContent = '';
+      }
+    }, 100);
+  });
+</script>

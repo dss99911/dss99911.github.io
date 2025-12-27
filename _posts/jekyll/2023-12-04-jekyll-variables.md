@@ -1,11 +1,15 @@
 ---
 layout: post
-title: Jekyll Variables Usage
+title: Jekyll Variables Usage - Site, Page, and Custom Variables
 date: 2023-12-04 04:05:37 +0900
 categories: jekyll
+description: "Complete guide to using Jekyll variables including site variables from _config.yml, page variables from front matter, and custom variables. Essential for Jekyll template development."
+tags: [Jekyll, Variables, Liquid, Template, Front Matter]
 page_variable: "some_page_variable"
 pages: site.categories
 ---
+
+Jekyll provides powerful variable access through Liquid templating. Understanding these variables is essential for customizing your Jekyll site.
 
 ## Site Variables
 It's from `_config.yml`

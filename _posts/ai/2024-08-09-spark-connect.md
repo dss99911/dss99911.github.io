@@ -1,21 +1,39 @@
 ---
 layout: post
-title: "How to use Spark Connect on EMR from local"
+title: "How to Use Spark Connect on EMR from Local Environment"
 date: 2024-08-09
 categories: ai
+description: "Step-by-step guide to setting up Spark Connect on AWS EMR and connecting from your local development environment. Includes version compatibility, troubleshooting, and limitations."
+tags: [Spark, Spark Connect, EMR, AWS, PySpark, Remote Development]
 ---
 
-# Reference
-https://spark.apache.org/docs/latest/spark-connect-overview.html
+Spark Connect allows you to run Spark jobs remotely, enabling local development against an EMR cluster. This guide covers setup, configuration, and common issues.
 
-# run connect server on EMR cluster
-it's supported from 3.4.0
+## Prerequisites
+
+- AWS EMR cluster with Spark 3.4.0 or later
+- SSH access to EMR master node
+- Python environment on your local machine
+- Network access to EMR cluster (VPN or direct)
+
+## Reference
+
+[Spark Connect Official Documentation](https://spark.apache.org/docs/latest/spark-connect-overview.html)
+
+## Setting Up Spark Connect Server on EMR
+
+Spark Connect is supported from version 3.4.0. Start the connect server on your EMR master node:
+
 ```shell
 sudo /usr/lib/spark/sbin/start-connect-server.sh --packages org.apache.spark:spark-connect_2.12:{your-spark-version}
 ```
 
-# configure local env
-if the version is not compatible, the error can occur.
+**Note**: Replace `{your-spark-version}` with your actual Spark version (e.g., `3.4.1`).
+
+## Configuring Local Environment
+
+Version compatibility is critical. Mismatched versions will cause errors.
+
 ```shell
 pip install pyspark==3.4.1
 pip install grpcio-status==1.64.0
@@ -23,41 +41,86 @@ pip install grpcio==1.64.0
 pip install protobuf==5.27.0
 ```
 
-# access to spark connect from local
+## Connecting to Spark Connect
+
+### Using PySpark Shell
 
 ```shell
 pyspark --remote "sc://{emr-cluster-master-ip}"
 ```
 
+### Using Python Script
 
 ```python
 from pyspark.sql import SparkSession
 
-# Step 1: Create a Spark Session
 spark = SparkSession.builder \
-    .appName("Simple Spark Connect Example") \
-    .remote("sc://{emr-cluster-master-ip}") \ 
+    .appName("Spark Connect Example") \
+    .remote("sc://{emr-cluster-master-ip}") \
     .getOrCreate()
+
+# Now you can use spark as usual
+df = spark.createDataFrame([("Alice", 1), ("Bob", 2)], ["name", "id"])
+df.show()
 ```
 
+## SparkContext Limitations
 
+In Spark Connect, `SparkContext` is deprecated. The following functions are not available:
 
-# spark context
-on spark connect, sparkContext is deprecated,
-not sure how to use the functions below
+| Function | Status | Alternative |
+|----------|--------|-------------|
+| `sc.setCheckpointDir` | Deprecated | Use `spark.sparkContext.setCheckpointDir()` on server |
+| `sc.addPyFile` | Deprecated | Pre-install packages on cluster |
+| `sc.install_pypi_package` | Deprecated | Pre-install packages on cluster |
+| `sc.parallelize` | Deprecated | Use `spark.createDataFrame()` |
+| `sc.setLogLevel` | Deprecated | Configure on server side |
+| `sc.broadcast` | Deprecated | Use DataFrame operations |
 
-    - `sc.setCheckpointDir`
-    - `sc.addPyFile`
-    - `sc.install_pypi_package`
-    - `sc.parallelize`
-    - `sc.setLogLevel`
-    - `sc.broadcast`
+**Important**: Only a single connect server can run at a time on the cluster.
 
-and only single connect server can be running at the same time.
+## Troubleshooting
 
+### Error: [NOT_ITERABLE] Column is not iterable
 
-# Troubleshooting
-
+```
 pyspark.errors.exceptions.base.PySparkTypeError: [NOT_ITERABLE] Column is not iterable.
+```
 
-- if protobuf version is not compatible, the error can occur
+**Cause**: Protobuf version incompatibility
+
+**Solution**: Ensure protobuf version matches the server:
+```shell
+pip install protobuf==5.27.0
+```
+
+### Connection Refused
+
+**Cause**: Firewall or security group blocking port 15002
+
+**Solution**:
+1. Add inbound rule for port 15002 in EMR security group
+2. Or use SSH tunnel:
+```shell
+ssh -L 15002:localhost:15002 hadoop@{emr-master-ip}
+```
+
+### Version Mismatch Errors
+
+**Cause**: Local PySpark version doesn't match EMR Spark version
+
+**Solution**: Install the exact same version:
+```shell
+# Check EMR Spark version
+spark-submit --version
+
+# Install matching local version
+pip install pyspark=={same-version}
+```
+
+## Best Practices
+
+1. **Use virtual environments**: Isolate Spark Connect dependencies
+2. **Match versions exactly**: Minor version differences can cause issues
+3. **Use SSH tunneling**: More secure than opening ports
+4. **Monitor server resources**: Connect server adds overhead to master node

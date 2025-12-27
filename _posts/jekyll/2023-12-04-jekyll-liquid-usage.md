@@ -1,11 +1,15 @@
 ---
 layout: post
-title: Jekyll Liquid Usage
+title: Jekyll Liquid Usage - Complete Template Syntax Guide
 date: 2023-12-04 04:05:37 +0900
 categories: jekyll
+description: "Master Jekyll Liquid templating with this comprehensive guide. Learn tags, filters, conditionals, loops, includes, and linking techniques for Jekyll sites."
+tags: [Jekyll, Liquid, Template, Syntax, Tutorial]
 functions_page: _posts/jekyll/2023-12-05-jekyll-seo.md
 has_variable: "true"
 ---
+
+Liquid is the templating language used by Jekyll. This guide covers the essential Liquid syntax for building dynamic Jekyll sites.
 
 ## Reference
 - https://jekyllrb.com/docs/step-by-step/02-liquid/

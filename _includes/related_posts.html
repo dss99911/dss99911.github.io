@@ -1,0 +1,131 @@
+{% assign maxRelated = 4 %}
+{% assign minCommonTags = 1 %}
+{% assign maxRelatedCounter = 0 %}
+
+{% assign currentTags = page.tags %}
+{% assign currentCategories = page.categories %}
+
+<div class="related-posts">
+  <h2>Related Posts</h2>
+  <ul class="related-posts-list">
+    {% for post in site.posts %}
+      {% if post.url != page.url %}
+        {% assign sameTagCount = 0 %}
+        {% assign sameCategoryCount = 0 %}
+
+        {% for tag in post.tags %}
+          {% if currentTags contains tag %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+
+        {% for cat in post.categories %}
+          {% if currentCategories contains cat %}
+            {% assign sameCategoryCount = sameCategoryCount | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+
+        {% if sameTagCount >= minCommonTags or sameCategoryCount >= 1 %}
+          {% if maxRelatedCounter < maxRelated %}
+            {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+            <li class="related-post-item">
+              <a href="{{ post.url | relative_url }}">
+                <span class="related-post-title">{{ post.title }}</span>
+                <span class="related-post-meta">
+                  <span class="related-post-category">{{ post.categories | first }}</span>
+                  <span class="related-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                </span>
+              </a>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if maxRelatedCounter == 0 %}
+      {% for post in site.posts limit:4 %}
+        {% if post.url != page.url %}
+          <li class="related-post-item">
+            <a href="{{ post.url | relative_url }}">
+              <span class="related-post-title">{{ post.title }}</span>
+              <span class="related-post-meta">
+                <span class="related-post-category">{{ post.categories | first }}</span>
+                <span class="related-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+              </span>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </ul>
+</div>
+
+<style>
+.related-posts {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.related-posts h2 {
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.related-posts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 15px;
+}
+
+.related-post-item {
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.related-post-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.related-post-item a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.related-post-title {
+  display: block;
+  font-weight: 600;
+  color: #0366d6;
+  margin-bottom: 8px;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+.related-post-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  color: #666;
+}
+
+.related-post-category {
+  background: #e0e0e0;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 600px) {
+  .related-posts-list {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

@@ -3,6 +3,8 @@ layout: post
 title: "Spark Plan 읽기: 기본 가이드"
 date: 2024-11-25 01:57:37 +0900
 categories: spark
+description: "Apache Spark 실행 계획(Spark Plan)을 읽고 이해하는 방법을 설명합니다. Logical Plan, Physical Plan의 차이와 주요 연산자, 성능 최적화 포인트를 다룹니다."
+tags: [Spark, Spark Plan, Performance, Optimization, Big Data]
 ---
 
 # Spark Plan 읽기: 기본 가이드

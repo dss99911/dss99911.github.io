@@ -3,6 +3,8 @@ layout: post
 title: "Predicate Pushdown: Spark의 데이터 읽기 최적화 기술"
 date: 2024-11-25 01:57:37 +0900
 categories: spark
+description: "Spark Predicate Pushdown의 작동 원리와 활용 방법을 설명합니다. Parquet, ORC 파일에서 I/O 비용을 줄이고 처리 속도를 향상시키는 최적화 기법입니다."
+tags: [Spark, Predicate Pushdown, Parquet, ORC, Performance, Optimization]
 ---
 
 # Predicate Pushdown: Spark의 데이터 읽기 최적화 기술

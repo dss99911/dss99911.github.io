@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Docker 사용법 정리
+title: Docker 사용법 정리 - 필수 명령어 가이드
 date: 2024-11-26 01:57:37 +0900
 categories: miscellanea
+description: "Docker 필수 명령어 모음. 이미지 빌드, 컨테이너 실행, 볼륨 관리, 로그 확인 등 Docker 사용에 필요한 모든 명령어를 정리했습니다."
+tags: [Docker, Container, DevOps, 컨테이너, 명령어]
 ---
 # Docker 사용법 정리
 

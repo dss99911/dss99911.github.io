@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "ChatGPT로 간단한 앱 만들기"
+title: "ChatGPT로 Google Apps Script 앱 만들기 - 실전 가이드"
 date: 2024-01-27
 categories: ai
+description: "ChatGPT만으로 400줄 이상의 Google Apps Script 앱을 개발한 경험담. 점심 그룹 자동화 앱 개발 과정과 효과적인 프롬프트 엔지니어링 기법을 공유합니다."
+tags: [ChatGPT, Google Apps Script, Automation, Slack, Google Calendar, Prompt Engineering]
 ---
 
 
