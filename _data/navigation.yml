@@ -1,4 +1,54 @@
 - name: Home
   link: /
+
+- name: Language
+  dropdown:
+    - name: Korean
+      link: /Korean/
+    - name: English
+      link: /English/
+    - name: Chinese
+      link: /Chinese/
+    - name: Hindi
+      link: /Hindi/
+    - name: Arabic
+      link: /Arabic/
+    - name: Indonesian
+      link: /Indonesian/
+
+- name: Programming
+  dropdown:
+    - name: Android
+      link: /Android/
+    - name: Python
+      link: /Python/
+    - name: DevOps
+      link: /DevOps/
+    - name: Mac
+      link: /Mac/
+    - name: Jekyll
+      link: /Jekyll/
+    - name: Obsidian
+      link: /Obsidian/
+    - name: Spark
+      link: /Spark/
+
+- name: Knowledge
+  dropdown:
+    - name: AI
+      link: /AI/
+    - name: History
+      link: /History/
+    - name: Science
+      link: /Science/
+    - name: Law
+      link: /Law/
+    - name: Knowledge
+      link: /Knowledge/
+    - name: Miscellanea
+      link: /Miscellanea/
+    - name: Tools
+      link: /Tools/
+
 - name: About
   link: /about
