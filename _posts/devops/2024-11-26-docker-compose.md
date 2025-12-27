@@ -2,7 +2,7 @@
 layout: post
 title: Docker Compose Tutorial
 date: 2024-11-26 01:57:37 +0900
-categories: miscellanea
+categories: devops
 ---
 
 # Docker Compose Tutorial

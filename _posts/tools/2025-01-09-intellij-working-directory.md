@@ -2,7 +2,7 @@
 layout: post
 title: IntelliJ에서 Python 기본 Working Directory를 프로젝트 폴더로 설정하는 방법
 date: 2025-01-09 01:57:37 +0900
-categories: miscellanea
+categories: tools
 ---
 
 # IntelliJ에서 Python 기본 Working Directory를 프로젝트 폴더로 설정하는 방법

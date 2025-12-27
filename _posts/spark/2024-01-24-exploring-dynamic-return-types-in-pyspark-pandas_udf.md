@@ -2,7 +2,7 @@
 layout: post
 title: "Exploring Dynamic Return Types in PySpark's pandas_udf"
 date: 2024-01-24
-categories: ai
+categories: spark
 description: "Learn how to implement dynamic return types in PySpark pandas_udf functions. A technique for handling variable schemas in Spark DataFrame processing using JSON and checkpointing."
 tags: [PySpark, pandas_udf, Spark, Big Data, Dynamic Schema, Arrow]
 ---

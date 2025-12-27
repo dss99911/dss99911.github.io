@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub Actions로 Docker 이미지 자동 빌드 및 배포하기 - 완벽 가이드"
 date: 2025-10-05 01:57:37 +0900
-categories: miscellanea
+categories: devops
 description: "GitHub Actions와 Self-hosted Runner를 사용하여 Docker 이미지를 자동 빌드하고 개인 서버에 배포하는 방법. GHCR 설정, EC2 설치, 워크플로우 작성까지 완벽 가이드."
 tags: [GitHub Actions, Docker, CI/CD, DevOps, Self-hosted Runner, GHCR, AWS EC2]
 ---

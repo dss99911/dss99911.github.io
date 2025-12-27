@@ -2,7 +2,7 @@
 layout: post
 title: Docker Repository 사용 가이드
 date: 2024-12-23 01:57:37 +0900
-categories: miscellanea
+categories: devops
 ---
 # Docker Repository 사용 가이드
 

@@ -2,7 +2,7 @@
 layout: post
 title: macOS에서 스크립트로 OpenVpn 자동 연결하기
 date: 2024-12-01 01:57:37 +0900
-categories: miscellanea
+categories: devops
 ---
 
 
