@@ -2,7 +2,7 @@
 layout: post
 title: 새해를 맞이하여 Obsidian으로 인생 OKR 작성 및 측정하기
 date: 2024-01-08
-categories: obsidian korean
+categories: obsidian
 description: obsidian으로 OKR 작성하고, 측정하는 방법
 locale: ko-KR
 ---
@@ -32,7 +32,7 @@ locale: ko-KR
 ### OKR 페이지 예시
 
 ### Objective
-1. 건강 
+1. 건강
 2. 커리어
 ### Key Results (주요 성과지표)
 1. 건강 [score:: 60]
@@ -50,7 +50,7 @@ locale: ko-KR
 - [x] 아침 운동   #okr [period:: 2024 1q] [score:: 20] [count::91] [objective::exercise] 🔁 every day when done ⏳ 2024-01-03 ✅ 2024-01-03
 - [x] 아침 운동   #okr [period:: 2024 1q] [score:: 20] [count::91] [objective::exercise] 🔁 every day when done ⏳ 2024-01-02 ✅ 2024-01-02
 - [x] 아침 운동   #okr [period:: 2024 1q] [score:: 20] [count::91] [objective::exercise] 🔁 every day when done ⏳ 2024-01-01 ✅ 2024-01-07
-- [ ] 팔굽혀펴기 #okr [period:: 2024 1q] [score:: 5] [count::60] [objective::exercise] 🔁 every day when done ⏳ 2024-01-01 
+- [ ] 팔굽혀펴기 #okr [period:: 2024 1q] [score:: 5] [count::60] [objective::exercise] 🔁 every day when done ⏳ 2024-01-01
 - [ ] 다리 운동 #okr [period:: 2024 1q] [score:: 5] [count::60] [objective::exercise] 🔁 every day when done ⏳ 2024-01-08
 - [x] 다리 운동 #okr [period:: 2024 1q] [score:: 5] [count::60] [objective::exercise] 🔁 every day when done ⏳ 2024-01-08 ✅ 2024-01-07
 - [x] 다리 운동 #okr [period:: 2024 1q] [score:: 5] [count::60] [objective::exercise] 🔁 every day when done ⏳ 2024-01-08 ✅ 2024-01-07
@@ -79,7 +79,7 @@ const today = new Date();
 console.log(periodStartDate)
 
 function daysDiff(start, end) {
-	const timeDifference = end - start; 
+	const timeDifference = end - start;
 	const daysDifference = Math.floor(timeDifference / (24 * 60 * 60 * 1000));
 	return daysDifference;
 }
@@ -91,13 +91,13 @@ dv.paragraph(`Days Progress: ${passedDays}/${totalDays}(${(passedDays/ totalDays
 
 
 dv.paragraph("### Task Progress")
-function formatScore(score) { 
+function formatScore(score) {
 	if (score % 1 !== 0) {
 		const formattedNumber = score.toFixed(2);
 		return formattedNumber.replace(/\.?0+$/, '');
-    } else { 
+    } else {
 	   return score.toString(); // 정수인 경우 그대로 반환
-	} 
+	}
 }
 
 function taskCompletedCount(rows) {
@@ -121,7 +121,7 @@ function taskCountInfo(rows) {
 }
 
 function taskGroupName(task) {
-	return task.group ? task.group : task.text.split('#okr')[0] 
+	return task.group ? task.group : task.text.split('#okr')[0]
 }
 
 
@@ -149,14 +149,14 @@ function countWeeks(start, end) {
 	// 주의 시작을 월요일로 설정
 	// 시작 날짜가 월요일이 아닌 경우, 해당 주를 별도로 계산
 	start = new Date(start)
-	if (!isStartDay(start)) {		
+	if (!isStartDay(start)) {
 	    const daysUntilNextMonday = (8 - start.getDay()) % 7;
 	    start.setDate(start.getDate() + daysUntilNextMonday);
 		weeks++;
 	}
 
   // 주의 시작 날짜부터 종료 날짜까지 주를 세기
-  
+
 	while (start < end) {
 	    weeks++;
 	    start.setDate(start.getDate() + 7);
