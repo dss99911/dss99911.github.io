@@ -6,7 +6,7 @@ categories: frontend
 tags: [ejs, javascript, template-engine, nodejs]
 description: "EJS (Embedded JavaScript) template engine guide with syntax, loops, and helpers"
 ---
-
+{% raw %}
 ## Introduction
 
 **EJS** stands for **E**mbedded **J**ava**S**cript. It is a simple templating language that lets you generate HTML markup with plain JavaScript.
@@ -70,3 +70,4 @@ Creates an image tag:
 ## Reference
 
 - [EJS View Helpers Documentation](https://code.google.com/archive/p/embeddedjavascript/wikis/ViewHelpers.wiki)
+{% endraw %}

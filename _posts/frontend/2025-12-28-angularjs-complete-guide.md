@@ -6,7 +6,7 @@ categories: frontend
 tags: [angularjs, javascript, frontend, spa]
 description: "AngularJS framework complete guide including directives, services, filters, routing, forms and more"
 ---
-
+{% raw %}
 ## Basic Concepts
 
 ### Directive
@@ -547,3 +547,4 @@ Chrome debugging plugin: [AngularJS Batarang](https://chrome.google.com/webstore
 
 ## Reference
 - [W3Schools AngularJS Tutorial](https://www.w3schools.com/angular/default.asp)
+{% endraw %}
