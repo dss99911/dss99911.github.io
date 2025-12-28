@@ -6,11 +6,11 @@
 .site-header {
     position: relative;
     z-index: 1001;
-    max-width: $content-width;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: $spacing-unit;
-    padding-right: $spacing-unit;
+    padding-left: 30px;
+    padding-right: 30px;
     box-sizing: border-box;
 }
 
