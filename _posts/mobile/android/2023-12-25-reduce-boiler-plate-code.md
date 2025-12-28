@@ -236,7 +236,7 @@ _Then, why don’t we use it like _function_ on _ViewModel_?
 
 <script src="https://gist.github.com/dss99911/01dc67dda8783ed8b0c5c5eb38244822.js"></script>
 
-about _load(), LiveResource_. kindly check [this]({% link _posts/android/2023-12-25-coroutine-retrofit.md %})
+about _load(), LiveResource_. kindly check [this]({% link _posts/mobile/android/2023-12-25-coroutine-retrofit.md %})
 
 Even, testing also simple(check [test code](https://github.com/dss99911/simple-android-architecture/blob/5a68c88429e1e280d4d569cf6247ded4a8c5a577/sample/src/test/java/kim/jeonghyeon/sample/viewmodel/startactivity/StartActivityViewModelTest.kt))
 

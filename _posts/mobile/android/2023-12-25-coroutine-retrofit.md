@@ -28,7 +28,7 @@ This article will explain the difference of each. and why we have to use Corouti
 In this article, I use these knowledge. If you don’t have experience of that, Kindly check the link below.
 
 - [_Resource_](https://developer.android.com/jetpack/docs/guide#addendum) : _Resource_ is data which containing status (loading, success, error)
-- [_LiveResource_]({% link _posts/android/2023-12-25-livedata-event.md %}) : this is _LiveData<Resource>_
+- [_LiveResource_]({% link _posts/mobile/android/2023-12-25-livedata-event.md %}) : this is _LiveData<Resource>_
 - [_LiveData_](https://developer.android.com/topic/libraries/architecture/livedata) : _MediatorLiveData, Transformations.switchMap()_
 - [_Retrofit2_](https://square.github.io/retrofit/) : especially knowledge of _CallAdapter_
 - [Kotlin Coroutine](https://kotlinlang.org/docs/tutorials/coroutines/async-programming.html) : this article handle how to use coroutine, instead what is Coroutine
@@ -297,7 +297,7 @@ in this case, Let’s base code do it automatically.
 
 for detailed explanation, [_BaseViewModel_](https://github.com/dss99911/simple-android-architecture/blob/fb406cc86ce2ebfbd48ab64b51c6293b09ca9ebb/library/src/main/java/kim/jeonghyeon/androidlibrary/architecture/mvvm/BaseViewModel.kt) has `state` and `initState` fields for common error handling and [_BaseActivity_](https://github.com/dss99911/simple-android-architecture/blob/3fdcd9eea3eda8f66f643470da79bbeecef02be3/library/src/main/java/kim/jeonghyeon/androidlibrary/architecture/mvvm/BaseActivity.kt) or [_BaseFragment_](https://github.com/dss99911/simple-android-architecture/blob/3fdcd9eea3eda8f66f643470da79bbeecef02be3/library/src/main/java/kim/jeonghyeon/androidlibrary/architecture/mvvm/BaseFragment.kt) observe them automatically.  
 so, if it’s common error ui case, you don’t need to add code for handle error ui.  
-just load data like below. that’s it (I explained about `BaseViewMode`, `BaseActivity`, `BaseFragment` on [another article]({% link _posts/android/2023-12-25-reduce-boiler-plate-code.md %}))
+just load data like below. that’s it (I explained about `BaseViewMode`, `BaseActivity`, `BaseFragment` on [another article]({% link _posts/mobile/android/2023-12-25-reduce-boiler-plate-code.md %}))
 
 {%- highlight kotlin -%}
 state.load {  
