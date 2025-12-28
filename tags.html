@@ -16,7 +16,7 @@ permalink: /tags/
   <div id="all-tags" class="all-tags">
     <h2>All Tags</h2>
     <div class="tag-cloud">
-      {% assign sorted_tags = site.tags | sort %}
+      {% assign sorted_tags = site.tags | sort_natural %}
       {% for tag in sorted_tags %}
         <a href="/tags/?tag={{ tag[0] | url_encode }}" class="tag-item" data-tag="{{ tag[0] }}">
           {{ tag[0] }} <span class="tag-count">{{ tag[1].size }}</span>
