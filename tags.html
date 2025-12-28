@@ -28,15 +28,14 @@ permalink: /tags/
   <div id="posts-section">
     <h2 id="posts-heading">All Posts by Tag</h2>
     <ul id="posts-list" class="posts-list">
-      {% assign sorted_tags = site.tags | sort %}
-      {% for tag in sorted_tags %}
-        {% for post in tag[1] %}
+      {% for post in site.posts %}
+        {% if post.tags.size > 0 %}
           <li class="post-item" data-tags="{{ post.tags | join: ',' }}">
             <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <a href="{{ post.url | relative_url }}" class="post-link">{{ post.title }}</a>
             <span class="post-category">{{ post.categories | first }}</span>
           </li>
-        {% endfor %}
+        {% endif %}
       {% endfor %}
     </ul>
   </div>
