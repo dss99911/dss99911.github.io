@@ -13,6 +13,18 @@
     display: flex !important;
     align-items: center;
     gap: 10px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+}
+
+.site-header .site-nav .trigger::-webkit-scrollbar {
+    display: none;
+}
+
+.site-header .site-nav .page-link {
+    flex-shrink: 0;
 }
 
 .site-header .site-nav .dropdown {
@@ -475,38 +487,14 @@
     }
 
     .site-header .site-nav .trigger {
+        display: flex !important;
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    .site-header .site-nav .nav-trigger,
+    .site-header .site-nav label[for="nav-trigger"] {
         display: none !important;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
-        background-color: #fdfdfd;
-        border: 1px solid #e8e8e8;
-        border-radius: 5px;
-        position: absolute;
-        top: 36px;
-        right: 0;
-    }
-
-    .site-header .site-nav input:checked ~ .trigger {
-        display: flex !important;
-    }
-
-    .site-header .site-nav .dropdown {
-        width: 100%;
-    }
-
-    .site-header .site-nav .dropdown-toggle {
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    .site-header .site-nav .dropdown-menu {
-        position: static;
-        box-shadow: none;
-        border: none;
-        padding-left: 15px;
-        background-color: transparent;
-        display: flex !important;
     }
 
     .category-header {
