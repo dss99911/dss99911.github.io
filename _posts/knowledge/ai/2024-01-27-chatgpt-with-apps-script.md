@@ -70,7 +70,7 @@ function findIndiaGroups(calendarId, spreadsheet) {
 	// if the employee is not overlapped on all the groups, create new group and insert into the group
 	// if the employee count of a group is more than 5, split to fair two group.
 	// filter groups containing more than 1 employee only
-	// add jace.shin to the group that contains least members.
+	// add manager.user to the group that contains least members.
 	// group contains id only.
 }
 
@@ -101,7 +101,7 @@ function findKoreaGroups(spreadsheet, indiaGroups) {
 	//		- host_possible = 'true' on 'employees' sheet	
 	// - initilize groupList. each group type is list, and contains employees` id. at the first time, each group contains each host.
 	// - shuffle employeeList excluding host
-	// - move id 'noel.baek' to end of the employeeList		
+	// - move id 'last.priority' to end of the employeeList		
 	// - iterate the employeeList to process findGroupForEmployee, and insert the employee to the group
 }
 
@@ -310,9 +310,9 @@ function findIndiaGroups(calendarId, spreadsheet) {
   // Filter groups with more than one member
   groups = groups.filter(group => group.length > 1);
 
-  // Add 'jace.shin' to the group with the least members
+  // Add 'manager.user' to the group with the least members
   let groupWithLeastMembers = groups.reduce((res, group) => (group.length < res.length ? group : res), groups[0]);
-  groupWithLeastMembers.push('jace.shin');
+  groupWithLeastMembers.push('manager.user');
 
   return groups;
 }
@@ -440,12 +440,12 @@ function findKoreaGroups(spreadsheet, indiaGroups) {
     }
   }
 
-  // Shuffle employeeList and move 'noel.baek' to the end
+  // Shuffle employeeList and move 'last.priority' to the end
   employeeList = shuffleArray(employeeList);
-  let noelBaekIndex = employeeList.findIndex(e => e.id === 'noel.baek');
-  if (noelBaekIndex !== -1) {
-    let noelBaek = employeeList.splice(noelBaekIndex, 1)[0];
-    employeeList.push(noelBaek);
+  let lastPriorityIndex = employeeList.findIndex(e => e.id === 'last.priority');
+  if (lastPriorityIndex !== -1) {
+    let lastPriority = employeeList.splice(lastPriorityIndex, 1)[0];
+    employeeList.push(lastPriority);
   }
 
   // Distribute employees to groups
