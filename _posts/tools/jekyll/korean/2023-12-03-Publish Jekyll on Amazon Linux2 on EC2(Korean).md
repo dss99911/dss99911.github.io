@@ -3,6 +3,7 @@ layout: post
 title: Amazon Linux2 on EC2 환경에서 Jekyll사용하여 블로그 만들기
 date: 2023-12-03 21:05:37 +0900
 categories: jekyll korean
+tags: [jekyll, aws, ec2, amazon-linux, ruby, deployment]
 description: Amazon Linux2 on EC2에서 Jekyll을 이용해 Obsidian 노트를 개인 서버에 게시하는 방법을 알아보세요. 설정부터 업로드까지 단계별 안내를 제공합니다
 locale: ko-KR
 ---

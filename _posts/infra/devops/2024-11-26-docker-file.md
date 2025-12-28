@@ -3,6 +3,7 @@ layout: post
 title: Dockerfile 이해하기
 date: 2024-11-26 01:57:37 +0900
 categories: [infra, devops]
+tags: [docker, dockerfile, container, build, devops]
 ---
 
 # Dockerfile 이해하기

@@ -3,6 +3,7 @@ layout: post
 title: Jekyll에 Giscus로 comment 기능 추가
 date: 2023-12-25 01:57:37 +0900
 categories: [tools, jekyll]
+tags: [jekyll, giscus, comments, github-discussions]
 ---
 Jekyll에 Giscus를 추가하는 방법은 간단하며, 아래 단계를 따르면 됩니다.
 

@@ -3,6 +3,7 @@ layout: post
 title: Fetching YouTube Transcripts Using Python with the YouTube Transcript API
 date: 2025-01-09 01:57:37 +0900
 categories: [programming, python]
+tags: [python, youtube, transcript, api, subtitles]
 ---
 
 # Fetching YouTube Transcripts Using Python with the YouTube Transcript API

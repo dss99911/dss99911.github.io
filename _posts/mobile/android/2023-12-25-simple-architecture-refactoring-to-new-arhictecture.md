@@ -3,6 +3,7 @@ layout: post
 title: "Simple Android Architecture : Refactoring to new architecture"
 date: 2023-12-25 01:05:37 +0900
 categories: [mobile, android]
+tags: [android, architecture, refactoring, modularization, kotlin]
 ---
 ![](/assets/images/posts/android/1_grWLNKMDiveBfzwv_FDjAA.webp)
 

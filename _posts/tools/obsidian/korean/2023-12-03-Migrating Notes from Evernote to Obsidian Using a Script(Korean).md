@@ -3,6 +3,7 @@ layout: post
 title:  "스크립트를 이용한 Evernote에서 Obsidian으로 노트 이전하기"
 date:   2023-12-03 21:05:37 +0900
 categories: obsidian
+tags: [obsidian, evernote, migration, markdown, backup]
 description: 스크립트를 이용해 Evernote에서 Obsidian으로 노트를 쉽게 이전하세요. ENEX 백업과 Markdown 변환 과정을 안내합니다
 locale: ko-KR
 ---

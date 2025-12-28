@@ -3,6 +3,7 @@ layout: post
 title: Obsidian으로 daily task 관리하기
 date: 2024-01-07
 categories: obsidian
+tags: [obsidian, task-management, daily-notes, productivity, plugins]
 description: obsidian에서 실제 task 관리하고 있는 방법 설명
 locale: ko-KR
 ---

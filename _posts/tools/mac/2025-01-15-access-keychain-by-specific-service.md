@@ -3,6 +3,7 @@ layout: post
 title: How to always allow Mac keychain password only by specific app 
 date: 2025-01-09 01:57:37 +0900
 categories: [tools, mac]
+tags: [mac, macos, keychain, security, password]
 ---
 
 # How to always allow Mac keychain password only by specific app

@@ -3,6 +3,7 @@ layout: post
 title: 새해를 맞이하여 Obsidian으로 인생 OKR 작성 및 측정하기
 date: 2024-01-08
 categories: obsidian
+tags: [obsidian, okr, goal-setting, productivity, planning]
 description: obsidian으로 OKR 작성하고, 측정하는 방법
 locale: ko-KR
 ---

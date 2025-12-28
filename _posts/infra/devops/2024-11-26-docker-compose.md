@@ -3,6 +3,7 @@ layout: post
 title: Docker Compose Tutorial
 date: 2024-11-26 01:57:37 +0900
 categories: [infra, devops]
+tags: [docker, docker-compose, container, multi-container, devops]
 ---
 
 # Docker Compose Tutorial
