@@ -33,8 +33,6 @@ title: Home
         return parseInt(b.dataset.count) - parseInt(a.dataset.count);
       });
       tags.slice(0, 20).forEach(function(tag) {
-        var count = parseInt(tag.dataset.count);
-        tag.style.fontSize = Math.min(count + 10, 24) + 'px';
         tag.style.display = '';
         container.appendChild(tag);
       });
