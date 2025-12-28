@@ -18,14 +18,28 @@ title: Home
 <!-- Tag Cloud -->
 <section class="tag-cloud-section">
   <h2>Popular Tags</h2>
-  <div class="tag-cloud">
-    {% assign sorted_tags = site.tags | sort: 1 | reverse %}
-    {% for tag in sorted_tags limit:20 %}
-      <a href="/tags/?tag={{ tag[0] | url_encode }}" class="tag-item" style="font-size: {{ tag[1].size | plus: 10 | at_most: 24 }}px;">
+  <div class="tag-cloud" id="tag-cloud">
+    {% for tag in site.tags %}
+      <a href="/tags/?tag={{ tag[0] | url_encode }}" class="tag-item" data-count="{{ tag[1].size }}" style="display:none;">
         {{ tag[0] }} <span class="tag-count">{{ tag[1].size }}</span>
       </a>
     {% endfor %}
   </div>
+  <script>
+    (function() {
+      var container = document.getElementById('tag-cloud');
+      var tags = Array.from(container.querySelectorAll('.tag-item'));
+      tags.sort(function(a, b) {
+        return parseInt(b.dataset.count) - parseInt(a.dataset.count);
+      });
+      tags.slice(0, 20).forEach(function(tag) {
+        var count = parseInt(tag.dataset.count);
+        tag.style.fontSize = Math.min(count + 10, 24) + 'px';
+        tag.style.display = '';
+        container.appendChild(tag);
+      });
+    })();
+  </script>
 </section>
 
 <!-- Category Sections -->
