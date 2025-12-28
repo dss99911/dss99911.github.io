@@ -2,10 +2,16 @@
     color: green;
 }
 
-/* Header z-index to prevent dropdown from being hidden by ads */
+/* Header - same width as content to avoid overlap with side ads */
 .site-header {
     position: relative;
     z-index: 1001;
+    max-width: $content-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
+    box-sizing: border-box;
 }
 
 /* Dropdown Menu Styles */
