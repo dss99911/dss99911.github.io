@@ -20,30 +20,13 @@
     justify-content: space-between;
 }
 
+
 /* Dropdown Menu Styles */
 .site-header .site-nav .trigger {
     display: flex !important;
     align-items: center;
     gap: 10px;
     flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
-    scrollbar-color: #ccc transparent;
-}
-
-/* Scrollbar styling for webkit browsers */
-.site-header .site-nav .trigger::-webkit-scrollbar {
-    height: 4px;
-}
-
-.site-header .site-nav .trigger::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-.site-header .site-nav .trigger::-webkit-scrollbar-thumb {
-    background-color: #ccc;
-    border-radius: 2px;
 }
 
 .site-header .site-nav .page-link {
