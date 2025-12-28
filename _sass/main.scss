@@ -2,16 +2,22 @@
     color: green;
 }
 
-/* Header - same width as content to avoid overlap with side ads */
+/* Header - full width to match page width */
 .site-header {
     position: relative;
     z-index: 99999;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     padding-left: 30px;
     padding-right: 30px;
     box-sizing: border-box;
+}
+
+/* Make header wrapper full width */
+.site-header .wrapper {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Dropdown Menu Styles */
@@ -20,6 +26,24 @@
     align-items: center;
     gap: 10px;
     flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+}
+
+/* Scrollbar styling for webkit browsers */
+.site-header .site-nav .trigger::-webkit-scrollbar {
+    height: 4px;
+}
+
+.site-header .site-nav .trigger::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.site-header .site-nav .trigger::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 2px;
 }
 
 .site-header .site-nav .page-link {
