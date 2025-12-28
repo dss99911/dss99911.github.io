@@ -20,13 +20,6 @@
     align-items: center;
     gap: 10px;
     flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    max-width: 100%;
-}
-
-.site-header .site-nav .trigger::-webkit-scrollbar {
-    display: none;
 }
 
 .site-header .site-nav .page-link {
