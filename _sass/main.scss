@@ -2,6 +2,12 @@
     color: green;
 }
 
+/* Header z-index to prevent dropdown from being hidden by ads */
+.site-header {
+    position: relative;
+    z-index: 1001;
+}
+
 /* Dropdown Menu Styles */
 .site-header .site-nav .trigger {
     display: flex !important;
