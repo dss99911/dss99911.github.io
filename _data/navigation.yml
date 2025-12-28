@@ -1,54 +1,90 @@
 - name: Home
   link: /
-
-- name: Language
-  dropdown:
-    - name: Korean
-      link: /Korean/
-    - name: English
-      link: /English/
-    - name: Chinese
-      link: /Chinese/
-    - name: Hindi
-      link: /Hindi/
-    - name: Arabic
-      link: /Arabic/
-    - name: Indonesian
-      link: /Indonesian/
-
 - name: Programming
   dropdown:
-    - name: Android
-      link: /Android/
-    - name: Python
-      link: /Python/
-    - name: DevOps
-      link: /DevOps/
-    - name: Mac
-      link: /Mac/
-    - name: Jekyll
-      link: /Jekyll/
-    - name: Obsidian
-      link: /Obsidian/
-    - name: Spark
-      link: /Spark/
-
+  - name: C
+    link: /C/
+  - name: Programming
+    link: /Programming/
+  - name: Golang
+    link: /Golang/
+  - name: Java
+    link: /Java/
+  - name: Kotlin
+    link: /Kotlin/
+  - name: Python
+    link: /Python/
+  - name: Ruby
+    link: /Ruby/
+  - name: Scala
+    link: /Scala/
+- name: Frontend
+  dropdown:
+  - name: Frontend
+    link: /Frontend/
+  - name: JavaScript
+    link: /JavaScript/
+  - name: NodeJS
+    link: /NodeJS/
+- name: Mobile
+  dropdown:
+  - name: Android
+    link: /Android/
+  - name: Mobile
+    link: /Mobile/
+- name: Backend
+  dropdown:
+  - name: Database
+    link: /Database/
+  - name: Spring
+    link: /Spring/
+- name: Infra
+  dropdown:
+  - name: Automation
+    link: /Automation/
+  - name: DevOps
+    link: /DevOps/
+  - name: Security
+    link: /Security/
+  - name: Spark
+    link: /Spark/
+- name: Tools
+  dropdown:
+  - name: Tools
+    link: /Tools/
+  - name: Jekyll
+    link: /Jekyll/
+  - name: Mac
+    link: /Mac/
+  - name: Obsidian
+    link: /Obsidian/
+- name: Language
+  dropdown:
+  - name: Arabic
+    link: /Arabic/
+  - name: Chinese
+    link: /Chinese/
+  - name: English
+    link: /English/
+  - name: Hindi
+    link: /Hindi/
+  - name: Indonesian
+    link: /Indonesian/
+  - name: Korean
+    link: /Korean/
 - name: Knowledge
   dropdown:
-    - name: AI
-      link: /AI/
-    - name: History
-      link: /History/
-    - name: Science
-      link: /Science/
-    - name: Law
-      link: /Law/
-    - name: Knowledge
-      link: /Knowledge/
-    - name: Miscellanea
-      link: /Miscellanea/
-    - name: Tools
-      link: /Tools/
-
+  - name: AI
+    link: /AI/
+  - name: Knowledge
+    link: /Knowledge/
+  - name: History
+    link: /History/
+  - name: Law
+    link: /Law/
+  - name: Miscellanea
+    link: /Miscellanea/
+  - name: Science
+    link: /Science/
 - name: About
   link: /about
