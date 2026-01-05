@@ -4,6 +4,7 @@ title: "2025 민생회복 소비쿠폰 신청 방법 완벽 가이드"
 date: 2025-12-28 14:00:00 +0900
 categories: [knowledge, miscellanea]
 tags: [민생회복, 소비쿠폰, 정부지원금, 신청방법, 2025]
+image: /assets/images/posts/thumbnails/consumption-coupon.png
 description: "2025년 민생회복 소비쿠폰 신청 대상, 기간, 절차, 주의사항을 체크리스트 형태로 정리했습니다."
 ---
 

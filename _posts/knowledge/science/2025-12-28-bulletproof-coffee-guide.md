@@ -4,6 +4,7 @@ title: "방탄커피(Bulletproof Coffee) 완벽 가이드: 효과, 부작용, �
 date: 2025-12-28 21:00:00 +0900
 categories: [knowledge, science]
 tags: [방탄커피, bulletproof coffee, 다이어트, MCT오일, 케토, 간헐적단식, 건강]
+image: /assets/images/posts/thumbnails/bulletproof-coffee.png
 description: "방탄커피의 효과와 부작용, 올바른 섭취 방법을 알아봅니다. 마시면 안 되는 사람과 주의사항도 함께 정리했습니다."
 ---
 

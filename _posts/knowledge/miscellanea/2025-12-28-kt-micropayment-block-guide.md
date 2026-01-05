@@ -4,6 +4,7 @@ title: "KT 소액결제 차단 방법 완벽 가이드 - 한도설정, 해제, �
 date: 2025-12-28 14:40:00 +0900
 categories: [knowledge, miscellanea]
 tags: [KT, 소액결제, 차단, 한도설정, 보안, 2025]
+image: /assets/images/posts/thumbnails/kt-micropayment-block.png
 description: "KT 소액결제 차단, 한도설정, 해제 방법과 피해 예방 루틴을 상세하게 정리했습니다."
 ---
 

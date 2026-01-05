@@ -4,6 +4,7 @@ title: "유심(USIM) 교체 방법 완벽 가이드 - 통신사별 절차 및 eS
 date: 2025-12-28 14:30:00 +0900
 categories: [knowledge, miscellanea]
 tags: [유심, USIM, eSIM, 통신사, SKT, KT, LGU+, 2025]
+image: /assets/images/posts/thumbnails/usim-replacement.png
 description: "유심 교체 전 백업부터 통신사별 절차, eSIM 변경 방법, 주의사항까지 상세하게 정리했습니다."
 ---
 

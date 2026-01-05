@@ -5,6 +5,7 @@ date: 2025-12-28 13:30:00 +0900
 categories: [knowledge, science]
 description: "수면을 돕는 대표적인 영양제인 글리신과 멜라토닌의 효과, 부작용, 복용법을 비교 분석합니다. 어떤 상황에서 어떤 영양제를 선택해야 하는지 알아봅니다."
 tags: [수면, 영양제, 글리신, 멜라토닌, 건강, 불면증, 숙면]
+image: /assets/images/posts/thumbnails/glycine-melatonin-sleep.png
 ---
 
 수면은 건강의 기본입니다. 많은 사람들이 숙면을 위해 영양제를 찾는데, 대표적인 것이 **글리신(Glycine)**과 **멜라토닌(Melatonin)**입니다. 이 두 영양제의 효과와 부작용을 비교해 보겠습니다.

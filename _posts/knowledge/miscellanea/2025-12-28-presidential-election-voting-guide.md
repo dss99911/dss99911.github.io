@@ -4,6 +4,7 @@ title: "2025 대통령 선거 사전투표 방법 완벽 가이드"
 date: 2025-12-28 14:20:00 +0900
 categories: [knowledge, miscellanea]
 tags: [대통령선거, 사전투표, 투표방법, 선거, 2025]
+image: /assets/images/posts/thumbnails/presidential-election-voting.png
 description: "제21대 대통령 선거 사전투표 준비물, 투표 절차, 투표소 찾기, 자주 묻는 질문을 정리했습니다."
 ---
 

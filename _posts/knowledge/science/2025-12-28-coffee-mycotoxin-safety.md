@@ -4,6 +4,7 @@ title: "커피의 곰팡이 독소(마이코톡신), 정말 위험할까?"
 date: 2025-12-28 20:00:00 +0900
 categories: [knowledge, science]
 tags: [커피, 곰팡이, 마이코톡신, 오크라톡신, 아플라톡신, 건강, 카페인]
+image: /assets/images/posts/thumbnails/coffee-mycotoxin.png
 description: "커피에서 발견되는 곰팡이 독소(마이코톡신)의 위험성을 과학적으로 분석합니다. 오크라톡신 A와 아플라톡신 B1의 실제 검출량과 허용 기준을 비교해봅니다."
 ---
 

@@ -4,6 +4,7 @@ title: "2025 상생페이백 사용 방법 완벽 가이드"
 date: 2025-12-28 14:10:00 +0900
 categories: [knowledge, miscellanea]
 tags: [상생페이백, 환급, 소비촉진, 정부지원, 2025]
+image: /assets/images/posts/thumbnails/sangsaeng-payback.png
 description: "상생페이백의 가능 업종, 사용처, 환급 구조, 자주 발생하는 오류까지 상세하게 정리했습니다."
 ---
 
