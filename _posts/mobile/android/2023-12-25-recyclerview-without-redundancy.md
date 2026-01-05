@@ -4,6 +4,7 @@ title: use Android RecyclerView with 2 lines
 date: 2023-12-25 01:05:37 +0900
 categories: [mobile, android]
 tags: [android, recyclerview, kotlin, ui, adapter]
+image: /assets/images/posts/thumbnails/recyclerview-simple.png
 ---
 This is one of [series of Simple Android Architecture](https://github.com/dss99911/kotlin-simple-architecture/tree/android-architecture). and you can check sample code there.
 

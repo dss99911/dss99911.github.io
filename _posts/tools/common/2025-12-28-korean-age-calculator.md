@@ -5,6 +5,7 @@ date: 2025-12-28
 categories: [tools, common]
 description: "생년월일을 입력하면 만 나이와 한국 나이를 계산해주는 온라인 계산기입니다. 특정 기준일 기준으로도 계산 가능합니다."
 tags: [Calculator, Age, Korean Age, 만나이, 나이계산기]
+image: /assets/images/posts/thumbnails/korean-age-calculator.png
 ---
 
 ## 만 나이 계산기

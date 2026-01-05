@@ -4,6 +4,7 @@ title: "이마트 쉬는날 확인하기"
 date: 2025-12-28 12:00:00 +0900
 categories: [knowledge, miscellanea]
 tags: [emart, holiday, checker, utility, 이마트, 휴무일]
+image: /assets/images/posts/thumbnails/emart-holiday.png
 description: "이마트 휴무일을 쉽게 확인할 수 있는 도구입니다. 오늘 쉬는날인지 바로 확인하고, 원하는 날짜를 선택하여 휴무일 여부를 파악할 수 있습니다."
 ---
 

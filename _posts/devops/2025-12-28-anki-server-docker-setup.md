@@ -4,6 +4,7 @@ title: "서버에서 Anki 실행하기: Docker + AnkiConnect API 구축"
 date: 2025-12-28 12:00:00 +0900
 categories: [devops]
 tags: [anki, docker, ankiconnect, api, automation]
+image: /assets/images/posts/thumbnails/anki-docker-setup.png
 description: "Docker를 사용해 서버에서 Anki를 headless로 실행하고, AnkiConnect API를 통해 단어 추가와 동기화를 자동화하는 방법을 알아봅니다."
 ---
 
