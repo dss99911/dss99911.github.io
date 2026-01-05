@@ -5,6 +5,7 @@ date: 2026-01-05 12:00:00 +0900
 categories: [knowledge, health]
 tags: [비타민C, 메가도스, 사망률, NHANES, 항산화제, 펜톤반응, 건강, EPIC-Norfolk, JACC, 코호트연구]
 description: "2022년 NHANES 코호트 연구에서 발견된 비타민 C와 사망률의 U자형 관계를 분석하고, EPIC-Norfolk, JACC(일본), 핀란드 등 8개 주요 연구를 비교하여 균형 잡힌 관점을 제시합니다."
+image: /assets/images/posts/thumbnails/vitamin-c-research.png
 ---
 
 "비타민 C는 많이 먹을수록 좋다"는 믿음이 널리 퍼져 있습니다. 물에 잘 녹아 과잉 섭취해도 소변으로 배출되니 부작용이 없다는 것이죠. 하지만 2022년 발표된 대규모 연구는 이러한 통념에 의문을 제기합니다. 이 글에서는 해당 연구와 함께 **반대 결과를 보인 다른 연구들**도 함께 비교 분석합니다.

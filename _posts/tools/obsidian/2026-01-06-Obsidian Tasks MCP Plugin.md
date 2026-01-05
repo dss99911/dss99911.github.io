@@ -5,6 +5,7 @@ date: 2026-01-06 21:00:00 +0900
 categories: [tools, obsidian]
 description: "Learn how to use the Tasks MCP Plugin to let AI assistants like Claude and ChatGPT directly manage your Obsidian tasks - add, update, complete, and query tasks through natural conversation."
 tags: [Obsidian, MCP, AI, Tasks, Claude, Productivity]
+image: /assets/images/posts/thumbnails/obsidian-tasks-mcp.png
 ---
 
 # Manage Obsidian Tasks with AI - Tasks MCP Plugin

@@ -5,6 +5,7 @@ date: 2025-12-29 14:00:00 +0900
 categories: [knowledge, health]
 tags: [B형간염, 백신, CDC, ACIP, 신생아, 공중보건, 예방접종]
 description: "미국 CDC 산하 예방접종자문위원회(ACIP)가 2025년 12월, 34년간 유지해온 신생아 B형 간염 백신 보편 접종 권고를 변경했습니다. 이 결정에 대한 찬성과 반대 양측의 입장을 객관적으로 분석합니다."
+image: /assets/images/posts/thumbnails/hepatitis-b-vaccine.png
 ---
 
 2025년 12월 5일, 미국 질병통제예방센터(CDC) 산하 예방접종자문위원회(ACIP)가 34년간 유지해온 신생아 B형 간염 백신 보편 접종 권고를 변경하는 결정을 내렸습니다. 이 결정에 대해 찬성과 반대 양측의 입장이 첨예하게 대립하고 있습니다.
