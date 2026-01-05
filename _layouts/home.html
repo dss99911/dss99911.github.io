@@ -20,17 +20,24 @@ layout: default
     <ul class="post-list">
       
       {%- for post in posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+      <li class="post-item{% if post.image %} has-thumbnail{% endif %}">
+        {%- if post.image -%}
+        <a href="{{ post.url | relative_url }}" class="post-thumbnail-link">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" class="post-list-thumbnail">
+        </a>
         {%- endif -%}
+        <div class="post-content-wrapper">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </div>
       </li>
       {%- endfor -%}
     </ul>
