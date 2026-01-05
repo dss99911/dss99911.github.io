@@ -4,6 +4,7 @@ title: "웹 보안과 인증: SSL/TLS, OAuth, Authentication"
 date: 2025-12-28 12:05:00 +0900
 categories: [infra, devops]
 tags: [security, ssl, tls, oauth, authentication, https]
+image: /assets/images/posts/thumbnails/web-security-auth.png
 description: "SSL/TLS 인증서, OAuth 인증 방식, 다양한 웹 인증 방법을 설명합니다."
 ---
 

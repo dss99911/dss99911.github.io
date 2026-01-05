@@ -4,6 +4,7 @@ title: "Ansible로 서버 관리 자동화하기"
 date: 2025-12-28 12:05:00 +0900
 categories: [infra, devops]
 tags: [ansible, automation, devops, infrastructure, configuration-management]
+image: /assets/images/posts/thumbnails/ansible-automation.png
 description: "Ansible을 사용한 서버 관리 자동화 - 설치, Inventory, Playbook, Vault, 주요 모듈 사용법을 설명합니다."
 ---
 

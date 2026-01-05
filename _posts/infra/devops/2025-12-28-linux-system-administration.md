@@ -4,6 +4,7 @@ title: "Linux 시스템 관리 - 서비스, 메모리, 로그 관리"
 date: 2025-12-28 12:07:00 +0900
 categories: [infra, devops]
 tags: [linux, system-administration, devops, service, memory]
+image: /assets/images/posts/thumbnails/linux-system-admin.png
 description: "Linux 시스템 관리의 핵심 - 서비스 등록, 가상 메모리 설정, 로그 로테이션, MySQL 설치를 다룹니다."
 ---
 

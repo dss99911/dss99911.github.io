@@ -4,6 +4,7 @@ title: "AWS Load Balancer와 Route53을 활용한 트래픽 관리"
 date: 2025-12-28 12:01:00 +0900
 categories: [infra, devops]
 tags: [aws, load-balancer, route53, devops, networking]
+image: /assets/images/posts/thumbnails/aws-loadbalancer-route53.png
 description: "AWS Load Balancer 설정과 Route53을 활용한 도메인 라우팅, 보안 그룹 구성 방법을 설명합니다."
 ---
 
