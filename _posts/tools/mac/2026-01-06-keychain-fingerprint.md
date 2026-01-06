@@ -132,4 +132,4 @@ Full source code available on GitHub: [dss99911/keychain-fingerprint](https://gi
 
 ## Related
 
-For an alternative approach using root permissions instead of Touch ID, see: [How to always allow Mac keychain password only by specific app](/tools/mac/2025/01/15/access-keychain-by-specific-service.html)
+For an alternative approach using root permissions instead of Touch ID, see: [How to always allow Mac keychain password only by specific app](https://dss99911.github.io/tools/mac/2025/01/15/access-keychain-by-specific-service.html)
