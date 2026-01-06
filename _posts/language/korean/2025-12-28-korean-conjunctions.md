@@ -5,6 +5,7 @@ date: 2025-12-28 12:05:00 +0900
 categories: [language, korean]
 tags: [korean, grammar, conjunctions, connectors, 그래서, 그러니까]
 description: "Learn how to connect sentences in Korean using conjunctions like ~고, 그래서, and 그러니까, including the subtle differences between them."
+image: /assets/images/posts/thumbnails/2025-12-28-korean-conjunctions.png
 ---
 
 Conjunctions are essential for creating natural, flowing Korean sentences. This guide covers the most important Korean connectors and explains the subtle differences between similar expressions.

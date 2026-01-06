@@ -5,6 +5,7 @@ date: 2025-12-28 12:08:00 +0900
 categories: [programming, python]
 tags: [python, programming, basics, tutorial]
 description: "Python의 변수, 자료형, 조건문, 반복문, 함수 등 기초 문법을 상세히 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-python-basics.png
 ---
 
 ## Python 기본 정보

@@ -5,6 +5,7 @@ date: 2025-12-28 15:00:00 +0900
 categories: [programming, java]
 tags: [java, gradle, build-tool, command, wrapper]
 description: "Gradle 명령줄 옵션, Wrapper, 멀티 프로젝트 설정, 커맨드 실행에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-gradle-command.png
 ---
 
 # Command Line & Property

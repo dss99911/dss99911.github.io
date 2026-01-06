@@ -5,6 +5,7 @@ date: 2025-12-28 14:10:00 +0900
 categories: [programming, java]
 tags: [java, gradle, build-tool, task]
 description: "Gradle Task의 정의, 의존성 관리, 커스텀 태스크 만들기, 태스크 타입에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-gradle-task.png
 ---
 
 # Gradle Task

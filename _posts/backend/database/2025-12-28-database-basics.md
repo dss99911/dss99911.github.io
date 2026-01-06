@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [backend, database]
 tags: [database, design, architecture, best-practices]
 description: "데이터베이스 설계 시 확인해야 할 주요 사항과 아키텍처 설계 참고 자료를 정리합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-database-basics.png
 ---
 
 # 데이터베이스 설계 주의사항

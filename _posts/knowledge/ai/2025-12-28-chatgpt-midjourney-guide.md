@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [knowledge, ai]
 tags: [chatgpt, midjourney, ai-tools, generative-ai, prompt-engineering]
 description: "ChatGPT의 작동 원리와 MidJourney를 이용한 AI 이미지 생성 방법을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-chatgpt-midjourney-guide.png
 ---
 
 ## ChatGPT 이해하기

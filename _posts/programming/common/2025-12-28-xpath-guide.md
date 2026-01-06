@@ -5,6 +5,7 @@ date: 2025-12-28 15:30:00 +0900
 categories: [programming, common]
 tags: [xml, xpath, web, javascript]
 description: "XPath의 기본 개념부터 노드 선택, 연산자, JavaScript에서의 활용까지 XML 문서 탐색을 위한 종합 가이드"
+image: /assets/images/posts/thumbnails/2025-12-28-xpath-guide.png
 ---
 
 XPath(XML Path Language)는 XML 문서 내에서 특정 요소나 속성을 찾아 탐색하기 위한 쿼리 언어입니다. HTML/XML 파싱, 웹 스크래핑, XSLT 변환 등 다양한 분야에서 필수적으로 사용됩니다.

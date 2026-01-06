@@ -4,6 +4,7 @@ title: "Gradle 기초 - 빌드 시스템의 핵심 개념과 명령어"
 date: 2025-12-28 12:03:00 +0900
 categories: [tools, common]
 tags: [gradle, build, java, groovy]
+image: /assets/images/posts/thumbnails/2025-12-28-gradle-basics.png
 description: "Gradle의 기본 개념, 라이프사이클, 프로젝트 구조, 명령어 등 핵심 내용을 다룹니다."
 ---
 

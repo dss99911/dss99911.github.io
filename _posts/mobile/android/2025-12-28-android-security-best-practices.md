@@ -5,6 +5,7 @@ date: 2025-12-28 12:05:00 +0900
 categories: [mobile, android]
 tags: [android, security, ssl-pinning, proguard, encryption]
 description: "Android 앱 보안을 강화하는 방법을 알아봅니다. SSL Pinning, 앱 무결성 검증, 난독화 등 보안 기법을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-security-best-practices.png
 ---
 
 # Android 보안 베스트 프랙티스

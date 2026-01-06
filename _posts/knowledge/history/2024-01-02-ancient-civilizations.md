@@ -5,6 +5,7 @@ date: 2024-01-02 10:00:00 +0900
 categories: [knowledge, history]
 description: "인류 최초의 문명들이 어떻게 탄생했는지, 그리고 각 문명의 특징을 살펴봅니다. 메소포타미아, 이집트, 인더스, 중국 문명의 역사."
 tags: [역사, 문명, 메소포타미아, 이집트, 인더스, 중국, 고대사]
+image: /assets/images/posts/thumbnails/2024-01-02-ancient-civilizations.png
 ---
 
 일반적으로 문명의 출현을 기점으로 그 이후를 **역사 시대**, 이전은 선사 시대라고 합니다. 대략 BC 3000년 경에 역사 시대가 시작됩니다.

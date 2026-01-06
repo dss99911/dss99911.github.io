@@ -5,6 +5,7 @@ date: 2025-12-28 12:08:00 +0900
 categories: [infra, devops]
 tags: [bash, shell, scripting, linux, automation]
 description: "Bash 스크립트의 기본 문법 - 변수 선언, 조건문, 반복문, 함수 정의 방법을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-bash-scripting-basics.png
 ---
 
 # Bash 스크립팅 기초

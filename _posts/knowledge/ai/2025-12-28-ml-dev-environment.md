@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [knowledge, ai]
 tags: [anaconda, jupyter-notebook, tensorflow, python, ml-environment]
 description: "Anaconda와 Jupyter Notebook을 이용한 머신러닝 개발 환경 구축 방법과 TensorFlow 예제를 소개합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-ml-dev-environment.png
 ---
 
 ## Anaconda

@@ -5,6 +5,7 @@ date: 2024-01-15
 categories: [knowledge, ai]
 description: "Discover security vulnerabilities in ChatGPT GPT Store apps including prompt injection techniques to extract system instructions and access uploaded files. Learn how to protect your GPT apps."
 tags: [ChatGPT, GPT Store, Security, Prompt Injection, AI Safety]
+image: /assets/images/posts/thumbnails/2024-01-15-chatgpt-hack.png
 ---
 
 Understanding security vulnerabilities in GPT Store apps is crucial for both developers and users. This guide explores known attack vectors and defense mechanisms.

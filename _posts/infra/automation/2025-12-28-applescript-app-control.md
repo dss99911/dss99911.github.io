@@ -5,6 +5,7 @@ date: 2025-12-28 12:10:00 +0900
 categories: [infra, automation]
 tags: [applescript, mac, automation, finder, terminal, macos]
 description: "AppleScript를 사용하여 Finder, Terminal 등 Mac 애플리케이션을 제어하는 방법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-applescript-app-control.png
 ---
 
 AppleScript를 활용하면 macOS의 다양한 애플리케이션을 자동으로 제어할 수 있습니다. 이 글에서는 Finder, Terminal, System Events 등을 제어하는 방법을 정리합니다.

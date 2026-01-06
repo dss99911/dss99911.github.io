@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [language, english]
 tags: [english, business, email, meeting, professional, communication]
 description: "한국인을 위한 비즈니스 영어 종합 가이드입니다. 이메일 작성법, 회의 표현, 전문 커뮤니케이션 방법을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-english-business-communication.png
 ---
 
 ## 이메일 작성 필수사항

@@ -4,6 +4,7 @@ title: "RxJava Concurrency and Flowable - Threading and Backpressure"
 date: 2025-12-28
 categories: [mobile, android]
 tags: [rxjava, android, concurrency, flowable, backpressure]
+image: /assets/images/posts/thumbnails/2025-12-28-rxjava-concurrency-flowable.png
 ---
 
 RxJava의 스레딩과 Flowable을 사용한 Backpressure 처리를 알아봅니다.

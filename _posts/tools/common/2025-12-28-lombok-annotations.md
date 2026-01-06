@@ -4,6 +4,7 @@ title: "Lombok 완벽 가이드 - 모든 어노테이션 총정리"
 date: 2025-12-28 12:08:00 +0900
 categories: [tools, common]
 tags: [lombok, java, annotation, boilerplate]
+image: /assets/images/posts/thumbnails/2025-12-28-lombok-annotations.png
 description: "Lombok의 모든 어노테이션을 예제와 함께 상세히 설명합니다. 보일러플레이트 코드를 줄이는 방법을 알아봅니다."
 ---
 

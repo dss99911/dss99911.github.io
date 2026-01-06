@@ -5,6 +5,7 @@ date: 2024-01-09 10:00:00 +0900
 categories: [knowledge, common]
 description: "VR(가상현실)과 AR(증강현실)의 차이점, 주요 기기, 개발 도구를 알아봅니다."
 tags: [기술, VR, AR, 가상현실, 증강현실, 유니티]
+image: /assets/images/posts/thumbnails/2024-01-09-vr-ar-guide.png
 ---
 
 VR과 AR은 현실을 확장하고 새로운 경험을 제공하는 기술입니다.

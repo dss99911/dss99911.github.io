@@ -5,6 +5,7 @@ date: 2025-12-28 12:03:00 +0900
 categories: [programming, kotlin]
 tags: [kotlin, if, when, for, while, range, control-flow]
 description: "Kotlin의 제어문을 알아봅니다. if/when 표현식, for/while 루프, Range에 대해 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-kotlin-control-flow.png
 ---
 
 Kotlin의 제어문은 표현식(expression)으로 사용할 수 있어 더욱 간결한 코드를 작성할 수 있습니다.

@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [language, indonesian]
 tags: [indonesian, grammar, affixes, prefixes, suffixes, me-, ber-, di-, ter-, pe-, per-, ke-an]
 description: "me-, ber-, di-, ter-, pe-, per-, ke-an, -kan, -i, -an, -nya 등 인도네시아어 접사에 대한 상세한 설명과 예시를 담은 종합 가이드."
+image: /assets/images/posts/thumbnails/2025-12-28-indonesian-affixes.png
 ---
 
 인도네시아어는 교착어로서 접사가 단어 형성에 매우 중요한 역할을 합니다. 접사를 이해하는 것은 인도네시아어 어휘와 문법을 마스터하는 데 필수적입니다. 이 가이드에서는 주요 인도네시아어 접사들을 상세한 설명과 실용적인 예시와 함께 다룹니다.

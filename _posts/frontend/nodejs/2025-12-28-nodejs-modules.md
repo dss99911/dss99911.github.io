@@ -4,6 +4,7 @@ title: "Node.js 모듈 시스템과 require"
 date: 2025-12-28
 categories: [frontend, nodejs]
 tags: [nodejs, modules, require]
+image: /assets/images/posts/thumbnails/2025-12-28-nodejs-modules.png
 ---
 
 Node.js의 모듈 시스템과 require 사용법에 대해 알아봅니다.

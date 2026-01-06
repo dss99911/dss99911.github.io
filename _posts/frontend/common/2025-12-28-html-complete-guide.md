@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [frontend, common]
 tags: [html, frontend, web, markup]
 description: "HTML complete guide including tags, forms, meta tags, and useful snippets"
+image: /assets/images/posts/thumbnails/2025-12-28-html-complete-guide.png
 ---
 
 ## Meta Tags

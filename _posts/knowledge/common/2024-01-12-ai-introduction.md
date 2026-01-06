@@ -5,6 +5,7 @@ date: 2024-01-12 10:00:00 +0900
 categories: [knowledge, common]
 description: "인공지능의 기본 분류와 학습 리소스를 소개합니다. AI 입문자를 위한 가이드."
 tags: [AI, 인공지능, 머신러닝, 딥러닝, 기술]
+image: /assets/images/posts/thumbnails/2024-01-12-ai-introduction.png
 ---
 
 인공지능(AI)의 기본 개념과 학습 방법을 알아봅니다.

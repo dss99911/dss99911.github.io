@@ -5,6 +5,7 @@ date: 2025-12-28 12:06:00 +0900
 categories: [infra, devops]
 tags: [nginx, webserver, proxy, devops, linux]
 description: "Nginx 웹서버 설치, 설정 파일 구조, 프록시 설정 방법을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-nginx-configuration.png
 ---
 
 # Nginx 설치 및 설정 가이드

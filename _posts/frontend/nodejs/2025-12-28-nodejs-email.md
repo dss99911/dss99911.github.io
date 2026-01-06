@@ -4,6 +4,7 @@ title: "Node.js 이메일 전송 - Nodemailer"
 date: 2025-12-28
 categories: [frontend, nodejs]
 tags: [nodejs, email, nodemailer]
+image: /assets/images/posts/thumbnails/2025-12-28-nodejs-email.png
 ---
 
 Node.js에서 Nodemailer를 사용하여 이메일을 전송하는 방법을 알아봅니다.

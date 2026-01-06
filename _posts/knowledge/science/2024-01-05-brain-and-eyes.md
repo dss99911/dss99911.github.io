@@ -5,6 +5,7 @@ date: 2024-01-05 10:00:00 +0900
 categories: [knowledge, science]
 description: "눈의 움직임과 뇌의 기능에 대해 알아봅니다. 시선의 방향이 무엇을 의미하는지, 뇌의 각 부위가 어떤 역할을 하는지 살펴봅니다."
 tags: [과학, 뇌, 눈, 심리학, 뇌과학, 인지과학]
+image: /assets/images/posts/thumbnails/2024-01-05-brain-and-eyes.png
 ---
 
 눈은 마음의 창이라고 합니다. 시선의 방향과 뇌의 기능에 대해 알아봅니다.

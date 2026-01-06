@@ -4,6 +4,7 @@ title: "RxJava Android Integration - Retrofit, RxBinding, and Testing"
 date: 2025-12-28
 categories: [mobile, android]
 tags: [rxjava, android, retrofit, rxbinding, testing]
+image: /assets/images/posts/thumbnails/2025-12-28-rxjava-android-integration.png
 ---
 
 RxJava를 Android에서 실제로 활용하는 방법을 알아봅니다.

@@ -4,6 +4,7 @@ title: "Encoding and Base64"
 date: 2025-12-28 01:05:00 +0900
 categories: [programming, common]
 tags: [network, encoding, base64]
+image: /assets/images/posts/thumbnails/2025-12-28-encoding-base64.png
 ---
 
 # Encoding

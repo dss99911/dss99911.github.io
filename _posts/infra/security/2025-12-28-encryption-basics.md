@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [infra, security]
 tags: [security, encryption, cryptography, aes, des, hmac, symmetric-key]
 description: "대칭키 암호화의 기본 개념과 AES, DES 알고리즘 비교, 그리고 HMAC을 이용한 메시지 인증 코드 구현 방법을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-encryption-basics.png
 ---
 
 # 암호화 기초

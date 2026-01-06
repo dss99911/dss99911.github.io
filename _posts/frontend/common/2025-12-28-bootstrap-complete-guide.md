@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [frontend, common]
 tags: [bootstrap, css, responsive, frontend]
 description: "Bootstrap framework complete guide with components, layout, forms, and utilities"
+image: /assets/images/posts/thumbnails/2025-12-28-bootstrap-complete-guide.png
 ---
 
 ## Basic Setup

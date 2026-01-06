@@ -4,6 +4,7 @@ title: "NPM과 package.json 사용법"
 date: 2025-12-28
 categories: [frontend, nodejs]
 tags: [nodejs, npm, package-json]
+image: /assets/images/posts/thumbnails/2025-12-28-nodejs-npm.png
 ---
 
 Node Package Manager(NPM)의 사용법과 package.json 설정에 대해 알아봅니다.

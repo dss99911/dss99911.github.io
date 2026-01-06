@@ -5,6 +5,7 @@ date: 2025-12-28 12:05:00 +0900
 categories: [programming, kotlin]
 tags: [kotlin, property, delegation, lateinit, lazy, observable]
 description: "Kotlin의 프로퍼티 선언, 커스텀 getter/setter, 위임 패턴(lazy, observable, map)에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-kotlin-properties-delegation.png
 ---
 
 Kotlin의 프로퍼티는 Java의 필드보다 강력한 기능을 제공합니다. 특히 위임(Delegation) 패턴을 통해 프로퍼티의 동작을 쉽게 커스터마이징할 수 있습니다.

@@ -6,6 +6,7 @@ categories: jekyll korean
 tags: [jekyll, adsense, google, monetization, ads]
 description: Jekyll에서 Adsense의 자동 광고를 쉽게 연동하는 방법을 알아보세요. 새 사이트 생성부터 광고 추가까지 단계별 안내를 제공합니다
 locale: ko-KR
+image: /assets/images/posts/thumbnails/2023-12-04-jekyll-adsense-korean.png
 ---
 
 이 가이드에서는 Adsense의 자동 광고를 웹사이트에 추가하는 방법을 안내하겠습니다.

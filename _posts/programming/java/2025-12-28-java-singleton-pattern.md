@@ -5,6 +5,7 @@ date: 2025-12-28 12:11:00 +0900
 categories: [programming, java]
 tags: [java, design-pattern, singleton]
 description: "Java에서 싱글톤 패턴을 구현하는 방법과 static 초기화 블록을 활용한 안전한 구현을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-singleton-pattern.png
 ---
 
 # Java 싱글톤 패턴 구현하기

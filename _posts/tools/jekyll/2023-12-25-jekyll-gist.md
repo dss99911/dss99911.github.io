@@ -5,6 +5,7 @@ date: 2023-12-25 01:57:37 +0900
 categories: [tools, jekyll]
 description: "Learn how to embed GitHub Gist code snippets in your Jekyll blog. Simple method to share and display code with syntax highlighting."
 tags: [Jekyll, GitHub, Gist, Code Snippet, Embed]
+image: /assets/images/posts/thumbnails/2023-12-25-jekyll-gist.png
 ---
 
 GitHub Gist is a simple way to share code snippets. Embedding Gists in Jekyll posts is straightforward and provides syntax highlighting automatically.

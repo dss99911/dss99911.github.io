@@ -4,6 +4,7 @@ title: "Jsoup으로 HTML 파싱하기 - 웹 스크래핑 가이드"
 date: 2025-12-28 12:09:00 +0900
 categories: [tools, common]
 tags: [jsoup, java, html, web-scraping, parsing]
+image: /assets/images/posts/thumbnails/2025-12-28-jsoup-html-parsing.png
 description: "Jsoup 라이브러리를 사용하여 HTML을 파싱하고 데이터를 추출하는 방법을 설명합니다."
 ---
 

@@ -5,6 +5,7 @@ date: 2025-12-28 12:13:00 +0900
 categories: [infra, devops]
 tags: [zsh, shell, bash, fish, oh-my-zsh, productivity]
 description: "Zsh 설치, Oh My Zsh 플러그인, Fish Shell 비교, Vim 명령어를 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-zsh-shell-guide.png
 ---
 
 # Zsh 및 쉘 환경 설정 가이드

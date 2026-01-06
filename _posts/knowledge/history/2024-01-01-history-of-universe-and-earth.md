@@ -5,6 +5,7 @@ date: 2024-01-01 10:00:00 +0900
 categories: [knowledge, history]
 description: "우주의 형성부터 지구의 탄생, 생명의 출현, 그리고 인류의 등장까지. 138억 년의 역사를 한눈에 살펴봅니다."
 tags: [역사, 우주, 지구, 지질시대, 진화, 빅뱅]
+image: /assets/images/posts/thumbnails/2024-01-01-history-of-universe-and-earth.png
 ---
 
 우주가 형성되고 지구에 생명이 탄생하기까지의 장대한 역사를 살펴봅니다.

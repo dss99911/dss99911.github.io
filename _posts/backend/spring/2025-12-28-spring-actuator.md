@@ -5,6 +5,7 @@ date: 2025-12-28 12:07:00 +0900
 categories: [backend, spring]
 tags: [spring, actuator, monitoring, prometheus, grafana]
 description: "Spring Boot Actuator를 사용하여 애플리케이션을 모니터링하는 방법을 알아봅니다. 기본 엔드포인트부터 Prometheus, Grafana 연동까지 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-spring-actuator.png
 ---
 
 Spring Boot Actuator는 운영 중인 애플리케이션의 상태를 모니터링하고 관리하기 위한 기능을 제공합니다. 설정, 메모리, CPU, 환경변수, 빈 정보 등 다양한 정보를 확인할 수 있습니다.

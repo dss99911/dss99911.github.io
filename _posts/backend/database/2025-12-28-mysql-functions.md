@@ -5,6 +5,7 @@ date: 2025-12-28 12:05:00 +0900
 categories: [backend, database]
 tags: [mysql, sql, functions, string, date, case]
 description: "MySQL의 문자열 함수, 날짜 함수, CASE 구문, CSV 내보내기 방법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-mysql-functions.png
 ---
 
 # 문자열 함수

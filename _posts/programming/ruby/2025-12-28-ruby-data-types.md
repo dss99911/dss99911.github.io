@@ -4,6 +4,7 @@ title: "Ruby 데이터 타입 - 문자열, 배열, 맵"
 date: 2025-12-28
 categories: [programming, ruby]
 tags: [ruby, string, array, hash, data-types]
+image: /assets/images/posts/thumbnails/2025-12-28-ruby-data-types.png
 ---
 
 Ruby의 주요 데이터 타입인 문자열, 배열, 맵(Hash)에 대해 알아봅니다.

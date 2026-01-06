@@ -5,6 +5,7 @@ date: 2025-12-28 12:06:00 +0900
 categories: [backend, database]
 tags: [mongodb, nosql, database, document-db]
 description: "MongoDB의 주요 특징과 RDBMS와의 용어 비교, 설치 방법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-mongodb-guide.png
 ---
 
 # MongoDB 소개

@@ -4,6 +4,7 @@ title: "Software Development Documentation and Workflow"
 date: 2025-12-28 02:00:00 +0900
 categories: [programming, common]
 tags: [development-methodology, documentation]
+image: /assets/images/posts/thumbnails/2025-12-28-software-development-documentation.png
 ---
 
 # Software Development Documentation

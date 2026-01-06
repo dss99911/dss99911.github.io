@@ -5,6 +5,7 @@ date: 2025-12-28 12:05:00 +0900
 categories: [frontend, javascript]
 tags: [javascript, dom, events, selectors]
 description: "Guide to DOM manipulation, element selection, event handling, and working with forms in JavaScript"
+image: /assets/images/posts/thumbnails/2025-12-28-javascript-dom-events.png
 ---
 
 The Document Object Model (DOM) allows JavaScript to interact with and modify HTML content. This post covers essential DOM operations and event handling.

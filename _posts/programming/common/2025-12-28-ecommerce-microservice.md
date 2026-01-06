@@ -4,6 +4,7 @@ title: "E-commerce 플랫폼과 Microservice 아키텍처"
 date: 2025-12-28
 categories: [programming, common]
 tags: [ecommerce, microservice, architecture, payment-gateway]
+image: /assets/images/posts/thumbnails/2025-12-28-ecommerce-microservice.png
 ---
 
 E-commerce 플랫폼 구축과 Microservice 아키텍처에 대한 자료를 정리했습니다.

@@ -5,6 +5,7 @@ date: 2024-01-04 10:00:00 +0900
 categories: [knowledge, history]
 description: "인류 역사에서 정치 체제가 어떻게 변화해왔는지 살펴봅니다. 씨족사회, 봉건제, 군주제, 공화주의, 민주주의까지의 발전 과정."
 tags: [역사, 정치, 민주주의, 군주제, 봉건제, 정치체제]
+image: /assets/images/posts/thumbnails/2024-01-04-political-systems.png
 ---
 
 인류의 정치 체제는 사회의 발전과 함께 진화해왔습니다.

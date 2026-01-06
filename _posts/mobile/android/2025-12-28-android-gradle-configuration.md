@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [mobile, android]
 tags: [android, gradle, build, flavor, buildTypes]
 description: "Android Gradle 빌드 시스템의 핵심 설정들을 알아봅니다. Flavor, BuildTypes, 커스텀 플러그인, 빌드 최적화 등을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-gradle-configuration.png
 ---
 
 # Android Gradle 설정 완벽 가이드

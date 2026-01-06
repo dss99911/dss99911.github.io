@@ -5,6 +5,7 @@ date: 2025-12-28 15:10:00 +0900
 categories: [programming, java]
 tags: [java, maven, build-tool]
 description: "Maven의 기본 개념, 빌드 라이프사이클, 의존성 Scope, 저장소 설정에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-maven-basics.png
 ---
 
 # Maven 기초

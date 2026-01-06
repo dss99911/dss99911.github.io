@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [tools, common]
 tags: [intellij, ide, shortcuts, plugins, productivity]
 description: "IntelliJ IDEA의 단축키, 유용한 플러그인, 디버깅 설정, HTTP Client 활용법 등 생산성을 높이는 팁을 소개합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-intellij-tips-and-tricks.png
 ---
 {% raw %}
 IntelliJ IDEA는 JetBrains에서 개발한 강력한 통합 개발 환경입니다. 이 글에서는 IntelliJ를 더욱 효과적으로 사용하기 위한 다양한 팁과 설정을 소개합니다.

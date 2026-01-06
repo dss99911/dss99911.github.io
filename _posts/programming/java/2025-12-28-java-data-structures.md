@@ -5,6 +5,7 @@ date: 2025-12-28 12:13:00 +0900
 categories: [programming, java]
 tags: [java, data-structure, collections, sort]
 description: "Java에서 유용한 자료구조와 정렬 방법을 알아봅니다. LinkedHashSet, Pair, Comparator 활용법을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-data-structures.png
 ---
 
 # Java 자료구조

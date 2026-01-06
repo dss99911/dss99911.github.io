@@ -5,6 +5,7 @@ date: 2025-12-28 12:15:00 +0900
 categories: [programming, java]
 tags: [java, file, io, nio]
 description: "Java에서 파일을 다루는 기본적인 방법을 알아봅니다. 임시 파일 생성과 파일 작업의 기초를 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-file-io.png
 ---
 
 # Java 파일 입출력 기초

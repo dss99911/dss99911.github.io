@@ -4,6 +4,7 @@ title: "Google Chart API 사용법"
 date: 2025-12-28
 categories: [tools, common]
 tags: [google, chart, api, visualization]
+image: /assets/images/posts/thumbnails/2025-12-28-google-chart-api.png
 ---
 
 Google Chart API를 사용하여 URL만으로 차트 이미지를 생성하는 방법을 정리했습니다.

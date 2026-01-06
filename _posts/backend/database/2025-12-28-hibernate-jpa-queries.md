@@ -5,6 +5,7 @@ date: 2025-12-28 12:09:00 +0900
 categories: [backend, database]
 tags: [hibernate, jpa, hql, criteria, java, orm, query]
 description: "Hibernate의 객체 지향 쿼리 언어 HQL과 Criteria API 사용법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-hibernate-jpa-queries.png
 ---
 
 # HQL (Hibernate Query Language)

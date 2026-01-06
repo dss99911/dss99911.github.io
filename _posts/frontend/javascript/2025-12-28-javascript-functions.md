@@ -5,6 +5,7 @@ date: 2025-12-28 12:03:00 +0900
 categories: [frontend, javascript]
 tags: [javascript, functions, hoisting, closures]
 description: "Complete guide to JavaScript functions including declaration patterns, hoisting, this keyword, call/apply methods, and generators"
+image: /assets/images/posts/thumbnails/2025-12-28-javascript-functions.png
 ---
 
 Functions are first-class citizens in JavaScript, meaning they can be passed around like any other value. This post covers everything you need to know about JavaScript functions.

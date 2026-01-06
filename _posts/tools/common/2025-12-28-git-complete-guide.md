@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [tools, common]
 tags: [git, version-control, branching, rebase, squash]
 description: "Git 브랜칭 모델, 실무에서 자주 사용하는 명령어, rebase와 squash 전략, Git Hook 활용법을 상세히 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-git-complete-guide.png
 ---
 
 Git은 현대 소프트웨어 개발에서 필수적인 버전 관리 도구입니다. 이 글에서는 Git의 브랜칭 전략부터 실무에서 자주 사용하는 명령어, 그리고 고급 기능들까지 상세히 알아보겠습니다.

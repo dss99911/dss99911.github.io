@@ -4,6 +4,7 @@ title: "Express.js 프레임워크 완전 가이드"
 date: 2025-12-28
 categories: [frontend, nodejs]
 tags: [nodejs, express, routing, web-framework]
+image: /assets/images/posts/thumbnails/2025-12-28-nodejs-express.png
 ---
 
 Express.js는 Node.js의 웹 프레임워크로, URL 경로별로 처리를 분리(Routing)할 수 있습니다.

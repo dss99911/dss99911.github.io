@@ -5,6 +5,7 @@ date: 2025-12-28 14:50:00 +0900
 categories: [programming, java]
 tags: [java, gradle, build-tool, maven, publishing]
 description: "Gradle로 Maven 저장소에 배포하는 방법, JCenter, Nexus 설정에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-gradle-publishing.png
 ---
 
 # Repository

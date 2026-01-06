@@ -4,6 +4,7 @@ title: "RxJava Operators Complete Guide"
 date: 2025-12-28
 categories: [mobile, android]
 tags: [rxjava, android, operators, reactive-programming]
+image: /assets/images/posts/thumbnails/2025-12-28-rxjava-operators-complete-guide.png
 ---
 
 RxJava의 다양한 연산자들을 상세히 알아봅니다.

@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [backend, spring]
 tags: [spring, spring-boot, configuration, dependency-injection, profile, devtools]
 description: "Spring Boot의 핵심 설정 방법을 알아봅니다. Configuration Properties, 의존성 주입(DI), Profile 설정, 그리고 개발 생산성을 높이는 Devtools까지 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-spring-boot-configuration.png
 ---
 
 Spring Boot 애플리케이션을 개발할 때 가장 기본이 되는 설정 방법들을 정리했습니다. Configuration Properties부터 의존성 주입, Profile 관리, 그리고 개발 생산성을 높이는 Devtools까지 살펴보겠습니다.

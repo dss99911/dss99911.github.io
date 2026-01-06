@@ -5,6 +5,7 @@ date: 2024-01-14 10:00:00 +0900
 categories: [knowledge, common]
 description: "프로그래밍과 IT 기술을 학습할 수 있는 다양한 온라인 강의 플랫폼을 소개합니다."
 tags: [학습, 프로그래밍, 온라인강의, 교육, 자기계발]
+image: /assets/images/posts/thumbnails/2024-01-14-online-learning-resources.png
 ---
 
 프로그래밍과 IT 기술을 배울 수 있는 온라인 학습 플랫폼을 정리했습니다.

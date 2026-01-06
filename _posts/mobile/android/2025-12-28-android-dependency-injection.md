@@ -5,6 +5,7 @@ date: 2025-12-28 12:09:00 +0900
 categories: [mobile, android]
 tags: [android, dagger, koin, hilt, dependency-injection]
 description: "Android에서 의존성 주입을 구현하는 방법을 알아봅니다. Dagger2, Hilt, Koin 등을 비교하고 사용법을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-dependency-injection.png
 ---
 
 # Android 의존성 주입 (DI) 가이드

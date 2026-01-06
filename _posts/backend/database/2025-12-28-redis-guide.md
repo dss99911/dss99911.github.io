@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [backend, database]
 tags: [redis, nosql, cache, in-memory, database]
 description: "Redis의 기본 개념과 특징, 그리고 redis-cli를 통한 다양한 데이터 조작 명령어를 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-redis-guide.png
 ---
 
 # Redis 개요

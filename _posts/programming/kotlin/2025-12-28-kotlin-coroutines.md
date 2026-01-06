@@ -5,6 +5,7 @@ date: 2025-12-28 12:09:00 +0900
 categories: [programming, kotlin]
 tags: [kotlin, coroutine, async, suspend, concurrency]
 description: "Kotlin 코루틴의 기본 개념과 사용법을 알아봅니다. suspend 함수, async, runBlocking에 대해 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-kotlin-coroutines.png
 ---
 
 코루틴은 Kotlin에서 비동기 프로그래밍을 위한 강력한 도구입니다. 가벼운 스레드라고 생각할 수 있습니다.

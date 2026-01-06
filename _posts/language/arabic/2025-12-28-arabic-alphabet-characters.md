@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [language, arabic]
 tags: [arabic, alphabet, characters, pronunciation, learning]
 description: "한국어 화자를 위한 아랍어 알파벳 완벽 가이드. 발음 팁, 문맥별 형태, 암기 요령을 포함한 종합 안내서입니다."
+image: /assets/images/posts/thumbnails/2025-12-28-arabic-alphabet-characters.png
 ---
 
 # 아랍어 알파벳 가이드

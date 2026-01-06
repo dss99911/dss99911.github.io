@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [language, korean]
 tags: [korean, vowels, pronunciation, grammar, basics]
 description: "Learn about Korean vowel classification including bright vowels, dim vowels, and neutral vowels, plus how connecting vowels work in verb conjugation."
+image: /assets/images/posts/thumbnails/2025-12-28-korean-vowels-and-pronunciation.png
 ---
 
 Understanding Korean vowels is fundamental to mastering verb conjugation and pronunciation. Korean vowels are classified into three categories based on their sound quality, and this classification affects how verbs are conjugated.

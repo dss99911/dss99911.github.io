@@ -5,6 +5,7 @@ date: 2025-12-28 13:00:00 +0900
 categories: [tools, mac]
 tags: [mac, tips, shortcuts, finder, productivity, macos]
 description: "Mac 사용자를 위한 필수 팁과 단축키를 정리합니다. Finder 활용, 스크린샷, 화면 관리 등을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-mac-tips-shortcuts.png
 ---
 
 macOS를 더 효율적으로 사용하기 위한 필수 팁과 단축키를 정리합니다.

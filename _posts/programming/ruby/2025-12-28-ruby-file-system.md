@@ -4,6 +4,7 @@ title: "Ruby 파일 처리와 시스템 명령"
 date: 2025-12-28
 categories: [programming, ruby]
 tags: [ruby, file, io, system]
+image: /assets/images/posts/thumbnails/2025-12-28-ruby-file-system.png
 ---
 
 Ruby에서 파일 처리와 시스템 명령 실행 방법을 알아봅니다.

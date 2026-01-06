@@ -4,6 +4,7 @@ title: "Design Patterns - MVC, MVP, MVVM, and More"
 date: 2025-12-28 03:01:00 +0900
 categories: [programming, common]
 tags: [design-pattern, architecture]
+image: /assets/images/posts/thumbnails/2025-12-28-design-patterns.png
 ---
 
 # Design Patterns Overview

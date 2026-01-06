@@ -5,6 +5,7 @@ date: 2025-12-28 12:09:00 +0900
 categories: [frontend, javascript]
 tags: [nodejs, mysql, mongodb, database]
 description: "Guide to integrating MySQL and MongoDB with Node.js including CRUD operations, queries, and best practices"
+image: /assets/images/posts/thumbnails/2025-12-28-nodejs-databases.png
 ---
 
 Node.js works seamlessly with various databases. This guide covers integration with MySQL and MongoDB.

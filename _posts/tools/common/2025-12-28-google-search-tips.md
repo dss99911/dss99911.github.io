@@ -4,6 +4,7 @@ title: "Google 검색 고급 팁 모음"
 date: 2025-12-28
 categories: [tools, common]
 tags: [google, search, tips, productivity]
+image: /assets/images/posts/thumbnails/2025-12-28-google-search-tips.png
 ---
 
 Google 검색을 더 효율적으로 사용할 수 있는 고급 검색 연산자들을 정리했습니다.

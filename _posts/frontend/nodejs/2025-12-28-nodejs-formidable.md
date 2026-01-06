@@ -4,6 +4,7 @@ title: "Node.js Formidable을 이용한 파일 업로드"
 date: 2025-12-28
 categories: [frontend, nodejs]
 tags: [nodejs, file-upload, formidable]
+image: /assets/images/posts/thumbnails/2025-12-28-nodejs-formidable.png
 ---
 
 Formidable 모듈을 사용하여 Node.js에서 파일 업로드를 처리하는 방법을 알아봅니다.

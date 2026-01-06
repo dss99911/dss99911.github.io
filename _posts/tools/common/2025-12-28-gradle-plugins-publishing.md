@@ -4,6 +4,7 @@ title: "Gradle 플러그인과 Publishing 가이드"
 date: 2025-12-28 12:06:00 +0900
 categories: [tools, common]
 tags: [gradle, plugin, maven, publishing, nexus]
+image: /assets/images/posts/thumbnails/2025-12-28-gradle-plugins-publishing.png
 description: "Gradle 플러그인 생성 방법과 Maven Repository로 라이브러리를 배포하는 방법을 다룹니다."
 ---
 

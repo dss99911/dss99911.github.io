@@ -5,6 +5,7 @@ date: 2025-12-28 15:12:00 +0900
 categories: [infra, automation]
 tags: [phantomjs, web-automation, headless-browser, javascript]
 description: "PhantomJS의 고급 기능인 캐시 관리, 쿠키 처리, 파일 시스템, 외부 스크립트 주입, 디버깅 방법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-phantomjs-advanced.png
 ---
 
 PhantomJS의 고급 기능들을 다룹니다. 캐시 관리, 쿠키 처리, 파일 시스템 접근, 외부 스크립트 주입, 디버깅 방법을 알아봅니다.

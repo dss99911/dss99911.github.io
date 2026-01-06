@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [mobile, android]
 tags: [android, optimization, performance, memory, apk-size]
 description: "Android 앱의 성능, 메모리, APK 크기 최적화 방법을 알아봅니다. 메모리 누수 방지, ProGuard 설정, 빌드 최적화 등을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-optimization-guide.png
 ---
 
 # Android 앱 최적화 가이드

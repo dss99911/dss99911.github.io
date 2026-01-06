@@ -5,6 +5,7 @@ date: 2025-12-28 13:10:00 +0900
 categories: [tools, mac]
 tags: [mac, apps, productivity, development, tools, macos]
 description: "Mac 개발자와 파워유저를 위한 추천 앱 목록입니다. 생산성, 개발 도구, 유틸리티 앱을 정리합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-mac-recommended-apps.png
 ---
 
 macOS에서 개발과 생산성 향상에 도움이 되는 앱들을 카테고리별로 정리합니다.

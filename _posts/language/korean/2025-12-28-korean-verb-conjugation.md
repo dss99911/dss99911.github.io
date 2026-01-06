@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [language, korean]
 tags: [korean, verbs, conjugation, past-tense, grammar]
 description: "Master Korean verb conjugation including past tense formation and the polite ~요 ending with clear rules and examples."
+image: /assets/images/posts/thumbnails/2025-12-28-korean-verb-conjugation.png
 ---
 
 Korean verb conjugation follows predictable patterns based on vowel harmony. This guide covers the two most essential conjugation forms: past tense and the polite ~요 form.

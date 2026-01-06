@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [frontend, common]
 tags: [ejs, javascript, template-engine, nodejs]
 description: "EJS (Embedded JavaScript) template engine guide with syntax, loops, and helpers"
+image: /assets/images/posts/thumbnails/2025-12-28-ejs-template-engine-guide.png
 ---
 {% raw %}
 ## Introduction

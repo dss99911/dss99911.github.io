@@ -4,6 +4,7 @@ title: "Ruby 클래스와 객체지향 프로그래밍"
 date: 2025-12-28
 categories: [programming, ruby]
 tags: [ruby, class, oop, inheritance]
+image: /assets/images/posts/thumbnails/2025-12-28-ruby-classes.png
 ---
 
 Ruby의 클래스와 객체지향 프로그래밍에 대해 알아봅니다.

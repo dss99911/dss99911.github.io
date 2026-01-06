@@ -5,6 +5,7 @@ date: 2024-01-11 10:00:00 +0900
 categories: [knowledge, common]
 description: "드론의 다양한 활용 분야와 입문자를 위한 제품 선택 가이드를 제공합니다."
 tags: [기술, 드론, UAV, 촬영, 취미]
+image: /assets/images/posts/thumbnails/2024-01-11-drone-guide.png
 ---
 
 드론은 다양한 산업과 취미 분야에서 활용되는 기술입니다.

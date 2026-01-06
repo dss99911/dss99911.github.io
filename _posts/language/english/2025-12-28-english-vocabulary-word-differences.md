@@ -5,6 +5,7 @@ date: 2025-12-28 12:03:00 +0900
 categories: [language, english]
 tags: [english, vocabulary, word-differences, synonyms, korean-speakers]
 description: "transfer vs transmit, stock vs stack, presume vs suppose 등 비슷한 영어 단어들의 미묘한 차이를 한국어 설명과 함께 이해합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-english-vocabulary-word-differences.png
 ---
 
 ## 자주 혼동하는 단어 쌍

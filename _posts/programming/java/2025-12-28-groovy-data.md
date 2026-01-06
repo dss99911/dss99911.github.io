@@ -5,6 +5,7 @@ date: 2025-12-28 16:00:00 +0900
 categories: [programming, java]
 tags: [java, groovy, jvm, json, xml, file]
 description: "Groovy에서 파일, JSON, XML을 처리하는 방법에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-groovy-data.png
 ---
 
 # File 처리

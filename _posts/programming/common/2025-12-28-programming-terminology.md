@@ -4,6 +4,7 @@ title: "Programming Terminology and Paradigms"
 date: 2025-12-28 03:07:00 +0900
 categories: [programming, common]
 tags: [terminology]
+image: /assets/images/posts/thumbnails/2025-12-28-programming-terminology.png
 ---
 
 # Code Style Terminology

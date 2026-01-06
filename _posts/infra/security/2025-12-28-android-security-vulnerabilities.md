@@ -5,6 +5,7 @@ date: 2025-12-28 12:03:00 +0900
 categories: [infra, security]
 tags: [security, android, mobile-security, vulnerability, adb, rooting, dlp]
 description: "Android 앱의 주요 보안 취약점과 공격 시나리오, 그리고 효과적인 방어 전략을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-security-vulnerabilities.png
 ---
 
 # Android 보안 취약점과 방어 전략

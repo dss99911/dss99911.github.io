@@ -4,6 +4,7 @@ title: "Ruby 예외 처리와 정규 표현식"
 date: 2025-12-28
 categories: [programming, ruby]
 tags: [ruby, exception, regex]
+image: /assets/images/posts/thumbnails/2025-12-28-ruby-exception-regex.png
 ---
 
 Ruby의 예외 처리와 정규 표현식 사용법에 대해 알아봅니다.

@@ -5,6 +5,7 @@ date: 2025-12-28 12:07:00 +0900
 categories: [language, korean]
 tags: [korean, books, resources, learning, recommendations]
 description: "A collection of recommended books and resources for learning the Korean language."
+image: /assets/images/posts/thumbnails/2025-12-28-korean-recommended-books.png
 ---
 
 Finding the right learning materials can make a significant difference in your Korean language journey. Here are some recommended books for Korean learners.

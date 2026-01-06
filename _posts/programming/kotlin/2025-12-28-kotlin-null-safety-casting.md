@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [programming, kotlin]
 tags: [kotlin, null-safety, casting, smart-cast, elvis-operator]
 description: "Kotlin의 Null Safety 기능과 타입 캐스팅 방법을 알아봅니다. Safe Call, Elvis Operator, Smart Cast에 대해 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-kotlin-null-safety-casting.png
 ---
 
 Kotlin의 가장 큰 장점 중 하나는 null 안전성입니다. 컴파일 타임에 null 관련 오류를 방지할 수 있습니다.

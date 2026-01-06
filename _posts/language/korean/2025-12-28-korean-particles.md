@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [language, korean]
 tags: [korean, grammar, particles, postpositions, 에, 에서, 에게]
 description: "Learn essential Korean particles (postpositions) including 에, 에게, 에서, and 에게서 with clear explanations and examples."
+image: /assets/images/posts/thumbnails/2025-12-28-korean-particles.png
 ---
 
 Korean particles (조사) are essential grammatical elements that indicate the relationship between words in a sentence. Unlike English prepositions that come before nouns, Korean particles come after - hence they're called "postpositions."

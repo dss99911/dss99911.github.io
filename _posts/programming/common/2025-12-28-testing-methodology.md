@@ -4,6 +4,7 @@ title: "Testing Methodology for Software Development"
 date: 2025-12-28 02:02:00 +0900
 categories: [programming, common]
 tags: [development-methodology, testing]
+image: /assets/images/posts/thumbnails/2025-12-28-testing-methodology.png
 ---
 
 # Testing Methodology

@@ -5,6 +5,7 @@ date: 2025-12-28 12:10:00 +0900
 categories: [programming, kotlin]
 tags: [kotlin, kotlin-native, concurrency, freezing, multiplatform]
 description: "Kotlin Native의 동시성 모델과 객체 freezing에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-kotlin-native-concurrency.png
 ---
 
 Kotlin Native는 JVM과 다른 메모리 모델을 사용합니다. 멀티스레드 환경에서 안전하게 객체를 공유하기 위해 freezing 개념을 도입했습니다.

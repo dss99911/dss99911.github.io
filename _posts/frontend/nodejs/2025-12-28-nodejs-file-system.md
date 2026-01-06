@@ -4,6 +4,7 @@ title: "Node.js 파일 시스템 (fs 모듈)"
 date: 2025-12-28
 categories: [frontend, nodejs]
 tags: [nodejs, filesystem, fs]
+image: /assets/images/posts/thumbnails/2025-12-28-nodejs-file-system.png
 ---
 
 Node.js의 파일 시스템 모듈(fs)을 사용한 파일 읽기, 쓰기, 삭제 등의 작업을 알아봅니다.

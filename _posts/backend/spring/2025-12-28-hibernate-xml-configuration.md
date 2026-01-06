@@ -5,6 +5,7 @@ date: 2025-12-28 15:02:00 +0900
 categories: [backend, spring]
 tags: [jpa, hibernate, xml, orm, spring, cache, transaction]
 description: "Hibernate XML 설정 방법을 알아봅니다. 기본 설정부터 컬렉션 매핑, 객체 참조, 캐시, 트랜잭션 관리까지 상세히 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-hibernate-xml-configuration.png
 ---
 
 Hibernate는 어노테이션 기반 설정 외에도 XML을 통한 설정을 지원합니다. 레거시 프로젝트나 설정을 코드와 분리하고 싶을 때 유용합니다. 이 글에서는 XML 기반 Hibernate 설정 방법을 알아보겠습니다.

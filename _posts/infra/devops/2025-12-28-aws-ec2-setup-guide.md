@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [infra, devops]
 tags: [aws, ec2, devops, cloud, infrastructure]
 description: "AWS EC2 인스턴스 생성부터 기본 설정, Elastic IP, 보안 그룹 구성까지 AWS 인프라 설정의 기본을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-aws-ec2-setup-guide.png
 ---
 
 # AWS EC2 인스턴스 설정 및 기본 구성 가이드

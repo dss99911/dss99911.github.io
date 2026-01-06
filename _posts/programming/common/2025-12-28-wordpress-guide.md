@@ -5,6 +5,7 @@ date: 2025-12-28 15:45:00 +0900
 categories: [programming, common]
 tags: [wordpress, cms, web, php]
 description: "WordPress 이미지, 언어, 플러그인, 웹서버 설정 방법을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-wordpress-guide.png
 ---
 
 WordPress는 전 세계에서 가장 널리 사용되는 콘텐츠 관리 시스템(CMS)입니다. 이 글에서는 WordPress를 효과적으로 설정하고 최적화하는 방법을 다룹니다.

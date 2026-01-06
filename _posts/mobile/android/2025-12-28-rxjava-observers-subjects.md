@@ -4,6 +4,7 @@ title: "RxJava Observers and Subjects - Understanding Data Flow"
 date: 2025-12-28
 categories: [mobile, android]
 tags: [rxjava, android, observer, subject, reactive-programming]
+image: /assets/images/posts/thumbnails/2025-12-28-rxjava-observers-subjects.png
 ---
 
 RxJava의 Observer, Subject, Disposable, Subscriber에 대해 알아봅니다.

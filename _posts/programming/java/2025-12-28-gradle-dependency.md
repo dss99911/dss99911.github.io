@@ -5,6 +5,7 @@ date: 2025-12-28 14:20:00 +0900
 categories: [programming, java]
 tags: [java, gradle, build-tool, dependency]
 description: "Gradle 의존성 관리, 버전 충돌 해결, transitive dependency, 캐시 관리에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-gradle-dependency.png
 ---
 
 # Gradle Dependency

@@ -5,6 +5,7 @@ date: 2025-12-28 12:03:00 +0900
 categories: [backend, spring]
 tags: [spring, spring-boot, properties, configuration, yaml, profile, gradle, maven]
 description: "Spring Boot의 application.properties와 application.yml 설정 방법을 상세히 알아봅니다. 서버, 데이터베이스, 로깅 설정부터 @Value 주입까지 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-spring-properties.png
 ---
 
 Spring Boot 애플리케이션의 설정은 주로 `application.properties` 또는 `application.yml` 파일을 통해 관리됩니다. 이 글에서는 다양한 설정 옵션과 활용 방법을 정리합니다.

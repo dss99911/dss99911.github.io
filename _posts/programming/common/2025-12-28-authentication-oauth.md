@@ -4,6 +4,7 @@ title: "Authentication Methods - OAuth, Basic Auth, and JWT"
 date: 2025-12-28 01:04:00 +0900
 categories: [programming, common]
 tags: [network, authentication, oauth, jwt]
+image: /assets/images/posts/thumbnails/2025-12-28-authentication-oauth.png
 ---
 
 # Authentication Methods

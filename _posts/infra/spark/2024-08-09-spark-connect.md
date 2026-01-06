@@ -5,6 +5,7 @@ date: 2024-08-09
 categories: [infra, spark]
 description: "Step-by-step guide to setting up Spark Connect on AWS EMR and connecting from your local development environment. Includes version compatibility, troubleshooting, and limitations."
 tags: [Spark, Spark Connect, EMR, AWS, PySpark, Remote Development]
+image: /assets/images/posts/thumbnails/2024-08-09-spark-connect.png
 ---
 
 Spark Connect allows you to run Spark jobs remotely, enabling local development against an EMR cluster. This guide covers setup, configuration, and common issues.

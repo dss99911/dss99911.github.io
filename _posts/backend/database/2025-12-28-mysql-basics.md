@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [backend, database]
 tags: [mysql, sql, database, ddl, table]
 description: "MySQL 접속 방법, DDL(Data Definition Language), 테이블 및 데이터베이스 관리의 기본 명령어를 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-mysql-basics.png
 ---
 
 # MySQL 접속 및 기본 명령어

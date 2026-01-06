@@ -5,6 +5,7 @@ date: 2025-12-28 12:10:00 +0900
 categories: [infra, devops]
 tags: [bash, ssh, networking, linux, security]
 description: "SSH 키 기반 인증, 네트워크 관리, 포트 확인, iptables 방화벽 설정 방법을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-bash-networking-ssh.png
 ---
 
 # Bash 네트워킹 및 SSH 완벽 가이드

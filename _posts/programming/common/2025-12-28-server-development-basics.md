@@ -5,6 +5,7 @@ date: 2025-12-28 15:20:00 +0900
 categories: [programming, common]
 tags: [server, web-server, api, load-balancing, architecture, cron, devops]
 description: "웹 서버 구조, API 설계, 로드 밸런싱, 크론 작업 등 서버 개발에 필요한 핵심 개념들을 상세히 정리했습니다."
+image: /assets/images/posts/thumbnails/2025-12-28-server-development-basics.png
 ---
 
 서버 개발을 위해 알아야 할 기초 개념들을 체계적으로 정리했습니다. 웹 서버 아키텍처부터 API 설계, 고가용성 구성까지 다룹니다.

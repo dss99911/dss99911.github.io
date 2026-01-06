@@ -5,6 +5,7 @@ date: 2025-12-28 12:09:00 +0900
 categories: language
 tags: [ruby, programming, basics, scripting]
 description: "Ruby 언어의 기초 문법, 클래스, 블록, 예외 처리 등을 상세히 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-ruby-basics.png
 ---
 
 ## Ruby 기본 정보

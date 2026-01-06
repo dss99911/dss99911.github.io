@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [backend, spring]
 tags: [spring, spring-security, authentication, authorization, security]
 description: "Spring Security의 기본 설정 방법과 인증 메커니즘을 알아봅니다. 의존성 추가만으로 시작하는 간단한 보안 설정부터 커스터마이징까지 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-spring-security.png
 ---
 
 Spring Security는 Spring 기반 애플리케이션의 인증(Authentication)과 인가(Authorization)를 담당하는 강력한 보안 프레임워크입니다. 이 글에서는 기본 설정부터 시작하는 방법을 알아봅니다.

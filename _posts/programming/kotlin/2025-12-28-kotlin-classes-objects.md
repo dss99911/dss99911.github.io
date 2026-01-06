@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [programming, kotlin]
 tags: [kotlin, class, data-class, sealed-class, object, singleton]
 description: "Kotlin의 클래스, 데이터 클래스, Sealed 클래스, Object 선언과 Companion Object에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-kotlin-classes-objects.png
 ---
 
 Kotlin은 객체 지향 프로그래밍을 위한 풍부한 기능을 제공합니다. 이 포스트에서는 다양한 클래스 유형과 객체에 대해 알아보겠습니다.

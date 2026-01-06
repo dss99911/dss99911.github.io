@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [language, indonesian]
 tags: [indonesian, grammar, pronunciation, alphabet, passive-voice, negation, comparatives]
 description: "알파벳, 발음, 어순, 수동태, 부정, 비교급, 조동사, 일반 표현 등 인도네시아어 필수 문법 가이드."
+image: /assets/images/posts/thumbnails/2025-12-28-indonesian-grammar-essentials.png
 ---
 
 이 가이드는 인도네시아어를 배울 때 알아야 할 필수 문법 개념을 다룹니다. 기본 발음부터 문장 구조까지, 이 종합 개요가 언어의 탄탄한 기초를 쌓는 데 도움이 될 것입니다.

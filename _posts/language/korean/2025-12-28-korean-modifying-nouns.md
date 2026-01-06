@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [language, korean]
 tags: [korean, grammar, verbs, adjectives, modifiers, noun-modification]
 description: "Learn how to convert Korean verbs and adjectives to modify nouns, including continuous, complete, and future tense forms."
+image: /assets/images/posts/thumbnails/2025-12-28-korean-modifying-nouns.png
 ---
 
 In Korean, verbs and adjectives can modify nouns, similar to how English uses phrases like "the running man" or "the beautiful flower." This guide explains how to convert verbs and adjectives to modify nouns in different tenses.

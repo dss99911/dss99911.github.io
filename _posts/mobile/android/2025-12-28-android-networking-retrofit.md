@@ -5,6 +5,7 @@ date: 2025-12-28 12:08:00 +0900
 categories: [mobile, android]
 tags: [android, retrofit, okhttp, networking, api]
 description: "Android에서 네트워크 통신을 처리하는 방법을 알아봅니다. Retrofit, OkHttp 설정, 인터셉터 등을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-networking-retrofit.png
 ---
 
 # Android 네트워킹과 Retrofit 가이드

@@ -5,6 +5,7 @@ date: 2025-12-28 12:08:00 +0900
 categories: [programming, java]
 tags: [java, junit, testing, unit-test]
 description: "JUnit을 사용한 Java 단위 테스트 작성 방법과 생명주기 어노테이션을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-testing-junit.png
 ---
 
 # Java 테스트 작성하기 - JUnit 기초

@@ -5,6 +5,7 @@ date: 2025-12-28 12:06:00 +0900
 categories: [language, korean]
 tags: [korean, vocabulary, compound-verbs, sino-korean, words]
 description: "Build your Korean vocabulary with compound verbs, Sino-Korean (Chinese-origin) words, and essential basic vocabulary organized by vowel type."
+image: /assets/images/posts/thumbnails/2025-12-28-korean-vocabulary.png
 ---
 
 Building vocabulary is essential for Korean fluency. This guide covers compound verbs, Sino-Korean words, and organizes basic vocabulary in a way that helps with verb conjugation.

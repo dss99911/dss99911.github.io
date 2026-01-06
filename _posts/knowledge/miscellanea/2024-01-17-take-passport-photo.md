@@ -4,6 +4,7 @@ title: 사진관에 가지 않고 여권사진 찍고 인화하기
 date: 2023-12-25 01:57:37 +0900
 categories: [knowledge, miscellanea]
 tags: [passport, photo, diy, tips, photography]
+image: /assets/images/posts/thumbnails/2024-01-17-take-passport-photo.png
 ---
 
 # 절차

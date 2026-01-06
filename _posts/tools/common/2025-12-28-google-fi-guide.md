@@ -4,6 +4,7 @@ title: "Google Fi - 해외 여행자를 위한 MVNO 통신사"
 date: 2025-12-28
 categories: [tools, common]
 tags: [google, google-fi, mobile, travel, roaming]
+image: /assets/images/posts/thumbnails/2025-12-28-google-fi-guide.png
 ---
 
 Google Fi는 미국인 대상 서비스이지만, 해외여행이 잦은 경우 활용 가치가 있는 MVNO 통신사입니다.

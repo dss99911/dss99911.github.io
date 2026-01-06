@@ -5,6 +5,7 @@ date: 2024-12-01 01:05:37 +0900
 categories: [mobile, android]
 description: "Open source Android app that automatically skips YouTube ads using Accessibility Service. Learn how it works and how to build and use it."
 tags: [Android, YouTube, Accessibility Service, Automation, Open Source]
+image: /assets/images/posts/thumbnails/2024-12-01-youtube-auto-skip.png
 ---
 
 An Android app that automatically skips YouTube ads by detecting and pressing the "Skip" button using Accessibility Service.

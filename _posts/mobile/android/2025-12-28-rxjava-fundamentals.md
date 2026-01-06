@@ -4,6 +4,7 @@ title: "RxJava Fundamentals - Reactive Programming on Android"
 date: 2025-12-28
 categories: [mobile, android]
 tags: [rxjava, android, reactive-programming, kotlin, java]
+image: /assets/images/posts/thumbnails/2025-12-28-rxjava-fundamentals.png
 ---
 
 RxJava의 기본 개념과 안드로이드에서의 활용법을 알아봅니다.

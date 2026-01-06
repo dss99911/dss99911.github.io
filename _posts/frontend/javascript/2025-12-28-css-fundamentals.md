@@ -5,6 +5,7 @@ date: 2025-12-28 12:11:00 +0900
 categories: [frontend, javascript]
 tags: [css, styling, selectors, web-design]
 description: "Complete CSS guide covering selectors, properties, pseudo-classes, pseudo-elements, and common styling patterns"
+image: /assets/images/posts/thumbnails/2025-12-28-css-fundamentals.png
 ---
 
 CSS (Cascading Style Sheets) is the language used to style HTML documents. This guide covers essential CSS concepts and techniques.

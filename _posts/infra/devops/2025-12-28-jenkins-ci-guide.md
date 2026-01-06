@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [infra, devops]
 tags: [jenkins, ci, cd, devops, automation, git]
 description: "Jenkins 설치, 설정, Git 연동, Webhook 설정, 빌드 및 배포까지 CI/CD 파이프라인 구축 방법을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-jenkins-ci-guide.png
 ---
 
 # Jenkins CI/CD 완벽 가이드

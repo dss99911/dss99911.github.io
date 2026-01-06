@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [programming, java]
 tags: [java, json, gson, jackson, serialization]
 description: "Java에서 JSON을 처리하는 두 가지 인기 라이브러리인 Gson과 Jackson의 사용법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-json-gson-jackson.png
 ---
 
 # Java JSON 처리 - Gson과 Jackson

@@ -5,6 +5,7 @@ date: 2025-12-28 12:10:00 +0900
 categories: language
 tags: [golang, go, programming, google]
 description: "Go 언어의 장점, 코딩 규칙, 프레임워크, 개발 환경 설정을 소개합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-golang-guide.png
 ---
 
 ## Go 언어 소개

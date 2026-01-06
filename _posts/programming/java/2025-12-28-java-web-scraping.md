@@ -5,6 +5,7 @@ date: 2025-12-28 12:10:00 +0900
 categories: [programming, java]
 tags: [java, web-scraping, jsoup, selenium, crawling]
 description: "Java에서 웹 스크래핑을 위한 라이브러리들을 비교합니다. Jsoup, Selenium, HtmlUnit의 특징과 선택 기준을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-web-scraping.png
 ---
 
 # Java 웹 스크래핑 라이브러리 비교

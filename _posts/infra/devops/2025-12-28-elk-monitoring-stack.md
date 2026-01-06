@@ -5,6 +5,7 @@ date: 2025-12-28 12:15:00 +0900
 categories: [infra, devops]
 tags: [elk, elasticsearch, logstash, kibana, grafana, influxdb, monitoring, devops]
 description: "ELK Stack(Elasticsearch, Logstash, Kibana)과 InfluxDB/Grafana를 활용한 모니터링 시스템 구축 방법을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-elk-monitoring-stack.png
 ---
 
 # ELK Stack & 모니터링 시스템 구축

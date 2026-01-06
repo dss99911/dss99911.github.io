@@ -5,6 +5,7 @@ date: 2023-12-04 04:05:37 +0900
 categories: [tools, jekyll]
 description: "Learn how to find Jekyll theme files, customize themes, and change themes in your Jekyll site. Complete guide for Minima and other popular themes."
 tags: [Jekyll, Theme, Minima, Customization, Web Design]
+image: /assets/images/posts/thumbnails/2023-12-04-jekyll-theme.png
 ---
 
 Jekyll themes control the look and feel of your website. This guide explains how to locate theme files and customize your Jekyll site's appearance.

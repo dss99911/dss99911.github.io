@@ -5,6 +5,7 @@ date: 2025-12-28 12:10:00 +0900
 categories: [frontend, javascript]
 tags: [bootstrap, css, responsive, frontend]
 description: "Comprehensive Bootstrap guide covering layout, components, utilities, and responsive design patterns"
+image: /assets/images/posts/thumbnails/2025-12-28-bootstrap-complete-guide.png
 ---
 
 Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.

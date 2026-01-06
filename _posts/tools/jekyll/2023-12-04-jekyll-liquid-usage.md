@@ -7,6 +7,7 @@ description: "Master Jekyll Liquid templating with this comprehensive guide. Lea
 tags: [Jekyll, Liquid, Template, Syntax, Tutorial]
 functions_page: _posts/tools/jekyll/2023-12-05-jekyll-seo.md
 has_variable: "true"
+image: /assets/images/posts/thumbnails/2023-12-04-jekyll-liquid.png
 ---
 
 Liquid is the templating language used by Jekyll. This guide covers the essential Liquid syntax for building dynamic Jekyll sites.

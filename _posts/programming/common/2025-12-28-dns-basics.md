@@ -4,6 +4,7 @@ title: "DNS - Domain Name System Basics"
 date: 2025-12-28 01:01:00 +0900
 categories: [programming, common]
 tags: [network, dns]
+image: /assets/images/posts/thumbnails/2025-12-28-dns-basics.png
 ---
 
 # DNS (Domain Name System)

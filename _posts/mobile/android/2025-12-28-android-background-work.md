@@ -5,6 +5,7 @@ date: 2025-12-28 12:06:00 +0900
 categories: [mobile, android]
 tags: [android, service, jobscheduler, workmanager, alarm]
 description: "Android에서 백그라운드 작업을 처리하는 방법을 알아봅니다. Service, JobScheduler, WorkManager, AlarmManager 등을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-background-work.png
 ---
 
 # Android 백그라운드 작업 가이드

@@ -5,6 +5,7 @@ date: 2023-12-05 01:57:37 +0900
 categories: [tools, jekyll]
 description: "Optimize your Jekyll site for SEO with our complete guide. Learn about SEO plugins, robots.txt, site verification, meta tags, and content optimization."
 tags: [Jekyll, SEO, Google, Meta Tags, Sitemap, Search Console]
+image: /assets/images/posts/thumbnails/2023-12-05-jekyll-seo.png
 ---
 
 Search Engine Optimization (SEO) is crucial for increasing visibility and improving the ranking of your website on search engine results pages. This guide will walk you through some strategies to optimize your Jekyll website for SEO.

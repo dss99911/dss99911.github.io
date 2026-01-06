@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [programming, kotlin]
 tags: [kotlin, variables, types, string, basics]
 description: "Kotlin의 기본 문법을 알아봅니다. 변수 선언, 기본 타입, 숫자, 문자, 문자열 처리 방법을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-kotlin-basics.png
 ---
 
 Kotlin은 간결하고 안전한 프로그래밍 언어입니다. 이 포스트에서는 Kotlin의 가장 기본적인 문법들을 살펴보겠습니다.

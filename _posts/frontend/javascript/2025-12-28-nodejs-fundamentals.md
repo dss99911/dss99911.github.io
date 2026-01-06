@@ -5,6 +5,7 @@ date: 2025-12-28 12:08:00 +0900
 categories: [frontend, javascript]
 tags: [nodejs, javascript, server, backend]
 description: "Complete guide to Node.js fundamentals including modules, HTTP server, file system, and NPM package management"
+image: /assets/images/posts/thumbnails/2025-12-28-nodejs-fundamentals.png
 ---
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, enabling JavaScript to run on the server side.

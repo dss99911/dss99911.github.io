@@ -4,6 +4,7 @@ title: "Node.js HTTP 서버와 URL 모듈"
 date: 2025-12-28
 categories: [frontend, nodejs]
 tags: [nodejs, http, url, server]
+image: /assets/images/posts/thumbnails/2025-12-28-nodejs-http-url.png
 ---
 
 Node.js의 HTTP 서버 생성과 URL 파싱에 대해 알아봅니다.

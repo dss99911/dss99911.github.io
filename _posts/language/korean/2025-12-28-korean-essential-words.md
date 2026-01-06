@@ -5,6 +5,7 @@ date: 2025-12-28 12:03:00 +0900
 categories: [language, korean]
 tags: [korean, vocabulary, grammar, expressions, 있다, 것]
 description: "Master essential Korean words including 있다 (exist/be), 것 (thing), and commonly used expressions like ~하고 싶다 and ~게 하다."
+image: /assets/images/posts/thumbnails/2025-12-28-korean-essential-words.png
 ---
 
 Some Korean words appear so frequently that mastering them will significantly boost your comprehension. This guide covers the most essential words and expressions you'll encounter daily.

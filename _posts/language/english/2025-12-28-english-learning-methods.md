@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [language, english]
 tags: [english, learning, study-methods, listening, speaking, effortless-english]
 description: "Effortless English 방법, 대화 암송 기법, 한국인 학습자를 위한 유용한 자료 등 실용적인 영어 학습 방법을 소개합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-english-learning-methods.png
 ---
 
 ## 핵심 학습 전략

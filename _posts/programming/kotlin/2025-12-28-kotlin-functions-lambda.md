@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [programming, kotlin]
 tags: [kotlin, function, lambda, higher-order-function, inline]
 description: "Kotlin의 함수 선언, 람다 표현식, 고차 함수, 인라인 함수에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-kotlin-functions-lambda.png
 ---
 
 Kotlin은 함수형 프로그래밍을 강력하게 지원합니다. 이 포스트에서는 함수와 람다의 다양한 사용법을 알아보겠습니다.

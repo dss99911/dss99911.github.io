@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [language, hindi]
 tags: [hindi, conversation, phrases, restaurant, taxi, daily]
 description: "힌디어 일상 회화 표현: 식당, 택시, 일상 상황에서 쓰는 실용 문장"
+image: /assets/images/posts/thumbnails/2025-12-28-hindi-daily-conversations.png
 ---
 
 # Hindi Daily Conversations (힌디어 일상 회화)

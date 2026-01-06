@@ -4,6 +4,7 @@ title: "Flutter Development Basics - Getting Started"
 date: 2025-12-28
 categories: [mobile, common]
 tags: [flutter, dart, mobile-development, cross-platform]
+image: /assets/images/posts/thumbnails/2025-12-28-flutter-development-basics.png
 ---
 
 Flutter 크로스 플랫폼 개발을 시작하기 위한 기본 가이드입니다.

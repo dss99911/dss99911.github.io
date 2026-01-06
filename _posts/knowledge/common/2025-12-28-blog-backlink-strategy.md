@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [knowledge, common]
 description: "블로그 검색 순위를 높이기 위한 백링크 확보 전략. 콘텐츠 기반 전략부터 자동화 방법까지 실용적인 가이드."
 tags: [SEO, 백링크, 블로그, 마케팅, 검색엔진최적화]
+image: /assets/images/posts/thumbnails/2025-12-28-blog-backlink-strategy.png
 ---
 
 블로그가 검색에서 상위에 노출되려면 다른 사이트에서 내 블로그를 인용(백링크)해야 합니다. 백링크를 효과적으로 늘리는 방법을 정리했습니다.

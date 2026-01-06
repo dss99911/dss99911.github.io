@@ -5,6 +5,7 @@ date: 2025-12-28 14:00:00 +0900
 categories: [programming, java]
 tags: [java, gradle, build-tool]
 description: "Gradle의 기본 개념, 생명주기(Life Cycle), 용어, 프로젝트 구조를 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-gradle-basics.png
 ---
 
 # Gradle 기초

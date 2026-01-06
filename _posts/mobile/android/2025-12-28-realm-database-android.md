@@ -4,6 +4,7 @@ title: "Realm Database for Android - Setup and Usage Guide"
 date: 2025-12-28
 categories: [mobile, android]
 tags: [realm, android, database, kotlin, mobile-database]
+image: /assets/images/posts/thumbnails/2025-12-28-realm-database-android.png
 ---
 
 Android에서 Realm 데이터베이스를 설정하고 사용하는 방법을 알아봅니다.

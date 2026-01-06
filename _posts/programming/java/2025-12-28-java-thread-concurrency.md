@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [programming, java]
 tags: [java, thread, concurrency, synchronized, volatile]
 description: "Java에서 멀티스레드 프로그래밍을 위한 ThreadPoolExecutor, synchronized, volatile, atomic의 개념과 사용법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-thread-concurrency.png
 ---
 
 # Java 멀티스레드 프로그래밍

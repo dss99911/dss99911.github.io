@@ -4,6 +4,7 @@ title: "Agile Methodology - Development Approaches"
 date: 2025-12-28 02:01:00 +0900
 categories: [programming, common]
 tags: [development-methodology, agile]
+image: /assets/images/posts/thumbnails/2025-12-28-agile-methodology.png
 ---
 
 # Agile Methodology

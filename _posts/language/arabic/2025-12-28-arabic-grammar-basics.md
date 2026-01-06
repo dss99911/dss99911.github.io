@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [language, arabic]
 tags: [arabic, grammar, cases, gender, learning]
 description: "아랍어 필수 문법 개념 정리. 문법적 격(주격, 목적격, 소유격), 성별 형태, 한정/비한정 관사에 대해 배웁니다."
+image: /assets/images/posts/thumbnails/2025-12-28-arabic-grammar-basics.png
 ---
 
 # 아랍어 문법 기초

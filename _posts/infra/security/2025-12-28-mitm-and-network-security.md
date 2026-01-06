@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [infra, security]
 tags: [security, mitm, ssl, https, ssl-pinning, hsts, network-security, burpsuite, wireshark]
 description: "MITM(Man-in-the-Middle) 공격의 원리와 방어 방법, SSL Pinning, HSTS, 그리고 네트워크 트래픽 분석 도구인 Burpsuite와 Wireshark 사용법을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-mitm-and-network-security.png
 ---
 
 # MITM 공격과 네트워크 보안

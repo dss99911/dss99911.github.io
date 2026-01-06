@@ -5,6 +5,7 @@ date: 2025-12-28 12:10:00 +0900
 categories: [mobile, android]
 tags: [android, theme, style, material-design, ui]
 description: "Android 앱의 스타일과 테마 적용 방법을 알아봅니다. Material Design, 커스텀 스타일, Shape, Ripple 효과 등을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-ui-styling-theming.png
 ---
 
 # Android UI 스타일링과 테마 가이드

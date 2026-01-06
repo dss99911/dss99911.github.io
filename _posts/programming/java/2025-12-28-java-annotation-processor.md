@@ -5,6 +5,7 @@ date: 2025-12-28 12:07:00 +0900
 categories: [programming, java]
 tags: [java, annotation, lombok, code-generation]
 description: "Java Annotation Processor의 동작 원리와 Lombok이 사용하는 코드 생성 기법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-annotation-processor.png
 ---
 
 # Java Annotation Processor와 코드 생성 기법

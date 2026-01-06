@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [mobile, android]
 tags: [android, databinding, mvvm, kotlin, xml]
 description: "Android Data Binding의 기본 사용법부터 고급 기능까지 상세히 알아봅니다. BindingAdapter, Observable, ViewStub 등 다양한 활용법을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-data-binding-complete-guide.png
 ---
 
 # Android Data Binding 완벽 가이드

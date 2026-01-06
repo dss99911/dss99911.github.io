@@ -5,6 +5,7 @@ date: 2025-12-28 12:06:00 +0900
 categories: [backend, spring]
 tags: [spring, jsp, jstl, form, validation]
 description: "Spring Boot에서 JSP를 사용하는 방법을 알아봅니다. 기본 설정, JSTL 사용법, Form 처리, 서버 사이드 유효성 검증까지 상세히 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-spring-jsp.png
 ---
 
 Spring Boot는 기본적으로 Thymeleaf를 권장하지만, 레거시 프로젝트나 특정 요구사항에 따라 JSP를 사용해야 할 때도 있습니다. 이 글에서는 Spring Boot에서 JSP를 설정하고 활용하는 방법을 알아봅니다.

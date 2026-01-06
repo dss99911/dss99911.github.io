@@ -5,6 +5,7 @@ date: 2024-01-13 10:00:00 +0900
 categories: [knowledge, common]
 description: "아두이노, 라즈베리파이를 활용한 로봇 제작과 뇌파 센서 기술에 대해 알아봅니다."
 tags: [기술, 로봇, 아두이노, 라즈베리파이, 뇌파, BCI]
+image: /assets/images/posts/thumbnails/2024-01-13-robotics-and-brain-wave.png
 ---
 
 로봇 제작과 뇌파 기술의 기초를 알아봅니다.

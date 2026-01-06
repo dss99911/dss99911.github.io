@@ -5,6 +5,7 @@ date: 2025-12-28 12:03:00 +0900
 categories: [mobile, android]
 tags: [android, ui, widget, recyclerview, constraintlayout, coordinatorlayout]
 description: "Android의 다양한 UI 위젯들의 사용법을 알아봅니다. RecyclerView, ConstraintLayout, CoordinatorLayout, AppBar 등을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-ui-widgets-guide.png
 ---
 
 # Android UI 위젯 완벽 가이드

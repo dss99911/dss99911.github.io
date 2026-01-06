@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [backend, spring]
 tags: [spring, spring-mvc, controller, session, web, bootstrap]
 description: "Spring MVC의 요청 처리 흐름부터 Controller 작성법, Session 관리, Bootstrap 연동까지 웹 개발에 필요한 핵심 내용을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-spring-web-mvc.png
 ---
 
 Spring MVC는 웹 애플리케이션 개발을 위한 강력한 프레임워크입니다. 이 글에서는 MVC 패턴의 요청 처리 흐름부터 Controller 작성, Session 관리, 그리고 Bootstrap 연동까지 살펴보겠습니다.

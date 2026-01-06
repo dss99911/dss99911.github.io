@@ -4,6 +4,7 @@ title: "Retrofit HTTP Client Guide for Android"
 date: 2025-12-28
 categories: [mobile, android]
 tags: [retrofit, android, http, networking, kotlin]
+image: /assets/images/posts/thumbnails/2025-12-28-retrofit-http-client-guide.png
 ---
 
 Android에서 Retrofit을 사용한 HTTP 통신 방법을 알아봅니다.

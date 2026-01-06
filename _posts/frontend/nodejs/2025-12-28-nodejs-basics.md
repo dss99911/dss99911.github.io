@@ -4,6 +4,7 @@ title: "Node.js 기초 - 실행, 인자, 로그, 이벤트, 종료"
 date: 2025-12-28
 categories: [frontend, nodejs]
 tags: [nodejs, javascript, basics]
+image: /assets/images/posts/thumbnails/2025-12-28-nodejs-basics.png
 ---
 
 Node.js의 기본적인 사용법에 대해 알아봅니다.

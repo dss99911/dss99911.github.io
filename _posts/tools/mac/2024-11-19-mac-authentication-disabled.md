@@ -4,6 +4,7 @@ title: How to fix the "Authentication is disabled" error?
 date: 2024-11-19 01:57:37 +0900
 categories: [tools, mac]
 tags: [mac, macos, authentication, securetoken, troubleshooting]
+image: /assets/images/posts/thumbnails/2024-11-19-mac-authentication-disabled.png
 ---
 
 ## Solution

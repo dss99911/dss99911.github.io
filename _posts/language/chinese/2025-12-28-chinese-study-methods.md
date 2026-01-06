@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [language, chinese]
 tags: [chinese, mandarin, korean, learning, hangul, history]
 description: "한글의 역사적 발전 과정을 통해 한국인이 중국어를 더 쉽게 배울 수 있는 이유와 효과적인 학습 방법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-chinese-study-methods.png
 ---
 
 # 한국어 화자를 위한 중국어 학습법

@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [frontend, common]
 tags: [css, styling, frontend, web]
 description: "CSS complete guide including selectors, properties, pseudo-classes, and styling techniques"
+image: /assets/images/posts/thumbnails/2025-12-28-css-complete-guide.png
 ---
 
 ## Basic Syntax

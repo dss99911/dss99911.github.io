@@ -4,6 +4,7 @@ title: "Simple Android Architecture : MVVM concept and reduce boilerplate code o
 date: 2023-12-25 01:05:37 +0900
 categories: [mobile, android]
 tags: [android, mvvm, kotlin, architecture, boilerplate]
+image: /assets/images/posts/thumbnails/2023-12-25-reduce-boiler-plate-code.png
 ---
 This is one of [series of Simple Android Architecture](https://github.com/dss99911/kotlin-simple-architecture/tree/android-architecture). and you can check sample code there.
 

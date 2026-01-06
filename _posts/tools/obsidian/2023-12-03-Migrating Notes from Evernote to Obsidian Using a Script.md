@@ -5,6 +5,7 @@ date:   2023-12-03 21:05:37 +0900
 categories: [tools, obsidian]
 tags: [obsidian, evernote, migration, markdown, backup]
 description: Easily migrate notes from Evernote to Obsidian using a script. Learn to backup notes to ENEX and convert to Markdown. Simplify your note-taking journey today!
+image: /assets/images/posts/thumbnails/2023-12-03-evernote-to-obsidian.png
 ---
 
 In this blog post, we will walk through the process of migrating all your notes from Evernote to Obsidian using a script. This process involves two main steps: backing up all notes to an ENEX file and then converting these files to Markdown for use in Obsidian.

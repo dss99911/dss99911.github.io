@@ -4,6 +4,7 @@ title: "[Chrome Extension] How to import same javascript file on different proje
 date: 2023-12-25 01:05:37 +0900
 categories: [frontend, common]
 tags: [chrome-extension, javascript, hard-link, mac, development]
+image: /assets/images/posts/thumbnails/2023-12-25-chrome-extension-javascript-files-on-different-projects.png
 ---
 
 This explains only on Mac environment.

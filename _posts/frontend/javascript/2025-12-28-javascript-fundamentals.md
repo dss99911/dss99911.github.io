@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [frontend, javascript]
 tags: [javascript, fundamentals, types, variables, operators]
 description: "JavaScript fundamentals including data types, variables, operators, boolean logic, constants, and type checking"
+image: /assets/images/posts/thumbnails/2025-12-28-javascript-fundamentals.png
 ---
 
 JavaScript is a versatile programming language that powers the modern web. This post covers the fundamental concepts every JavaScript developer should know.

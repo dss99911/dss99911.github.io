@@ -5,6 +5,7 @@ date: 2025-12-28 12:09:00 +0900
 categories: [infra, devops]
 tags: [bash, shell, linux, file-system, commands]
 description: "Bash에서 파일과 디렉토리를 다루는 방법 - 생성, 복사, 이동, 삭제, 권한 설정을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-bash-file-operations.png
 ---
 
 # Bash 파일 및 디렉토리 작업

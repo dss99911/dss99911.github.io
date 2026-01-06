@@ -4,6 +4,7 @@ title: "SSL/TLS Security and Certificate Management"
 date: 2025-12-28 01:03:00 +0900
 categories: [programming, common]
 tags: [network, security, ssl, tls]
+image: /assets/images/posts/thumbnails/2025-12-28-ssl-tls-security.png
 ---
 
 # SSL/TLS Overview

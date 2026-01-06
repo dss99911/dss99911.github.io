@@ -5,6 +5,7 @@ date: 2025-12-28 12:12:00 +0900
 categories: [mobile, android]
 tags: [android, permission, runtime-permission, security]
 description: "Android 권한 시스템을 이해하고 올바르게 구현하는 방법을 알아봅니다. 런타임 권한, 권한 그룹, 베스트 프랙티스를 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-permissions-guide.png
 ---
 
 # Android 권한 (Permission) 완벽 가이드

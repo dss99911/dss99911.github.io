@@ -5,6 +5,7 @@ date: 2025-12-28 12:40:00 +0900
 categories: [tools, mac]
 tags: [mac, terminal, bash, shell, command-line, macos]
 description: "Mac 터미널에서 자주 사용하는 필수 명령어들을 정리합니다. 네비게이션, 파일 검색, 환경변수 등을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-mac-terminal-commands.png
 ---
 
 macOS 터미널을 효과적으로 활용하기 위한 필수 명령어들을 정리합니다.

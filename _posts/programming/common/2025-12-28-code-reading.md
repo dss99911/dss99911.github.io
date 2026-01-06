@@ -4,6 +4,7 @@ title: "Improving Coding Skills Through Code Reading"
 date: 2025-12-28 02:05:00 +0900
 categories: [programming, common]
 tags: [development-methodology, learning]
+image: /assets/images/posts/thumbnails/2025-12-28-code-reading.png
 ---
 
 # Code Reading

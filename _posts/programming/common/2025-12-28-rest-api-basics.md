@@ -4,6 +4,7 @@ title: "REST API Basics - Headers and Body"
 date: 2025-12-28 03:05:00 +0900
 categories: [programming, common]
 tags: [rest-api, api]
+image: /assets/images/posts/thumbnails/2025-12-28-rest-api-basics.png
 ---
 
 # REST API Basics

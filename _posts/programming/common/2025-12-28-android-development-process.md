@@ -4,6 +4,7 @@ title: "Android Development Process and Tips"
 date: 2025-12-28 02:04:00 +0900
 categories: [programming, common]
 tags: [development-methodology, android]
+image: /assets/images/posts/thumbnails/2025-12-28-android-development-process.png
 ---
 
 # Android Development Process

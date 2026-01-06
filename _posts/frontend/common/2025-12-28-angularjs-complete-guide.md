@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [frontend, common]
 tags: [angularjs, javascript, frontend, spa]
 description: "AngularJS framework complete guide including directives, services, filters, routing, forms and more"
+image: /assets/images/posts/thumbnails/2025-12-28-angularjs-complete-guide.png
 ---
 {% raw %}
 ## Basic Concepts

@@ -4,6 +4,7 @@ title: "Golang 시작하기 - 개요, 프레임워크, 학습 자료"
 date: 2025-12-28
 categories: [programming, golang]
 tags: [golang, go, framework, learning]
+image: /assets/images/posts/thumbnails/2025-12-28-golang-getting-started.png
 ---
 
 Go 언어의 개요와 시작에 필요한 정보를 알아봅니다.

@@ -4,6 +4,7 @@ title: "Google Guava 라이브러리 완벽 가이드"
 date: 2025-12-28 12:10:00 +0900
 categories: [tools, common]
 tags: [guava, java, google, collections, utilities]
+image: /assets/images/posts/thumbnails/2025-12-28-guava-library.png
 description: "Google Guava 라이브러리의 주요 기능들 - Collections, Cache, String 처리, Range 등을 예제와 함께 설명합니다."
 ---
 

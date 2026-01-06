@@ -5,6 +5,7 @@ date: 2024-01-10 10:00:00 +0900
 categories: [knowledge, common]
 description: "기억력을 향상시키는 다양한 기법들을 알아봅니다. 기억의 궁전, 영상화 기법, 그리고 실전 활용법까지."
 tags: [학습, 기억법, 자기계발, 기억의궁전, 학습법]
+image: /assets/images/posts/thumbnails/2024-01-10-memory-techniques.png
 ---
 
 효과적인 기억을 위한 핵심 능력과 기법들을 알아봅니다.

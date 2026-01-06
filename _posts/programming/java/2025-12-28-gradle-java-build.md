@@ -5,6 +5,7 @@ date: 2025-12-28 14:40:00 +0900
 categories: [programming, java]
 tags: [java, gradle, build-tool, jar, war, test]
 description: "Gradle로 Java 프로젝트를 빌드하고 테스트하는 방법, JAR/WAR 생성, Scala 프로젝트 빌드에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-gradle-java-build.png
 ---
 
 # Java Plugin

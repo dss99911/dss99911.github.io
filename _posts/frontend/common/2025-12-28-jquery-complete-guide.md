@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [frontend, common]
 tags: [jquery, javascript, frontend, dom]
 description: "jQuery complete guide including selectors, events, AJAX, animations, and DOM manipulation"
+image: /assets/images/posts/thumbnails/2025-12-28-jquery-complete-guide.png
 ---
 
 ## Setup

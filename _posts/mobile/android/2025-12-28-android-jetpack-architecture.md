@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [mobile, android]
 tags: [android, jetpack, livedata, viewmodel, room, lifecycle]
 description: "Android Jetpack Architecture Components인 ViewModel, LiveData, Room, Lifecycle 등의 사용법과 베스트 프랙티스를 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-jetpack-architecture.png
 ---
 
 # Android Jetpack Architecture Components 가이드

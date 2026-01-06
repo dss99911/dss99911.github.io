@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [infra, security]
 tags: [security, proguard, android, obfuscation, r8, code-shrinking]
 description: "Android 앱의 코드 난독화와 최적화를 위한 ProGuard 설정 방법, keep 규칙, 그리고 일반적인 에러 해결 방법을 상세히 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-proguard-guide.png
 ---
 
 # ProGuard 완벽 가이드

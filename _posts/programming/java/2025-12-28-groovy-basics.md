@@ -5,6 +5,7 @@ date: 2025-12-28 15:20:00 +0900
 categories: [programming, java]
 tags: [java, groovy, jvm]
 description: "Groovy의 기본 문법, 변수 선언, 문자열 처리, 연산자, 조건문과 반복문에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-groovy-basics.png
 ---
 
 # Groovy 기초

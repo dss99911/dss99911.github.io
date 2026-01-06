@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [language, english]
 tags: [english, expressions, grammar, patterns, korean-speakers]
 description: "A/B 구문, 접속사, 강조, 질문, 요청, 시간 표현 등 필수 영어 표현 패턴을 한국어 설명과 함께 정리한 종합 가이드입니다."
+image: /assets/images/posts/thumbnails/2025-12-28-english-expressions-patterns.png
 ---
 
 ## A/B 표현 패턴

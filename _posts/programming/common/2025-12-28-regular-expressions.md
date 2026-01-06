@@ -4,6 +4,7 @@ title: "Regular Expressions - Groups, Lookahead, and Patterns"
 date: 2025-12-28 03:02:00 +0900
 categories: [programming, common]
 tags: [regex, regular-expression]
+image: /assets/images/posts/thumbnails/2025-12-28-regular-expressions.png
 ---
 
 # Regular Expression Groups

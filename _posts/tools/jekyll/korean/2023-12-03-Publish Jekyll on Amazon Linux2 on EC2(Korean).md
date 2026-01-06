@@ -6,6 +6,7 @@ categories: jekyll korean
 tags: [jekyll, aws, ec2, amazon-linux, ruby, deployment]
 description: Amazon Linux2 on EC2에서 Jekyll을 이용해 Obsidian 노트를 개인 서버에 게시하는 방법을 알아보세요. 설정부터 업로드까지 단계별 안내를 제공합니다
 locale: ko-KR
+image: /assets/images/posts/thumbnails/2023-12-03-jekyll-ec2-korean.png
 ---
 이 가이드는 Amazon Linux2 EC2 인스턴스에서 Jekyll을 설정하고 글을 개인 서버에 게시하는 과정을 안내합니다.
 

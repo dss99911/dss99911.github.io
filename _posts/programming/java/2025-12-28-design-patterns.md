@@ -5,6 +5,7 @@ date: 2025-12-28 12:07:00 +0900
 categories: [programming, java]
 tags: [design-pattern, builder, factory, mvp, architecture, oop]
 description: "Builder 패턴, Factory 패턴, MVP 패턴 등 주요 디자인 패턴의 개념과 구현 방법을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-design-patterns.png
 ---
 
 ## Builder 패턴

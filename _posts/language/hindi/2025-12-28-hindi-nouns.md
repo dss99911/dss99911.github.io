@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [language, hindi]
 tags: [hindi, nouns, pronouns, grammar, gender, plural]
 description: "힌디어 명사 종합 가이드: 성별, 복수형, 대명사, 소유대명사, 사격"
+image: /assets/images/posts/thumbnails/2025-12-28-hindi-nouns.png
 ---
 
 # Hindi Nouns (힌디어 명사)

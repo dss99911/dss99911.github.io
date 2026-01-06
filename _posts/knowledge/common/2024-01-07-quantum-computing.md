@@ -5,6 +5,7 @@ date: 2024-01-07 10:00:00 +0900
 categories: [knowledge, common]
 description: "양자 컴퓨팅의 기본 개념과 주요 알고리즘, 그리고 양자 머신러닝까지. 미래 컴퓨팅 기술을 이해합니다."
 tags: [기술, 양자컴퓨팅, 퀀텀, AI, 암호화, 알고리즘]
+image: /assets/images/posts/thumbnails/2024-01-07-quantum-computing.png
 ---
 
 양자 컴퓨팅은 기존 컴퓨터와 완전히 다른 원리로 작동하는 차세대 컴퓨팅 기술입니다.

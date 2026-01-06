@@ -5,6 +5,7 @@ date: 2025-12-28 12:12:00 +0900
 categories: [infra, devops]
 tags: [bash, shell, linux, string, operators]
 description: "Bash에서 문자열을 다루는 방법 - 포맷팅, 치환, 비교 연산자, 리다이렉션을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-bash-string-operations.png
 ---
 
 # Bash 문자열 조작 및 연산자

@@ -5,6 +5,7 @@ date: 2025-12-28 12:06:00 +0900
 categories: [frontend, javascript]
 tags: [javascript, jquery, dom, ajax]
 description: "Comprehensive jQuery guide covering selectors, events, animations, DOM manipulation, AJAX, and best practices"
+image: /assets/images/posts/thumbnails/2025-12-28-jquery-complete-guide.png
 ---
 
 jQuery is a fast, small, and feature-rich JavaScript library that simplifies HTML document traversal, event handling, animation, and AJAX interactions.

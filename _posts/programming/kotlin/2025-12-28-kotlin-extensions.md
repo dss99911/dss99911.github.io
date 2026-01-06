@@ -5,6 +5,7 @@ date: 2025-12-28 12:07:00 +0900
 categories: [programming, kotlin]
 tags: [kotlin, extension, extension-function, extension-property]
 description: "Kotlin의 확장 함수와 확장 프로퍼티를 알아봅니다. 기존 클래스에 새로운 기능을 추가하는 방법을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-kotlin-extensions.png
 ---
 
 Kotlin의 확장 함수는 기존 클래스를 수정하지 않고 새로운 기능을 추가할 수 있는 강력한 기능입니다.

@@ -5,6 +5,7 @@ date: 2025-12-28 15:30:00 +0900
 categories: [programming, java]
 tags: [java, groovy, jvm, closure]
 description: "Groovy의 클래스, 메서드, Closure, Trait에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-groovy-class-method.png
 ---
 
 # Class (클래스)

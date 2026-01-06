@@ -4,6 +4,7 @@ title: Docker Compose Tutorial
 date: 2024-11-26 01:57:37 +0900
 categories: [infra, devops]
 tags: [docker, docker-compose, container, multi-container, devops]
+image: /assets/images/posts/thumbnails/2024-11-26-docker-compose.png
 ---
 
 # Docker Compose Tutorial

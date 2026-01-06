@@ -5,6 +5,7 @@ date: 2025-12-28 12:08:00 +0900
 categories: [backend, spring]
 tags: [spring, microservices, eureka, multi-module, spring-cloud]
 description: "Spring Cloud를 활용한 마이크로서비스 아키텍처의 기본을 알아봅니다. Eureka를 이용한 서비스 디스커버리와 Multi-Module 프로젝트 구성 방법을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-spring-microservices.png
 ---
 
 마이크로서비스 아키텍처는 대규모 애플리케이션을 작은 서비스 단위로 분리하여 독립적으로 개발, 배포, 확장할 수 있게 합니다. Spring Cloud는 이러한 마이크로서비스 구축을 위한 다양한 도구를 제공합니다.

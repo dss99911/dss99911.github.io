@@ -7,6 +7,7 @@ description: "Complete guide to using Jekyll variables including site variables 
 tags: [Jekyll, Variables, Liquid, Template, Front Matter]
 page_variable: "some_page_variable"
 pages: site.categories
+image: /assets/images/posts/thumbnails/2023-12-04-jekyll-variables.png
 ---
 
 Jekyll provides powerful variable access through Liquid templating. Understanding these variables is essential for customizing your Jekyll site.

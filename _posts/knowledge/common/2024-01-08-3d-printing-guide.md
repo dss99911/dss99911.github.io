@@ -5,6 +5,7 @@ date: 2024-01-08 10:00:00 +0900
 categories: [knowledge, common]
 description: "3D 프린팅의 기본 원리, 출력 방식, 그리고 입문자를 위한 실전 가이드를 제공합니다."
 tags: [기술, 3D프린팅, 메이커, DIY, 하드웨어]
+image: /assets/images/posts/thumbnails/2024-01-08-3d-printing-guide.png
 ---
 
 3D 프린팅은 디지털 설계를 실제 물체로 만들어내는 혁신적인 기술입니다.

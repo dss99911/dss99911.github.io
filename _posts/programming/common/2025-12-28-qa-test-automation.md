@@ -4,6 +4,7 @@ title: "QA Test Automation Tools and Process"
 date: 2025-12-28 03:06:00 +0900
 categories: [programming, common]
 tags: [qa, testing, automation]
+image: /assets/images/posts/thumbnails/2025-12-28-qa-test-automation.png
 ---
 
 # Test Automation Tools

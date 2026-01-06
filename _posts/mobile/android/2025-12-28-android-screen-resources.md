@@ -5,6 +5,7 @@ date: 2025-12-28 12:11:00 +0900
 categories: [mobile, android]
 tags: [android, screen, resources, dpi, responsive]
 description: "Android 다양한 화면 크기 지원 방법을 알아봅니다. 밀도별 리소스, dimens, 반응형 레이아웃 등을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-screen-resources.png
 ---
 
 # Android 화면 크기와 리소스 관리

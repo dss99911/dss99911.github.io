@@ -4,6 +4,7 @@ title: "Network Basics - Protocols, Web Server, WebSocket, and More"
 date: 2025-12-28 01:07:00 +0900
 categories: [programming, common]
 tags: [network, protocol, websocket]
+image: /assets/images/posts/thumbnails/2025-12-28-network-basics.png
 ---
 
 # Network Protocols

@@ -5,6 +5,7 @@ date: 2025-12-28 15:11:00 +0900
 categories: [infra, automation]
 tags: [phantomjs, web-automation, headless-browser, javascript]
 description: "PhantomJS로 웹페이지를 열고, POST 요청을 보내고, JavaScript를 실행하는 방법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-phantomjs-webpage.png
 ---
 
 PhantomJS의 핵심 기능은 웹페이지를 프로그래밍적으로 조작하는 것입니다. 이 글에서는 웹페이지 열기, HTTP 요청, JavaScript 실행 방법을 다룹니다.

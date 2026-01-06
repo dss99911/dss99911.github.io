@@ -5,6 +5,7 @@ date: 2025-12-28 15:50:00 +0900
 categories: [programming, java]
 tags: [java, groovy, jvm, dsl, metaprogramming]
 description: "Groovy의 DSL, Meta Object Programming, Template Engine에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-groovy-advanced.png
 ---
 
 # DSL (Domain Specific Language)

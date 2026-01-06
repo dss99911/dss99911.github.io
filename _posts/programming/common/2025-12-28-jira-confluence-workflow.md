@@ -4,6 +4,7 @@ title: "Jira and Confluence Workflow"
 date: 2025-12-28 02:03:00 +0900
 categories: [programming, common]
 tags: [development-methodology, jira, confluence]
+image: /assets/images/posts/thumbnails/2025-12-28-jira-confluence-workflow.png
 ---
 
 # Jira Task Structure

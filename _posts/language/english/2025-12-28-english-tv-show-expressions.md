@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [language, english]
 tags: [english, tv-shows, expressions, iron-fist, idioms, vocabulary]
 description: "아이언 피스트 등 TV 프로그램을 보면서 배운 실용 영어 표현과 어휘를 한국어 설명 및 맥락과 함께 정리했습니다."
+image: /assets/images/posts/thumbnails/2025-12-28-english-tv-show-expressions.png
 ---
 
 ## TV 프로그램으로 영어를 배우는 이유

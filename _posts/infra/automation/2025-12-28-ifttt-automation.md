@@ -5,6 +5,7 @@ date: 2025-12-28 12:35:00 +0900
 categories: [infra, automation]
 tags: [ifttt, automation, rss, email, productivity]
 description: "IFTTT(If This Then That)를 활용한 간단한 자동화 방법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-ifttt-automation.png
 ---
 
 IFTTT(If This Then That)는 다양한 서비스들을 연결하여 자동화를 구현할 수 있는 플랫폼입니다.

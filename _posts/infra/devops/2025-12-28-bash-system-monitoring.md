@@ -5,6 +5,7 @@ date: 2025-12-28 12:11:00 +0900
 categories: [infra, devops]
 tags: [bash, linux, monitoring, performance, devops]
 description: "Linux 시스템 모니터링 - CPU, 메모리, 디스크 I/O, 프로세스 관리 및 히스토리 조회 방법을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-bash-system-monitoring.png
 ---
 
 # Bash 시스템 모니터링 및 성능 분석

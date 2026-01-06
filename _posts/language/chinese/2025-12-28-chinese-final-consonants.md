@@ -5,6 +5,7 @@ date: 2025-12-28 12:03:00 +0900
 categories: [language, chinese]
 tags: [chinese, mandarin, pronunciation, korean, tones]
 description: "중국어(만다린)에서 받침이 사라진 이유와 한국어 한자음과의 차이점을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-chinese-final-consonants.png
 ---
 
 # 중국어 받침(종성)의 소실

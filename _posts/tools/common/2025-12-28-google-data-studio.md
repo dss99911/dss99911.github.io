@@ -4,6 +4,7 @@ title: "Google Data Studio 소개"
 date: 2025-12-28
 categories: [tools, common]
 tags: [google, data-studio, analytics, visualization]
+image: /assets/images/posts/thumbnails/2025-12-28-google-data-studio.png
 ---
 
 ## Google Data Studio란?

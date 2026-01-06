@@ -5,6 +5,7 @@ date: 2025-12-28 12:05:00 +0900
 categories: [programming, java]
 tags: [java, generic, type-parameter]
 description: "Java Generic의 고급 활용법을 알아봅니다. 메서드 레벨 제네릭과 타입 추론을 포함합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-generic.png
 ---
 
 # Java Generic 활용하기

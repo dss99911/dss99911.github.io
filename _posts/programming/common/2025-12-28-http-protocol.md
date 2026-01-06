@@ -4,6 +4,7 @@ title: "HTTP Protocol - Request, Response, and Curl"
 date: 2025-12-28 01:00:00 +0900
 categories: [programming, common]
 tags: [network, http]
+image: /assets/images/posts/thumbnails/2025-12-28-http-protocol.png
 ---
 
 # HTTP Protocol

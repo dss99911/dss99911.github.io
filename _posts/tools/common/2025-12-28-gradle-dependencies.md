@@ -4,6 +4,7 @@ title: "Gradle 의존성 관리 완벽 가이드"
 date: 2025-12-28 12:04:00 +0900
 categories: [tools, common]
 tags: [gradle, dependency, maven, repository]
+image: /assets/images/posts/thumbnails/2025-12-28-gradle-dependencies.png
 description: "Gradle에서 의존성을 선언하고 관리하는 다양한 방법과 Repository 설정을 상세히 다룹니다."
 ---
 

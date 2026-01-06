@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [infra, devops]
 tags: [aws, ecs, beanstalk, docker, autoscaling, devops]
 description: "AWS ECS(Elastic Container Service)와 Elastic Beanstalk을 활용한 컨테이너 관리 및 자동 확장 설정 방법을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-aws-ecs-beanstalk.png
 ---
 
 # AWS ECS와 Elastic Beanstalk - 컨테이너 및 오토스케일링

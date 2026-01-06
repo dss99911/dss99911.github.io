@@ -4,6 +4,7 @@ title: "CDN and HTTP Caching"
 date: 2025-12-28 01:06:00 +0900
 categories: [programming, common]
 tags: [network, cdn, caching]
+image: /assets/images/posts/thumbnails/2025-12-28-cdn-caching.png
 ---
 
 # CDN (Content Delivery Network)

@@ -5,6 +5,7 @@ date: 2025-12-28 12:07:00 +0900
 categories: [mobile, android]
 tags: [android, firebase, fcm, analytics, deeplink]
 description: "Android 앱에서 Firebase를 활용하는 방법을 알아봅니다. FCM 푸시, Analytics, Dynamic Links 등을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-android-firebase-guide.png
 ---
 
 # Android Firebase 통합 가이드

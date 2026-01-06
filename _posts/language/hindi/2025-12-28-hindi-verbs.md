@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [language, hindi]
 tags: [hindi, verbs, grammar, tense, conjugation]
 description: "힌디어 동사 종합 가이드: be동사, 일반동사, 조동사, 동사 활용법"
+image: /assets/images/posts/thumbnails/2025-12-28-hindi-verbs.png
 ---
 
 # Hindi Verbs (힌디어 동사)

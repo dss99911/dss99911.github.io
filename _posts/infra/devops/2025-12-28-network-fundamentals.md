@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [infra, devops]
 tags: [network, dns, ip, arp, cdn, web]
 description: "DNS, IP 주소, ARP 프로토콜, CDN 등 네트워크의 기본 개념을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-network-fundamentals.png
 ---
 
 ## DNS (Domain Name System)

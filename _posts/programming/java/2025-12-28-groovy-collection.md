@@ -5,6 +5,7 @@ date: 2025-12-28 15:40:00 +0900
 categories: [programming, java]
 tags: [java, groovy, jvm, collection]
 description: "Groovy의 Collection 타입인 Set, List, Map, Range에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-groovy-collection.png
 ---
 
 # Groovy Collection

@@ -5,6 +5,7 @@ date: 2025-12-28 12:09:00 +0900
 categories: [programming, java]
 tags: [java, javafx, webview, javascript]
 description: "JavaFX WebView를 사용하여 웹 페이지를 로드하고, JavaScript와 상호작용하는 방법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-javafx-webview.png
 ---
 
 # JavaFX WebView로 웹 콘텐츠 표시하기

@@ -4,6 +4,7 @@ title: "Gradle Task 완벽 가이드 - 생성부터 최적화까지"
 date: 2025-12-28 12:05:00 +0900
 categories: [tools, common]
 tags: [gradle, task, build, automation]
+image: /assets/images/posts/thumbnails/2025-12-28-gradle-tasks.png
 description: "Gradle Task의 생성, 의존성 설정, 커스텀 Task 작성, 최적화 방법을 상세히 다룹니다."
 ---
 

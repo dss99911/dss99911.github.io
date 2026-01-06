@@ -5,6 +5,7 @@ date: 2024-01-06 10:00:00 +0900
 categories: [knowledge, law]
 description: "한국의 법률 시스템과 법령 체계를 이해하고, 필요한 법률 정보를 효과적으로 찾는 방법을 알아봅니다."
 tags: [법, 법률, 법령, 국가법령정보센터, 한국법, 법률검색]
+image: /assets/images/posts/thumbnails/2024-01-06-korean-law-system.png
 ---
 
 한국의 법률 시스템을 이해하고 필요한 법률 정보를 찾는 방법을 안내합니다.

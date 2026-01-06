@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [language, arabic]
 tags: [arabic, pronunciation, phonetics, learning]
 description: "한국어 화자를 위한 아랍어 필수 발음 규칙. 함자가 있는 알리프, 장모음, 자주 쓰이는 패턴을 배웁니다."
+image: /assets/images/posts/thumbnails/2025-12-28-arabic-pronunciation-guide.png
 ---
 
 # 아랍어 발음 가이드

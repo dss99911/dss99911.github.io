@@ -5,6 +5,7 @@ date: 2025-12-28 12:12:00 +0900
 categories: [programming, java]
 tags: [java, exception, try-catch, try-with-resources]
 description: "Java에서 예외를 처리하는 방법과 리소스 관리를 위한 try-finally, try-with-resources 패턴을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-exception-handling.png
 ---
 
 # Java 예외 처리

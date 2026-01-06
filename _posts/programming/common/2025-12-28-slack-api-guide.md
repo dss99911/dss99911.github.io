@@ -5,6 +5,7 @@ date: 2025-12-28 15:20:00 +0900
 categories: [programming, common]
 tags: [slack, api, webhook, bot, integration, automation]
 description: "Slack API를 활용하여 봇을 만들고, Webhook으로 메시지를 전송하고, 사용자 입력을 처리하는 방법을 상세히 정리했습니다."
+image: /assets/images/posts/thumbnails/2025-12-28-slack-api-guide.png
 ---
 
 Slack은 팀 협업 도구로 널리 사용되며, API를 통해 다양한 자동화와 통합이 가능합니다. 이 글에서는 Slack API의 핵심 기능들을 정리합니다.

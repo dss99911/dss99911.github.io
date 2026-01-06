@@ -5,6 +5,7 @@ date: 2025-12-28 12:03:00 +0900
 categories: [language, hindi]
 tags: [hindi, grammar, postpositions, gender, adjectives, conjunctions]
 description: "힌디어 문법 핵심 규칙: 성별 패턴, 후치사, 형용사, 접속사"
+image: /assets/images/posts/thumbnails/2025-12-28-hindi-grammar.png
 ---
 
 # Hindi Grammar (힌디어 문법)

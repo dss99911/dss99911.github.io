@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [language, hindi]
 tags: [hindi, alphabet, consonants, vowels, devanagari, pronunciation]
 description: "힌디어 알파벳 완벽 가이드: 자음, 모음, 발음 규칙을 이미지와 함께 배워보세요"
+image: /assets/images/posts/thumbnails/2025-12-28-hindi-alphabet.png
 ---
 
 # Hindi Alphabet (힌디어 알파벳)

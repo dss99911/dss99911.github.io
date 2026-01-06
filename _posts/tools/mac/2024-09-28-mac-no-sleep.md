@@ -4,6 +4,7 @@ title: 맥북 수면모드 off 시키기
 date: 2024-09-28 01:57:37 +0900
 categories: [tools, mac]
 tags: [mac, macos, sleep-mode, pmset, power-management]
+image: /assets/images/posts/thumbnails/2024-09-28-mac-no-sleep.png
 ---
 
 ## 배경

@@ -5,6 +5,7 @@ date: 2025-12-28 12:08:00 +0900
 categories: [programming, kotlin]
 tags: [kotlin, annotation, enum, exception, documentation, visibility]
 description: "Kotlin의 어노테이션, Enum 클래스, 예외 처리, 문서화, 가시성 수정자에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-kotlin-misc-features.png
 ---
 
 이 포스트에서는 Kotlin의 다양한 기능들을 살펴봅니다.

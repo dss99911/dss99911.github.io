@@ -4,6 +4,7 @@ title: "정규표현식 완벽 가이드: 그룹, 반복, Lookahead/Lookbehind"
 date: 2025-12-28 12:06:00 +0900
 categories: [tools, common]
 tags: [regex, regular-expression, pattern-matching, programming]
+image: /assets/images/posts/thumbnails/2025-12-28-regular-expression-guide.png
 description: "정규표현식의 그룹핑, 반복 패턴, Lookahead와 Lookbehind 사용법을 상세히 설명합니다."
 ---
 

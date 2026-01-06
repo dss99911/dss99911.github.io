@@ -5,6 +5,7 @@ date:   2023-12-06 21:05:37 +0900
 categories: [tools, obsidian]
 description: "A curated list of essential Obsidian plugins for productivity, task management, and note synchronization. Includes Git sync, task management, templates, and more."
 tags: [Obsidian, Plugins, Productivity, Note-taking, Task Management]
+image: /assets/images/posts/thumbnails/2023-12-06-obsidian-plugins.png
 ---
 
 Obsidian's plugin ecosystem is one of its greatest strengths. Here's my curated list of essential plugins that transform Obsidian into a powerful productivity system.

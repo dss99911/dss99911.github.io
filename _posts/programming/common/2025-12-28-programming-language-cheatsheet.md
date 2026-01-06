@@ -5,6 +5,7 @@ date: 2025-12-28 15:55:00 +0900
 categories: [programming, common]
 tags: [programming-languages, cheatsheet, syntax, comparison]
 description: "다양한 프로그래밍 언어의 문법을 비교한 빠른 참조 가이드입니다."
+image: /assets/images/posts/thumbnails/2025-12-28-programming-language-cheatsheet.png
 ---
 
 # 프로그래밍 언어 비교 치트시트

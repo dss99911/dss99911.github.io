@@ -4,6 +4,7 @@ title: "Ruby 기초 - 문법과 기본 개념"
 date: 2025-12-28
 categories: [programming, ruby]
 tags: [ruby, basics, syntax]
+image: /assets/images/posts/thumbnails/2025-12-28-ruby-basics.png
 ---
 
 Ruby 프로그래밍 언어의 기본 문법과 개념을 알아봅니다.

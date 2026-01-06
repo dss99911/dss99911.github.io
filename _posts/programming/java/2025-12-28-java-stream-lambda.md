@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [programming, java]
 tags: [java, stream, lambda, functional-programming, flatmap]
 description: "Java 8의 Stream API와 Lambda 표현식을 활용하는 방법을 상세히 알아봅니다. flatMap, 메서드 참조, 생성자 참조까지 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-stream-lambda.png
 ---
 
 # Java Stream과 Lambda

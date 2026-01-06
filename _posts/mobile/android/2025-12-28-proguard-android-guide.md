@@ -4,6 +4,7 @@ title: "ProGuard Android Guide - Code Shrinking and Obfuscation"
 date: 2025-12-28
 categories: [mobile, android]
 tags: [proguard, android, obfuscation, optimization, security]
+image: /assets/images/posts/thumbnails/2025-12-28-proguard-android-guide.png
 ---
 
 Android ProGuard 설정과 문제 해결 방법을 알아봅니다.

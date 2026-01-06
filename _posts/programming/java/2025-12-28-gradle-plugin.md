@@ -5,6 +5,7 @@ date: 2025-12-28 14:30:00 +0900
 categories: [programming, java]
 tags: [java, gradle, build-tool, plugin]
 description: "Gradle 플러그인 사용법, 커스텀 플러그인 만들기, Extension과 Property 설정에 대해 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-gradle-plugin.png
 ---
 
 # Gradle Plugin

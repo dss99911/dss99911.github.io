@@ -5,6 +5,7 @@ date: 2025-12-28 12:10:00 +0900
 categories: [backend, database]
 tags: [hibernate, jpa, xml, configuration, mapping, java, orm]
 description: "Hibernate의 XML 기반 설정 파일 구성, 컬렉션 매핑, 객체 관계 매핑을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-hibernate-jpa-xml-config.png
 ---
 
 # Hibernate 설정 파일 (hibernate.cfg.xml)

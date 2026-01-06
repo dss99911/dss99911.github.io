@@ -5,6 +5,7 @@ date: 2025-12-28 12:13:00 +0900
 categories: [frontend, javascript]
 tags: [ejs, freemarker, thymeleaf, templates]
 description: "Complete guide to template engines including EJS for Node.js, Freemarker for Java, and Thymeleaf for Spring"
+image: /assets/images/posts/thumbnails/2025-12-28-template-engines.png
 ---
 
 Template engines help generate dynamic HTML by combining templates with data. This guide covers three popular template engines.

@@ -5,6 +5,7 @@ date: 2025-12-28 12:30:00 +0900
 categories: [infra, automation]
 tags: [alfred, mac, automation, workflow, productivity]
 description: "Alfred Workflow를 개발하는 방법을 알아봅니다. Script Filter, 디버깅, 추천 워크플로우까지 정리합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-alfred-workflow-development.png
 ---
 
 Alfred는 macOS의 강력한 생산성 도구입니다. 이 글에서는 Alfred Workflow를 개발하고 디버깅하는 방법을 정리합니다.

@@ -4,6 +4,7 @@ title: "Hibernate/JPA - Java ORM 프레임워크"
 date: 2025-12-28
 categories: [programming, java]
 tags: [hibernate, jpa, orm, java, database]
+image: /assets/images/posts/thumbnails/2025-12-28-hibernate-jpa.png
 ---
 
 Hibernate는 Java의 대표적인 ORM(Object-Relational Mapping) 프레임워크이며, JPA(Java Persistence API)의 구현체입니다.

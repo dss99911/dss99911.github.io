@@ -4,6 +4,7 @@ title: "iOS Development Basics - Getting Started Guide"
 date: 2025-12-28
 categories: [mobile, common]
 tags: [ios, swift, swiftui, xcode, mobile-development]
+image: /assets/images/posts/thumbnails/2025-12-28-ios-development-basics.png
 ---
 
 iOS 개발을 시작하기 위한 기본 가이드입니다. SwiftUI, Xcode 설정, 라이브러리 관리 등을 다룹니다.

@@ -5,6 +5,7 @@ date: 2025-12-28 12:07:00 +0900
 categories: [frontend, javascript]
 tags: [javascript, angularjs, mvc, frontend]
 description: "Complete guide to AngularJS covering directives, controllers, services, forms, routing, and application architecture"
+image: /assets/images/posts/thumbnails/2025-12-28-angularjs-guide.png
 ---
 
 AngularJS is a structural framework for dynamic web apps that extends HTML with custom attributes and elements.

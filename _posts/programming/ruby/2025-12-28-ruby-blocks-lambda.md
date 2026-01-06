@@ -4,6 +4,7 @@ title: "Ruby 블록과 Lambda"
 date: 2025-12-28
 categories: [programming, ruby]
 tags: [ruby, blocks, lambda, closures]
+image: /assets/images/posts/thumbnails/2025-12-28-ruby-blocks-lambda.png
 ---
 
 Ruby의 블록(Block)과 Lambda에 대해 알아봅니다.

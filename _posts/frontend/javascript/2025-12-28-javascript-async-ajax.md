@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [frontend, javascript]
 tags: [javascript, async, ajax, promises, jsonp]
 description: "Complete guide to asynchronous JavaScript including async/await, Promises, AJAX, and JSONP for cross-domain requests"
+image: /assets/images/posts/thumbnails/2025-12-28-javascript-async-ajax.png
 ---
 
 JavaScript is single-threaded but excels at handling asynchronous operations. This post covers the essential concepts of async programming in JavaScript.

@@ -5,6 +5,7 @@ date: 2025-12-28 12:03:00 +0900
 categories: [backend, database]
 tags: [mysql, sql, query, select, insert, update, join]
 description: "MySQL의 기본 CRUD 쿼리와 JOIN, 트랜잭션 관리 방법을 예제와 함께 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-mysql-queries.png
 ---
 
 # SELECT 문

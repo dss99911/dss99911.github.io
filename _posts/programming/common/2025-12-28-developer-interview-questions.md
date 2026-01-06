@@ -4,6 +4,7 @@ title: "Developer Interview Questions - Android and General Topics"
 date: 2025-12-28 03:00:00 +0900
 categories: [programming, common]
 tags: [interview, android]
+image: /assets/images/posts/thumbnails/2025-12-28-developer-interview-questions.png
 ---
 
 # Interview Process Structure

@@ -5,6 +5,7 @@ date: 2025-12-28 12:05:00 +0900
 categories: [backend, spring]
 tags: [spring, logging, logback, slf4j]
 description: "Spring Boot의 로깅 시스템을 알아봅니다. application.properties 설정부터 logback.xml을 통한 상세 설정까지 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-spring-logging.png
 ---
 
 로깅은 애플리케이션 운영과 디버깅에 필수적입니다. Spring Boot는 기본적으로 Logback을 사용하며, 간단한 설정부터 상세한 커스터마이징까지 가능합니다.

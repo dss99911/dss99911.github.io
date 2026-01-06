@@ -4,6 +4,7 @@ title: "Maven 핵심 가이드 - 빌드 라이프사이클과 의존성 관리"
 date: 2025-12-28 12:07:00 +0900
 categories: [tools, common]
 tags: [maven, build, java, dependency]
+image: /assets/images/posts/thumbnails/2025-12-28-maven-guide.png
 description: "Maven의 빌드 라이프사이클, 의존성 scope, 디렉토리 구조, 캐시 관리를 설명합니다."
 ---
 

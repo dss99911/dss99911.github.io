@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [frontend, common]
 tags: [thymeleaf, java, spring, template-engine]
 description: "Thymeleaf template engine basic guide for Java Spring applications"
+image: /assets/images/posts/thumbnails/2025-12-28-thymeleaf-template-engine-guide.png
 ---
 
 ## Introduction

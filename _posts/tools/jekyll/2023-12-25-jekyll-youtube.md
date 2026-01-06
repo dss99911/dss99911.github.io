@@ -5,6 +5,7 @@ date: 2023-12-25 01:57:37 +0900
 categories: [tools, jekyll]
 description: "Learn how to embed YouTube videos in Jekyll blog posts. Includes responsive video embedding and best practices for performance."
 tags: [Jekyll, YouTube, Video, Embed, Responsive]
+image: /assets/images/posts/thumbnails/2023-12-25-jekyll-youtube.png
 ---
 
 Embedding YouTube videos in Jekyll posts enhances your content with multimedia. This guide shows you how to do it properly.

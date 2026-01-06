@@ -5,6 +5,7 @@ date: 2025-12-28 12:04:00 +0900
 categories: [backend, database]
 tags: [mysql, sql, group-by, window-function, stored-procedure, advanced]
 description: "MySQL의 고급 기능인 GROUP BY, Window Function, Stored Procedure와 반복문 사용법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-mysql-advanced.png
 ---
 
 # GROUP BY

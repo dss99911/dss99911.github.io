@@ -4,6 +4,7 @@ title: "Charles Proxy 완벽 가이드 - HTTPS 트래픽 디버깅"
 date: 2025-12-28 12:02:00 +0900
 categories: [tools, common]
 tags: [charles, proxy, debugging, https, network]
+image: /assets/images/posts/thumbnails/2025-12-28-charles-proxy-guide.png
 description: "Charles Proxy를 사용하여 모바일 앱의 네트워크 트래픽을 분석하고 조작하는 방법을 설명합니다."
 ---
 

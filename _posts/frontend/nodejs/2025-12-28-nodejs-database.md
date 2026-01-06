@@ -4,6 +4,7 @@ title: "Node.js 데이터베이스 연동 - MongoDB와 MySQL"
 date: 2025-12-28
 categories: [frontend, nodejs]
 tags: [nodejs, mongodb, mysql, database]
+image: /assets/images/posts/thumbnails/2025-12-28-nodejs-database.png
 ---
 
 Node.js에서 MongoDB와 MySQL 데이터베이스를 연동하는 방법을 알아봅니다.

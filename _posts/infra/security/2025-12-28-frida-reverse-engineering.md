@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [infra, security]
 tags: [security, frida, reverse-engineering, android, debugging, apk, mobile-security]
 description: "Frida 프레임워크를 사용한 Android 앱 동적 분석 방법과 APK 리컴파일 과정을 설명합니다. 보안 테스트 및 취약점 분석을 위한 기술적 가이드입니다."
+image: /assets/images/posts/thumbnails/2025-12-28-frida-reverse-engineering.png
 ---
 
 # Frida를 이용한 Android 앱 분석

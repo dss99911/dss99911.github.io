@@ -5,6 +5,7 @@ date: 2025-12-28 15:00:00 +0900
 categories: [backend, spring]
 tags: [jpa, hibernate, orm, spring, annotation]
 description: "JPA Entity 어노테이션을 활용한 객체-관계 매핑 방법을 알아봅니다. 상속 전략, Named Query, 기본 Entity 매핑까지 상세히 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-jpa-entity-annotations.png
 ---
 
 JPA(Java Persistence API)는 자바 객체와 데이터베이스 테이블 간의 매핑을 어노테이션으로 간편하게 정의할 수 있습니다. 이 글에서는 Entity 정의의 기본부터 상속 전략, Named Query까지 살펴보겠습니다.

@@ -5,6 +5,7 @@ date: 2025-12-28 15:01:00 +0900
 categories: [backend, spring]
 tags: [jpa, hibernate, hql, criteria, orm, spring]
 description: "Hibernate의 쿼리 방식인 HQL(Hibernate Query Language)과 Criteria API를 알아봅니다. 객체 지향 쿼리 작성부터 동적 쿼리까지 상세히 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-hibernate-query-hql-criteria.png
 ---
 
 Hibernate는 SQL을 직접 작성하지 않고도 데이터베이스를 조회할 수 있는 여러 방법을 제공합니다. 이 글에서는 HQL(Hibernate Query Language)과 Criteria API(HCQL)를 통한 쿼리 작성 방법을 살펴보겠습니다.

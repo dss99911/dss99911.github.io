@@ -5,6 +5,7 @@ date: 2025-12-28 12:07:00 +0900
 categories: [backend, database]
 tags: [mybatis, java, orm, sql-mapper, database]
 description: "MyBatis의 기본 개념, 장단점, 그리고 TypeHandler를 활용한 커스텀 타입 처리 방법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-mybatis-guide.png
 ---
 
 # MyBatis 소개

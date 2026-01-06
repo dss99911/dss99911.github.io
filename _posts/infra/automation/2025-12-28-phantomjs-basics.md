@@ -5,6 +5,7 @@ date: 2025-12-28 15:10:00 +0900
 categories: [infra, automation]
 tags: [phantomjs, web-automation, headless-browser, javascript]
 description: "PhantomJS의 설치부터 기본 설정, 명령줄 인자 처리, 종료 코드까지 기초적인 사용법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-phantomjs-basics.png
 ---
 
 PhantomJS는 헤드리스 WebKit 브라우저로, 웹 페이지 자동화, 스크래핑, 테스트 등에 활용됩니다. 이 글에서는 PhantomJS의 설치부터 기본 설정까지 다룹니다.

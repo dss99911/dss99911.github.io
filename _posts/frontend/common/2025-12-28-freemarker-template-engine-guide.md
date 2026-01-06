@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [frontend, common]
 tags: [freemarker, java, template-engine, backend]
 description: "Freemarker template engine complete guide including directives, macros, functions, and data types"
+image: /assets/images/posts/thumbnails/2025-12-28-freemarker-template-engine-guide.png
 ---
 
 ## Basic Syntax

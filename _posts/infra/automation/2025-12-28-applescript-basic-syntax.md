@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [infra, automation]
 tags: [applescript, mac, automation, scripting, macos]
 description: "AppleScript의 기본 문법을 알아봅니다. 변수, 연산자, 조건문, 함수, 배열, 문자열 처리 등 핵심 개념을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-applescript-basic-syntax.png
 ---
 
 AppleScript는 macOS에서 애플리케이션을 자동화하고 제어할 수 있는 스크립팅 언어입니다. 이 글에서는 AppleScript의 기본 문법과 핵심 개념을 정리합니다.

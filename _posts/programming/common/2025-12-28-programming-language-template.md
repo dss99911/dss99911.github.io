@@ -4,6 +4,7 @@ title: "Programming Language Learning Template"
 date: 2025-12-28 03:08:00 +0900
 categories: [programming, common]
 tags: [learning, template]
+image: /assets/images/posts/thumbnails/2025-12-28-programming-language-template.png
 ---
 
 # Programming Language Learning Template

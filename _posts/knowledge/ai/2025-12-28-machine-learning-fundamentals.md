@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [knowledge, ai]
 tags: [machine-learning, ai, supervised-learning, unsupervised-learning, deep-learning]
 description: "머신러닝의 기초 개념, 지도 학습과 비지도 학습의 차이점, 그리고 AI 학습을 시작하기 위한 추천 강의와 리소스를 정리합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-machine-learning-fundamentals.png
 ---
 
 ## 머신러닝 기본 개념

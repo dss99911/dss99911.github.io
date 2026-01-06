@@ -5,6 +5,7 @@ date: 2025-12-28 12:00:00 +0900
 categories: [programming, java]
 tags: [java, string, regex, tokenizer]
 description: "Java에서 String을 효율적으로 다루는 방법과 정규식 그룹, StringTokenizer, 객체 필드 출력 방법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-string.png
 ---
 
 # Java String 다루기

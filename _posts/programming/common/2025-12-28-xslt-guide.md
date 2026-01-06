@@ -5,6 +5,7 @@ date: 2025-12-28 15:30:00 +0900
 categories: [programming, common]
 tags: [xml, xslt, web, javascript]
 description: "XSLT의 기본 개념, 주요 요소, JavaScript에서의 활용법까지 XML 문서 변환을 위한 종합 가이드"
+image: /assets/images/posts/thumbnails/2025-12-28-xslt-guide.png
 ---
 
 XSLT(XSL Transformations)는 XML 문서를 다른 형식(HTML, 텍스트, 다른 XML 등)으로 변환하기 위한 언어입니다. XSL 스타일시트라는 템플릿을 통해 XML 데이터를 원하는 형태로 변환할 수 있습니다.

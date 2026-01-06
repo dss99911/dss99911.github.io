@@ -5,6 +5,7 @@ date: 2025-12-28 12:03:00 +0900
 categories: [infra, devops]
 tags: [docker, devops, container, virtualization]
 description: "Docker의 기본 개념과 Mac/Linux에서의 설치 방법을 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-docker-basics.png
 ---
 
 # Docker 기초 - 설치 및 개념

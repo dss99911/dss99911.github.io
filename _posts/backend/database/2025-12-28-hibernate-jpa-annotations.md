@@ -5,6 +5,7 @@ date: 2025-12-28 12:08:00 +0900
 categories: [backend, database]
 tags: [hibernate, jpa, java, orm, annotations, entity]
 description: "Hibernate JPA의 핵심 어노테이션과 상속 전략, Named Query 사용법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-hibernate-jpa-annotations.png
 ---
 
 # Persistence 클래스 어노테이션

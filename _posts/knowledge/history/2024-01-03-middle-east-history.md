@@ -5,6 +5,7 @@ date: 2024-01-03 10:00:00 +0900
 categories: [knowledge, history]
 description: "메소포타미아 문명부터 이슬람 제국, 오스만 제국까지. 중동 지역의 역사와 주요 제국들의 흥망성쇠를 살펴봅니다."
 tags: [역사, 중동, 메소포타미아, 페르시아, 이슬람, 오스만, 터키]
+image: /assets/images/posts/thumbnails/2024-01-03-middle-east-history.png
 ---
 
 중동 지역은 인류 문명의 발상지이자 세계사의 중심 무대였습니다.

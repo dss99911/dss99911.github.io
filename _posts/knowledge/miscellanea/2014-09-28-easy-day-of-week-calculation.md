@@ -5,6 +5,7 @@ description: "날짜로 요일을 암산하는 쉬운 방법. 젤러 공식을 �
 date: 2014-09-28 18:03:00 +0900
 categories: [knowledge, miscellanea]
 tags: [요일계산, 암산, 날짜계산, 수학]
+image: /assets/images/posts/thumbnails/2014-09-28-easy-day-of-week-calculation.png
 ---
 
 날짜만 보고 그 날이 무슨 요일인지 바로 계산할 수 있다면 유용하겠죠?

@@ -5,6 +5,7 @@ date: 2025-12-28 15:40:00 +0900
 categories: [infra, devops]
 tags: [apm, monitoring, performance, jvm, infrastructure]
 description: "APM의 기본 개념부터 JVM, 인프라, 네트워크 모니터링까지 설명합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-apm-complete-guide.png
 ---
 
 ## APM이란?

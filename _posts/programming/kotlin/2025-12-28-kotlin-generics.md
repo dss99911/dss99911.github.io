@@ -5,6 +5,7 @@ date: 2025-12-28 12:06:00 +0900
 categories: [programming, kotlin]
 tags: [kotlin, generics, variance, in, out, reified]
 description: "Kotlin의 제네릭 시스템을 알아봅니다. 공변성(out), 반공변성(in), 타입 제약, Star Projection에 대해 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-kotlin-generics.png
 ---
 
 Kotlin의 제네릭은 Java와 비슷하지만 `in`과 `out` 키워드를 통해 더 안전한 타입 시스템을 제공합니다.

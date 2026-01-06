@@ -4,6 +4,7 @@ title: "Scala 시작하기 - 프로젝트 생성과 SBT 설정"
 date: 2025-12-28
 categories: [programming, scala]
 tags: [scala, sbt, setup]
+image: /assets/images/posts/thumbnails/2025-12-28-scala-getting-started.png
 ---
 
 Scala 프로젝트를 생성하고 SBT를 설정하는 방법을 알아봅니다.

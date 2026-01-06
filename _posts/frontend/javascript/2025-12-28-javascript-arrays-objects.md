@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [frontend, javascript]
 tags: [javascript, arrays, objects, data-structures]
 description: "Comprehensive guide to arrays and objects in JavaScript including manipulation methods, sorting, and best practices"
+image: /assets/images/posts/thumbnails/2025-12-28-javascript-arrays-objects.png
 ---
 
 Arrays and objects are the fundamental data structures in JavaScript. Understanding how to work with them effectively is crucial for any JavaScript developer.

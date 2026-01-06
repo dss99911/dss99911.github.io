@@ -5,6 +5,7 @@ date: 2025-12-28 12:05:00 +0900
 categories: [language, chinese]
 tags: [chinese, mandarin, korean, hanja, pronunciation, comparison]
 description: "한국어 한자음과 중국어(만다린) 발음의 체계적인 비교 - 초성별 대응 패턴 정리"
+image: /assets/images/posts/thumbnails/2025-12-28-chinese-korean-pronunciation-differences.png
 ---
 
 # 한국어 한자음 vs 중국어 발음 비교

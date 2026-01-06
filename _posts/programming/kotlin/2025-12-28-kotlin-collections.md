@@ -5,6 +5,7 @@ date: 2025-12-28 12:11:00 +0900
 categories: [programming, kotlin]
 tags: [kotlin, array, list, map, collection, filter, sort]
 description: "Kotlin의 컬렉션 타입과 다양한 연산에 대해 알아봅니다. Array, List, Map의 사용법과 람다 연산을 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-kotlin-collections.png
 ---
 
 Kotlin은 풍부한 컬렉션 API를 제공합니다. 이 포스트에서는 배열, 리스트, 맵의 사용법을 알아봅니다.

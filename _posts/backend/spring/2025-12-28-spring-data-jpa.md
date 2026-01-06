@@ -5,6 +5,7 @@ date: 2025-12-28 12:02:00 +0900
 categories: [backend, spring]
 tags: [spring, jpa, hibernate, database, cache, repository]
 description: "Spring Data JPA를 활용한 데이터베이스 연동 방법을 알아봅니다. Entity 정의, Repository 인터페이스, 캐싱 전략까지 상세히 다룹니다."
+image: /assets/images/posts/thumbnails/2025-12-28-spring-data-jpa.png
 ---
 
 Spring Data JPA는 데이터베이스 연동을 간편하게 해주는 프레임워크입니다. 이 글에서는 Entity 정의부터 다양한 Repository 인터페이스, 그리고 캐싱 전략까지 살펴보겠습니다.

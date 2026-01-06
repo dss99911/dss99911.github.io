@@ -5,6 +5,7 @@ date: 2025-12-28 12:12:00 +0900
 categories: [frontend, javascript]
 tags: [html, web, forms, semantic]
 description: "Essential HTML guide covering tags, forms, meta tags, semantic elements, and best practices"
+image: /assets/images/posts/thumbnails/2025-12-28-html-fundamentals.png
 ---
 
 HTML (HyperText Markup Language) is the standard markup language for creating web pages. This guide covers essential HTML concepts.

@@ -4,6 +4,7 @@ title: "Ruby 제어문 - 조건문과 반복문"
 date: 2025-12-28
 categories: [programming, ruby]
 tags: [ruby, control-flow, if, while, loop]
+image: /assets/images/posts/thumbnails/2025-12-28-ruby-control-flow.png
 ---
 
 Ruby의 조건문과 반복문에 대해 알아봅니다.

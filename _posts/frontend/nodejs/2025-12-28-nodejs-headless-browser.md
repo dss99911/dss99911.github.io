@@ -4,6 +4,7 @@ title: "Node.js 헤드리스 브라우저 - Puppeteer와 Chrome Launcher"
 date: 2025-12-28
 categories: [frontend, nodejs]
 tags: [nodejs, puppeteer, headless, chrome, crawling, scrapping]
+image: /assets/images/posts/thumbnails/2025-12-28-nodejs-headless-browser.png
 ---
 
 Node.js에서 헤드리스 브라우저를 사용한 웹 크롤링/스크래핑 방법을 알아봅니다.

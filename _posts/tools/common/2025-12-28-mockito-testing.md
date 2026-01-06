@@ -4,6 +4,7 @@ title: "Mockito로 Java 단위 테스트 작성하기"
 date: 2025-12-28 12:11:00 +0900
 categories: [tools, common]
 tags: [mockito, java, testing, unit-test, mock]
+image: /assets/images/posts/thumbnails/2025-12-28-mockito-testing.png
 description: "Mockito 프레임워크를 사용하여 효과적인 단위 테스트를 작성하는 방법을 설명합니다."
 ---
 

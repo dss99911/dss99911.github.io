@@ -5,6 +5,7 @@ date: 2025-12-28 12:03:00 +0900
 categories: [programming, java]
 tags: [java, gc, garbage-collector, memory, weakreference]
 description: "Java의 Garbage Collector 동작 원리, 메모리 릭 방지, WeakReference 활용법을 알아봅니다."
+image: /assets/images/posts/thumbnails/2025-12-28-java-garbage-collector.png
 ---
 
 # Java Garbage Collector와 메모리 관리

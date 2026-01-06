@@ -5,6 +5,7 @@ date: 2025-12-28 12:01:00 +0900
 categories: [frontend, javascript]
 tags: [javascript, strings, numbers, methods]
 description: "Complete guide to working with strings and numbers in JavaScript including methods, parsing, and common operations"
+image: /assets/images/posts/thumbnails/2025-12-28-javascript-strings-numbers.png
 ---
 
 Strings and numbers are fundamental data types in JavaScript. This guide covers everything you need to know about working with them effectively.

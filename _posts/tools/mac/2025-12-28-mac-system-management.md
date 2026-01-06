@@ -5,6 +5,7 @@ date: 2025-12-28 12:50:00 +0900
 categories: [tools, mac]
 tags: [mac, launchd, system, network, battery, macos]
 description: "Mac 시스템 관리에 필요한 launchd, 네트워크 확인, 배터리 관리 방법을 정리합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-mac-system-management.png
 ---
 
 macOS 시스템을 효과적으로 관리하기 위한 핵심 도구들을 정리합니다.

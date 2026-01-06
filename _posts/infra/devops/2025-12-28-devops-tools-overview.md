@@ -5,6 +5,7 @@ date: 2025-12-28 12:14:00 +0900
 categories: [infra, devops]
 tags: [devops, virtualization, pxe, debian, package-management]
 description: "DevOps에서 사용되는 다양한 도구들 - VMware, Packer, PXE Boot, Debian 패키지 관리를 소개합니다."
+image: /assets/images/posts/thumbnails/2025-12-28-devops-tools-overview.png
 ---
 
 # DevOps 도구 개요
