@@ -130,3 +130,7 @@ keychain-fingerprint delete myapp user@example.com
 
 Full source code available on GitHub: [dss99911/keychain-fingerprint](https://github.com/dss99911/keychain-fingerprint)
 
+## Related
+
+For an alternative approach using root permissions instead of Touch ID, see: [How to always allow Mac keychain password only by specific app](https://dss99911.github.io/tools/mac/2025/01/08/access-keychain-by-specific-service.html)
+
