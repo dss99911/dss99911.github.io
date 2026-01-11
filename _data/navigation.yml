@@ -2,8 +2,12 @@
   link: /
 - name: Programming
   dropdown:
+  - name: Android
+    link: /Android/
   - name: C
     link: /C/
+  - name: Career
+    link: /Career/
   - name: Programming
     link: /Programming/
   - name: Golang
@@ -12,6 +16,8 @@
     link: /Java/
   - name: Kotlin
     link: /Kotlin/
+  - name: Methodology
+    link: /Methodology/
   - name: Python
     link: /Python/
   - name: Ruby
@@ -36,6 +42,8 @@
   dropdown:
   - name: Database
     link: /Database/
+  - name: Kotlin
+    link: /Kotlin/
   - name: Spring
     link: /Spring/
 - name: Infra
