@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://dss99911.github.io/sitemap.xml
-Sitemap: https://dss99911.github.io/sitemap_index.xml
+Sitemap: https://dss99911.github.io/sitemap_v2.xml
