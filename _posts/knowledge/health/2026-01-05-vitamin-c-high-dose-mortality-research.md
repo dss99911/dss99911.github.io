@@ -184,6 +184,24 @@ NHANES 2022 연구만 보면 "고용량 비타민 C는 위험하다"고 결론 �
 
 **의의**: 비타민 C **결핍**이 해롭다는 것은 거의 모든 연구에서 일관됨. 논란은 "고농도"의 영향입니다.
 
+### NHANES III 항산화제 연구 (2013)
+
+[Goyal et al. (2013)](https://pubmed.ncbi.nlm.nih.gov/23897583/)의 Cancer Epidemiology, Biomarkers & Prevention 연구는 **동일한 NHANES 데이터 출처**를 사용했지만 다른 결론을 도출했습니다.
+
+| 항목 | NHANES 2022 | Goyal 2013 |
+|------|-------------|------------|
+| **데이터** | NHANES 2003-2006 | NHANES III (1988-1994) |
+| **참가자** | 9,902명 | 16,008명 |
+| **추적 기간** | 10.6년 | 14.2년 |
+| **사망자** | 1,558명 | 4,225명 (암 891, 심혈관 1,891) |
+| **측정** | 혈청 비타민 C | 혈청 비타민 C |
+| **결과** | **U자형** | **선형 역상관** (높을수록 사망률↓) |
+
+**핵심 결과:**
+> "비타민 C 수치가 높을수록 암과 전체 사망률이 감소하는 **용량-반응 관계**를 관찰"
+
+**의의**: 동일한 NHANES 시리즈 데이터를 사용했지만, 코호트 시기가 다르면 결과가 달라질 수 있음을 보여줍니다. 2022년 연구팀은 이 차이에 대해 명확한 설명을 제시하지 못했습니다.
+
 ### 관찰 연구 메타분석 (2023)
 
 [Cambridge Core 메타분석](https://www.cambridge.org/core/journals/public-health-nutrition/article/dietary-and-circulating-vitamin-c-vitamin-e-carotene-and-risk-of-total-cardiovascular-mortality-a-systematic-review-and-doseresponse-metaanalysis-of-prospective-observational-studies/71D0B7C4B76F03C3E8FB00A4925551F0)에서 여러 연구를 종합한 결과:
@@ -200,6 +218,7 @@ NHANES 2022 연구만 보면 "고용량 비타민 C는 위험하다"고 결론 �
 
 ```
 NHANES 2022:          비타민 C ↑ → 사망률 ↑ (U자형)
+NHANES III (2013):    비타민 C ↑ → 사망률 ↓ (선형) ← 같은 NHANES, 다른 결과!
 NHANES 당뇨병 환자:    비타민 C ↑ → 사망률 ↓ (선형) ← 같은 데이터, 다른 결과!
 EPIC-Norfolk:         비타민 C ↑ → 사망률 ↓ (선형)
 중국 16년 연구:        비타민 C ↑ → 사망률 ↓ (선형)
@@ -209,7 +228,7 @@ JACC (일본):          비타민 C ↑ → 사망률 ↓ (선형, 여성)
 메타분석:             비타민 C ↑ → 사망률 ↓ (대체로)
 ```
 
-**핵심 발견**: 8개 주요 연구 중 **NHANES 2022만 U자형 관계**를 보고했습니다.
+**핵심 발견**: 9개 주요 연구 중 **NHANES 2022만 U자형 관계**를 보고했습니다.
 
 ### 왜 연구 결과가 다를까? - 핵심 차이점
 
@@ -252,6 +271,38 @@ JACC (일본):          비타민 C ↑ → 사망률 ↓ (선형, 여성)
 4. **건강인 증거 부족**: 건강한 사람에서 경구 보충제 중단 후 사망률 증가 연구 없음
 
 **결론**: 리바운드 효과는 NHANES 결과의 **주요 원인으로 보기 어렵습니다**. 다만 완전히 배제할 수 없으며, NHANES의 단일 시점 측정이라는 방법론적 한계를 보여주는 하나의 가설로 남습니다. 이 가설이 맞다면 "고농도 비타민 C 자체의 해로움"이 아닌 **"고용량 복용 후 중단의 해로움"**을 시사합니다.
+
+### 고용량 지지파의 "동물 생합성" 논거
+
+고용량 비타민 C 지지자들이 자주 인용하는 핵심 논거가 있습니다: "동물들은 비타민 C를 대량으로 합성하므로, 인간도 고용량이 필요하다"는 주장입니다.
+
+**근거가 되는 연구:**
+
+[Chatterjee et al. (1975)](https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/j.1749-6632.1975.tb29266.x)의 Annals of the New York Academy of Sciences 연구에 따르면:
+
+| 동물 | 비타민 C 생합성량 |
+|------|------------------|
+| 염소 | 체중 1kg당 약 **200mg/일** |
+| 70kg 인간 환산 | 약 **14,000mg/일** |
+| 스트레스 시 | 최대 **13배까지 증가** 가능 ([ScienceDaily](https://www.sciencedaily.com/releases/2008/03/080320120726.htm)) |
+
+이 논거에 따르면, 인간의 권장량(100mg/일)은 동물 생합성량의 1/100~1/200에 불과하므로 턱없이 부족하다는 것입니다.
+
+**이 논거의 과학적 한계:**
+
+1. **진화적 적응**: 인간은 약 **6,100만 년 전** GULO(L-gulonolactone oxidase) 유전자 돌연변이로 비타민 C 합성 능력을 상실했습니다 ([PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3145266/)). 이후 수천만 년간 다른 대사 경로로 적응했을 가능성이 높습니다.
+
+2. **동물 ≠ 인간**: 동물의 생합성량이 곧 인간의 "필요량"을 의미하지 않습니다. 인간은 비타민 C를 재활용하는 SVCT(Sodium-dependent Vitamin C Transporter) 시스템이 발달해 있어, 적은 양으로도 효율적으로 활용할 수 있습니다.
+
+3. **흡수의 생리적 한계**: 경구 섭취 시 장 흡수가 포화되어 혈중 농도는 **최대 220 μmol/L** 이상 올라가지 않습니다 ([Mark Levine 연구](https://www.acpjournals.org/doi/10.7326/0003-4819-140-7-200404060-00010)). 아무리 많이 먹어도 세포 내 농도는 일정 수준에서 포화됩니다.
+
+4. **RCT 결과와의 불일치**: 동물 생합성량 논거가 맞다면 고용량 보충제가 건강에 도움이 되어야 하지만, **대규모 RCT들은 일관되게 "효과 없음"**을 보여줍니다.
+
+**참고: 1998년 Nature "pro-oxidant" 논쟁**
+
+비타민 C의 위험성을 주장한 연구 중 가장 유명한 것은 [Podmore et al. (1998)](https://www.nature.com/articles/33308)의 Nature 논문입니다. 이 연구는 비타민 C가 항산화제뿐 아니라 **pro-oxidant(산화 촉진제)**로도 작용할 수 있다고 주장했습니다.
+
+그러나 이 연구는 발표 직후 [Mark Levine 등의 강한 비판](https://www.nature.com/articles/26137)을 받았습니다. [FASEB Journal (1999)](https://faseb.onlinelibrary.wiley.com/doi/abs/10.1096/fasebj.13.9.1007)의 후속 리뷰는 "DNA 산화 데이터는 일관되지 않고 실험 설계 결함으로 설명 가능하다"고 결론지었습니다. 현재 과학계 합의는 **생리적 조건에서 비타민 C는 주로 항산화제로 작용**한다는 것입니다.
 
 ---
 
@@ -576,6 +627,7 @@ NHANES는 관찰 연구이므로 이 질문에 답할 수 없습니다. Q5의 �
 - [JACC 일본 코호트 연구 (2018)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6111108/)
 - [일본 농촌 혈청 비타민 C와 뇌졸중 연구 (2000, Stroke)](https://www.ahajournals.org/doi/10.1161/01.str.31.10.2287)
 - [핀란드 Kuopio 연구 (1992, BMJ)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2126082/)
+- [NHANES III 항산화제 연구 - Goyal et al. (2013, Cancer Epidemiol Biomarkers Prev)](https://pubmed.ncbi.nlm.nih.gov/23897583/)
 - [관찰 연구 메타분석 (2023)](https://www.cambridge.org/core/journals/public-health-nutrition/article/dietary-and-circulating-vitamin-c-vitamin-e-carotene-and-risk-of-total-cardiovascular-mortality-a-systematic-review-and-doseresponse-metaanalysis-of-prospective-observational-studies/71D0B7C4B76F03C3E8FB00A4925551F0)
 - [Iowa Women's Health Study - 당뇨병 여성 (2004)](https://pubmed.ncbi.nlm.nih.gov/15531665/)
 - [항산화제 보충제 메타분석 (JAMA, 2007)](https://pubmed.ncbi.nlm.nih.gov/17327526/)
@@ -586,6 +638,16 @@ NHANES는 관찰 연구이므로 이 질문에 답할 수 없습니다. Q5의 �
 - [Mark Levine 비타민 C 경구 vs IV 약동학 (Annals of Internal Medicine, 2004)](https://www.acpjournals.org/doi/10.7326/0003-4819-140-7-200404060-00010)
 - [비타민 C와 철분 상호작용 연구 (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7312906/)
 - [LOVIT 시험 - 패혈증 환자 IV 비타민 C (NEJM, 2022)](https://pubmed.ncbi.nlm.nih.gov/35271733/)
+
+### 동물 생합성 및 진화 관련
+- [Chatterjee et al. - 동물 비타민 C 합성량 (Annals of NY Academy of Sciences, 1975)](https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/j.1749-6632.1975.tb29266.x)
+- [GULO 유전자 돌연변이와 비타민 C 합성 능력 상실 (PMC, 2011)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3145266/)
+- [스트레스 시 동물의 비타민 C 생합성 증가 (ScienceDaily, 2008)](https://www.sciencedaily.com/releases/2008/03/080320120726.htm)
+
+### Pro-oxidant 논쟁 관련
+- [Podmore et al. - Vitamin C exhibits pro-oxidant properties (Nature, 1998)](https://www.nature.com/articles/33308)
+- [Mark Levine et al. - Does vitamin C have a pro-oxidant effect? 반론 (Nature, 1998)](https://www.nature.com/articles/26137)
+- [Carr & Frei - Does vitamin C act as a pro-oxidant under physiological conditions? (FASEB Journal, 1999)](https://faseb.onlinelibrary.wiley.com/doi/abs/10.1096/fasebj.13.9.1007)
 
 ### 권장량 및 안전성
 - [NIH 비타민 C 팩트시트](https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/)
