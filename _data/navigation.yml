@@ -96,5 +96,7 @@
     link: /Miscellanea/
   - name: Science
     link: /Science/
+  - name: Technology
+    link: /Technology/
 - name: About
   link: /about
