@@ -21,4 +21,22 @@
 
     gtag('config', 'G-GHZP83W9JE');
   </script>
+
+  <!-- Mermaid Diagram Support -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: false });
+
+    // Convert Jekyll code blocks to mermaid diagrams
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('pre code.language-mermaid, div.language-mermaid pre code').forEach(function(codeBlock) {
+        const container = codeBlock.closest('div.language-mermaid') || codeBlock.parentElement;
+        const pre = document.createElement('pre');
+        pre.className = 'mermaid';
+        pre.textContent = codeBlock.textContent;
+        container.replaceWith(pre);
+      });
+      mermaid.run();
+    });
+  </script>
 </head>
