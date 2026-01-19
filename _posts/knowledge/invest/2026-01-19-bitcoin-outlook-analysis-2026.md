@@ -2,7 +2,7 @@
 layout: post
 title: "2026년 비트코인(BTC) 투자 전망: 글로벌 애널리스트들의 긍정 vs 부정 전망 완전 분석"
 date: 2026-01-19 23:30:00 +0900
-categories: [knowledge, miscellanea]
+categories: [knowledge, invest]
 tags: [투자, 비트코인, bitcoin, BTC, 암호화폐, 2026전망, 기관투자]
 image: /assets/images/posts/thumbnails/bitcoin-outlook-2026.png
 description: "2026년 비트코인 투자에 대한 글로벌 애널리스트들의 전망을 정리했습니다. 낙관론자와 신중론자의 의견을 비교하고, 어떤 전망이 가장 인정받고 있는지 분석합니다."

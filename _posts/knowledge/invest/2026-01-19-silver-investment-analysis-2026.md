@@ -2,7 +2,7 @@
 layout: post
 title: "2026년 은(Silver) 투자 전망: 분석가들의 낙관론 vs 신중론 완전 정리"
 date: 2026-01-19 23:00:00 +0900
-categories: [knowledge, miscellanea]
+categories: [knowledge, invest]
 tags: [투자, 은, silver, 귀금속, 원자재, 2026전망, COMEX]
 image: /assets/images/posts/thumbnails/silver-investment-2026.png
 description: "2026년 은 투자에 대한 글로벌 분석가들의 전망을 정리했습니다. 낙관론자와 신중론자의 의견을 비교하고, 은 투자의 핵심 포인트를 분석합니다."
