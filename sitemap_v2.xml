@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
@@ -1577,6 +1578,34 @@
 <lastmod>2026-01-11T05:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>https://dss99911.github.io/knowledge/health/2026/01/13/xylitol-cavity-prevention-guide.html</loc>
+<lastmod>2026-01-13T03:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://dss99911.github.io/infra/devops/2026/01/16/android-hotspot-tethering-speed-fix.html</loc>
+<lastmod>2026-01-16T01:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://dss99911.github.io/knowledge/invest/2026/01/19/silver-investment-analysis-2026.html</loc>
+<lastmod>2026-01-19T14:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://dss99911.github.io/knowledge/invest/2026/01/19/crypto-outlook-analysis-2026.html</loc>
+<lastmod>2026-01-19T14:30:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://dss99911.github.io/frontend/common/2026/01/20/mermaid-diagram-jekyll.html</loc>
+<lastmod>2026-01-20T01:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://dss99911.github.io/knowledge/science/2026/01/20/one-electron-universe-theory.html</loc>
+<lastmod>2026-01-20T01:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://dss99911.github.io/knowledge/home/2026/01/20/water-meter-filter-comparison.html</loc>
+<lastmod>2026-01-20T06:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>https://dss99911.github.io/AI/</loc>
 </url>
 <url>
@@ -1622,7 +1651,13 @@
 <loc>https://dss99911.github.io/History/</loc>
 </url>
 <url>
+<loc>https://dss99911.github.io/Home/</loc>
+</url>
+<url>
 <loc>https://dss99911.github.io/Indonesian/</loc>
+</url>
+<url>
+<loc>https://dss99911.github.io/Invest/</loc>
 </url>
 <url>
 <loc>https://dss99911.github.io/Java/</loc>
@@ -1707,6 +1742,6 @@
 </url>
 <url>
 <loc>https://dss99911.github.io/naver54fcb51368625d708163a33ec0f18cc1.html</loc>
-<lastmod>2026-01-11T10:31:07+00:00</lastmod>
+<lastmod>2026-01-20T10:12:01+00:00</lastmod>
 </url>
 </urlset>
