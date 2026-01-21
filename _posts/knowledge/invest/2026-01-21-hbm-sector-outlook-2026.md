@@ -7,6 +7,8 @@ tags: [투자, HBM, 고대역폭메모리, SK하이닉스, 삼성전자, 마이�
 description: "2026년 HBM(High Bandwidth Memory) 섹터 투자 전망과 관련 종목을 상세 분석합니다."
 ---
 
+> **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [반도체 섹터 전망](/knowledge/invest/2026/01/21/semiconductor-sector-outlook-2026.html)
+
 ## HBM이란?
 
 HBM(High Bandwidth Memory, 고대역폭 메모리)은 여러 개의 DRAM 칩을 수직으로 쌓아 데이터 처리 속도를 획기적으로 높인 차세대 메모리 반도체입니다. AI GPU, NPU 등 인공지능 연산에 필수적인 핵심 부품으로, AI 시대의 '디지털 원유'로 불리고 있습니다.

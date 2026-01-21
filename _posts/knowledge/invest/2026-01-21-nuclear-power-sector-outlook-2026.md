@@ -7,6 +7,8 @@ tags: [투자, 원전, SMR, 소형모듈원자로, 두산에너빌리티, 한전
 description: "2026년 원전 섹터 투자 전망과 관련 종목을 상세 분석합니다. SMR과 AI 데이터센터 전력 수요를 분석했습니다."
 ---
 
+> **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [조선/방산/원전 섹터 전망](/knowledge/invest/2026/01/21/shipbuilding-defense-nuclear-sector-outlook-2026.html)
+
 ## 들어가며
 
 2026년, 원자력 발전은 전 세계적으로 다시 주목받고 있습니다. 탄소중립 목표 달성, AI 데이터센터의 폭발적인 전력 수요 증가, 그리고 소형모듈원자로(SMR) 기술의 상용화가 맞물리면서 원전 섹터는 새로운 투자 기회를 제공하고 있습니다.

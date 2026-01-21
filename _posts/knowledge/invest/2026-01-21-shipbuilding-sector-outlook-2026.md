@@ -7,6 +7,8 @@ tags: [투자, 조선, LNG선, 해양플랜트, HD현대중공업, 삼성중공�
 description: "2026년 조선 섹터 투자 전망과 관련 종목을 상세 분석합니다."
 ---
 
+> **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [조선/방산/원전 섹터 전망](/knowledge/invest/2026/01/21/shipbuilding-defense-nuclear-sector-outlook-2026.html)
+
 2026년 조선업이 **"조선 르네상스"**를 맞이하고 있습니다. HD현대중공업이 외국인 매수 1위를 기록하고, 삼성중공업의 4조원 규모 LNG 해양플랜트 수주가 임박하면서 투자자들의 관심이 집중되고 있습니다.
 
 이번 글에서는 조선 섹터의 하위 세그먼트와 밸류체인을 상세히 분석해보겠습니다.

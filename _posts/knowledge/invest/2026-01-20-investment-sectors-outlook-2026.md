@@ -1636,3 +1636,30 @@ Apple Intelligence + 헬스케어 + Vision Pro
 ### 로보틱스
 - [IFR World Robotics Report](https://ifr.org/worldrobotics/)
 - [McKinsey Automation Report](https://www.mckinsey.com/capabilities/operations/our-insights)
+
+---
+
+## 섹터별 상세 분석
+
+각 섹터에 대한 더 깊은 분석은 아래 글들을 참고하세요.
+
+### 반도체
+- [반도체 섹터 투자 전망](/knowledge/invest/2026/01/21/semiconductor-sector-outlook-2026.html) - 반도체 산업 전반 분석
+  - [HBM 투자 전망](/knowledge/invest/2026/01/21/hbm-sector-outlook-2026.html) - 고대역폭 메모리 심층 분석
+  - [DRAM/NAND 투자 전망](/knowledge/invest/2026/01/21/dram-nand-sector-outlook-2026.html) - 범용 메모리 분석
+  - [파운드리 투자 전망](/knowledge/invest/2026/01/21/foundry-sector-outlook-2026.html) - TSMC, 삼성전자 파운드리 분석
+  - [소부장 투자 전망](/knowledge/invest/2026/01/21/semiconductor-materials-equipment-outlook-2026.html) - 소재·부품·장비 분석
+
+### 자동차/로봇
+- [자동차/로봇 섹터 투자 전망](/knowledge/invest/2026/01/21/automotive-robotics-sector-outlook-2026.html) - 모빌리티·자동화 전반 분석
+  - [EV/자율주행 투자 전망](/knowledge/invest/2026/01/21/ev-autonomous-driving-outlook-2026.html) - 전기차·자율주행 심층 분석
+  - [로봇 투자 전망](/knowledge/invest/2026/01/21/robotics-sector-outlook-2026.html) - 휴머노이드·산업용 로봇 분석
+
+### 조선/방산/원전
+- [조선/방산/원전 섹터 투자 전망](/knowledge/invest/2026/01/21/shipbuilding-defense-nuclear-sector-outlook-2026.html) - 전통 산업 부흥 분석
+  - [조선 투자 전망](/knowledge/invest/2026/01/21/shipbuilding-sector-outlook-2026.html) - LNG선·조선 슈퍼사이클 분석
+  - [방산 투자 전망](/knowledge/invest/2026/01/21/defense-sector-outlook-2026.html) - K-방산 수출 호조 분석
+  - [원전 투자 전망](/knowledge/invest/2026/01/21/nuclear-power-sector-outlook-2026.html) - 원전 르네상스·SMR 분석
+
+### 거시경제/정책
+- [거시경제/정책 섹터 투자 전망](/knowledge/invest/2026/01/21/macroeconomic-policy-sector-outlook-2026.html) - 금리·환율·정책 분석

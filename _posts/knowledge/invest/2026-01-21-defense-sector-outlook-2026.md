@@ -7,6 +7,8 @@ tags: [투자, 방산, K방산, 한화에어로스페이스, LIG넥스원, 한�
 description: "2026년 방산 섹터 투자 전망과 관련 종목을 상세 분석합니다. K-방산 수출 호조를 분석했습니다."
 ---
 
+> **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [조선/방산/원전 섹터 전망](/knowledge/invest/2026/01/21/shipbuilding-defense-nuclear-sector-outlook-2026.html)
+
 ## 시장 현황: 방산 섹터의 폭발적 성장
 
 2026년 연초부터 방산 섹터가 폭발적인 성과를 기록하고 있다. 1월 중순 기준 주요 방산 ETF들이 일제히 25% 이상의 수익률을 달성하며 투자자들의 관심이 집중되고 있다.

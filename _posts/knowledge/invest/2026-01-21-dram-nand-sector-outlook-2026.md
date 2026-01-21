@@ -7,6 +7,8 @@ tags: [투자, DRAM, NAND, 삼성전자, SK하이닉스, 마이크론, 메모리
 description: "2026년 범용 DRAM 및 NAND 메모리 섹터 투자 전망과 관련 종목을 상세 분석합니다."
 ---
 
+> **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [반도체 섹터 전망](/knowledge/invest/2026/01/21/semiconductor-sector-outlook-2026.html)
+
 ## 시장 현황: 메모리 슈퍼사이클의 도래
 
 2026년은 메모리 반도체 역사상 유례없는 **슈퍼사이클**의 정점으로 평가받고 있습니다. 글로벌 투자은행 맥쿼리(Macquarie)는 AI 데이터센터 수요 폭증과 구조적 공급 부족이 맞물려 **2028년까지** 이 흐름이 지속될 것으로 전망했습니다.
