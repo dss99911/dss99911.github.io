@@ -5,6 +5,8 @@ date: 2025-01-09 01:57:37 +0900
 categories: [programming, python]
 tags: [python, youtube, transcript, api, subtitles]
 image: /assets/images/posts/thumbnails/youtube-transcript-python.png
+redirect_from:
+  - /programming/python/2025/01/09/youtube-transcript-eng.html
 ---
 
 # Fetching YouTube Transcripts Using Python with the YouTube Transcript API

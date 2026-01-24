@@ -5,6 +5,8 @@ date: 2025-12-28 03:02:00 +0900
 categories: [programming, common]
 tags: [regex, regular-expression]
 image: /assets/images/posts/thumbnails/2025-12-28-regular-expressions.png
+redirect_from:
+  - /programming/common/2025/12/28/regular-expressions.html
 ---
 
 # Regular Expression Groups

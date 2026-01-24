@@ -5,6 +5,8 @@ date: 2024-12-01 01:57:37 +0900
 categories: [infra, devops]
 tags: [openvpn, macos, automation, keychain, security, xcode]
 image: /assets/images/posts/thumbnails/2025-01-15-open-vpn-automation.png
+redirect_from:
+  - /infra/devops/2025/01/15/open-vpn-automation.html
 ---
 
 

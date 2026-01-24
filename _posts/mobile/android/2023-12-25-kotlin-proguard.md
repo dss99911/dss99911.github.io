@@ -5,6 +5,8 @@ date: 2023-12-25 01:05:37 +0900
 categories: [mobile, android]
 tags: [android, proguard, kotlin, data-class, obfuscation]
 image: /assets/images/posts/thumbnails/kotlin-proguard.png
+redirect_from:
+  - /android/2023/12/24/kotlin-proguard.html
 ---
 Whenever call the api, request body and response body should not be obfuscated by Proguard.
 

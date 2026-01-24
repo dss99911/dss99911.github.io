@@ -6,6 +6,8 @@ categories: [programming, python]
 description: "Python YouTube Transcript API로 유튜브 자막을 가져오는 방법. Tor Proxy를 이용한 차단 우회 방법과 Docker 구성까지 설명합니다."
 tags: [Python, YouTube, Transcript, API, Tor, Proxy]
 image: /assets/images/posts/thumbnails/2025-01-09-youtube-transcript.png
+redirect_from:
+  - /miscellanea/2025/01/08/youtube-transcript.html
 ---
 
 # YouTube Transcript API를 이용한 Python으로 YouTube 대본 가져오기

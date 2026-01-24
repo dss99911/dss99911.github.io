@@ -6,6 +6,8 @@ categories: [infra, spark]
 description: "Spark Predicate Pushdown의 작동 원리와 활용 방법을 설명합니다. Parquet, ORC 파일에서 I/O 비용을 줄이고 처리 속도를 향상시키는 최적화 기법입니다."
 tags: [Spark, Predicate Pushdown, Parquet, ORC, Performance, Optimization]
 image: /assets/images/posts/thumbnails/2024-11-25-spark-predicate-pushdown.png
+redirect_from:
+  - /infra/spark/2024/11/25/spark-predicate-pushdown.html
 ---
 
 # Predicate Pushdown: Spark의 데이터 읽기 최적화 기술

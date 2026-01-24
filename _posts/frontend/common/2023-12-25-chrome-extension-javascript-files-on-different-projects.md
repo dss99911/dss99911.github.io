@@ -5,6 +5,9 @@ date: 2023-12-25 01:05:37 +0900
 categories: [frontend, common]
 tags: [chrome-extension, javascript, hard-link, mac, development]
 image: /assets/images/posts/thumbnails/2023-12-25-chrome-extension-javascript-files-on-different-projects.png
+redirect_from:
+  - /frontend/common/2023/12/25/chrome-extension-javascript-files-on-different-projects.html
+  - /frontend/2023/12/24/chrome-extension-javascript-files-on-different-projects.html
 ---
 
 This explains only on Mac environment.

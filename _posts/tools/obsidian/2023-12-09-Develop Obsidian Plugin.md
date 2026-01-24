@@ -6,6 +6,8 @@ categories: [tools, obsidian]
 description: "Step-by-step guide to developing Obsidian plugins. Learn how to set up your development environment, install the sample plugin, and debug using Chrome developer tools."
 tags: [Obsidian, Plugin Development, JavaScript, TypeScript, Node.js]
 image: /assets/images/posts/thumbnails/2023-12-09-develop-obsidian-plugin.png
+redirect_from:
+  - /tools/obsidian/2023/12/09/Develop-Obsidian-Plugin.html
 ---
 
 # Develop Obsidian Plugin

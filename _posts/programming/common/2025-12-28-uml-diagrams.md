@@ -5,6 +5,8 @@ date: 2025-12-28 03:04:00 +0900
 categories: [programming, common]
 tags: [uml, design]
 image: /assets/images/posts/thumbnails/2025-12-28-uml-diagrams.png
+redirect_from:
+  - /programming/common/2025/12/28/uml-diagrams.html
 ---
 
 # UML (Unified Modeling Language)

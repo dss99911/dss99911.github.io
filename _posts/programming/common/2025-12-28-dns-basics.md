@@ -5,6 +5,8 @@ date: 2025-12-28 01:01:00 +0900
 categories: [programming, common]
 tags: [network, dns]
 image: /assets/images/posts/thumbnails/2025-12-28-dns-basics.png
+redirect_from:
+  - /programming/common/2025/12/28/dns-basics.html
 ---
 
 # DNS (Domain Name System)

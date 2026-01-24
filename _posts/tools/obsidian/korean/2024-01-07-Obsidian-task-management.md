@@ -7,6 +7,8 @@ tags: [obsidian, task-management, daily-notes, productivity, plugins]
 description: obsidian에서 실제 task 관리하고 있는 방법 설명
 locale: ko-KR
 image: /assets/images/posts/thumbnails/2024-01-07-obsidian-task-management.png
+redirect_from:
+  - /obsidian/korean/2024/01/07/Obsidian-task-management.html
 ---
 
 ## 목적
