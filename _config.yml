@@ -32,8 +32,8 @@ github_username:  dss99911
 # Language setting
 lang: ko
 
-# Default Open Graph image for social sharing
-og_image: /assets/images/og-default.png
+# Default Open Graph image for social sharing (used by jekyll-seo-tag)
+image: /assets/images/og-default.png
 
 # Build settings
 theme: minima
