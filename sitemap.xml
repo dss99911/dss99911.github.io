@@ -1,0 +1,56 @@
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Posts with dynamic priority based on recency -->
+  {% assign now = site.time | date: '%s' %}
+  {% assign one_month_ago = now | minus: 2592000 %}
+  {% assign six_months_ago = now | minus: 15552000 %}
+  {% assign one_year_ago = now | minus: 31536000 %}
+
+  {% for post in site.posts %}
+  {% assign post_date = post.date | date: '%s' %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
+    <lastmod>{% if post.last_modified_at %}{{ post.last_modified_at | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</lastmod>
+    {% if post_date > one_month_ago %}
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    {% elsif post_date > six_months_ago %}
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    {% elsif post_date > one_year_ago %}
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    {% else %}
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    {% endif %}
+  </url>
+  {% endfor %}
+
+  <!-- Pages (categories, about, etc.) -->
+  {% for page in site.pages %}
+  {% unless page.sitemap.exclude == 'yes' or page.url contains '.json' or page.url contains '.xml' %}
+  {% if page.url %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index.html' }}</loc>
+    <lastmod>{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  {% endif %}
+  {% endunless %}
+  {% endfor %}
+</urlset>

@@ -29,6 +29,12 @@ url: "https://dss99911.github.io" # the base hostname & protocol for your site, 
 repository: 'https://github.com/dss99911/dss99911.github.io'
 github_username:  dss99911
 
+# Language setting
+lang: ko
+
+# Default Open Graph image for social sharing
+og_image: /assets/images/og-default.png
+
 # Build settings
 theme: minima
 plugins:
