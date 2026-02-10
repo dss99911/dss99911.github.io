@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "2026년 자동차 로봇 투자 전망: 테슬라 EV 모델 단종, 옵티머스·로보택시 올인 (2월 9일 업데이트)"
-date: 2026-02-09 10:30:00 +0900
+title: "2026년 자동차 로봇 투자 전망: Cybercab 4월 생산·NHTSA 상한 해제·현대 로봇 3만대 (2월 10일 업데이트)"
+date: 2026-02-10 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 자동차, 로봇, 현대차, 보스턴다이나믹스, 테슬라, 자율주행, EV, xAI, SpaceX, 옵티머스, 로보택시, Cybercab, 2026전망]
-description: "2026년 2월 9일 자동차/로봇 섹터 투자 전망. 테슬라 인기 EV 2개 모델 단종(옵티머스 역량 확보), FSD 구독 전환, Cybercab 7개 도시 런칭 계획, $200억 투자, 글로벌 자동차 침체(도요타 -43%, BYD 2년 최저), 다카이치 총선 압승과 엔화 약세."
+description: "2026년 2월 10일 자동차/로봇 섹터 투자 전망. Cybercab 4월 생산 시작, NHTSA 로보택시 차량 수 상한 해제, FSD v14 MotorTrend 수상, 현대차 미국 공장 AI 로봇 3만대 배치, CES 2026 피지컬 AI, 테슬라 $413."
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html)

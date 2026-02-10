@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2026년 암호화폐 투자 전망: 비트코인·이더리움·스테이블코인·STO 완전 분석"
-date: 2026-02-09 12:00:00 +0900
+date: 2026-02-10 12:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 비트코인, 이더리움, 암호화폐, 스테이블코인, 토큰화, STO, 토큰증권, 2026전망, 기관투자, 피터틸]
 image: /assets/images/posts/thumbnails/bitcoin-outlook-2026.png

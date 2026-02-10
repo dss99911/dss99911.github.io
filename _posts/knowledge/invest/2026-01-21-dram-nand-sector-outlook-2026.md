@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2026년 DRAM/NAND 투자 전망: 반도체 슈퍼사이클과 삼성전자 사상최고가 (2월 9일 업데이트)"
-date: 2026-02-09 12:00:00 +0900
+date: 2026-02-10 12:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, DRAM, NAND, 삼성전자, SK하이닉스, 마이크론, 메모리, 반도체, 2026전망, 슈퍼사이클]
 description: "2026년 DRAM/NAND 시장 업데이트. 삼성전자 +11.37% 사상최고가, DRAM 영업마진 70%, DDR4 1,800% 폭등, 반도체 슈퍼사이클 2027 Q1까지 전망."

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2026년 은(Silver) 투자 전망: 조정 국면에서의 전략적 접근"
-date: 2026-02-09 23:00:00 +0900
+date: 2026-02-10 23:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 은, silver, 귀금속, 원자재, 2026전망, COMEX]
 image: /assets/images/posts/thumbnails/silver-investment-2026.png
