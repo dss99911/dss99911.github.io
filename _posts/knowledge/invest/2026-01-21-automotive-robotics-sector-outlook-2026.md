@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "2026년 자동차 로봇 투자 전망: Cybercab 첫 유닛 생산·오스틴 로보택시 런칭·UN 자율주행 규정 6월 투표 (2월 21일 업데이트)"
-date: 2026-02-21 09:00:00 +0900
+title: "2026년 자동차 로봇 투자 전망: Cybercab $30K 확정·FCC UWB 충전 승인·오스틴 안전성 2배 개선·UN 규정 6월 투표 (2월 22일 업데이트)"
+date: 2026-02-22 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 자동차, 로봇, 현대차, 보스턴다이나믹스, 테슬라, 자율주행, EV, xAI, SpaceX, 옵티머스, 로보택시, Cybercab, 한화, 삼성전자, 레인보우로보틱스, 두산로보틱스, FSD, UNECE, 2026전망, BYD, 전고체배터리, Mobileye, UiPath, Intuitive Surgical]
 description: "2026년 2월 21일 자동차/로봇 섹터 투자 전망. 2/17 Cybercab 첫 유닛 기가텍사스 양산라인 이탈(핸들 없는 최초 차량), 4월 양산 본격화, 오스틴 로보택시 공식 런칭(1/22), FSD $99/월 구독 전용 전환, UN 자율주행 규정 6월 투표, 오스틴 사고율 14건/80만 마일, FSD 100억 마일 7월 달성 예상, Mobileye-Mentee 인수, UiPath 첫 GAAP 흑자."
@@ -27,6 +27,9 @@ description: "2026년 2월 21일 자동차/로봇 섹터 투자 전망. 2/17 Cyb
 | **Mobileye → Mentee Robotics 인수** | Mobileye가 휴머노이드 로봇 기업 Mentee Robotics 인수 |
 | **Intuitive Surgical** | da Vinci Single Port FDA 승인 확대 |
 | **UiPath** | WorkFusion 인수, **첫 GAAP 흑자** 달성 |
+| **★ Cybercab 가격 확정** | **$30,000 미만** (머스크 공식 확인) |
+| **★ FCC UWB 무선충전 승인** | 핵심 규제 승인 획득 → 자율 충전 가능 |
+| **★ 안전성 2배 개선** | 2025.12~2026.1 사이 사고율 **약 2배 개선** |
 | **테슬라 주가** | **$411.75** (시총 $1.52T) |
 
 ## 핵심 이슈 심층 분석
