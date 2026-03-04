@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Docker Repository 사용 가이드
-date: 2024-12-23 01:57:37 +0900
+date: 2024-11-26 01:57:37 +0900
 categories: [infra, devops]
+redirect_from:
+  - /infra/devops/2024/12/23/docker-repository.html
 tags: [docker, docker-hub, container, registry, devops]
 image: /assets/images/posts/thumbnails/2024-11-26-docker-repository.png
 ---
