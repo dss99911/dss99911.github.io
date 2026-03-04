@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "2026년 파운드리 투자 전망: NVIDIA Intel 18A 테스트 중단·TSMC 2nm $30K+·삼성 Tesla AI6 $16B+·삼성 2nm GAA 집중·AMD-Meta $60B (3월 3일 업데이트)"
-date: 2026-03-03 09:00:00 +0900
+title: "2026년 파운드리 투자 전망: 삼성 -9.88%·Taylor 양산 2027 지연·삼성 2nm GAA 집중·TSMC 2nm $30K+·AMD-Meta $60B (3월 4일 업데이트)"
+date: 2026-03-04 09:00:00 +0900
 categories: [knowledge, invest]
-tags: [투자, 파운드리, TSMC, 삼성전자, 브로드컴, 인텔, 반도체, AI, 관세, 테슬라, 2026전망, 커스텀ASIC, Intel18A, 2nm, ASML, HighNAEUV, AMD, Meta, VeraRubin, Feynman]
-description: "2026년 3월 3일 파운드리 섹터. NVIDIA Intel 18A 테스트 중단(수율 우려). TSMC 2nm 양산, 웨이퍼 $30K+, $165B 미국 투자 관세 면제. 삼성 Taylor 4nm 포기 → 2nm GAA 집중, Tesla AI6 $16B+, Intel 8nm 수주. AMD-Meta $60B 딜. ASML High-NA EUV 2027-28."
-last_modified_at: 2026-03-03
+tags: [투자, 파운드리, TSMC, 삼성전자, 브로드컴, 인텔, 반도체, AI, 관세, 테슬라, 2026전망, 커스텀ASIC, Intel18A, 2nm, ASML, HighNAEUV, AMD, Meta, VeraRubin, Feynman, BlackTuesday, Taylor]
+description: "2026년 3월 4일 파운드리 섹터. 삼성 3/3 -9.88% 블랙 튜즈데이. 삼성 Taylor 공장 양산 2027년으로 지연. 삼성 Taylor 4nm 포기 → 2nm GAA 집중, Tesla AI6 $16B+. TSMC 2nm 양산, 웨이퍼 $30K+. AMD-Meta $60B 딜."
+last_modified_at: 2026-03-04
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [반도체 섹터 전망](/knowledge/invest/2026/01/21/semiconductor-sector-outlook-2026.html) | [반도체 소부장 전망](/knowledge/invest/2026/01/21/semiconductor-materials-equipment-outlook-2026.html)
@@ -18,10 +18,21 @@ TSMC의 병목이 심화되면서, 빅테크들이 삼성을 **"필수적 대안
 
 ---
 
+## 3월 4일 핵심 업데이트
+
+| 날짜 | 이벤트 | 파운드리 영향 |
+|------|--------|-------------|
+| **3/3** | **삼성전자 -9.88% 급락** — 블랙 튜즈데이 | KOSPI -7.24%, 관세·지정학 충격, 파운드리 펀더멘탈 변화 없음 |
+| **3/3** | **삼성 Taylor 공장 양산 2027년 지연** | 기존 계획 대비 지연, 2nm GAA 집중 전략은 유지 |
+
+---
+
 ## 3월 핵심 업데이트
 
 | 항목 | 내용 |
 |------|------|
+| **삼성 -9.88% (3/3 블랙 튜즈데이)** | 관세·지정학 충격으로 급락, 파운드리 펀더멘탈 변화 없음 |
+| **삼성 Taylor 양산 2027년 지연** | 기존 일정 대비 지연, 2nm GAA 집중 전략에 집중 |
 | **NVIDIA Intel 18A 테스트 중단** | 수율 우려로 TSMC 유지 결정 |
 | **삼성 Taylor 4nm 포기** | **2nm GAA 집중 전략 전환** |
 | **삼성 Tesla AI6** | **$16B+ (역대 최대 외부 파운드리 수주)** |
@@ -68,7 +79,7 @@ TSMC의 첨단 공정이 풀 부킹 상태에서, NVIDIA Vera Rubin + AMD MI450 
 
 | 항목 | 내용 |
 |------|------|
-| **Taylor 공장** | **4nm 계획 포기 → 2nm GAA 집중** |
+| **Taylor 공장** | **4nm 계획 포기 → 2nm GAA 집중, 양산 2027년 지연** |
 | **Tesla AI6** | **$16B+ (역대 최대 외부 수주)** |
 | **Intel 8nm 수주** | **2026년 볼륨 생산** |
 | **2nm Exynos 2600** | 자사 칩으로 수율/성능 검증 |
@@ -251,4 +262,4 @@ TSMC 가동률 극대화 + 삼성에도 오버플로 수요
 
 ---
 
-*본 글은 투자 참고용이며, 투자 결정은 본인의 판단과 책임하에 이루어져야 합니다. (2026년 3월 3일 업데이트)*
+*본 글은 투자 참고용이며, 투자 결정은 본인의 판단과 책임하에 이루어져야 합니다. (2026년 3월 4일 업데이트)*
