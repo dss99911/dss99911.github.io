@@ -22,7 +22,7 @@ jobs:
           JEKYLL_ENV: production
 
       - name: Deploy to EC2
-        uses: easingthemes/ssh-deploy@v5
+        uses: easingthemes/ssh-deploy@v5.1.1
         with:
           SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
           REMOTE_HOST: 3.39.230.4
