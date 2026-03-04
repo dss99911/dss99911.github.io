@@ -1,9 +1,12 @@
 ---
 layout: post
 title: "2026년 반도체 투자 전망: 기가사이클 $975B·RAMmageddon·AI CAPEX $660B·GTC 3/15·DRAM Q2 +70%·HBM $54.6B (3월 4일 업데이트)"
-date: 2026-03-04 09:00:00 +0900
+date: 2026-01-21 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 반도체, HBM, HBM4, 메모리, 파운드리, 삼성전자, SK하이닉스, 엔비디아, TSMC, 브로드컴, AMD, Meta, SK스퀘어, 소부장, 한미반도체, ASML, 2026전망, RAMmageddon, GTC2026, VeraRubin, Feynman, Section122, AICAPEX, 기가사이클, KOSPI폭락]
+redirect_from:
+  - /knowledge/invest/2026/03/04/semiconductor-sector-outlook-2026.html
+  - /knowledge/invest/2026/02/10/semiconductor-sector-outlook-2026.html
 description: "2026년 3월 4일 반도체 섹터 전망. KOSPI 블랙 화요일(-7.24%) 속 삼성전자 -9.88%(20만원 하회), SK하이닉스 -11.50%(939,000원). 외국인 4.4조 매도. 구조적 테시스 불변: $975B 기가사이클, AI CAPEX $660-690B, RAMmageddon(DRAM Q2 +70% 전망). 폭락은 지정학 리스크(이란전쟁)에 의한 일시적 센티먼트 충격. 밸류에이션 매력 극대화."
 last_modified_at: 2026-03-04
 ---

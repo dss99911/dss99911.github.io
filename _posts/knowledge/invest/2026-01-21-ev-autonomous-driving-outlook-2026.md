@@ -1,9 +1,13 @@
 ---
 layout: post
 title: "2026년 전기차·자율주행 투자 전망: 유가 Brent $81.23 EV 경제성·현대 -11.72%·기아 -11.29%·블랙 튜즈데이·Cybercab 4월·FSD 84억mi (3월 4일 업데이트)"
-date: 2026-03-04 09:00:00 +0900
+date: 2026-01-21 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 전기차, EV, 자율주행, FSD, 테슬라, 웨이모, 현대차, 삼성전자, 2026전망, 로보택시, Cybercab, BYD, 전고체배터리, 호르무즈, Waymo, 유가, 42dot, IONIQ5, BlackTuesday, 기아]
+redirect_from:
+  - /knowledge/invest/2026/03/04/ev-autonomous-driving-outlook-2026.html
+  - /knowledge/invest/2026/02/10/ev-autonomous-driving-outlook-2026.html
+  - /knowledge/invest/2026/02/20/ev-autonomous-driving-outlook-2026.html
 description: "2026년 3월 4일 전기차/자율주행 투자 전망. 유가 Brent $81.23으로 EV 경제성 우위 확대. 3/3 블랙 튜즈데이: 현대차 -11.72%, 기아 -11.29% 급락. Cybercab 4월 양산. FSD 84억mi. UN 자율주행 6월 투표."
 last_modified_at: 2026-03-04
 ---

@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "2026년 은(Silver) 투자 전망: $93-96·ATH $121·월간 +21%·6년연속 공급적자·태양광 은 프리 셀 리스크·BofA $135-$309·기술적 $88.50 위 강세 (3월 3일 업데이트)"
-date: 2026-03-03 09:00:00 +0900
-last_modified_at: 2026-03-03
+date: 2026-01-19 09:00:00 +0900
+last_modified_at: 2026-03-04
+redirect_from:
+  - /knowledge/invest/2026/03/03/silver-investment-analysis-2026.html
+  - /knowledge/invest/2026/02/23/silver-investment-analysis-2026.html
 categories: [knowledge, invest]
 tags: [투자, 은, silver, 귀금속, 원자재, 2026전망, COMEX, 금, 이란, 지정학, 호르무즈, 태양광]
 image: /assets/images/posts/thumbnails/silver-investment-2026.png

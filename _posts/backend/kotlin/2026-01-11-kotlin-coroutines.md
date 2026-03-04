@@ -2,6 +2,10 @@
 layout: post
 title: "Kotlin Coroutines: Asynchronous Programming Made Simple"
 date: 2026-01-11
+redirect_from:
+  - /kotlin/kotlin-coroutines
+  - /kotlin/kotlin-coroutines.html
+  - /kotlin/2026/01/11/kotlin-coroutines.html
 categories: [backend, kotlin]
 tags: [kotlin, jvm, coroutines, async, concurrency]
 image: /assets/images/posts/kotlin-coroutines.png

@@ -5,8 +5,6 @@ date: 2025-12-28 03:03:00 +0900
 categories: [programming, common]
 tags: [markdown]
 image: /assets/images/posts/thumbnails/2025-12-28-markdown-syntax-guide.png
-redirect_from:
-  - /programming/common/2025/12/28/markdown-syntax-guide.html
 ---
 
 # Markdown Syntax Guide

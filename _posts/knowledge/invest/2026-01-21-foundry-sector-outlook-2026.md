@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "2026년 파운드리 투자 전망: 삼성 -9.88%·Taylor 양산 2027 지연·삼성 2nm GAA 집중·TSMC 2nm $30K+·AMD-Meta $60B (3월 4일 업데이트)"
-date: 2026-03-04 09:00:00 +0900
+date: 2026-01-21 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 파운드리, TSMC, 삼성전자, 브로드컴, 인텔, 반도체, AI, 관세, 테슬라, 2026전망, 커스텀ASIC, Intel18A, 2nm, ASML, HighNAEUV, AMD, Meta, VeraRubin, Feynman, BlackTuesday, Taylor]
+redirect_from:
+  - /knowledge/invest/2026/03/04/foundry-sector-outlook-2026.html
 description: "2026년 3월 4일 파운드리 섹터. 삼성 3/3 -9.88% 블랙 튜즈데이. 삼성 Taylor 공장 양산 2027년으로 지연. 삼성 Taylor 4nm 포기 → 2nm GAA 집중, Tesla AI6 $16B+. TSMC 2nm 양산, 웨이퍼 $30K+. AMD-Meta $60B 딜."
 last_modified_at: 2026-03-04
 ---

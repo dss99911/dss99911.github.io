@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "2026년 투자 섹터 전망: 3/3 Black Tuesday KOSPI -7.24% 폭락·유가 Brent $81·방산주 상한가·금 조정·트럼프 호르무즈 호위 (3월 4일 업데이트)"
-date: 2026-03-04 09:00:00 +0900
+date: 2026-01-20 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 섹터, AI, 반도체, 에너지, 바이오, 우주산업, 2026전망, 포트폴리오, 로봇, 방산, STO, 배당ETF, 네트워크인프라, HBM4, 엔캐리트레이드, DRAM폭등, 테슬라Cybercab, KOSPI사상최고, 천무노르웨이, MASGA, 기가사이클, BYD, 금사상최고, ASML, Intel18A, 커스텀ASIC, 전고체배터리, 우라늄100, IEEPA위헌, 스태그플레이션, 이란공습, 수출입은행법, HBM4가격700달러, 은급등, Section122, ReArmEurope, NATO5퍼센트, 이란전쟁, 호르무즈해협, 하메네이사망, EpicFury, 호르무즈봉쇄, 해운대란, MSC, Maersk, RoaringLion, 방산주폭등, 트럼프방중, BlackTuesday, KOSPI폭락, 트럼프호위, OPEC증산, Cybercab양산]
 image: /assets/images/posts/thumbnails/investment-sectors-2026.png
+redirect_from:
+  - /knowledge/invest/2026/03/04/investment-sectors-outlook-2026.html
 description: "2026년 3월 4일 기준. 3/3 'Black Tuesday' KOSPI 7.24% 폭락(5,792), 삼성전자 -9.88%, SK하이닉스 -11.50%. 방산주 폭등: 한화에어로 +19.83%, LIG넥스원·한화시스템즈 상한가(+29.99%). 유가 Brent $81.23. 트럼프: 호르무즈 미해군 호위+DFC 보험 발표. OPEC+ 206,000bpd 증산. 금 $5,075-5,200 조정. 한국 호르무즈 의존도 276만 배럴/일. DRAM Q2 최대 70% 상승 전망."
 last_modified_at: 2026-03-04
 ---

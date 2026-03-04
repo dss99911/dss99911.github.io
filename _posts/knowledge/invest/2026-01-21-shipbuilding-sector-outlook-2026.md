@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "2026년 조선 투자 전망: 호르무즈 통행량 -70%·P&I보험 3/5 해제·트럼프 호위 발표·한국 276만배럴/일·톤마일 급증 (3월 4일 업데이트)"
-date: 2026-03-04 09:00:00 +0900
+date: 2026-01-21 09:00:00 +0900
 last_modified_at: 2026-03-04
 categories: [knowledge, invest]
 tags: [투자, 조선, LNG선, HD현대중공업, HD한국조선해양, 삼성중공업, 한화오션, MASGA, 미해군, 철강관세, 2026전망, 수에즈운하, 컨테이너운임, 호르무즈, 캐나다잠수함, 이란전쟁, 톤마일, PhillyShipyard]
+redirect_from:
+  - /knowledge/invest/2026/03/04/shipbuilding-sector-outlook-2026.html
 description: "2026년 3월 3일 기준 조선 섹터 투자 전망. 이란 전쟁 본격화 → 호르무즈 해협 봉쇄(1,500만 배럴/일 차질) → 톤마일 구조적 증가. HD한국조선해양 $233.1억(+29.1%). LNG선 2026년 50척→2027년 100척(Clarkson). HD현대 LNG $25.5억 수주 + NYK LOI 8척. 한화오션 OP 1.78조(7.5배). Philly 조선소 10척. 철강 관세 25%→50%."
 ---
 

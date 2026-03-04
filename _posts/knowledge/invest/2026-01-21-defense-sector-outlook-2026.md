@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "2026년 방산 투자 전망: 한화에어로 +19.83%·LIG/한화시스템 상한가 +29.99%·KOSPI -7.24% 속 방산 독주·이란 전쟁 수혜 (3월 4일 업데이트)"
-date: 2026-03-04 09:00:00 +0900
+date: 2026-01-21 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 방산, K방산, 한화에어로스페이스, LIG넥스원, 한화시스템, 한화오션, 2026전망, 천무, 캐나다잠수함, ReArm Europe, MASGA, NATO, KF-21, UAE, 미사일방어, 이란, 이란공습, Section122, WDS2026, MRO]
+redirect_from:
+  - /knowledge/invest/2026/03/04/defense-sector-outlook-2026.html
 description: "2026년 3월 4일 기준 방산 섹터 투자 전망. 3/3 블랙 튜즈데이: KOSPI -7.24% 폭락 속 방산 독주 — 한화에어로 +19.83%, LIG넥스원·한화시스템 상한가 +29.99%. 이란 전쟁 → ReArm Europe 1,250조 + NATO 5% + 트리플 촉매."
 last_modified_at: 2026-03-04
 ---

@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "2026년 로봇 투자 전망: Cybercab 25대 기가텍사스·볼륨 생산 4-8주 후·옵티머스 Gen3 양산·BD Atlas+DeepMind·GTC 2026 (3월 4일 업데이트)"
-date: 2026-03-04 09:00:00 +0900
+date: 2026-01-21 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 로봇, 휴머노이드, 보스턴다이나믹스, 옵티머스, 현대차, 테슬라, 삼성전자, 두산로보틱스, Figure AI, 한화, 2026전망, GTC, NVIDIA, DeepMind, Atlas, Cybercab]
+redirect_from:
+  - /knowledge/invest/2026/03/04/robotics-sector-outlook-2026.html
 description: "2026년 3월 4일 로봇 섹터 투자 전망. Cybercab 기가텍사스에 25대 배치, 볼륨 생산 4-8주 후 예정. 옵티머스 Gen3 프리몬트 양산+Model S/X Q2 단종→라인 전환. BD Atlas CES 상용런칭+DeepMind 통합. Figure 03 BMW 3만대 실적. GTC 2026(3/15~19) 로봇 AI 인프라 기대."
 last_modified_at: 2026-03-04
 ---

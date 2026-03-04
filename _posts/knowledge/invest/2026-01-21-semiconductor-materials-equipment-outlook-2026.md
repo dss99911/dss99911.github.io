@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "2026년 반도체 소부장 투자 전망: 블랙 튜즈데이 충격이나 구조적 수요 불변·ASML €132B·백로그 $388B·HBM4 양산 가속·$975B 기가사이클 (3월 4일 업데이트)"
-date: 2026-03-04 09:00:00 +0900
+date: 2026-01-21 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 반도체, 소부장, 소재, 부품, 장비, HBM4, HBF, HPSP, 한미반도체, 리노공업, ASML, 관세, 삼성전자, SK하이닉스, 2026전망, HighNAEUV, TEL, TokyoElectron, 첨단패키징, BlackTuesday]
+redirect_from:
+  - /knowledge/invest/2026/03/04/semiconductor-materials-equipment-outlook-2026.html
 description: "2026년 3월 4일 소부장 섹터. 3/3 블랙 튜즈데이 — KOSPI -7.24%, 반도체 장비주 동반 급락이나 구조적 수요(HBM4 양산, $975B 기가사이클) 변화 없음. ASML Q1 주문 €132B(기록), 백로그 $388B. 삼성·SK CapEx 대규모 집행 지속."
 last_modified_at: 2026-03-04
 ---

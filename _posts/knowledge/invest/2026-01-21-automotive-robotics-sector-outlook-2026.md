@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "2026년 자동차 로봇 투자 전망: KOSPI 폭락(이란 전쟁)·Cybercab 25대 관찰·유가 $81 EV 경제성·옵티머스 Gen3·Waymo $110B (3월 4일 업데이트)"
-date: 2026-03-04 09:00:00 +0900
+date: 2026-01-21 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 자동차, 로봇, 현대차, 보스턴다이나믹스, 테슬라, 자율주행, EV, 옵티머스, 로보택시, Cybercab, 한화, 삼성전자, 레인보우로보틱스, 두산로보틱스, FSD, UNECE, 2026전망, BYD, 전고체배터리, Waymo, Figure AI, DeepMind, 42dot, KOSPI, 이란전쟁, 호르무즈]
+redirect_from:
+  - /knowledge/invest/2026/03/04/automotive-robotics-sector-outlook-2026.html
 description: "2026년 3월 4일 자동차/로봇 섹터 투자 전망. KOSPI 폭락(현대차 -11.72%, 기아 -11.29% 이란 전쟁 충격). Cybercab 기가텍사스 25대 관찰(4-8주 내 본격 양산). 유가 Brent $81.23 EV 경제성 극대화. 한국 호르무즈 276만 배럴/일 의존→EV 전환 가속. 옵티머스 Gen3 양산+Model S/X 단종. Waymo $110B."
 last_modified_at: 2026-03-04
 ---

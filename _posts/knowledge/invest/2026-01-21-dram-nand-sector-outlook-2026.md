@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "2026년 DRAM/NAND 투자 전망: DRAM Q2 최대 70% 추가 급등·삼성 -9.88%·SK하이닉스 -11.50%·블랙 튜즈데이·Taylor 2027 지연·RAMmageddon (3월 4일 업데이트)"
-date: 2026-03-04 09:00:00 +0900
+date: 2026-01-21 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, DRAM, NAND, 삼성전자, SK하이닉스, 마이크론, 메모리, 반도체, 2026전망, RAMmageddon, HBM4, HBF, 관세, 기가사이클, Section122, 리드타임, SSD, BlackTuesday, DigiTimes, Taylor]
+redirect_from:
+  - /knowledge/invest/2026/03/04/dram-nand-sector-outlook-2026.html
 description: "DRAM Q2 가격 최대 70% 추가 급등 전망(DigiTimes). 3/3 블랙 튜즈데이: 삼성 -9.88%, SK하이닉스 -11.50% 급락(펀더멘탈 변화 없음). 삼성 Taylor 공장 양산 2027년으로 지연. RAMmageddon 지속: DRAM Q1 +90-95%, 리드타임 40주+, 2028년까지 부족."
 last_modified_at: 2026-03-04
 ---

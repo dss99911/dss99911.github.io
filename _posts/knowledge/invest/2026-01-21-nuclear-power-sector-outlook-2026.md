@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "2026년 원전 투자 전망: 유가 $81.23 원전 경제성 극대화·Oklo-Meta 1.2GW 오하이오 캠퍼스·우라늄 1월 $100+ 돌파·SMR 특별법·NuScale-TVA 6GW (3월 4일 업데이트)"
-date: 2026-03-04 09:00:00 +0900
+date: 2026-01-21 09:00:00 +0900
 last_modified_at: 2026-03-04
 categories: [knowledge, invest]
 tags: [투자, 원전, SMR, 소형모듈원자로, 두산에너빌리티, NuScale, AI전력, 데이터센터, 에너지안보, 한전기술, IRA, 2026전망, 우라늄, DOE, 카메코, LinglongOne, 이란전쟁, 유가급등, 호르무즈해협, 부유식원자력, USSNimitz, SMR특별법, iSMR, KHNP, Meta]
+redirect_from:
+  - /knowledge/invest/2026/03/04/nuclear-power-sector-outlook-2026.html
 description: "2026년 3월 3일 기준 원전 섹터 투자 전망. 이란 전쟁→유가 $79.41(+9%)→원전 경제성 극대화. SMR 특별법 2/12 국회 통과. NuScale-TVA 최대 6GW(미국 최대 SMR). Meta NuScale 계약(기업 최대 원전 구매). KHNP-싱가포르 MOU(3/1). 우라늄 $100 돌파 후 $92-101 조정. USS Nimitz AI DC 제안. 2026년 전세계 15기 가동. 두산에너빌리티 SMR 착공. 미국 $57B 투자 기회."
 ---
 

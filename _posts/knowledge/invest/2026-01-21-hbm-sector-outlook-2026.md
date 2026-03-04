@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "2026년 HBM 투자 전망: $54.6B(+58%)·SK하이닉스 -11.50% 939,000원·PER 4.2배·HBM4 총수요 2/3 공급·GTC 2026 삼성/SK HBM4 쇼케이스 (3월 4일 업데이트)"
-date: 2026-03-04 09:00:00 +0900
+date: 2026-01-21 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, HBM, 고대역폭메모리, SK하이닉스, 삼성전자, 마이크론, AI, 반도체, 2026전망, SK스퀘어, HBM4, TSMC, VeraRubin, HBF, 관세, 기가사이클, Section122, RAMmageddon, BlackTuesday, GTC2026]
+redirect_from:
+  - /knowledge/invest/2026/03/04/hbm-sector-outlook-2026.html
 description: "2026년 HBM 시장 $54.6B(+58% YoY, BofA). SK하이닉스 3/3 -11.50% 939,000원, PER ~4.2배로 더욱 저평가. SK하이닉스 NVIDIA 총 HBM4 수요의 약 2/3 공급 확인. GTC 2026(3/15~19) 삼성·SK 모두 HBM4 쇼케이스 예정."
 last_modified_at: 2026-03-04
 ---

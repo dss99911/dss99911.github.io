@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "2026년 암호화폐 투자 전망: BTC $66.6K-69.3K·ATH -47%·Fear 14·ETF AUM -50%·5개월 연속 하락·$60K 지지 핵심·이란 리스크·기관 $120K-$175K vs 현실 (3월 3일 업데이트)"
-date: 2026-03-03 09:00:00 +0900
-last_modified_at: 2026-03-03
+date: 2026-01-19 09:00:00 +0900
+last_modified_at: 2026-03-04
+redirect_from:
+  - /knowledge/invest/2026/03/03/crypto-outlook-analysis-2026.html
 categories: [knowledge, invest]
 tags: [투자, 비트코인, 이더리움, 암호화폐, 스테이블코인, 토큰화, STO, 토큰증권, 2026전망, 기관투자, ETF, GENIUS Act, 이란, 호르무즈]
 image: /assets/images/posts/thumbnails/bitcoin-outlook-2026.png
