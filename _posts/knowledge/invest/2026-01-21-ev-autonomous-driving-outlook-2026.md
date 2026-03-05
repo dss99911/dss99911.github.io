@@ -9,7 +9,7 @@ redirect_from:
   - /knowledge/invest/2026/02/10/ev-autonomous-driving-outlook-2026.html
   - /knowledge/invest/2026/02/20/ev-autonomous-driving-outlook-2026.html
 description: "2026년 3월 4일 전기차/자율주행 투자 전망. 유가 Brent $81.23으로 EV 경제성 우위 확대. 3/3 블랙 튜즈데이: 현대차 -11.72%, 기아 -11.29% 급락. Cybercab 4월 양산. FSD 84억mi. UN 자율주행 6월 투표."
-last_modified_at: 2026-03-04
+last_modified_at: 2026-03-05
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [자동차/로봇 섹터 전망](/knowledge/invest/2026/01/21/automotive-robotics-sector-outlook-2026.html)

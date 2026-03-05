@@ -7,7 +7,7 @@ tags: [투자, 로봇, 휴머노이드, 보스턴다이나믹스, 옵티머스, 
 redirect_from:
   - /knowledge/invest/2026/03/04/robotics-sector-outlook-2026.html
 description: "2026년 3월 4일 로봇 섹터 투자 전망. Cybercab 기가텍사스에 25대 배치, 볼륨 생산 4-8주 후 예정. 옵티머스 Gen3 프리몬트 양산+Model S/X Q2 단종→라인 전환. BD Atlas CES 상용런칭+DeepMind 통합. Figure 03 BMW 3만대 실적. GTC 2026(3/15~19) 로봇 AI 인프라 기대."
-last_modified_at: 2026-03-04
+last_modified_at: 2026-03-05
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [자동차/로봇 섹터 전망](/knowledge/invest/2026/01/21/automotive-robotics-sector-outlook-2026.html)

@@ -7,7 +7,7 @@ tags: [투자, 파운드리, TSMC, 삼성전자, 브로드컴, 인텔, 반도체
 redirect_from:
   - /knowledge/invest/2026/03/04/foundry-sector-outlook-2026.html
 description: "2026년 3월 4일 파운드리 섹터. 삼성 3/3 -9.88% 블랙 튜즈데이. 삼성 Taylor 공장 양산 2027년으로 지연. 삼성 Taylor 4nm 포기 → 2nm GAA 집중, Tesla AI6 $16B+. TSMC 2nm 양산, 웨이퍼 $30K+. AMD-Meta $60B 딜."
-last_modified_at: 2026-03-04
+last_modified_at: 2026-03-05
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [반도체 섹터 전망](/knowledge/invest/2026/01/21/semiconductor-sector-outlook-2026.html) | [반도체 소부장 전망](/knowledge/invest/2026/01/21/semiconductor-materials-equipment-outlook-2026.html)

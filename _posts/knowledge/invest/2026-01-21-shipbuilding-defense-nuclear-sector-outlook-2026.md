@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "2026년 조선/방산/원전 투자 전망: ★★★ 이란 전쟁·호르무즈 70% 통행 감소·트럼프 유조선 호위 발표·유가 $81·방산주 폭등·NATO 5%·캐나다 잠수함 마감 (3월 4일 업데이트)"
+title: "2026년 조선/방산/원전 투자 전망: ★★★ 3/4 KOSPI -12.06% 속 방산 독보적·이란 전쟁·호르무즈 봉쇄·유가 $78·NATO 5%·캐나다 잠수함·P&I 보험 제거 (3월 5일 업데이트)"
 date: 2026-01-21 09:00:00 +0900
-last_modified_at: 2026-03-04
+last_modified_at: 2026-03-05
 categories: [knowledge, invest]
 tags: [투자, 조선, 방산, 원전, HD현대중공업, 한화에어로스페이스, 삼성중공업, 한화오션, 2026전망, MASGA, 폴란드천무, 루마니아H-ACE, 캐나다잠수함, K방산, 철강관세, SMR, LNG선, KF-21, NATO, 수에즈운하, 우라늄, Section122, iSMR, 수출입은행법, 현대로템, ReArmEurope, AlgomaSteel, 이란전쟁, 호르무즈해협, 호르무즈봉쇄, 유가급등, 전시포트폴리오, 해운대란, 하메네이사망, EpicFury, RoaringLion, 트럼프유조선호위, DFC, PandI보험, OkloMeta]
 redirect_from:
