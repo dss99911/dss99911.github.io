@@ -11,6 +11,14 @@ redirect_from:
 description: "2026년 3월 7일 기준 조선, 방산, 원전 섹터 최신 투자 전망. 이란 전쟁 7일차: 테헤란 중폭격 지속, 호르무즈 5일+ 유조선 통행 차단, Brent $89.44(+25%). 천궁-II UAE 실전 배치 90% 명중률 입증. EU €150B 방산 대출 합의. HD현대 LNG 4척 1.49조. LNG 일일용선료 $200K+ 급등. i-SMR 규제심사 개시."
 ---
 
+> **📢 섹터 구조 개편 안내 (2026.03.07)**
+> 기존 조선/방산/원전 통합 문서가 다음과 같이 재편되었습니다:
+> - **방산** → [방산/우주 섹터](/knowledge/invest/2026/03/07/defense-space-sector-outlook-2026.html) (방산, 드론/UAM, 우주/위성)
+> - **원전** → [에너지 섹터](/knowledge/invest/2026/03/07/energy-sector-outlook-2026.html) (원전/SMR, 재생에너지, ESS, 수소)
+> - **조선** → [모빌리티/로봇 섹터](/knowledge/invest/2026/01/21/automotive-robotics-sector-outlook-2026.html) 하위 섹터
+>
+> 이 문서는 기존 독자를 위해 유지되며, 조선 섹터 중심으로 업데이트됩니다.
+
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html)
 
 ## 핵심 요약 (2026년 3월 7일 기준)

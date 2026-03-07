@@ -374,6 +374,7 @@ BYD: 10% (신규 추가)
 
 - [EV/자율주행 투자 전망](/knowledge/invest/2026/01/21/ev-autonomous-driving-outlook-2026.html) - 전기차·자율주행 심층 분석
 - [로봇 투자 전망](/knowledge/invest/2026/01/21/robotics-sector-outlook-2026.html) - 휴머노이드·산업용 로봇 분석
+- [조선 투자 전망](/knowledge/invest/2026/01/21/shipbuilding-sector-outlook-2026.html) - LNG선/조선 슈퍼사이클 분석
 
 ---
 
