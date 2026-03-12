@@ -117,15 +117,18 @@ function updateEyeHop() {
   const dt = 0.016;
   eyeHopState.elapsed += dt;
 
-  // Progressive speed
+  // Progressive speed (difficulty-based)
+  const diff = getDiff();
+  const baseInt = diff.baseInterval || 1.2;
+  const minInt = diff.minInterval || 0.5;
   const progress = eyeHopState.elapsed / eyeHopState.duration;
   let hopInterval;
   if (progress < 0.2) {
-    hopInterval = 1.2; // slow start
+    hopInterval = baseInt;
   } else if (progress < 0.7) {
-    hopInterval = 1.2 - (progress - 0.2) / 0.5 * 0.7; // 1.2→0.5
+    hopInterval = baseInt - (progress - 0.2) / 0.5 * (baseInt - minInt);
   } else {
-    hopInterval = 0.5 + (progress - 0.7) / 0.3 * 0.2; // 0.5→0.7 cooldown
+    hopInterval = minInt + (progress - 0.7) / 0.3 * (baseInt - minInt) * 0.3;
   }
 
   eyeHopState.timer += dt;

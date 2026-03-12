@@ -58,14 +58,18 @@ function updateRSVP() {
   const dt = 0.016;
   rsvpState.elapsed += dt;
 
-  // Progressive WPM increase
+  // Progressive WPM increase (difficulty-based)
+  const diff = getDiff();
+  const bWpm = diff.baseWpm || 200;
+  const mWpm = diff.maxWpm || 500;
+  const midWpm = bWpm + (mWpm - bWpm) * 0.3;
   const progress = rsvpState.elapsed / rsvpState.duration;
   if (progress < 0.2) {
-    rsvpState.wpm = 200 + progress / 0.2 * 50; // 200→250
+    rsvpState.wpm = bWpm + progress / 0.2 * (midWpm - bWpm);
   } else if (progress < 0.7) {
-    rsvpState.wpm = 250 + (progress - 0.2) / 0.5 * 250; // 250→500
+    rsvpState.wpm = midWpm + (progress - 0.2) / 0.5 * (mWpm - midWpm);
   } else {
-    rsvpState.wpm = 500 - (progress - 0.7) / 0.3 * 100; // 500→400
+    rsvpState.wpm = mWpm - (progress - 0.7) / 0.3 * (mWpm - midWpm) * 0.4;
   }
 
   const interval = 60 / rsvpState.wpm;
@@ -106,7 +110,7 @@ function updateRSVP() {
     clearInterval(state.guidedInterval);
     state.guidedInterval = null;
     document.getElementById('rsvpDisplay')?.remove();
-    const maxWpm = Math.round(500);
-    showCompletion(`최대 ${maxWpm} WPM까지 도달`);
+    const df = getDiff();
+    showCompletion(`최대 ${df.maxWpm || 500} WPM까지 도달`);
   }
 }

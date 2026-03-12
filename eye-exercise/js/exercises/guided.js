@@ -22,7 +22,8 @@ function startNearFar() {
 }
 
 function startNearFarTimer() {
-  nearFarState = { phase:'near', timeLeft:5, nearSec:5, farSec:5, cycles:0, totalCycles:10 };
+  const nfDiff = getDiff();
+  nearFarState = { phase:'near', timeLeft: nfDiff.nearSec || 5, nearSec: nfDiff.nearSec || 5, farSec: nfDiff.farSec || 5, cycles:0, totalCycles: nfDiff.cycles || 10 };
   const btn = document.querySelector('#nearFarDisplay .btn');
   if (btn) btn.style.display = 'none';
   document.querySelector('#nearFarDisplay p')?.remove();
@@ -144,7 +145,7 @@ function startBlinkTraining() {
   display.id = 'blinkDisplay';
   display.innerHTML = `
     <div class="guided-phase" id="blinkPhase">깜빡임 훈련</div>
-    <div class="guided-timer" id="blinkTimer">2:00</div>
+    <div class="guided-timer" id="blinkTimer"></div>
     <div id="blinkVisual"><div class="blink-eye" id="blinkEye">👁️</div></div>
     <div class="guided-instruction" id="blinkInstruction">
       화면의 눈 아이콘이 깜빡일 때<br>함께 의식적으로 깜빡이세요.
@@ -158,7 +159,9 @@ function startBlinkTraining() {
 }
 
 function startBlinkTimer() {
-  blinkState = { blinkCount:0, eyeOpen:true, blinkTimer:0, interval:3.5, elapsed:0, duration:120, targetRate:17 };
+  const blDiff = getDiff();
+  const blDur = blDiff.duration || 120;
+  blinkState = { blinkCount:0, eyeOpen:true, blinkTimer:0, interval:3.5, elapsed:0, duration:blDur, targetRate:17 };
   const btn = document.querySelector('#blinkDisplay .btn');
   if (btn) btn.style.display = 'none';
   if (state.guidedInterval) clearInterval(state.guidedInterval);
@@ -210,7 +213,7 @@ function startEyeRelaxation() {
   display.id = 'relaxDisplay';
   display.innerHTML = `
     <div class="guided-phase" id="relaxPhase">눈 이완 운동</div>
-    <div class="guided-timer" id="relaxTimer">3:00</div>
+    <div class="guided-timer" id="relaxTimer"></div>
     <div id="relaxVisual" style="display:flex;flex-direction:column;align-items:center;gap:16px;">
       <div class="breathing-circle" id="breathCircle" style="width:120px;height:120px;">
         <span id="breathLabel">준비</span>
@@ -228,7 +231,9 @@ function startEyeRelaxation() {
 }
 
 function startRelaxTimer() {
-  relaxState = { phase:'palming', elapsed:0, duration:180, breathPhase:'inhale', breathTimer:0, inhaleDur:4, holdDur:2, exhaleDur:6, circleSize:120 };
+  const rxDiff = getDiff();
+  const rxDur = rxDiff.duration || 180;
+  relaxState = { phase:'palming', elapsed:0, duration:rxDur, breathPhase:'inhale', breathTimer:0, inhaleDur:4, holdDur:2, exhaleDur:6, circleSize:120 };
   const btn = document.querySelector('#relaxDisplay .btn');
   if (btn) btn.style.display = 'none';
   document.querySelector('#relaxDisplay > p')?.remove();

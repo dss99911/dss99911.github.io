@@ -45,9 +45,10 @@ function initTachistoscope() {
 }
 
 function spawnTachyContent() {
+  const diff = getDiff();
+  const levelCap = diff.levelCap || 6;
   const progress = tachyState.elapsed / tachyState.duration;
-  // Level increases over time (1-6)
-  tachyState.level = Math.min(6, 1 + Math.floor(progress * 6));
+  tachyState.level = Math.min(levelCap, 1 + Math.floor(progress * levelCap));
 
   // Pick content based on level
   const useNumbers = Math.random() < 0.4;
@@ -64,7 +65,8 @@ function spawnTachyContent() {
   }
 
   // Flash duration decreases with level
-  tachyState.flashTime = Math.max(0.08, 0.8 - tachyState.level * 0.1);
+  const minFlash = diff.minFlash || 0.08;
+  tachyState.flashTime = Math.max(minFlash, 0.8 - tachyState.level * 0.1);
   tachyState.phase = 'fixation';
   tachyState.phaseTime = 0;
 }

@@ -1,6 +1,6 @@
 // H-Pattern
 function drawHPattern() {
-  const spd = getProgressiveSpeed(), t = state.elapsed*spd*0.3;
+  const spd = getProgressiveSpeed() * (getDiff().spdMul || 1), t = state.elapsed*spd*0.3;
   const cx=canvas.width/2, cy=canvas.height/2, w=canvas.width*0.35, h=canvas.height*0.35;
   const cycle = t%6;
   let x, y;

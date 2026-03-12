@@ -30,6 +30,26 @@ body {
 }
 .header p { color: var(--text-dim); font-size: 0.95rem; }
 
+/* Difficulty Selector */
+.difficulty-selector {
+  display: flex; justify-content: center; gap: 8px; margin-top: 14px;
+}
+.diff-btn {
+  padding: 6px 20px; border-radius: 20px; border: 1px solid rgba(108,99,255,0.2);
+  background: rgba(255,255,255,0.04); color: var(--text-dim);
+  font-size: 0.85rem; cursor: pointer; transition: all 0.2s; font-weight: 500;
+}
+.diff-btn:hover { border-color: var(--primary); color: var(--text); }
+.diff-btn.active[data-diff="1"] {
+  background: rgba(0,212,170,0.15); border-color: var(--accent); color: var(--accent);
+}
+.diff-btn.active[data-diff="2"] {
+  background: rgba(108,99,255,0.15); border-color: var(--primary); color: var(--primary);
+}
+.diff-btn.active[data-diff="3"] {
+  background: rgba(255,107,107,0.15); border-color: var(--danger); color: var(--danger);
+}
+
 /* Menu */
 .menu {
   display: grid;

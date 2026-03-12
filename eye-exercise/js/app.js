@@ -10,6 +10,9 @@ const TITLES = {
   rsvp: 'RSVP', tachistoscope: 'Tachistoscope', eyeHop: 'Eye-Hop',
   nearFar: 'Near-Far Focus', rule202020: '20-20-20 Rule',
   blinkTraining: 'Blink Training', eyeRelaxation: 'Eye Relaxation',
+  bouncingBall: 'Bouncing Ball', mot: 'Multiple Object Tracking',
+  spiralPursuit: 'Spiral Pursuit', reactionFlash: 'Reaction Flash',
+  colorTrail: 'Color Trail',
 };
 
 // ============= Navigation =============
@@ -69,6 +72,11 @@ function startExercise(type) {
     if (type === 'visualSpan') initVisualSpan();
     if (type === 'peripheralDetection') initPeripheralDetection();
     if (type === 'zigzagTracking') initZigzag();
+    if (type === 'bouncingBall') initBouncingBall();
+    if (type === 'mot') initMOT();
+    if (type === 'spiralPursuit') initSpiralPursuit();
+    if (type === 'reactionFlash') initReactionFlash();
+    if (type === 'colorTrail') initColorTrail();
     animate();
   });
 }
@@ -85,6 +93,14 @@ function goBack() {
   document.getElementById('timerDisplay').textContent = '';
   document.getElementById('progressBar').style.width = '0';
   canvas.style.display = '';
+}
+
+// ============= Difficulty =============
+function setDifficulty(level) {
+  state.difficulty = level;
+  document.querySelectorAll('.diff-btn').forEach(b => {
+    b.classList.toggle('active', parseInt(b.dataset.diff) === level);
+  });
 }
 
 // ============= Settings =============
@@ -173,6 +189,9 @@ function animate() {
     hPattern: drawHPattern, speedReading: drawSpeedReading, dynamicAcuity: drawDynamicAcuity,
     visualSpan: drawVisualSpan, peripheralDetection: drawPeripheralDetection,
     zigzagTracking: drawZigzag,
+    bouncingBall: drawBouncingBall, mot: drawMOT,
+    spiralPursuit: drawSpiralPursuit, reactionFlash: drawReactionFlash,
+    colorTrail: drawColorTrail,
   };
   if (fn[state.currentExercise]) fn[state.currentExercise]();
 

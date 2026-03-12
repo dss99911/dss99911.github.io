@@ -6,7 +6,7 @@ function initZigzag() {
 }
 
 function drawZigzag() {
-  const spd = getProgressiveSpeed();
+  const spd = getProgressiveSpeed() * (getDiff().spdMul || 1);
   zigzagState.t += (1/60) * spd;
   const c = getCurrentColor();
 

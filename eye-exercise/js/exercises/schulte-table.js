@@ -2,7 +2,7 @@
 let schulteState = { grid:[], size:5, nextNumber:1, found:[], startTime:0, elapsed:0, running:false };
 
 function initSchulte() {
-  const size = 5;
+  const size = getDiff().gridSize || 5;
   const numbers = Array.from({length: size*size}, (_,i) => i+1);
   // Fisher-Yates shuffle
   for (let i = numbers.length - 1; i > 0; i--) {
@@ -33,8 +33,9 @@ function initSchulte() {
   grid.className = 'schulte-grid';
   grid.id = 'schulteGrid';
   grid.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
-  grid.style.width = '360px';
-  grid.style.height = '360px';
+  const gridPx = size <= 3 ? '240px' : size <= 5 ? '360px' : '450px';
+  grid.style.width = gridPx;
+  grid.style.height = gridPx;
 
   schulteState.grid.forEach((num, idx) => {
     const cell = document.createElement('div');

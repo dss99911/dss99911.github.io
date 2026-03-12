@@ -6,7 +6,7 @@ function initSpeedReading() {
 }
 
 function drawSpeedReading() {
-  const spd = getProgressiveSpeed();
+  const spd = getProgressiveSpeed() * (getDiff().spdMul || 1);
   const c = getCurrentColor();
   const margin = 60;
   const lineSpacing = (canvas.height - margin*2) / (speedReadState.lineCount - 1);

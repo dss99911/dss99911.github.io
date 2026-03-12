@@ -9,7 +9,8 @@ function initDynamicAcuity() {
 function spawnAcuityTarget() {
   const charIdx = Math.floor(Math.random() * ACUITY_CHARS.length);
   acuityState.char = ACUITY_CHARS[charIdx];
-  const spd = getProgressiveSpeed();
+  const diff = getDiff();
+  const spd = getProgressiveSpeed() * (diff.spdMul || 1);
   const speed = 150 + spd * 100;
   const angle = Math.random() * Math.PI * 2;
   acuityState.vx = Math.cos(angle) * speed;
@@ -18,7 +19,7 @@ function spawnAcuityTarget() {
   acuityState.x = m + Math.random() * (canvas.width - m*2);
   acuityState.y = m + Math.random() * (canvas.height - m*2);
   acuityState.phaseTime = 0;
-  acuityState.showDuration = Math.max(0.5, 2.0 / spd);
+  acuityState.showDuration = Math.max(0.5, 2.0 / spd) * (diff.showMul || 1);
 }
 
 function drawDynamicAcuity() {

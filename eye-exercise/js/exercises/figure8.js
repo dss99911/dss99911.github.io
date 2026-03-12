@@ -1,6 +1,6 @@
 // Figure 8
 function drawFigure8() {
-  const spd = getProgressiveSpeed(), t = state.elapsed * spd * 0.4;
+  const spd = getProgressiveSpeed() * (getDiff().spdMul || 1), t = state.elapsed * spd * 0.4;
   const cx = canvas.width/2, cy = canvas.height/2;
   const rx = canvas.width*0.3, ry = canvas.height*0.25;
   const denom = 1 + Math.sin(t)*Math.sin(t);

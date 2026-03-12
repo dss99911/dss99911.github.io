@@ -12,7 +12,9 @@ function spawnVisualSpanTarget() {
   const minR = 60, maxR = Math.min(canvas.width, canvas.height) * 0.4;
   vsState.currentRadius = minR + (maxR - minR) * progress;
 
-  const charCount = 3 + Math.floor(progress * 5); // 3~8 chars
+  const diff = getDiff();
+  const minC = diff.minChars || 3, maxC = diff.maxChars || 8;
+  const charCount = minC + Math.floor(progress * (maxC - minC));
   vsState.chars = [];
   for (let i = 0; i < charCount; i++) {
     const angle = (Math.PI * 2 / charCount) * i + Math.random() * 0.3;
@@ -25,7 +27,7 @@ function spawnVisualSpanTarget() {
   }
 
   const spd = getProgressiveSpeed();
-  vsState.flashDuration = Math.max(0.2, 0.8 / spd);
+  vsState.flashDuration = Math.max(0.2, 0.8 / spd) * (diff.flashMul || 1);
   vsState.phase = 'fixation';
   vsState.phaseTime = 0;
 }

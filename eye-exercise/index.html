@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Eye Exercise App</title>
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css?v=3">
 </head>
 <body>
 
@@ -13,6 +13,11 @@
   <div class="header">
     <h1>Eye Exercise</h1>
     <p>눈 건강을 위한 시각 추적 운동</p>
+    <div class="difficulty-selector" id="menuDifficulty">
+      <button class="diff-btn" data-diff="1" onclick="setDifficulty(1)">초급</button>
+      <button class="diff-btn active" data-diff="2" onclick="setDifficulty(2)">중급</button>
+      <button class="diff-btn" data-diff="3" onclick="setDifficulty(3)">고급</button>
+    </div>
   </div>
   <div class="menu">
     <!-- Basic Tracking -->
@@ -112,6 +117,43 @@
       <span class="tag">주변시야</span>
     </div>
 
+    <!-- Fun & Game-like -->
+    <div class="menu-card" onclick="startExercise('bouncingBall')">
+      <button class="info-btn" onclick="event.stopPropagation(); showInfo('bouncingBall')">?</button>
+      <div class="icon">🏀</div>
+      <h3>Bouncing Ball (바운싱 볼)</h3>
+      <p>물리 법칙으로 튀어다니는 공들 중 빛나는 공을 눈으로 추적합니다.</p>
+      <span class="tag">추적 게임</span>
+    </div>
+    <div class="menu-card" onclick="startExercise('mot')">
+      <button class="info-btn" onclick="event.stopPropagation(); showInfo('mot')">?</button>
+      <div class="icon">🎯</div>
+      <h3>Multiple Object Tracking (다중 객체 추적)</h3>
+      <p>표시된 타겟들을 기억한 후, 움직이는 점들 사이에서 계속 추적합니다.</p>
+      <span class="tag">스포츠 비전</span>
+    </div>
+    <div class="menu-card" onclick="startExercise('spiralPursuit')">
+      <button class="info-btn" onclick="event.stopPropagation(); showInfo('spiralPursuit')">?</button>
+      <div class="icon">🌀</div>
+      <h3>Spiral Pursuit (나선 추적)</h3>
+      <p>나선형으로 확장/수축하는 점을 따라가며 전방위 안구 근육을 훈련합니다.</p>
+      <span class="tag">나선 운동</span>
+    </div>
+    <div class="menu-card" onclick="startExercise('reactionFlash')">
+      <button class="info-btn" onclick="event.stopPropagation(); showInfo('reactionFlash')">?</button>
+      <div class="icon">💥</div>
+      <h3>Reaction Flash (반응 플래시)</h3>
+      <p>화면 곳곳에 번쩍이는 다양한 도형을 빠르게 포착하여 시각 반응력을 키웁니다.</p>
+      <span class="tag">반응 훈련</span>
+    </div>
+    <div class="menu-card" onclick="startExercise('colorTrail')">
+      <button class="info-btn" onclick="event.stopPropagation(); showInfo('colorTrail')">?</button>
+      <div class="icon">🎨</div>
+      <h3>Color Trail (컬러 트레일)</h3>
+      <p>여러 색상의 점들 중 지정된 색상의 점만 선택적으로 추적합니다.</p>
+      <span class="tag">선택 주의</span>
+    </div>
+
     <!-- Focus & Recovery -->
     <div class="menu-card" onclick="startExercise('nearFar')">
       <button class="info-btn" onclick="event.stopPropagation(); showInfo('nearFar')">?</button>
@@ -186,22 +228,27 @@
 </div>
 
 <!-- Scripts -->
-<script src="js/core.js"></script>
-<script src="js/exercises/smooth-pursuit.js"></script>
-<script src="js/exercises/figure8.js"></script>
-<script src="js/exercises/saccade.js"></script>
-<script src="js/exercises/h-pattern.js"></script>
-<script src="js/exercises/speed-reading.js"></script>
-<script src="js/exercises/dynamic-acuity.js"></script>
-<script src="js/exercises/visual-span.js"></script>
-<script src="js/exercises/peripheral-detection.js"></script>
-<script src="js/exercises/zigzag.js"></script>
-<script src="js/exercises/schulte-table.js"></script>
-<script src="js/exercises/rsvp.js"></script>
-<script src="js/exercises/tachistoscope.js"></script>
-<script src="js/exercises/eye-hop.js"></script>
-<script src="js/exercises/guided.js"></script>
-<script src="js/exercise-info.js"></script>
-<script src="js/app.js"></script>
+<script src="js/core.js?v=3"></script>
+<script src="js/exercises/smooth-pursuit.js?v=2"></script>
+<script src="js/exercises/figure8.js?v=2"></script>
+<script src="js/exercises/saccade.js?v=2"></script>
+<script src="js/exercises/h-pattern.js?v=2"></script>
+<script src="js/exercises/speed-reading.js?v=2"></script>
+<script src="js/exercises/dynamic-acuity.js?v=2"></script>
+<script src="js/exercises/visual-span.js?v=2"></script>
+<script src="js/exercises/peripheral-detection.js?v=2"></script>
+<script src="js/exercises/zigzag.js?v=2"></script>
+<script src="js/exercises/schulte-table.js?v=2"></script>
+<script src="js/exercises/rsvp.js?v=2"></script>
+<script src="js/exercises/tachistoscope.js?v=2"></script>
+<script src="js/exercises/eye-hop.js?v=2"></script>
+<script src="js/exercises/bouncing-ball.js?v=3"></script>
+<script src="js/exercises/mot.js?v=3"></script>
+<script src="js/exercises/spiral-pursuit.js?v=3"></script>
+<script src="js/exercises/reaction-flash.js?v=4"></script>
+<script src="js/exercises/color-trail.js?v=3"></script>
+<script src="js/exercises/guided.js?v=2"></script>
+<script src="js/exercise-info.js?v=3"></script>
+<script src="js/app.js?v=3"></script>
 </body>
 </html>

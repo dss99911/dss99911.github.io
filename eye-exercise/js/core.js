@@ -11,7 +11,38 @@ const state = {
   lastTime: 0,
   ruleInterval: null,
   guidedInterval: null,
+  difficulty: 2, // 1=초급, 2=중급, 3=고급
 };
+
+// ============= Difficulty Presets =============
+const DIFFICULTY = {
+  smoothPursuit:    { 1: { spdMul: 0.6 }, 2: { spdMul: 1.0 }, 3: { spdMul: 1.5 } },
+  figure8:          { 1: { spdMul: 0.6 }, 2: { spdMul: 1.0 }, 3: { spdMul: 1.5 } },
+  saccade:          { 1: { spdMul: 0.6 }, 2: { spdMul: 1.0 }, 3: { spdMul: 1.6 } },
+  hPattern:         { 1: { spdMul: 0.6 }, 2: { spdMul: 1.0 }, 3: { spdMul: 1.5 } },
+  zigzagTracking:   { 1: { spdMul: 0.6 }, 2: { spdMul: 1.0 }, 3: { spdMul: 1.5 } },
+  speedReading:     { 1: { spdMul: 0.6 }, 2: { spdMul: 1.0 }, 3: { spdMul: 1.5 } },
+  schulteTable:     { 1: { gridSize: 3 }, 2: { gridSize: 5 }, 3: { gridSize: 7 } },
+  rsvp:             { 1: { baseWpm: 120, maxWpm: 250 }, 2: { baseWpm: 200, maxWpm: 500 }, 3: { baseWpm: 350, maxWpm: 800 } },
+  tachistoscope:    { 1: { minFlash: 0.3, levelCap: 3 }, 2: { minFlash: 0.08, levelCap: 6 }, 3: { minFlash: 0.04, levelCap: 8 } },
+  eyeHop:           { 1: { baseInterval: 1.8, minInterval: 0.8 }, 2: { baseInterval: 1.2, minInterval: 0.5 }, 3: { baseInterval: 0.8, minInterval: 0.25 } },
+  dynamicAcuity:    { 1: { spdMul: 0.6, showMul: 1.5 }, 2: { spdMul: 1.0, showMul: 1.0 }, 3: { spdMul: 1.5, showMul: 0.6 } },
+  visualSpan:       { 1: { minChars: 2, maxChars: 5, flashMul: 1.5 }, 2: { minChars: 3, maxChars: 8, flashMul: 1.0 }, 3: { minChars: 5, maxChars: 12, flashMul: 0.6 } },
+  peripheralDetection: { 1: { flashMul: 1.5, intervalMul: 1.5 }, 2: { flashMul: 1.0, intervalMul: 1.0 }, 3: { flashMul: 0.5, intervalMul: 0.6 } },
+  nearFar:          { 1: { cycles: 6, nearSec: 7, farSec: 7 }, 2: { cycles: 10, nearSec: 5, farSec: 5 }, 3: { cycles: 15, nearSec: 3, farSec: 3 } },
+  blinkTraining:    { 1: { duration: 60 }, 2: { duration: 120 }, 3: { duration: 180 } },
+  eyeRelaxation:    { 1: { duration: 120 }, 2: { duration: 180 }, 3: { duration: 300 } },
+  bouncingBall:     { 1: { ballCount: 4, spdMul: 0.6 }, 2: { ballCount: 6, spdMul: 1.0 }, 3: { ballCount: 10, spdMul: 1.5 } },
+  mot:              { 1: { totalDots: 6, targetCount: 2, spdMul: 0.6, highlightSec: 3.5, trackSec: 5 }, 2: { totalDots: 10, targetCount: 3, spdMul: 1.0, highlightSec: 2.5, trackSec: 6 }, 3: { totalDots: 14, targetCount: 5, spdMul: 1.5, highlightSec: 1.5, trackSec: 8 } },
+  spiralPursuit:    { 1: { spdMul: 0.6, angMul: 0.7, radSpeed: 30, trailLen: 80 }, 2: { spdMul: 1.0, angMul: 1.0, radSpeed: 40, trailLen: 60 }, 3: { spdMul: 1.5, angMul: 1.3, radSpeed: 55, trailLen: 40 } },
+  reactionFlash:    { 1: { spdMul: 0.6, maxTargets: 2 }, 2: { spdMul: 1.0, maxTargets: 3 }, 3: { spdMul: 1.6, maxTargets: 5 } },
+  colorTrail:       { 1: { dotCount: 8, spdMul: 0.6 }, 2: { dotCount: 12, spdMul: 1.0 }, 3: { dotCount: 18, spdMul: 1.5 } },
+};
+
+function getDiff(type) {
+  const d = DIFFICULTY[type || state.currentExercise];
+  return d ? (d[state.difficulty] || d[2]) : {};
+}
 
 // ============= Progressive Speed =============
 function getProgressiveSpeed() {

@@ -10,7 +10,7 @@ function initSaccade() {
 }
 
 function drawSaccade() {
-  const spd = getProgressiveSpeed(), interval = 1.5/spd;
+  const spd = getProgressiveSpeed() * (getDiff().spdMul || 1), interval = 1.5/spd;
   saccadeTarget.flashPhase += 1/60;
   if (saccadeTarget.flashPhase >= interval) {
     saccadeTarget.flashPhase = 0;

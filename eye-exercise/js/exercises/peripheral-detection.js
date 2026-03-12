@@ -21,8 +21,9 @@ function spawnPeripheralFlash() {
   pdState.flashX = Math.max(margin, Math.min(canvas.width - margin, pdState.flashX));
   pdState.flashY = Math.max(margin, Math.min(canvas.height - margin, pdState.flashY));
 
+  const diff = getDiff();
   const spd = getProgressiveSpeed();
-  pdState.flashDuration = Math.max(0.2, 0.6 / spd);
+  pdState.flashDuration = Math.max(0.1, 0.6 / spd * (diff.flashMul || 1));
   pdState.flashActive = true;
   pdState.flashTime = 0;
   pdState.totalFlashes++;
@@ -77,7 +78,8 @@ function drawPeripheralDetection() {
   } else {
     pdState.cooldown += dt;
     const spd = getProgressiveSpeed();
-    const interval = Math.max(0.8, 2.5 / spd);
+    const pdDiff = getDiff();
+    const interval = Math.max(0.5, 2.5 / spd * (pdDiff.intervalMul || 1));
     if (pdState.cooldown >= interval) {
       spawnPeripheralFlash();
     }
