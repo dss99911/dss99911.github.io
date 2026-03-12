@@ -37,6 +37,7 @@ function initRSVP() {
   const display = document.createElement('div');
   display.className = 'rsvp-display';
   display.id = 'rsvpDisplay';
+  display.setAttribute('data-exercise-display', '');
   display.innerHTML = `
     <div class="rsvp-wpm" id="rsvpWpm">250 WPM</div>
     <div style="position:relative;width:100%;display:flex;align-items:center;justify-content:center;min-height:100px;">

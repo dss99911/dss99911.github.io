@@ -37,6 +37,24 @@ const DIFFICULTY = {
   spiralPursuit:    { 1: { spdMul: 0.6, angMul: 0.7, radSpeed: 30, trailLen: 80 }, 2: { spdMul: 1.0, angMul: 1.0, radSpeed: 40, trailLen: 60 }, 3: { spdMul: 1.5, angMul: 1.3, radSpeed: 55, trailLen: 40 } },
   reactionFlash:    { 1: { spdMul: 0.6, maxTargets: 2 }, 2: { spdMul: 1.0, maxTargets: 3 }, 3: { spdMul: 1.6, maxTargets: 5 } },
   colorTrail:       { 1: { dotCount: 8, spdMul: 0.6 }, 2: { dotCount: 12, spdMul: 1.0 }, 3: { dotCount: 18, spdMul: 1.5 } },
+  // New exercises
+  clockTracking:    { 1: { spdMul: 0.6 }, 2: { spdMul: 1.0 }, 3: { spdMul: 1.5 } },
+  diamondPattern:   { 1: { spdMul: 0.6 }, 2: { spdMul: 1.0 }, 3: { spdMul: 1.5 } },
+  vergenceRock:     { 1: { spdMul: 0.6, range: 0.3 }, 2: { spdMul: 1.0, range: 0.5 }, 3: { spdMul: 1.5, range: 0.7 } },
+  circularPursuit:  { 1: { spdMul: 0.6 }, 2: { spdMul: 1.0 }, 3: { spdMul: 1.5 } },
+  metronomeReading: { 1: { baseLPM: 20, lines: 5 }, 2: { baseLPM: 40, lines: 4 }, 3: { baseLPM: 60, lines: 3 } },
+  numberFlash:      { 1: { minFlash: 0.4, maxDigits: 4 }, 2: { minFlash: 0.15, maxDigits: 7 }, 3: { minFlash: 0.06, maxDigits: 10 } },
+  columnReading:    { 1: { startWidth: 120, maxWidth: 400 }, 2: { startWidth: 80, maxWidth: 500 }, 3: { startWidth: 60, maxWidth: 600 } },
+  usefulFieldOfView:{ 1: { spdMul: 0.6, distractors: 2 }, 2: { spdMul: 1.0, distractors: 4 }, 3: { spdMul: 1.5, distractors: 8 } },
+  flankerTask:      { 1: { spacing: 60, congruentRatio: 0.7 }, 2: { spacing: 40, congruentRatio: 0.5 }, 3: { spacing: 25, congruentRatio: 0.3 } },
+  crowdingResistance:{ 1: { spdMul: 0.6, spacing: 3.0 }, 2: { spdMul: 1.0, spacing: 2.0 }, 3: { spdMul: 1.5, spacing: 1.2 } },
+  attentionWindow:  { 1: { startRadius: 3, flashMs: 800 }, 2: { startRadius: 2, flashMs: 500 }, 3: { startRadius: 1, flashMs: 300 } },
+  memoryFlash:      { 1: { gridSize: 3, flashMs: 1500, cells: 3 }, 2: { gridSize: 4, flashMs: 1000, cells: 5 }, 3: { gridSize: 5, flashMs: 600, cells: 7 } },
+  antiSaccade:      { 1: { spdMul: 0.6, targetMs: 600 }, 2: { spdMul: 1.0, targetMs: 400 }, 3: { spdMul: 1.5, targetMs: 250 } },
+  visualSearch:     { 1: { items: 12, spdMul: 0.6 }, 2: { items: 24, spdMul: 1.0 }, 3: { items: 40, spdMul: 1.5 } },
+  pencilPushup:     { 1: { cycles: 8, nearSec: 5, farSec: 3 }, 2: { cycles: 12, nearSec: 4, farSec: 2 }, 3: { cycles: 16, nearSec: 3, farSec: 2 } },
+  eyeYoga:          { 1: { holdSec: 5, cycles: 2 }, 2: { holdSec: 3, cycles: 3 }, 3: { holdSec: 2, cycles: 4 } },
+  darkAdaptation:   { 1: { duration: 60 }, 2: { duration: 120 }, 3: { duration: 180 } },
 };
 
 function getDiff(type) {

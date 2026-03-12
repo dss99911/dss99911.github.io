@@ -31,6 +31,7 @@ function initTachistoscope() {
   const display = document.createElement('div');
   display.className = 'tachy-display';
   display.id = 'tachyDisplay';
+  display.setAttribute('data-exercise-display', '');
   display.innerHTML = `
     <div class="tachy-info" id="tachyInfo">레벨 1</div>
     <div class="tachy-fixation" id="tachyFixation"></div>

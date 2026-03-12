@@ -48,6 +48,7 @@ function initEyeHop() {
   const display = document.createElement('div');
   display.className = 'guided-display';
   display.id = 'eyeHopDisplay';
+  display.setAttribute('data-exercise-display', '');
   display.style.padding = '20px';
 
   // Show visible lines

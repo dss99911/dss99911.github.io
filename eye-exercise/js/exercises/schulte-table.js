@@ -22,6 +22,7 @@ function initSchulte() {
   const wrapper = document.createElement('div');
   wrapper.className = 'guided-display';
   wrapper.id = 'schulteDisplay';
+  wrapper.setAttribute('data-exercise-display', '');
   wrapper.style.padding = '20px';
 
   const info = document.createElement('div');
