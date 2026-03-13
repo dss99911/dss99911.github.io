@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+    </marker>
+  </defs>
+
+  <!-- 시작 -->
+  <rect x="175" y="20" width="150" height="50" rx="25" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <text x="250" y="50" text-anchor="middle" fill="white" font-size="16" font-family="sans-serif">시작</text>
+
+  <!-- 화살표 1 -->
+  <line x1="250" y1="70" x2="250" y2="110" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 조건 (다이아몬드) -->
+  <polygon points="250,110 350,165 250,220 150,165" fill="#FF9800" stroke="#F57C00" stroke-width="2"/>
+  <text x="250" y="170" text-anchor="middle" fill="white" font-size="14" font-family="sans-serif">조건?</text>
+
+  <!-- Yes 화살표 -->
+  <line x1="150" y1="165" x2="80" y2="165" stroke="#555" stroke-width="2"/>
+  <line x1="80" y1="165" x2="80" y2="280" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="110" y="155" text-anchor="middle" fill="#4CAF50" font-size="13" font-family="sans-serif" font-weight="bold">Yes</text>
+
+  <!-- No 화살표 -->
+  <line x1="350" y1="165" x2="420" y2="165" stroke="#555" stroke-width="2"/>
+  <line x1="420" y1="165" x2="420" y2="280" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="390" y="155" text-anchor="middle" fill="#f44336" font-size="13" font-family="sans-serif" font-weight="bold">No</text>
+
+  <!-- 실행 박스 -->
+  <rect x="15" y="290" width="130" height="50" rx="8" fill="#2196F3" stroke="#1976D2" stroke-width="2"/>
+  <text x="80" y="320" text-anchor="middle" fill="white" font-size="15" font-family="sans-serif">실행</text>
+
+  <!-- 종료 박스 -->
+  <rect x="355" y="290" width="130" height="50" rx="25" fill="#f44336" stroke="#d32f2f" stroke-width="2"/>
+  <text x="420" y="320" text-anchor="middle" fill="white" font-size="15" font-family="sans-serif">종료</text>
+
+  <!-- 실행 → 종료 -->
+  <line x1="80" y1="340" x2="80" y2="370" stroke="#555" stroke-width="2"/>
+  <line x1="80" y1="370" x2="420" y2="370" stroke="#555" stroke-width="2"/>
+  <line x1="420" y1="370" x2="420" y2="345" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>
