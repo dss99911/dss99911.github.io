@@ -5,6 +5,20 @@ function initSpeedReading() {
   speedReadState = { lineY:0, dotX:0, lineIndex:0, lineCount:8, jumpWidth:0, t:0 };
 }
 
+function getLineTextEnd(lineIndex, startX, endX) {
+  let wx = startX;
+  const seed = lineIndex * 7 + 3;
+  let lastEnd = startX;
+  for (let j = 0; j < 12; j++) {
+    const ww = 30 + ((seed * j * 13 + 7) % 40);
+    if (wx + ww > endX) { lastEnd = Math.min(wx + ww, endX); break; }
+    lastEnd = wx + ww;
+    wx += ww + 12 + ((seed * j) % 10);
+    if (wx > endX) break;
+  }
+  return lastEnd;
+}
+
 function drawSpeedReading() {
   const spd = getProgressiveSpeed() * (getDiff().spdMul || 1);
   const c = getCurrentColor();
@@ -35,8 +49,11 @@ function drawSpeedReading() {
   const currentLine = Math.floor(cycleT / charsPerLine);
   const lineProgress = (cycleT % charsPerLine) / charsPerLine;
 
-  const ly = margin + (currentLine % speedReadState.lineCount) * lineSpacing;
-  const dx = startX + lineProgress * lineWidth;
+  const currentLineIdx = currentLine % speedReadState.lineCount;
+  const ly = margin + currentLineIdx * lineSpacing;
+  const textEnd = getLineTextEnd(currentLineIdx, startX, endX);
+  const actualWidth = textEnd - startX;
+  const dx = startX + lineProgress * actualWidth;
 
   const highlightWidth = 80 + (state.elapsed / state.duration) * 120;
   ctx.fillStyle = hslGlow(c, 0.06);

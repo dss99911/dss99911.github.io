@@ -149,8 +149,11 @@ function startExercise(type) {
   document.getElementById('settingsPanel').classList.remove('show');
   document.getElementById('speedIndicator').style.display = '';
 
-  // Remove leftover overlays
-  document.querySelectorAll('.countdown-overlay, .completion-screen, .guided-display, [data-exercise-display]').forEach(e => e.remove());
+  // Cleanup previous exercise
+  if (state.animId) { cancelAnimationFrame(state.animId); state.animId = null; }
+  if (state.guidedInterval) { clearInterval(state.guidedInterval); state.guidedInterval = null; }
+  state.running = false;
+  document.querySelectorAll('.countdown-overlay, .completion-screen, .guided-display, .rsvp-display, .tachy-display, [data-exercise-display]').forEach(e => e.remove());
 
   if (GUIDED_TYPES.includes(type)) {
     document.getElementById('settingsBtn').style.display = 'none';
