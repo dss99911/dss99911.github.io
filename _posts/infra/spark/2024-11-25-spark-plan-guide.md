@@ -177,12 +177,134 @@ filtered_df.explain()
 
     •	age 컬럼을 기준으로 정렬.
 
-## 6. 결론
+## 6. Join 전략 이해하기
+
+Spark Plan에서 가장 성능에 영향을 미치는 부분 중 하나가 Join 연산입니다. Spark는 데이터 크기와 특성에 따라 다양한 Join 전략을 선택합니다.
+
+### Broadcast Hash Join (BHJ)
+
+작은 테이블을 모든 Worker 노드에 브로드캐스트하여 Join하는 방식입니다. Shuffle이 발생하지 않으므로 매우 빠릅니다.
+
+```text
+*(2) BroadcastHashJoin [id#0], [user_id#5], Inner, BuildRight
+:- *(2) Filter isnotnull(id#0)
+:  +- FileScan parquet [id#0, name#1]
++- BroadcastExchange HashedRelationBroadcastMode(List(user_id#5))
+   +- *(1) Filter isnotnull(user_id#5)
+      +- FileScan parquet [user_id#5, amount#6]
+```
+
+Plan에서 `BroadcastExchange`가 보이면 Broadcast Join이 사용된 것입니다. 기본적으로 10MB 이하의 테이블에 적용됩니다.
+
+```python
+# Broadcast Join 임계값 설정
+spark.conf.set("spark.sql.autoBroadcastJoinThreshold", 10 * 1024 * 1024)  # 10MB
+
+# 수동으로 Broadcast 힌트 사용
+from pyspark.sql.functions import broadcast
+result = large_df.join(broadcast(small_df), "key")
+```
+
+### Sort Merge Join (SMJ)
+
+두 테이블이 모두 큰 경우 사용되는 기본 Join 전략입니다. 양쪽 테이블을 Join 키로 정렬한 후 병합합니다.
+
+```text
+*(5) SortMergeJoin [id#0], [user_id#5], Inner
+:- *(2) Sort [id#0 ASC NULLS FIRST], false, 0
+:  +- Exchange hashpartitioning(id#0, 200)
+:     +- *(1) Filter isnotnull(id#0)
+:        +- FileScan parquet [id#0, name#1]
++- *(4) Sort [user_id#5 ASC NULLS FIRST], false, 0
+   +- Exchange hashpartitioning(user_id#5, 200)
+      +- *(3) Filter isnotnull(user_id#5)
+         +- FileScan parquet [user_id#5, amount#6]
+```
+
+Plan에서 `SortMergeJoin`과 함께 양쪽에 `Exchange hashpartitioning`이 보이면 Shuffle이 발생하는 Sort Merge Join입니다.
+
+### Shuffle Hash Join
+
+Sort Merge Join과 유사하지만 정렬 단계가 없어 특정 상황에서 더 빠를 수 있습니다. 한쪽 테이블이 메모리에 들어갈 수 있을 때 사용됩니다.
+
+### Join 전략 비교
+
+| Join 전략 | Shuffle | Sort | 적합한 경우 |
+|-----------|---------|------|-------------|
+| Broadcast Hash Join | 없음 | 없음 | 한쪽 테이블이 작을 때 |
+| Sort Merge Join | 있음 | 있음 | 두 테이블 모두 클 때 (기본값) |
+| Shuffle Hash Join | 있음 | 없음 | 한쪽이 메모리에 들어갈 때 |
+
+---
+
+## 7. AQE (Adaptive Query Execution) 이해하기
+
+Spark 3.0부터 도입된 AQE는 실행 중에 실시간으로 실행 계획을 최적화합니다. AQE가 활성화되면 Plan에서 `AdaptiveSparkPlan`이 나타납니다.
+
+```text
+== Physical Plan ==
+AdaptiveSparkPlan isFinalPlan=true
++- ...
+```
+
+### AQE의 주요 최적화
+
+1. **파티션 합치기(Coalescing Partitions)**: Shuffle 후 크기가 작은 파티션들을 자동으로 합쳐 태스크 수를 줄입니다.
+2. **Join 전략 전환**: 런타임에 실제 데이터 크기를 확인하고 Broadcast Join으로 전환할 수 있습니다.
+3. **Skew Join 최적화**: 데이터가 편향된 파티션을 자동으로 분할하여 처리합니다.
+
+```python
+# AQE 활성화 (Spark 3.2+에서는 기본 활성화)
+spark.conf.set("spark.sql.adaptive.enabled", True)
+
+# Skew Join 최적화 활성화
+spark.conf.set("spark.sql.adaptive.skewJoin.enabled", True)
+```
+
+---
+
+## 8. 실전 디버깅 팁
+
+### Spark UI에서 Plan 확인하기
+
+`explain()`으로 코드에서 Plan을 확인할 수도 있지만, **Spark UI**의 SQL 탭에서 시각적으로 Plan을 확인하는 것이 더 직관적입니다. Spark UI에서는 각 Stage의 실행 시간, 처리 데이터 크기, Shuffle 크기 등을 그래픽으로 확인할 수 있습니다.
+
+### Plan에서 주의할 키워드
+
+| 키워드 | 의미 | 대응 방법 |
+|--------|------|----------|
+| `Exchange` | Shuffle 발생 | 불필요한 Shuffle 줄이기 |
+| `BroadcastNestedLoopJoin` | 비효율적 Join | Join 조건 확인 |
+| `CartesianProduct` | Cross Join (위험) | 의도적인지 확인 |
+| `SortAggregate` | 해시 집계 실패 | 메모리 설정 확인 |
+| `DeserializeToObject` | Dataset API 사용 | DataFrame API로 변경 검토 |
+
+### 대용량 데이터에서의 성능 점검 순서
+
+1. **Plan 확인**: `explain("formatted")`로 전체 실행 계획 확인
+2. **Shuffle 확인**: `Exchange` 연산의 위치와 빈도 점검
+3. **Join 전략 확인**: 적절한 Join 전략이 선택되었는지 확인
+4. **Filter Pushdown 확인**: `PushedFilters`가 적용되었는지 확인
+5. **파티션 수 확인**: `spark.sql.shuffle.partitions` 설정이 데이터 크기에 적합한지 확인
+
+```python
+# 파티션 수 설정 (기본값 200)
+spark.conf.set("spark.sql.shuffle.partitions", 400)
+
+# DataFrame의 실제 파티션 수 확인
+df.rdd.getNumPartitions()
+```
+
+---
+
+## 9. 결론
 
 Spark Plan은 Spark 작업의 실행 방식을 이해하고 최적화하는 데 필수적인 도구입니다. 이를 효과적으로 읽으려면 논리적 계획과 물리적 계획의 차이를 이해하고, 주요 연산자와 성능 저하의 원인을 파악해야 합니다.
 	•	Filter Pushdown으로 데이터 읽기 효율을 높이고,
 	•	Shuffle 최소화로 네트워크 비용을 줄이며,
+	•	적절한 Join 전략 선택으로 불필요한 데이터 이동을 방지하고,
+	•	AQE를 활용하여 런타임 최적화를 극대화하고,
 	•	파티션 구조 최적화로 병렬성을 극대화하세요.
 
-Spark Plan을 잘 이해하면 대규모 데이터 처리에서 성능을 극대화할 수 있습니다.
+Spark Plan을 잘 이해하면 대규모 데이터 처리에서 성능을 극대화할 수 있습니다. 특히 Plan을 읽는 습관을 들이면, 성능 문제가 발생하기 전에 미리 잠재적인 병목 지점을 파악하고 예방할 수 있습니다.
 
