@@ -227,7 +227,7 @@ function goBack() {
   if (state.ruleInterval) { clearInterval(state.ruleInterval); state.ruleInterval = null; }
   if (state.guidedInterval) { clearInterval(state.guidedInterval); state.guidedInterval = null; }
   // Cleanup event listeners from interactive exercises
-  if (typeof vsState !== 'undefined' && vsState.handler) { canvas.removeEventListener('click', vsState.handler); vsState.handler = null; }
+  if (typeof vsearchState !== 'undefined' && vsearchState.handler) { canvas.removeEventListener('click', vsearchState.handler); vsearchState.handler = null; }
   if (typeof flankerState !== 'undefined' && flankerState.handler) { document.removeEventListener('keydown', flankerState.handler); flankerState.handler = null; }
   document.querySelectorAll('.countdown-overlay, .completion-screen, .guided-display, [data-exercise-display]').forEach(e => e.remove());
   document.getElementById('exerciseView').classList.remove('active');
