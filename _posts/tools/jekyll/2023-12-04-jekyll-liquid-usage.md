@@ -28,7 +28,9 @@ These delimiters can be used anywhere in your Jekyll markdown or HTML files.
 ## Tags
 - https://jekyllrb.com/docs/liquid/tags/
 
- Adding `-` after `{%` or before `%}` removes whitespace around the tag. For example, `{{ "{%-" }} if ... {{ "-%}" }}` strips leading and trailing whitespace.
+{% raw %}
+Adding `-` after `{%` or before `%}` removes whitespace around the tag (e.g., `{%- if ... -%}`).
+{% endraw %}
 
 {% if page.has_variable %} page variable {% endif %}
 
