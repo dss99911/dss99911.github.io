@@ -28,6 +28,7 @@ These delimiters can be used anywhere in your Jekyll markdown or HTML files.
 ## Tags
 - https://jekyllrb.com/docs/liquid/tags/
 
+{% raw %}
  %-: remove empty space on the tag
 {%- if page.has_variable -%}
   no empty space
@@ -38,6 +39,7 @@ These delimiters can be used anywhere in your Jekyll markdown or HTML files.
 {% if page.has_variable %}
   no empty space
 {% endif %}
+{% endraw %}
 
 The whitespace control with `%-` is particularly useful when generating HTML, as extra whitespace from Liquid tags can affect your page layout. Use `{%-` and `-%}` to strip leading and trailing whitespace around the tag.
 
