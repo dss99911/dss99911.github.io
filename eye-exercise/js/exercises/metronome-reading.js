@@ -68,14 +68,17 @@ function renderMetronomeLines() {
     const lineEl = document.createElement('div');
     lineEl.setAttribute('data-line-idx', i);
     lineEl.style.cssText = 'padding:12px 0;font-size:1.05rem;line-height:1.8;color:var(--text-dim);position:relative;border-bottom:1px solid rgba(255,255,255,0.04);';
+    const textSpan = document.createElement('span');
+    textSpan.textContent = metronomeState.lines[lineIdx];
     if (i === metronomeState.activeLine) {
       lineEl.style.color = 'var(--text)';
+      textSpan.id = 'metronomeActiveText';
       const bar = document.createElement('div');
       bar.id = 'metronomeBar';
       bar.style.cssText = 'position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent);border-radius:2px;transition:left 0.05s linear;box-shadow:0 0 8px rgba(0,212,170,0.5);';
       lineEl.appendChild(bar);
     }
-    lineEl.appendChild(document.createTextNode(metronomeState.lines[lineIdx]));
+    lineEl.appendChild(textSpan);
     wrapper.appendChild(lineEl);
   }
 }
@@ -100,7 +103,13 @@ function updateMetronome() {
   }
 
   const bar = document.getElementById('metronomeBar');
-  if (bar) bar.style.left = (metronomeState.barX * 100) + '%';
+  const activeText = document.getElementById('metronomeActiveText');
+  if (bar && activeText) {
+    const textW = activeText.offsetWidth;
+    const parentW = activeText.parentElement.offsetWidth;
+    const ratio = parentW > 0 ? textW / parentW : 1;
+    bar.style.left = (metronomeState.barX * ratio * 100) + '%';
+  }
 
   const remain = Math.max(0, metronomeState.duration - metronomeState.elapsed);
   const mins = Math.floor(remain / 60), secs = Math.floor(remain % 60);
