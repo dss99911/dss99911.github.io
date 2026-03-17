@@ -165,6 +165,6 @@ Inside `alert.html`, access the parameters with `{% raw %}{{ include.type }}{% e
 
 ## Common Pitfalls
 
-1. **Raw tag for Liquid in code blocks**: When showing Liquid code examples, wrap them in `{% raw %}{% raw %}{% endraw %}` and `{% raw %}{% endraw %}{% endraw %}` tags to prevent Jekyll from processing them.
+1. **Raw tag for Liquid in code blocks**: When showing Liquid code examples, wrap them in raw/endraw tags to prevent Jekyll from processing them.
 2. **Variable scope**: Variables defined inside `for` loops or `if` blocks are accessible outside them in Liquid, unlike most programming languages.
-3. **Nil checking**: Use `{% raw %}{% if variable %}{% endraw %}` or the `default` filter to handle nil values gracefully.
+3. **Nil checking**: Use an `if` check or the `default` filter to handle nil values gracefully.
