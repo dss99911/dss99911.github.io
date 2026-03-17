@@ -25,6 +25,7 @@ function initMetronomeReading() {
   metronomeState = {
     lines: repeated,
     currentLine: 0,
+    activeLine: 0,  // which visible line the bar is on (0-based within visible)
     barX: 0,
     elapsed: 0,
     duration: state.duration,
@@ -65,8 +66,9 @@ function renderMetronomeLines() {
     const lineIdx = metronomeState.currentLine + i;
     if (lineIdx >= metronomeState.lines.length) break;
     const lineEl = document.createElement('div');
+    lineEl.setAttribute('data-line-idx', i);
     lineEl.style.cssText = 'padding:12px 0;font-size:1.05rem;line-height:1.8;color:var(--text-dim);position:relative;border-bottom:1px solid rgba(255,255,255,0.04);';
-    if (i === 0) {
+    if (i === metronomeState.activeLine) {
       lineEl.style.color = 'var(--text)';
       const bar = document.createElement('div');
       bar.id = 'metronomeBar';
@@ -89,7 +91,11 @@ function updateMetronome() {
   metronomeState.barX += dt / sweepDuration;
   if (metronomeState.barX >= 1) {
     metronomeState.barX = 0;
-    metronomeState.currentLine++;
+    metronomeState.activeLine++;
+    if (metronomeState.activeLine >= metronomeState.visibleLines) {
+      metronomeState.activeLine = 0;
+      metronomeState.currentLine += metronomeState.visibleLines;
+    }
     renderMetronomeLines();
   }
 
