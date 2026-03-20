@@ -25,6 +25,10 @@ Android, Kotlin, Java, Python 등 다양한 언어와 플랫폼에서 개발 경
 
 공부한 내용을 Obsidian에 노트로 정리하고, 그 중 공유할 가치가 있는 내용을 블로그 포스트로 발행합니다.
 
+## Resume
+
+- [이력서 보기](/resume/)
+
 ## Contact
 
 - **Email**: dss99911@gmail.com
