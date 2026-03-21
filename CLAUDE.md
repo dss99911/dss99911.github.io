@@ -2,7 +2,14 @@
 
 - 글 올릴 때, git 푸시후, 빌드 성공하는지 github action 확인해 주세요.
 - 다이어그램이 필요한 경우, mermaid diagram 사용해주세요.
-- 썸네일은 이미지 생성 툴 사용 해주세요.
+- 썸네일은 **image-gen MCP** (`mcp__image-gen__generate_image`)로 Pexels 무료 이미지 검색하여 사용
+  - 검색 후 `~/Pictures/ai-generated/`에 저장됨 → `assets/images/posts/thumbnails/`로 복사
+  - 다운로드 후 반드시 `Read` 도구로 이미지를 확인하여 주제와 맞는지 검증
+  - 주제와 맞지 않으면 검색어를 변경하여 재검색
+  - **검색어 작성 규칙**:
+    - 영어로 검색 (한국어 X)
+    - 주제를 2~3 단어로 요약 (예: "happiness meditation", "brain neuroscience")
+    - 추상적이면 관련 시각 키워드 사용 (예: "sunset peaceful" for 행복감)
 - 기술관련 글이면:
   - devto에 올려주고, backlink 달아주세요.
   - Threads에도 블로그 링크와 함께 홍보 글을 올려주세요 (threads MCP 사용).
