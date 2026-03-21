@@ -9,6 +9,7 @@ redirect_from:
   - /knowledge/invest/2026/03/04/shipbuilding-sector-outlook-2026.html
   - /knowledge/invest/2026/03/06/shipbuilding-sector-outlook-2026.html
 description: "2026년 3월 7일 기준 조선 섹터 투자 전망. 이란전쟁 7일차 — 호르무즈 완전봉쇄·탱커 5일+ 통행 차단·LNG 용선료 $200K+ 돌파(2배). P&I 보험 발효 수백 척 정박. 미국 해군 호위+보험 약속. 2022년 러-우 전쟁 패턴 재현 → LNG선 발주 폭증 예상. HD현대 LNG 4척 1.49조·삼성 GTT 180K·한화 GTT 7척. 카타르 QC-Max 6척 CSSC 추가발주(총 128척). 3대 조선사 합산 OP +45% 슈퍼사이클."
+image: /assets/images/posts/thumbnails/2026-01-21-shipbuilding-sector-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [조선/방산/원전 섹터 전망](/knowledge/invest/2026/01/21/shipbuilding-defense-nuclear-sector-outlook-2026.html)

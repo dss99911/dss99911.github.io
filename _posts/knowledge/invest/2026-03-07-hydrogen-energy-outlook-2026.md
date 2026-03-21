@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 수소, 그린수소, 연료전지, 두산퓨얼셀, 효성첨단소재, PlugPower, 2026전망]
 description: "2026년 수소 에너지 투자 전망. 그린수소, 블루수소, 연료전지, 수소 인프라, 두산퓨얼셀 분석."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-hydrogen-energy-outlook-2026.png
 ---
 
 > **시리즈 안내**: [에너지 섹터 종합 전망](/knowledge/invest/2026/03/07/energy-sector-outlook-2026.html) |

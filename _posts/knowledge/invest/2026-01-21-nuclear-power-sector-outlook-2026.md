@@ -9,6 +9,7 @@ redirect_from:
   - /knowledge/invest/2026/03/04/nuclear-power-sector-outlook-2026.html
   - /knowledge/invest/2026/03/06/nuclear-power-sector-outlook-2026.html
 description: "2026년 3월 7일 기준 원전 섹터 투자 전망. i-SMR 표준설계인가 심사 착수(3/5~6). 유가 Brent $89.44(이란전쟁 후 +25%). KHNP-태국 EGAT SMR 세미나로 ASEAN 확장. 미국 USTDA 필리핀 SMR $270만 타당성 조사. 일미 $550B 투자 패키지. 우라늄 $86.20 + 카메코-인도 장기계약."
+image: /assets/images/posts/thumbnails/2026-01-21-nuclear-power-sector-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [조선/방산/원전 섹터 전망](/knowledge/invest/2026/01/21/shipbuilding-defense-nuclear-sector-outlook-2026.html)

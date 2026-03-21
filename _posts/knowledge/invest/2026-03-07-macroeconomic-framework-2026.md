@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [거시경제, 경기사이클, 금리, 인플레이션, 환율, 채권, Fed, 투자프레임워크, 2026]
 description: "투자 판단을 위한 거시경제 분석 프레임워크. 경기 사이클, 금리, 인플레이션, 환율, 채권 분석 체계."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-macroeconomic-framework-2026.png
 ---
 
 ## 개요

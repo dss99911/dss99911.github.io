@@ -4,6 +4,7 @@ title: "Learn English Idioms and Expressions from TV Shows"
 date: 2026-01-11
 categories: [language, english]
 tags: [english, idioms, tv-shows, expressions, vocabulary]
+image: /assets/images/posts/thumbnails/2026-01-11-english-idioms-from-tv-shows.png
 ---
 
 # Learn English Idioms and Expressions from TV Shows

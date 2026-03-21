@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, ESS, 에너지저장, LFP, 전고체배터리, 삼성SDI, LG에너지솔루션, Tesla, 2026전망]
 description: "2026년 ESS 투자 전망. 그리드 스케일 배터리, LFP, 전고체, 삼성SDI, Tesla Megapack 분석."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-ess-energy-storage-outlook-2026.png
 ---
 
 > **시리즈 안내**: [에너지 섹터 종합 전망](/knowledge/invest/2026/03/07/energy-sector-outlook-2026.html) |

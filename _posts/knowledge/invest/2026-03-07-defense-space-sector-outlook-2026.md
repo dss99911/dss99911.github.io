@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 방산, 우주, 드론, UAM, 위성, 미이란전쟁, RTX, 노스롭그루먼, 한화에어로스페이스, SpaceX, IPO, K방산, 2026전망, AeroVironment, Rheinmetall, Leonardo, xAI, Starlink, IEA]
 description: "2026년 3/21 기준 — 해병 2,500명+군함 3척 중동 추가 배치, 트럼프 카르그섬 점령 검토. SpaceX-xAI 1.25조달러 합병 완료, IPO $1.5T 밸류에이션·$50B 조달 목표. 미국 FY2026 국방비 $1.01T, IEA 에너지 안보 경고. 방산/드론/우주 섹터 종합 투자 전망."
 last_modified_at: 2026-03-21
+image: /assets/images/posts/thumbnails/2026-03-07-defense-space-sector-outlook-2026.png
 ---
 
 > **하위 섹터 상세 분석**: [드론/UAM 투자 전망](/knowledge/invest/2026/03/07/drone-uam-outlook-2026.html) | [우주/위성 투자 전망](/knowledge/invest/2026/03/07/space-satellite-outlook-2026.html)

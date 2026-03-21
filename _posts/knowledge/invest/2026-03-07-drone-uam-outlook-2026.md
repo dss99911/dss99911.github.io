@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 드론, UAM, eVTOL, 한화시스템, 대한항공, JobyAviation, 2026전망]
 description: "2026년 드론/UAM 투자 전망. 군사 드론 혁명, 상업 드론, 도심항공모빌리티, 한화시스템 분석."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-drone-uam-outlook-2026.png
 ---
 
 > **관련 글**: [방산/우주 섹터 종합 전망](/knowledge/invest/2026/03/07/defense-space-sector-outlook-2026.html) | [우주/위성 투자 전망](/knowledge/invest/2026/03/07/space-satellite-outlook-2026.html) | [방산 섹터 상세](/knowledge/invest/2026/01/21/defense-sector-outlook-2026.html)

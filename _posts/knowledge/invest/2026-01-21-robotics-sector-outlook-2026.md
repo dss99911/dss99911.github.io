@@ -8,6 +8,7 @@ redirect_from:
   - /knowledge/invest/2026/03/04/robotics-sector-outlook-2026.html
 description: "2026년 3월 7일 로봇 섹터 투자 전망. GTC 2026(3/16) D-9 Isaac GR00T N1+Newton 물리엔진 기대. 옵티머스 Gen3 프리몬트 양산+50액추에이터 22자유도 손+유용한 작업 미수행 학습 중+머스크 AGI 선언(3/4). 중국 140+제조사 87-90% 글로벌 점유+배터리 2-3시간 한계. BD Atlas 2026 매진+2028 3만대. Figure 03+Helix VLA+BotQ 12000대."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-01-21-robotics-sector-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [자동차/로봇 섹터 전망](/knowledge/invest/2026/01/21/automotive-robotics-sector-outlook-2026.html)

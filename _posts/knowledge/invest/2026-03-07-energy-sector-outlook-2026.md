@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 에너지, 원전, SMR, 재생에너지, ESS, 수소, 태양광, 풍력, 2026전망, 호르무즈, 에너지안보, 유가, XLE, ICLN, LNG, 카타르, 이란, 천연가스, 고려아연, 그린수소]
 description: "2026년 에너지 섹터 종합 투자 전망. 이라크 불가항력 선언(이란전 여파), Brent $112.19(2022년 이후 최고). Kharg Island 공습(이란 원유 90%), 미군 2,500명+군함 3척 추가 배치. FOMC PCE 2.7% 상향, 금리인상 확률 50%. 금 $4,492(-10% 주간). 분석가 기본 $120, 강세 $150."
 last_modified_at: 2026-03-21
+image: /assets/images/posts/thumbnails/2026-03-07-energy-sector-outlook-2026.png
 ---
 
 > **시리즈 안내**: 이 글은 에너지 섹터 종합 전망입니다. 하위 섹터별 상세 분석은 아래 링크를 참고하세요.

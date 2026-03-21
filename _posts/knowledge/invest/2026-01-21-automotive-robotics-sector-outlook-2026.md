@@ -8,6 +8,7 @@ redirect_from:
   - /knowledge/invest/2026/03/04/automotive-robotics-sector-outlook-2026.html
 description: "2026년 3월 21일 자동차/로봇 섹터 투자 전망. FSD 유럽 승인 4/10 지연, NHTSA Engineering Analysis 격상(3.2M 차량), TeraFab 반도체 공장(월 160K 웨이퍼), 분산 컴퓨팅(주차 Tesla AI4→xAI), FSD v14.3 임박(4월 배포), Uber-Rivian $1.25B 로보택시, Waymo 10개 도시 40만회/주. BOTZ $33.60."
 last_modified_at: 2026-03-21
+image: /assets/images/posts/thumbnails/2026-01-21-automotive-robotics-sector-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html)

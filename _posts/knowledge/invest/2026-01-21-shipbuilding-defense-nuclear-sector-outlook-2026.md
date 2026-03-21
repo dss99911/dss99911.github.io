@@ -9,6 +9,7 @@ redirect_from:
   - /knowledge/invest/2026/03/04/shipbuilding-defense-nuclear-sector-outlook-2026.html
   - /knowledge/invest/2026/03/06/shipbuilding-defense-nuclear-sector-outlook-2026.html
 description: "2026년 3월 7일 기준 조선, 방산, 원전 섹터 최신 투자 전망. 이란 전쟁 7일차: 테헤란 중폭격 지속, 호르무즈 5일+ 유조선 통행 차단, Brent $89.44(+25%). 천궁-II UAE 실전 배치 90% 명중률 입증. EU €150B 방산 대출 합의. HD현대 LNG 4척 1.49조. LNG 일일용선료 $200K+ 급등. i-SMR 규제심사 개시."
+image: /assets/images/posts/thumbnails/2026-01-21-shipbuilding-defense-nuclear-sector-outlook-2026.png
 ---
 
 > **📢 섹터 구조 개편 안내 (2026.03.07)**

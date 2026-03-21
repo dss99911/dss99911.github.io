@@ -9,6 +9,7 @@ redirect_from:
   - /knowledge/invest/2026/03/06/defense-sector-outlook-2026.html
 description: "2026년 3월 7일 기준 방산 섹터 투자 전망. 천궁-II UAE 실전 검증(이란 미사일 90% 요격). EU €150B 방산대출 합의(3/6). 미국 FY2026 $1.5T. NATO 3.5% GDP 서약. 노르웨이 천무 ₩2.8T. 이란전쟁 Day 7 확전 중."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-01-21-defense-sector-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [조선/방산/원전 섹터 전망](/knowledge/invest/2026/01/21/shipbuilding-defense-nuclear-sector-outlook-2026.html)

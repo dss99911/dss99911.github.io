@@ -9,6 +9,7 @@ redirect_from:
   - /knowledge/invest/2026/03/06/semiconductor-materials-equipment-outlook-2026.html
 description: "2026년 3월 7일 소부장 섹터. ASML NXE:5000 출하 + XT:260 첨단 패키징용 출하. AMAT-Lam 전략적 다년 협업 발표. Keysight AI/6G Q1 기록 실적 주가 +26%. SIA $1T 전망. AI CapEx 사이클이 장비주 직접 수혜."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-01-21-semiconductor-materials-equipment-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [반도체 섹터 전망](/knowledge/invest/2026/01/21/semiconductor-sector-outlook-2026.html) | [파운드리 섹터 전망](/knowledge/invest/2026/01/21/foundry-sector-outlook-2026.html)

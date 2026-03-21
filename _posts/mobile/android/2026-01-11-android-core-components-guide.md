@@ -4,6 +4,7 @@ title: "Android Core Components Guide - Activity, Fragment, Service, and Broadca
 date: 2026-01-11
 categories: [mobile, android]
 tags: [android, kotlin, activity, fragment, service, broadcast, lifecycle, permissions]
+image: /assets/images/posts/thumbnails/2026-01-11-android-core-components-guide.png
 ---
 
 Understanding Android's core components is essential for building robust applications. This guide covers Activity lifecycle, Fragment management, Services, Broadcast receivers, and Runtime permissions.

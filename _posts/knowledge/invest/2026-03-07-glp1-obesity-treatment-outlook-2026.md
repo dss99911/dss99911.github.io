@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, GLP1, 비만치료, Wegovy, Ozempic, Mounjaro, 노보노디스크, 일라이릴리, 한미약품, 2026전망]
 description: "2026년 GLP-1/비만치료제 투자 전망. Wegovy, Ozempic, 노보노디스크, 일라이릴리, 한미약품 분석."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-glp1-obesity-treatment-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 바이오/헬스케어 섹터 종합 전망](/knowledge/invest/2026/03/07/bio-healthcare-sector-outlook-2026.html)

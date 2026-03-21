@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 의료AI, 디지털헬스, AI진단, 원격의료, 뷰노, 루닛, 디지털치료제, 2026전망]
 description: "2026년 의료AI/디지털헬스 투자 전망. AI 진단, 원격의료, 디지털치료제, 뷰노, 루닛 분석."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-medical-ai-digital-health-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 바이오/헬스케어 섹터 종합 전망](/knowledge/invest/2026/03/07/bio-healthcare-sector-outlook-2026.html)

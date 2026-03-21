@@ -4,6 +4,7 @@ title: "Indonesian Essential Grammar - Negation, Passive, Comparatives, and More
 date: 2026-01-11
 categories: [language, indonesian]
 tags: [indonesian, grammar, negation, passive, comparison]
+image: /assets/images/posts/thumbnails/2026-01-11-indonesian-essential-grammar.png
 ---
 
 # Indonesian Essential Grammar

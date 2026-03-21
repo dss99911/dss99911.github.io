@@ -4,6 +4,7 @@ title: "지구의 역사 - 우주 형성부터 인류 등장까지"
 date: 2026-01-11
 categories: [knowledge, history]
 tags: [history, earth, geology, evolution, science]
+image: /assets/images/posts/thumbnails/2026-01-11-earth-geological-history.png
 ---
 
 ## 우주의 형성

@@ -9,6 +9,7 @@ redirect_from:
   - /knowledge/invest/2026/03/06/macroeconomic-policy-sector-outlook-2026.html
 description: "2026년 3월 21일 기준 거시경제 환경 분석. FOMC 3.50-3.75% 동결(11:1, Miran -25bp 반대), PCE 인플레 전망 2.7%로 상향, 중립금리 3.1%. 금 $4,492 폭락(주간 -10.05%, 피크 $5,400 대비 -17%), '지정학 역설'로 전쟁 격화에도 하락. 원달러 1,500 심리선 돌파, 외국인 자본유출 1-2월 20조원, 한국 딜레마(금리인상→가계부채 vs 동결→자본유출). S&P 500 6,606(-1.5%), PPI +0.7%(예상 +0.3% 대폭 상회). 10Y 4.25%, HY Spread 3.27% 확대. 사모신용 디폴트 9.2% 역대최고. 트럼프 vs 파월 갈등 심화."
 last_modified_at: 2026-03-21
+image: /assets/images/posts/thumbnails/2026-01-21-macroeconomic-policy-sector-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html)

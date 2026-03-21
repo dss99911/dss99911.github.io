@@ -4,6 +4,7 @@ title: "3D 프린팅 입문 가이드 - 기초부터 출력 방식까지"
 date: 2026-01-11
 categories: [knowledge, technology]
 tags: [3d-printing, fdm, maker, diy, hardware]
+image: /assets/images/posts/thumbnails/2026-01-11-3d-printing-beginners-guide.png
 ---
 
 ## 3D 프린팅이란?

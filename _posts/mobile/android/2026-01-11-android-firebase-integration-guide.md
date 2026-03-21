@@ -4,6 +4,7 @@ title: "Android Firebase Integration Guide - Analytics, FCM Push, and Dynamic Li
 date: 2026-01-11
 categories: [mobile, android]
 tags: [android, kotlin, firebase, analytics, fcm, push-notifications, deep-links]
+image: /assets/images/posts/thumbnails/2026-01-11-android-firebase-integration-guide.png
 ---
 
 Firebase provides a comprehensive suite of tools for Android development. This guide covers essential Firebase services: Analytics, Cloud Messaging (FCM), and Dynamic Links.

@@ -4,6 +4,7 @@ title: "Chinese Pronunciation Guide for Korean Speakers - Sino-Korean Connection
 date: 2026-01-11
 categories: [language, chinese]
 tags: [chinese, korean, pronunciation, sino-korean, mandarin]
+image: /assets/images/posts/thumbnails/2026-01-11-chinese-pronunciation-for-korean-speakers.png
 ---
 
 # Chinese Pronunciation Guide for Korean Speakers

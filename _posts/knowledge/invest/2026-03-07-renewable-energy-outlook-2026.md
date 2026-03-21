@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 재생에너지, 태양광, 풍력, IRA, 한화솔루션, FirstSolar, 2026전망]
 description: "2026년 재생에너지 투자 전망. 태양광, 풍력, IRA 보조금, 한화솔루션, First Solar 분석."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-renewable-energy-outlook-2026.png
 ---
 
 > **시리즈 안내**: [에너지 섹터 종합 전망](/knowledge/invest/2026/03/07/energy-sector-outlook-2026.html) |

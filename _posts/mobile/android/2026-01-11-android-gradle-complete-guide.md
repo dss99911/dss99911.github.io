@@ -4,6 +4,7 @@ title: "Android Gradle Complete Guide - Build Configuration and Optimization"
 date: 2026-01-11
 categories: [mobile, android]
 tags: [android, gradle, build, kotlin, groovy]
+image: /assets/images/posts/thumbnails/2026-01-11-android-gradle-complete-guide.png
 ---
 
 Gradle is the build system for Android projects, providing powerful configuration options for managing dependencies, build variants, flavors, and more. This guide covers essential Gradle configurations for Android development.

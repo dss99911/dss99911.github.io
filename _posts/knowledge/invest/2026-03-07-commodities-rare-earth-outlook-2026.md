@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 원자재, 희토류, 구리, 리튬, 우라늄, 포스코퓨처엠, 2026전망]
 description: "2026년 원자재/희토류 투자 전망. 구리, 리튬, 희토류, 우라늄 공급망."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-commodities-rare-earth-outlook-2026.png
 ---
 
 ## 핵심 요약

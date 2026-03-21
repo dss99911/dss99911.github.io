@@ -4,6 +4,7 @@ title: "Essential English Expressions for Daily Communication"
 date: 2026-01-11
 categories: [language, english]
 tags: [english, expressions, vocabulary, communication]
+image: /assets/images/posts/thumbnails/2026-01-11-english-useful-expressions-guide.png
 ---
 
 # Essential English Expressions for Daily Communication

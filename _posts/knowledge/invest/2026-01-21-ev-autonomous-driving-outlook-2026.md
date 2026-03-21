@@ -10,6 +10,7 @@ redirect_from:
   - /knowledge/invest/2026/02/20/ev-autonomous-driving-outlook-2026.html
 description: "2026년 3월 7일 EV/자율주행 투자 전망. BYD Blade Battery 2.0 5분 충전 혁명. 유가 Brent $89 EV 경제성 극대화. NHTSA 3/9 FSD 안전 데이터 마감. 25% 자동차 수입관세 4/3 발효. 현대/기아 미국 EV 판매 급감."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-01-21-ev-autonomous-driving-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [자동차/로봇 섹터 전망](/knowledge/invest/2026/01/21/automotive-robotics-sector-outlook-2026.html)

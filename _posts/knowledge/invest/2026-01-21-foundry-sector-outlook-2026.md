@@ -9,6 +9,7 @@ redirect_from:
   - /knowledge/invest/2026/03/06/foundry-sector-outlook-2026.html
 description: "2026년 3월 7일 파운드리 섹터. 삼성-인텔 파운드리 동맹 추진(패키징·글라스 기판), TSMC N2 램프 10만-14만장/월 목표, Broadcom AI 매출 $8.4B(+74%), Marvell ASIC $0→$1.5B 급성장. TSMC 기술 1-2세대 선도 속 반-TSMC 블록 형성 조짐."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-01-21-foundry-sector-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [반도체 섹터 전망](/knowledge/invest/2026/01/21/semiconductor-sector-outlook-2026.html) | [반도체 소부장 전망](/knowledge/invest/2026/01/21/semiconductor-materials-equipment-outlook-2026.html)

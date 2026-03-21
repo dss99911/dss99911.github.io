@@ -4,6 +4,7 @@ title: "Hindi Grammar Complete Guide - Verbs, Tenses, and Noun Cases"
 date: 2026-01-11
 categories: [language, hindi]
 tags: [hindi, grammar, verbs, tenses, devanagari]
+image: /assets/images/posts/thumbnails/2026-01-11-hindi-grammar-complete-guide.png
 ---
 
 # Hindi Grammar Complete Guide

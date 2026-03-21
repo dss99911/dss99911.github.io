@@ -23,6 +23,7 @@ redirect_from:
   - /knowledge/invest/2026/03/21/semiconductor-sector-outlook-2026.html
 description: "2026년 3월 21일 반도체 섹터 전망. 삼성전자 파운드리 NVIDIA 수주 확정(젠슨 황 긍정 발언, Q3 출하). 삼성 HBM4 30%+ NVIDIA 공급 임박. HBM 캐파 +47%(250K 웨이퍼/월). SMCI -33% 폭락. FOMC 금리인상 확률 상승. 한국 개인투자자 120조 대기자금. SOXX 332.51(-2.26%), NVDA $172.70(-3.28%)."
 last_modified_at: 2026-03-21
+image: /assets/images/posts/thumbnails/2026-01-21-semiconductor-sector-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html)

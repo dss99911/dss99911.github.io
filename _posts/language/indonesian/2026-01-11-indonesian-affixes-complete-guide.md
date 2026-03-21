@@ -4,6 +4,7 @@ title: "Indonesian Affixes Complete Guide - me-, ber-, di-, ter-, pe-, ke-an"
 date: 2026-01-11
 categories: [language, indonesian]
 tags: [indonesian, grammar, affixes, prefixes, suffixes]
+image: /assets/images/posts/thumbnails/2026-01-11-indonesian-affixes-complete-guide.png
 ---
 
 # Indonesian Affixes Complete Guide

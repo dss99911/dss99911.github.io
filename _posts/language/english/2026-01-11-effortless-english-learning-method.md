@@ -4,6 +4,7 @@ title: "Effortless English Learning Method - A 6-Day Drama Study Plan"
 date: 2026-01-11
 categories: [language, english]
 tags: [english, learning-method, study-tips, speaking]
+image: /assets/images/posts/thumbnails/2026-01-11-effortless-english-learning-method.png
 ---
 
 # Effortless English Learning Method

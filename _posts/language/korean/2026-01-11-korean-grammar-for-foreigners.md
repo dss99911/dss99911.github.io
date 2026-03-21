@@ -4,6 +4,7 @@ title: "Korean Grammar Guide for Foreigners - Verbs, Particles, and Conjugation"
 date: 2026-01-11
 categories: [language, korean]
 tags: [korean, grammar, conjugation, particles, learning]
+image: /assets/images/posts/thumbnails/2026-01-11-korean-grammar-for-foreigners.png
 ---
 
 # Korean Grammar Guide for Foreigners

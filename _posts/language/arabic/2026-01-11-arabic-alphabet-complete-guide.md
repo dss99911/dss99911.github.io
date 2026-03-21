@@ -4,6 +4,7 @@ title: "Arabic Alphabet Complete Guide - Letters, Forms, and Pronunciation"
 date: 2026-01-11
 categories: [language, arabic]
 tags: [arabic, alphabet, pronunciation, learning]
+image: /assets/images/posts/thumbnails/2026-01-11-arabic-alphabet-complete-guide.png
 ---
 
 # Arabic Alphabet Complete Guide

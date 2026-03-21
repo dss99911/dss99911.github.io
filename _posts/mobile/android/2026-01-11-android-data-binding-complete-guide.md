@@ -4,6 +4,7 @@ title: "Android Data Binding Complete Guide - From Basics to Advanced"
 date: 2026-01-11
 categories: [mobile, android]
 tags: [android, kotlin, data-binding, mvvm, jetpack]
+image: /assets/images/posts/thumbnails/2026-01-11-android-data-binding-complete-guide.png
 ---
 
 Data Binding is a powerful library in Android Jetpack that allows you to bind UI components in your layouts to data sources in your app using a declarative format. This comprehensive guide covers everything from basic setup to advanced techniques.

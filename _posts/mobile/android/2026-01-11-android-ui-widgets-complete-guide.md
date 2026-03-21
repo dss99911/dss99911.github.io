@@ -4,6 +4,7 @@ title: "Android UI Widgets Complete Guide - Layouts, Views, and Animations"
 date: 2026-01-11
 categories: [mobile, android]
 tags: [android, kotlin, ui, widgets, recyclerview, constraintlayout, animation]
+image: /assets/images/posts/thumbnails/2026-01-11-android-ui-widgets-complete-guide.png
 ---
 
 Android provides a rich set of UI widgets for building modern, responsive applications. This comprehensive guide covers essential layouts, views, and animation techniques for Android development.

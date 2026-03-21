@@ -4,6 +4,7 @@ title: "인도네시아 역사 - 고대 왕국부터 현대까지"
 date: 2026-01-11
 categories: [knowledge, history]
 tags: [indonesia, history, southeast-asia, majapahit, dutch-colonial]
+image: /assets/images/posts/thumbnails/2026-01-11-indonesia-history.png
 ---
 
 인도네시아는 17,000개 이상의 섬으로 이루어진 세계 최대의 군도 국가입니다. 그 역사는 인도 상인들의 영향을 받은 고대 왕국에서 시작하여, 식민 지배를 거쳐 현대 민주주의 국가로 발전했습니다.

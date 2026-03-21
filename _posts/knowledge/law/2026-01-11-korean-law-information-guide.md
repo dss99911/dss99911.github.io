@@ -4,6 +4,7 @@ title: "한국 법률 정보 찾는 법 - 국가법령정보센터 활용 가이
 date: 2026-01-11
 categories: [knowledge, law]
 tags: [law, legal, korea, government, regulation]
+image: /assets/images/posts/thumbnails/2026-01-11-korean-law-information-guide.png
 ---
 
 ## 한국 법률 체계 이해하기

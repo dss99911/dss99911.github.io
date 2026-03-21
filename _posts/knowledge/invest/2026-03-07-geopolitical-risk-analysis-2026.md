@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 지정학, 이란, 미중, 대만, 러시아, 우크라이나, 2026전망]
 description: "2026년 글로벌 지정학 리스크 체계적 분석. 이란전쟁, 미중 패권, 대만, 러우전쟁이 투자에 미치는 영향."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-geopolitical-risk-analysis-2026.png
 ---
 
 ## 개요

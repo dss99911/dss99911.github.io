@@ -4,6 +4,7 @@ title: "Hindi Devanagari Consonants - Complete Learning Guide with Memorization 
 date: 2026-01-11
 categories: [language, hindi]
 tags: [hindi, devanagari, consonants, alphabet, pronunciation]
+image: /assets/images/posts/thumbnails/2026-01-11-hindi-devanagari-consonants-guide.png
 ---
 
 # Hindi Devanagari Consonants Guide

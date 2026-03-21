@@ -4,6 +4,7 @@ title: "Android Jetpack Architecture Components - ViewModel, LiveData, and Room"
 date: 2026-01-11
 categories: [mobile, android]
 tags: [android, kotlin, jetpack, mvvm, livedata, viewmodel, room]
+image: /assets/images/posts/thumbnails/2026-01-11-android-jetpack-architecture-guide.png
 ---
 
 Android Jetpack Architecture Components provide a robust framework for building Android apps with clean architecture patterns. This guide covers the essential components: ViewModel, LiveData, and Room, along with best practices for implementing MVVM architecture.

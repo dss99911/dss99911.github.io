@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 세계경제, 탈세계화, 공급망, 인구구조, 디지털전환, 2026전망]
 description: "2026년 세계 경제 구조적 트렌드. 탈세계화, 공급망 재편, 고령화, 디지털 전환이 투자에 미치는 영향."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-global-economic-trends-2026.png
 ---
 
 ## 개요

@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 기술트렌드, AI, 양자컴퓨팅, 합성생물학, BCI, 핵융합, 2026전망]
 description: "2026년 기술 메가트렌드 분석. AI, 양자컴퓨팅, 합성생물학, BCI, 핵융합 등 미래 기술 투자 전망."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-technology-trends-2026.png
 ---
 
 ## 개요

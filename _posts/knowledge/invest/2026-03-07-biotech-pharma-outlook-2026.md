@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 바이오텍, 신약, ADC, CDMO, 삼성바이오로직스, 알테오젠, 셀트리온, 한올바이오파마, 2026전망]
 description: "2026년 신약/바이오텍 투자 전망. ADC, CDMO, 삼성바이오로직스, 알테오젠, 셀트리온 분석."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-biotech-pharma-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 바이오/헬스케어 섹터 종합 전망](/knowledge/invest/2026/03/07/bio-healthcare-sector-outlook-2026.html)

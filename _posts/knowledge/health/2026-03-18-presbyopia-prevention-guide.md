@@ -5,6 +5,7 @@ date: 2026-03-18 12:00:00 +0900
 categories: [knowledge, health]
 tags: [노안, 눈건강, 눈운동, 루테인, 시력, presbyopia, 눈관리, 안구건강, 식습관]
 description: "노안(presbyopia)을 늦추고 눈 건강을 지키는 실천 가이드. 눈 운동법, 핵심 영양소와 음식, 생활습관 개선법까지 근거 기반으로 정리했습니다."
+image: /assets/images/posts/thumbnails/2026-03-18-presbyopia-prevention-guide.png
 ---
 
 40대부터 찾아오던 노안이 디지털 기기 사용 증가로 30대에도 나타나고 있습니다. 노안은 수정체가 딱딱해지면서 탄력을 잃어 초점 조절 능력이 떨어지는 현상입니다. 완전한 예방은 불가능하지만, **진행을 늦추고 눈 건강을 유지하는 방법**은 분명히 존재합니다.

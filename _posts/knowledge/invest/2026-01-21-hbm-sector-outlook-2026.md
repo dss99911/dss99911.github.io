@@ -9,6 +9,7 @@ redirect_from:
   - /knowledge/invest/2026/03/06/hbm-sector-outlook-2026.html
 description: "2026년 HBM 시장 $54.6B(+58% YoY), TAM $100B(2028). SK하이닉스 점유율 62%로 압도적 1위. 마이크론이 삼성 추월하여 2위. 3사 모두 2026 HBM 전량 매진. 삼성 HBM4 PRA 완료, TrendForce Q2 인증 전망. GTC 3/16 HBM4 쇼케이스."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-01-21-hbm-sector-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [반도체 섹터 전망](/knowledge/invest/2026/01/21/semiconductor-sector-outlook-2026.html)

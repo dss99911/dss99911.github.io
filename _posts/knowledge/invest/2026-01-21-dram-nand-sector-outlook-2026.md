@@ -9,6 +9,7 @@ redirect_from:
   - /knowledge/invest/2026/03/06/dram-nand-sector-outlook-2026.html
 description: "Q1 DRAM +90-95% QoQ 역대 최대 분기 상승. PC DRAM 2배, 서버 DRAM +170% YoY. Enterprise SSD +53-58% QoQ 역대 기록. 현물가>계약가 이례적 상황. 삼성+SK 합산 OP 200조 초과 전망. 공급부족 2026 전체 지속, M15X 2027말 가동 전까지 완화 없음."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-01-21-dram-nand-sector-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html) | [반도체 섹터 전망](/knowledge/invest/2026/01/21/semiconductor-sector-outlook-2026.html)

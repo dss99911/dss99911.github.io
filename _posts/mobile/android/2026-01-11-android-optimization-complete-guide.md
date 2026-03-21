@@ -4,6 +4,7 @@ title: "Android App Optimization Guide - Performance, Memory, and APK Size"
 date: 2026-01-11
 categories: [mobile, android]
 tags: [android, kotlin, optimization, performance, memory, proguard]
+image: /assets/images/posts/thumbnails/2026-01-11-android-optimization-complete-guide.png
 ---
 
 Optimizing Android applications is crucial for providing a great user experience. This guide covers essential optimization techniques for performance, memory management, APK size reduction, and battery efficiency.

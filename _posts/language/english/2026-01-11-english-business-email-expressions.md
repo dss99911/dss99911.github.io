@@ -4,6 +4,7 @@ title: "Essential Business English Email Expressions and Phrases"
 date: 2026-01-11
 categories: [language, english]
 tags: [english, business, email, professional-writing]
+image: /assets/images/posts/thumbnails/2026-01-11-english-business-email-expressions.png
 ---
 
 # Essential Business English Email Expressions

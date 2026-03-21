@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, AI, 클라우드, SaaS, Palantir, CrowdStrike, ServiceNow, 2026전망]
 description: "2026년 AI SW/클라우드 투자 전망. 빅테크 CAPEX, 클라우드 3사, AI SaaS, 사이버보안."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-ai-software-cloud-outlook-2026.png
 ---
 
 ## 요약

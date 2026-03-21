@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 방법론, 자산배분, 리스크관리, 행동재무학, 워렌버핏, 레이달리오, 2026전망]
 description: "투자 방법론 종합. 자산배분, 리스크 관리, 행동재무학, 투자 대가들의 전략 분석."
 last_modified_at: 2026-03-07
+image: /assets/images/posts/thumbnails/2026-03-07-investment-methodology-2026.png
 ---
 
 ## 개요

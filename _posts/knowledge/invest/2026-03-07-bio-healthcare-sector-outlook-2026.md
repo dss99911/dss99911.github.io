@@ -6,6 +6,7 @@ categories: [knowledge, invest]
 tags: [투자, 바이오, 헬스케어, ADC, GLP1, 의료AI, 삼성바이오로직스, 알테오젠, 비만치료제, 노보노디스크, 엘리릴리, 2026전망]
 description: "2026년 3월 11일 바이오/헬스케어 섹터 투자 전망. Novo Nordisk 주가 -20%, 매출·이익 5~13% 감소 전망, Medicare GLP-1 $245/월. Eli Lilly 경구제 orforglipron Rybelsus 압도, 시총 $1조+. Vertex JOURNAVX+povetacicept 다중 프랜차이즈. Viking Phase 3. semaglutide 특허 만료→Teva 제네릭. Pfizer 종양학+비만 피벗. Healthcare PE 31.6."
 last_modified_at: 2026-03-11
+image: /assets/images/posts/thumbnails/2026-03-07-bio-healthcare-sector-outlook-2026.png
 ---
 
 > **관련 글**: [2026년 투자 섹터 전망 (전체)](/knowledge/invest/2026/01/20/investment-sectors-outlook-2026.html)

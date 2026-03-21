@@ -5,6 +5,7 @@ date: 2026-03-04 13:00:00 +0900
 categories: [tools, mac]
 tags: [mac, macos, finicky, browser, productivity, chrome, brave, default-browser]
 description: "Mac에서 URL에 따라 회사 브라우저와 개인 브라우저를 자동으로 분기해주는 Finicky 설정법을 소개합니다."
+image: /assets/images/posts/thumbnails/2026-03-04-finicky-url-based-browser-routing.png
 ---
 
 Slack에서 Jira 링크를 클릭했는데 개인 브라우저에서 열려서 다시 회사 Chrome에 URL을 복사해본 적 있으신가요?
