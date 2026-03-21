@@ -477,32 +477,53 @@
 /* Post Category Badges */
 /* ==================== */
 
-.post-categories {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 10px;
+.post-header .post-categories {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+    margin-top: 12px !important;
 }
 
-.post-category-badge {
-    display: inline-block;
-    background: #f0f4ff;
-    color: #667eea;
-    padding: 4px 14px;
-    border-radius: 15px;
-    font-size: 0.85em;
-    font-weight: 500;
-    text-decoration: none;
-    border: 1px solid #d8e0ff;
-    transition: all 0.2s ease;
+.post-header .post-categories .post-category-badge {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 5px !important;
+    background: linear-gradient(135deg, #f0f4ff 0%, #e8edff 100%) !important;
+    color: #5a6acf !important;
+    padding: 5px 14px !important;
+    border-radius: 20px !important;
+    font-size: 0.82em !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    border: 1px solid #d0d8f8 !important;
+    transition: all 0.25s ease !important;
+    letter-spacing: 0.02em !important;
+    line-height: 1.4 !important;
 }
 
-a.post-category-badge:hover {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    border-color: transparent;
-    transform: translateY(-1px);
-    box-shadow: 0 3px 8px rgba(102, 126, 234, 0.3);
+.post-header .post-categories .post-category-badge::before {
+    content: "📂";
+    font-size: 0.9em;
+}
+
+.post-header .post-categories a.post-category-badge:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    border-color: transparent !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.35) !important;
+    text-decoration: none !important;
+}
+
+.post-header .post-categories a.post-category-badge:hover::before {
+    content: "📁";
+}
+
+.post-header .post-categories .category-separator {
+    color: #b0b8d6 !important;
+    font-size: 1.2em !important;
+    font-weight: 300 !important;
+    align-self: center !important;
 }
 
 /* ==================== */

@@ -16,6 +16,7 @@ layout: default
     {%- if page.categories.size > 0 -%}
     <div class="post-categories">
       {%- for cat in page.categories -%}
+        {%- if forloop.index > 1 -%}<span class="category-separator">›</span>{%- endif -%}
         {%- assign cat_page = nil -%}
         {%- for p in site.pages -%}
           {%- if p.category == cat and p.layout == "category" -%}
