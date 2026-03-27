@@ -18,7 +18,7 @@ Obsidian's plugin ecosystem is one of its greatest strengths. Here's my curated 
 - Automatically commits and pushes changes at set intervals
 - Syncs notes between laptop and Git repository
 - Maintains full version history of all notes
-- For syncing between laptop and Android, see [this post]({% post_url 2023-12-03-Free Synchronization of Obsidian Notes Between Desktop and Android Devices %})
+- For syncing between laptop and Android, see [this post]({% post_url 2023-12-02-Free Synchronization of Obsidian Notes Between Desktop and Android Devices %})
 
 ### File Diff
 **Purpose**: Compare and merge conflicting files

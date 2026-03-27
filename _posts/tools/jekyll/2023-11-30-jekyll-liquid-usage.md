@@ -62,7 +62,7 @@ end
 - [Link by Tag]({% link _posts/tools/jekyll/2023-12-05-jekyll-seo.md %}): provides link validation on build time. if front matter not exists, the error below occurs.
   - Liquid Exception: Could not find document '_posts/tools/jekyll/2023-12-05-jekyll-seo.md' in tag 'link'. Make sure the document exists and the path is correct. in /github/workspace/_posts/tools/jekyll/2023-12-04-jekyll-liquid.md
 - [Link by variables] % link {{ page.functions_page }} %: this way is not supported on Github Pages.
-- [Link by post_url]({% post_url 2023-12-03-Free Synchronization of Obsidian Notes Between Desktop and Android Devices %}): able to access other directory's post with post name
+- [Link by post_url]({% post_url 2023-12-02-Free Synchronization of Obsidian Notes Between Desktop and Android Devices %}): able to access other directory's post with post name
 
 The `link` tag is preferred over hardcoded URLs because it validates that the linked page exists at build time. If you rename or delete a post, the build will fail with a clear error message rather than silently creating a broken link.
 
