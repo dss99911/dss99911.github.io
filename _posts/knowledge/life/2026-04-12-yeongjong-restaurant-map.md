@@ -15,6 +15,7 @@ description: "네이버 맵 기반 영종도 전역 맛집 108곳을 지도에�
 - **"네이버 지도에서 보기"** 버튼: 네이버 맵에서 해당 식당 페이지 열기
 - **카테고리 필터**: 우측 패널에서 카테고리 클릭으로 ON/OFF
 - **마커 크기 기준**: 종합 / 별점 / 리뷰수 / 저장수 기준 전환
+- **📍 내 위치**: 지도 좌측 상단 버튼 클릭 → 현재 위치로 이동
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -76,6 +77,23 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
 }
 .popup-link:hover { background: #02b351; }
 .score-star { color: #FFB800; }
+
+.loc-btn {
+  width: 36px; height: 36px; background: white; border: 2px solid rgba(0,0,0,0.2);
+  border-radius: 4px; cursor: pointer; display: flex; align-items: center; justify-content: center;
+  font-size: 18px; box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+}
+.loc-btn:hover { background: #f4f4f4; }
+.loc-btn.loading { animation: pulse 1s infinite; }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.5; } }
+.my-loc-marker {
+  width: 16px; height: 16px; background: #4285F4; border: 3px solid white;
+  border-radius: 50%; box-shadow: 0 0 6px rgba(66,133,244,0.6);
+}
+.my-loc-ring {
+  border: 2px solid rgba(66,133,244,0.3); background: rgba(66,133,244,0.1);
+  border-radius: 50%;
+}
 
 </style>
 
@@ -279,6 +297,49 @@ document.querySelectorAll('.sort-btn').forEach(btn => {
 
 renderLegend();
 renderMarkers();
+
+// My location
+const LocControl = L.Control.extend({
+  options: { position: 'topleft' },
+  onAdd() {
+    const btn = L.DomUtil.create('div', 'loc-btn');
+    btn.innerHTML = '\uD83D\uDCCD';
+    btn.title = '내 위치';
+    L.DomEvent.disableClickPropagation(btn);
+    btn.addEventListener('click', () => locateMe(btn));
+    return btn;
+  }
+});
+map.addControl(new LocControl());
+
+let myLocMarker = null;
+let myLocRing = null;
+
+function locateMe(btn) {
+  if (!navigator.geolocation) { alert('이 브라우저에서 위치 서비스를 지원하지 않습니다.'); return; }
+  btn.classList.add('loading');
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      btn.classList.remove('loading');
+      const lat = pos.coords.latitude;
+      const lng = pos.coords.longitude;
+      const acc = pos.coords.accuracy;
+      if (myLocMarker) { map.removeLayer(myLocMarker); map.removeLayer(myLocRing); }
+      myLocMarker = L.marker([lat, lng], {
+        icon: L.divIcon({ className: 'my-loc-marker', iconSize: [16, 16], iconAnchor: [8, 8] }),
+        zIndexOffset: 1000
+      }).addTo(map).bindPopup('현재 내 위치');
+      myLocRing = L.circle([lat, lng], { radius: acc, className: 'my-loc-ring', interactive: false }).addTo(map);
+      map.setView([lat, lng], 14);
+    },
+    (err) => {
+      btn.classList.remove('loading');
+      if (err.code === 1) alert('위치 권한이 거부되었습니다. 브라우저 설정에서 위치 권한을 허용해주세요.');
+      else alert('위치를 가져올 수 없습니다: ' + err.message);
+    },
+    { enableHighAccuracy: true, timeout: 10000 }
+  );
+}
 
 </script>
 
