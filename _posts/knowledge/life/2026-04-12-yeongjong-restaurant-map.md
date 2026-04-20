@@ -109,10 +109,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
     <span class="sort-btn" data-sort="save">저장수</span>
   </div>
   <div class="size-legend">
-    <h4>마커 크기</h4>
-    <div class="size-row"><div class="size-circle" style="width:10px;height:10px"></div> 낮음</div>
-    <div class="size-row"><div class="size-circle" style="width:18px;height:18px"></div> 보통</div>
-    <div class="size-row"><div class="size-circle" style="width:28px;height:28px"></div> 높음</div>
+    <h4>마커 크기 (수치 비례)</h4>
+    <div class="size-row"><div class="size-circle" style="width:8px;height:8px"></div> 최소</div>
+    <div class="size-row"><div class="size-circle" style="width:20px;height:20px"></div> 중간</div>
+    <div class="size-row"><div class="size-circle" style="width:35px;height:35px"></div> 최대</div>
   </div>
   <div class="stats" id="stats"></div>
 </div>
@@ -158,25 +158,25 @@ const maxScore = Math.max(...scores);
 function getRadius(r, mode) {
   let val;
   if (mode === 'review') {
-    val = Math.log1p(parseNum(r.review)) / Math.log1p(maxReview);
+    val = Math.sqrt(parseNum(r.review)) / Math.sqrt(maxReview);
   } else if (mode === 'save') {
-    val = Math.log1p(parseNum(r.save)) / Math.log1p(maxSave);
+    val = Math.sqrt(parseNum(r.save)) / Math.sqrt(maxSave);
   } else if (mode === 'score') {
     val = r.score && maxScore > minScore ? (r.score - minScore) / (maxScore - minScore) : 0.5;
   } else {
     // composite
-    const rv = Math.log1p(parseNum(r.review)) / Math.log1p(maxReview);
-    const sv = Math.log1p(parseNum(r.save)) / Math.log1p(maxSave);
+    const rv = Math.sqrt(parseNum(r.review)) / Math.sqrt(maxReview);
+    const sv = Math.sqrt(parseNum(r.save)) / Math.sqrt(maxSave);
     const sc = r.score && maxScore > minScore ? (r.score - minScore) / (maxScore - minScore) : 0.5;
     val = sc * 0.3 + rv * 0.35 + sv * 0.35;
   }
-  return 6 + val * 22; // 6~28px
+  return 5 + val * 30; // 5~35px, sqrt로 수치 비례
 }
 
 function getOpacity(r) {
-  const rv = Math.log1p(parseNum(r.review)) / Math.log1p(maxReview);
-  const sv = Math.log1p(parseNum(r.save)) / Math.log1p(maxSave);
-  return 0.5 + (rv * 0.3 + sv * 0.2);
+  const rv = Math.sqrt(parseNum(r.review)) / Math.sqrt(maxReview);
+  const sv = Math.sqrt(parseNum(r.save)) / Math.sqrt(maxSave);
+  return 0.4 + (rv * 0.3 + sv * 0.3);
 }
 
 // Init map
