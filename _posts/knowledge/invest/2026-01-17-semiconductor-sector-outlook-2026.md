@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2026년 반도체 투자 전망: 빅테크Q1AI구조적수요확인·AWS+28%·구글클라우드+63%역대최고·HBM2027~2030쇼티지공식화·CapEx7500억달러·자체반도체외부판매·SOXX$462·SK하이닉스Q1마진72%·삼성Q1서프라이즈+31%·인텔주간+20% (5월 5일 업데이트)"
+title: "2026년 반도체 투자 전망: 마이크론Q2매출196%↑·목표주가$1100상향·구글I/O에이전틱AI·엔비디아베라초기공급·SK하이닉스HBM2026매진·삼성파운드리2nm수주임박·CPU르네상스지속 (5월 20일 업데이트)"
 date: 2026-01-17 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 반도체, HBM, HBM4, HBM4E, CHBM, 메모리, 파운드리, 삼성전자, SK하이닉스, 엔비디아, TSMC, 브로드컴, AMD, Meta, Marvell, SK스퀘어, 소부장, 한미반도체, ASML, 2026전망, RAMmageddon, GTC2026, VeraRubin, VeraRubinUltra, Feynman, NemoClaw, N1, Section122, AICAPEX, 기가사이클, AI수출규제, MI455X, Helios, UALink, Groq, Groq3, LPU, SRAM, 하이브리드추론, CPO, CoPackagedOptics, Credo, Corning, 광인터커넥트, ThinkingMachinesLab, Kyber, TeraFab, 테슬라, AI5, DLSS5, OpenClaw, 우주데이터센터, Eaton, 자율주행, NVIDIADrive, 로보택시, Micron, 빅테크해고, Oracle, SamsungAMD, FOMC, HealthcareAI, 수술로봇, StreamDQ, CustomizedHBM, 테슬라FSD, SMCI, SuperMicro, Intel, 삼성파운드리, 2nmGAA, MorganStanley, 개인투자자, KOSPI, TurboQuant, KVcache, 메모리압축, SKhynixADR, SpaceXIPO, D3칩, BOTZ, Blackwell, 섹터로테이션, CantorFitzgerald, 구글판딥시크, 제본스역설, AI에이전트, 앤트로픽, 오픈AI, 휴머노이드로봇, 팔란티어, Palantir, DRAM가격, 외국인순매수, 수급스위칭, 광통신, 루멘텀, 코히런트, ARR, IPO, AI트래픽, AnthropicMythos, BroadcomMeta, SOXX401, KOSPI6000, Marvell150, CredoPhotonics, SOCAMM2, 두산CCL, 파미셀, Seagate, OpenAIMSParnership, 에이전틱AI, CPUDemand, 씨게이트, AgenticAI, 삼성Q1사상최대, 하이닉스Q1역대최대, NVDAATH, SOXX438, CapEx750B, 2027쇼티지, 2030쇼티지, CPU르네상스, 삼성파운드리2nm수주, SanDisk, 스토리지폭발, AI4대병목, 메모리병목, 전력병목, 광통신N2, Lumentum, Coherent, GoogleCloud63, AMDAQ1실적, 빅테크Q1, MI450, EPYC, KOSPI6937, BofA1.3T, OpenRouterToken, GpuAvailability, TPU외부판매, Trainium외부판매, AWS28, 자체반도체외부판매]
@@ -38,7 +38,7 @@ redirect_from:
   - /knowledge/invest/2026/05/02/semiconductor-sector-outlook-2026.html
   - /knowledge/invest/2026/05/04/semiconductor-sector-outlook-2026.html
 description: "2026년 5월 5일 반도체 섹터 전망. 빅테크 Q1 AI 구조적 수요 확인: AWS +28%(15분기 최고), 구글 클라우드 +63%(역대 최고·EPS 5.11 예상치 2배). 빅테크 합산 CapEx 7,500억 달러(전년 4,000억 대비 대폭 증가). 구글/아마존 자체 반도체(TPU/Trainium) 외부 판매 시작. HBM 공급 부족 2027~2030 공식화(Samsung·SK Group). SK하이닉스 Q1 마진 72%(글로벌 최고). 삼성전자 Q1 반도체 +31% 서프라이즈. SOXX $462.06. INTC 주간 +20%."
-last_modified_at: 2026-05-05
+last_modified_at: 2026-05-20
 image: /assets/images/posts/thumbnails/2026-01-21-semiconductor-sector-outlook-2026.png
 ---
 
@@ -70,7 +70,7 @@ image: /assets/images/posts/thumbnails/2026-01-21-semiconductor-sector-outlook-2
 | **인텔** | **$95.78 (주간 +20%)** | CPU 르네상스 수혜 지속 |
 | **SK하이닉스** | **HBM 2026 capacity 전량 매진** | HBM4 점유율 70%(UBS). Q1 역대 최대(매출 52.58조, OP 37.61조, 72% 마진) |
 | **삼성전자** | **Q1 반도체 53.7조 (+31% 서프라이즈)** | 컨센서스 43.7조 대비 대폭 상회 |
-| **Micron** | **4월 +47%** | 구조적 수요 증가 시그널. 목표주가 $1,000 등장 |
+| **Micron** | **Q2 매출 $28.86B (+196% YoY), OP $16.135B (+810% YoY). 목표주가 $700→$1,100 상향 (Melvius)** | 메모리 슈퍼사이클 구조적 수요 확인. 초기 NAND 가격 $186 상승, 엔터프라이즈 SSD +265%(Citi) |
 | **SanDisk** | **4월 +70%, EPS $23.4(+63% 어닝 서프라이즈)** | 영업이익률 78.4%. 스토리지 수요 폭발 |
 | **AI CAPEX (빅테크 합산)** | **~$7,500억 달러 (전년 ~$4,000억 대비 대폭 증가)** | AWS +28%(15분기 최고), 구글 클라우드 +63%(역대 최고) |
 | **HBM 공급 부족** | **2027~2030년까지 지속** | Samsung·SK Group 공식 발표. HBM3E 가격 20% 인상(2026년) |
@@ -79,6 +79,16 @@ image: /assets/images/posts/thumbnails/2026-01-21-semiconductor-sector-outlook-2
 | **글로벌 반도체 매출** | **$1.3T (2026 전망)** | BofA 최고 성장 전망. 30% YoY |
 | **KOSPI** | **6,937 신고가 (5/4)** | SK하이닉스 시총 $696B. 외국인 3조원 순매수 |
 | **AI 토큰 소비** | **1년 전 대비 ~10배 증가(OpenRouter)** | 꾸준히 우상향. GPU 가용 감소 추세 |
+
+### 5월 20일 핵심 업데이트
+
+| 항목 | 내용 |
+|------|------|
+| **★★★ 마이크론 Q2 실적 대호황** | 매출 **$28.86B**(+196% YoY), OP **$16.135B**(+810% YoY). **목표주가 $700→$1,100 상향**(Melvius). NAND 가격 **+186%(Citi)**, 엔터프라이즈 SSD **+265%**. 메모리 슈퍼사이클 구조적 수요 확인 |
+| **★★★ 엔비디아 베라 CPU 초기 공급 시작** | SpaceX, OpenAI, Anthropic, Oracle Cloud에 초기 베라 실리콘 **직접 전달**. H2 2026부터 글로벌 파트너를 통해 본격 공급. 에이전틱 AI 수요 구체화 |
+| **★★★ 구글 I/O 2026 에이전틱 AI** | 제미나이 3.5 플래시(빠른 응답), 제미나이 옴니(멀티모달), 제미나이 스파크(에이전트). **AI Ultra $100/월** 플랜 출시. TPU 외부 판매 수익화 본격화 신호 |
+| **★★ 반도체 섹터 강세 지속** | 마이크론 실적 발표 후 -6% → +15% 급등. 메모리 공급 부족과 가격 인상 구도 명확화. SK하이닉스 HBM 2026 매진 상황에서 DRAM/NAND도 가격 상승 국면 |
+| **★★ CPU 르네상스 구체화** | 에이전틱 AI 패러다임 전환으로 추론 AI 수요 급증. GPU:CPU 비율 8:1→2:1로 급속도 변화. 인텔 CPU 스펙 상향 기대 |
 
 ### 5월 5일 핵심 업데이트
 
@@ -509,7 +519,7 @@ timeline
 |------|-----------|------|
 | **SK하이닉스** | **~70%** (UBS), HBM 전체 **57%** | 2026 capacity **전량 매진**. CHBM 세계 최초. Rubin 물량 70% |
 | **삼성전자** | **30%+** | NVIDIA HBM4 30%+ 공급. AMD MoU 체결. "customers said Samsung is back" |
-| **Micron** | **~20%** | 4월 +53%. P/E ~6배. 목표주가 $1,000 등장 |
+| **Micron** | **~20%** | Q2 실적 대호황: 매출 $28.86B(+196%), OP $16.135B(+810%). 목표주가 $700→$1,100. P/E ~6배 → 저평가 지속 |
 
 ### HBM 시장 규모
 

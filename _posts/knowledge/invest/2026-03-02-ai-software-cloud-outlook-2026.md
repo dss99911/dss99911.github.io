@@ -1,13 +1,23 @@
 ---
 layout: post
-title: "2026년 AI 소프트웨어/클라우드 투자 전망: 빅테크 CAPEX $690B·AI SaaS·사이버보안 (3월 7일)"
+title: "2026년 AI 소프트웨어/클라우드 투자 전망: 구글I/O 에이전틱AI·제미나이3.5플래시·옴니·스파크·AIUltra100달러·TPU외부판매 (5월 20일 업데이트)"
 date: 2026-03-02 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, AI, 클라우드, SaaS, Palantir, CrowdStrike, ServiceNow, 2026전망]
 description: "2026년 AI SW/클라우드 투자 전망. 빅테크 CAPEX, 클라우드 3사, AI SaaS, 사이버보안."
-last_modified_at: 2026-03-07
+last_modified_at: 2026-05-20
 image: /assets/images/posts/thumbnails/2026-03-07-ai-software-cloud-outlook-2026.png
 ---
+
+## 5월 20일 핵심 업데이트: 구글 I/O 2026 에이전틱 AI
+
+| 항목 | 내용 |
+|------|------|
+| **★★★ 구글 I/O 2026 에이전틱 AI 발표** | 제미나이 3.5 플래시(빠른 응답), 제미나이 옴니(멀티모달 지각), 제미나이 스파크(에이전트). 각 모델이 구글 생태계와 통합 |
+| **★★★ AI Ultra $100/월 플랜** | 전문가·크리에이터·기술 리더 대상. 고급 AI 기능 구독화. 월간 반복 수익(MRR) 모델로 전환 |
+| **★★★ TPU 외부 판매 본격화** | 구글 클라우드가 H2 2026부터 TPU 외부 판매 수익화 시작. 현재 Anthropic/OpenAI의 TPU 사용 급증 신호 |
+| **★★★ AI 검색 업데이트** | AI 모드 기본 모델이 제미나이 3.5 플래시로 업그레이드. 에이전트·코딩 분야 성능 향상. 검색 광고 환경 변화 |
+| **★★★ 에이전틱 AI의 소프트웨어 임팩트** | 구글 스파크(에이전트) + 테슬라 베라CPU + 현대차 보스턴다이나믹스 = **물리·소프트웨어 에이전트 결합** 신호. AI SaaS(Palantir/ServiceNow) 고도화 기회 |
 
 ## 요약
 

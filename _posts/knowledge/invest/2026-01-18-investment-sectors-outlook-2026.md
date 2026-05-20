@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2026년 투자 섹터 전망: KOSPI6937신고가·빅테크실적확인·이란교착·WTI102·BTC8만직전 (5월 5일 업데이트)"
+title: "2026년 투자 섹터 전망: 마이크론Q2196%↑·구글I/O에이전틱AI·테슬라모델Y안전시험·엔비디아베라초기공급·반도체/AI/모빌리티 트리플 샤우트 (5월 20일 업데이트)"
 date: 2026-01-18 09:00:00 +0900
 categories: [knowledge, invest]
 tags: [투자, 섹터, AI, 반도체, 에너지, 바이오, 우주산업, 2026전망, 포트폴리오, 로봇, 방산, STO, 배당ETF, 네트워크인프라, HBM4, 기가사이클, 금사상최고, ASML, 커스텀ASIC, 이란전쟁, 호르무즈해협, 호르무즈봉쇄, KOSPI폭등, Cybercab양산, GTC2026, FOMC, AI칩수출통제, 청궁실전검증, EU방산150B, iSMR, CPO, HBM4E, 방산4배증산, Waymo20도시, Rheinmetall, KOSPI반등, SpaceXIPO, WGBI편입, Micron700목표, RRP제로, 이란2주휴전, 삼성57조, 아르테미스2, GPU공급부족, 브로드컴구글TPU, 테슬라FSD유럽, 반도체쇼티지장기화, CPO광통신, Warsh인준, 산업금속강세, 테슬라로보택시론칭, VPP가상발전소, 호르무즈실질미개방, 삼성중공업LNG1위, 국가성장펀드, IntelQ1블로우아웃, SKhynix37조사상최대, HBM57%, 사이버캡양산시작, UAEopec탈퇴, WTI100, FOMC동결, OpenAIMS파트너십해제, KOSPI6620, TeslaSemi양산, Powell마지막FOMC, 8-4split역대최다반대, 이란협상교착, 핵프로그램미포함, Brent126, VIX1689, SOXX466, INTC99, 삼성2027쇼티지공식화, 메타CapEx1300B, Micron4월53%, SKhynix2026capacity매진, MetaAssuredRobotIntelligence인수, 세미컨덕터달러테제, 사모신용SaaS, EWY3M34퍼, 코스피6598, 세계은행에너지24퍼, ProjectFreedom, KOSPI6762, AMD5/5어닝, 빅테크4대병목, SanDisk실적폭발, Palantir5/4어닝, 빅테크실적검증, 구글클라우드63%, 애플EPS22%, 메모리병목, 전력병목, 광통신병목, Warsh5/11표결, KOSPI6937신고가, FSD100억마일, 피지컬AI본격화, 이란저장고포화, OPEC6월증산, 삼성Q1서프라이즈, SKhynix마진72%, HBM2027공급부족, 빅테크CapEx7500B, 트럼프시진핑베이징, EWY1M30퍼, BTC8만직전]
@@ -69,7 +69,7 @@ redirect_from:
   - /knowledge/invest/2026/05/03/investment-sectors-outlook-2026.html
   - /knowledge/invest/2026/05/04/investment-sectors-outlook-2026.html
 description: "2026년 5월 5일 기준. KOSPI 6,937#40;+5.12%, 5/4 역대 최고가#41;. S&P 7,200.75, NASDAQ 25,114. VIX 16.99. BTC $79,922#40;8만달러 직전#41;. 금 $4,534 하락. WTI ~$102. 빅테크 실적 확인 완료 — 구글 클라우드 +63%, AWS +28%, SK하이닉스 마진 72%, 삼성전자 Q1 반도체 53.7조#40;+31% 서프라이즈#41;. HBM 공급부족 2027~2030 공식화. 빅테크 CapEx 7,500억달러. FSD 100억마일 달성. 피지컬AI 본격화."
-last_modified_at: 2026-05-05
+last_modified_at: 2026-05-20
 ---
 
 **5월 5일(월), KOSPI 6,937(+5.12%) 역대 최고가 + 빅테크/반도체 실적 대규모 확인 + 이란 협상 교착 + FSD 100억마일 달성 + 피지컬AI 본격화.**
