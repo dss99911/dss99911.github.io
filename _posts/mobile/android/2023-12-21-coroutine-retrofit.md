@@ -31,7 +31,7 @@ This article will explain the difference of each. and why we have to use Corouti
 In this article, I use these knowledge. If you don’t have experience of that, Kindly check the link below.
 
 - [_Resource_](https://developer.android.com/jetpack/docs/guide#addendum) : _Resource_ is data which containing status (loading, success, error)
-- [_LiveResource_]({% link _posts/mobile/android/2023-12-22-livedata-event.md %}) : this is _LiveData<Resource>_
+- _LiveResource_ : this is _LiveData<Resource>_
 - [_LiveData_](https://developer.android.com/topic/libraries/architecture/livedata) : _MediatorLiveData, Transformations.switchMap()_
 - [_Retrofit2_](https://square.github.io/retrofit/) : especially knowledge of _CallAdapter_
 - [Kotlin Coroutine](https://kotlinlang.org/docs/tutorials/coroutines/async-programming.html) : this article handle how to use coroutine, instead what is Coroutine
