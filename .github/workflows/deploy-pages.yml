@@ -32,7 +32,17 @@ jobs:
       - uses: actions/configure-pages@v5
 
       - name: Build Jekyll
-        run: bundle exec jekyll build
+        run: |
+          set +e
+          bundle exec jekyll build --trace 2>&1 | tee /tmp/jekyll-build.log
+          rc=${PIPESTATUS[0]}
+          if [ $rc -ne 0 ]; then
+            # Surface last 80 lines of build output via annotation (visible without admin)
+            tail -n 80 /tmp/jekyll-build.log > /tmp/jekyll-tail.log
+            msg=$(awk 'BEGIN{ORS="%0A"} {gsub(/\r/,""); print}' /tmp/jekyll-tail.log)
+            echo "::error title=Jekyll build failed::${msg}"
+            exit $rc
+          fi
         env:
           JEKYLL_ENV: production
 
