@@ -4,8 +4,6 @@
   dropdown:
   - name: Android
     link: /Android/
-  - name: C
-    link: /C/
   - name: Career
     link: /Career/
   - name: Programming
@@ -30,14 +28,10 @@
     link: /Frontend/
   - name: JavaScript
     link: /JavaScript/
-  - name: NodeJS
-    link: /NodeJS/
 - name: Mobile
   dropdown:
   - name: Android
     link: /Android/
-  - name: Mobile
-    link: /Mobile/
 - name: Backend
   dropdown:
   - name: Database
@@ -48,8 +42,6 @@
     link: /Spring/
 - name: Infra
   dropdown:
-  - name: Automation
-    link: /Automation/
   - name: DevOps
     link: /DevOps/
   - name: Security
@@ -58,28 +50,8 @@
     link: /Spark/
 - name: Tools
   dropdown:
-  - name: Tools
-    link: /Tools/
-  - name: Jekyll
-    link: /Jekyll/
   - name: Mac
     link: /Mac/
-  - name: Obsidian
-    link: /Obsidian/
-- name: Language
-  dropdown:
-  - name: Arabic
-    link: /Arabic/
-  - name: Chinese
-    link: /Chinese/
-  - name: English
-    link: /English/
-  - name: Hindi
-    link: /Hindi/
-  - name: Indonesian
-    link: /Indonesian/
-  - name: Korean
-    link: /Korean/
 - name: Knowledge
   dropdown:
   - name: AI
@@ -92,10 +64,6 @@
     link: /History/
   - name: Home
     link: /Home/
-  - name: Invest
-    link: /Invest/
-  - name: Law
-    link: /Law/
   - name: Life
     link: /Life/
   - name: Miscellanea
@@ -104,9 +72,5 @@
     link: /Parenting/
   - name: Science
     link: /Science/
-  - name: Technology
-    link: /Technology/
 - name: About
   link: /about
-- name: Contact
-  link: /contact/
