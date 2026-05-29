@@ -52,6 +52,9 @@ future: true
 include:
   - _pages
 
+exclude:
+  - _trash/
+
 # Giscus Comments (https://giscus.app)
 # 1. Enable Discussions in your GitHub repository
 # 2. Install giscus app: https://github.com/apps/giscus
