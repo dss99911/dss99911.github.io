@@ -7,7 +7,7 @@ tags: [interview, career, hiring, software-engineer, android, backend]
 image: /assets/images/posts/technical-interview-guide.png
 ---
 
-소프트웨어 개발자 기술 면접을 준비하는 분들을 위한 종합 가이드입니다. 채용 프로세스부터 분야별 면접 질문, 효과적인 답변 방법까지 상세히 다룹니다.
+개발자 기술 면접을 앞두고 있다면 미리 알아두면 좋은 것들을 모았습니다. 채용 프로세스 흐름부터 분야별 단골 질문, 답변을 어떤 식으로 풀어가면 좋을지까지 차례로 살펴봅니다.
 
 ## 채용 프로세스 개요
 

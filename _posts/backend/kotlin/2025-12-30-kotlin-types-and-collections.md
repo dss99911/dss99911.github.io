@@ -7,7 +7,7 @@ tags: [kotlin, jvm, data-types, collections]
 image: /assets/images/posts/kotlin-types-collections.png
 ---
 
-Understanding Kotlin's type system and collection classes is essential for writing effective Kotlin code. This guide covers all the fundamental data types, string manipulation, and collection operations.
+The Kotlin types and collection APIs look familiar at a glance if you're coming from Java, but enough has changed underneath — separate mutable and immutable interfaces, sequences, primitive arrays — that the small differences add up. These are the parts I check most often when writing day-to-day code.
 
 ## Number Types
 
@@ -342,6 +342,6 @@ println("Elapsed: $elapsed ms")
 4. **Leverage destructuring**: Makes code more readable
 5. **Use safe conversions**: `toIntOrNull()` instead of `toInt()` when parsing user input
 
-## Conclusion
+## Wrapping up
 
-Kotlin's type system and collection library provide a rich set of tools for handling data. The distinction between mutable and immutable collections, along with features like string templates, sequences, and destructuring, make Kotlin code both safe and expressive.
+The two habits that pay off the most here are reaching for immutable collections by default and using sequences whenever the dataset gets bigger than a handful of elements. Combined with string templates and destructuring, day-to-day data wrangling in Kotlin ends up much shorter than its Java equivalent.

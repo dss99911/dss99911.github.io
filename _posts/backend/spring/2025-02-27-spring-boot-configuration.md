@@ -10,7 +10,7 @@ redirect_from:
   - "/backend/spring/2025/12/28/spring-boot-configuration.html"
 ---
 
-Spring Boot 애플리케이션을 개발할 때 가장 기본이 되는 설정 방법들을 정리했습니다. Configuration Properties부터 의존성 주입, Profile 관리, 그리고 개발 생산성을 높이는 Devtools까지 살펴보겠습니다.
+Spring Boot로 작업하면서 매번 헷갈리거나 다시 찾아보게 되는 설정들이 있다. Configuration Properties, 의존성 주입, Profile, Devtools — 이 네 가지를 한 곳에 모아 정리해 둔다.
 
 ## Configuration Properties
 
@@ -431,6 +431,6 @@ app:
 
 ---
 
-## 결론
+## 정리하며
 
-Spring Boot의 설정 기능들을 잘 활용하면 환경별로 유연하게 대응할 수 있고, 개발 생산성도 높일 수 있습니다. 특히 `@ConfigurationProperties`를 사용한 타입 안전한 설정 관리와 Profile을 통한 환경 분리는 실무에서 필수적인 기능입니다. 설정의 우선순위를 이해하고, Conditional Bean 등록을 적절히 활용하면 복잡한 환경에서도 깔끔한 설정 구조를 유지할 수 있습니다.
+실무에서 가장 손이 자주 가는 두 가지는 결국 `@ConfigurationProperties`와 Profile이다. 타입 안전하게 설정을 묶어 두고, 환경별로 갈라치기만 잘해도 운영 중 사고 대부분은 막을 수 있다. 우선순위와 Conditional 어노테이션은 처음엔 복잡해 보이지만, 한 번 익숙해지면 설정 코드를 훨씬 깔끔하게 유지할 수 있다.

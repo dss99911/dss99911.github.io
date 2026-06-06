@@ -10,7 +10,7 @@ redirect_from:
   - "/programming/kotlin/2025/12/28/kotlin-coroutines.html"
 ---
 
-코루틴은 Kotlin에서 비동기 프로그래밍을 위한 강력한 도구입니다. 가벼운 스레드라고 생각할 수 있습니다.
+코루틴은 Kotlin에서 비동기 코드를 다룰 때 자주 쓰는 도구입니다. 가벼운 스레드처럼 동작한다고 보면 이해가 쉽습니다.
 
 ## 설정
 
@@ -137,7 +137,7 @@ println("Took $time ms")
 
 ## 다음 단계
 
-코루틴의 기본에 대해 알아보았습니다. 다음으로 [Kotlin Native 동시성](/kotlin/kotlin-native-concurrency)에 대해 알아보세요.
+코루틴 기본은 여기까지 다루고, 이어서 [Kotlin Native 동시성](/kotlin/kotlin-native-concurrency)으로 넘어가 보세요.
 
 ---
 

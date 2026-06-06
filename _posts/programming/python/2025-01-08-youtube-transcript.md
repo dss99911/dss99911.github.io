@@ -12,7 +12,7 @@ redirect_from:
 
 # YouTube Transcript API를 이용한 Python으로 YouTube 대본 가져오기
 
-YouTube Transcript API는 Python에서 YouTube 동영상의 대본을 간편하게 가져올 수 있는 강력한 라이브러리입니다. 이 글에서는 YouTube Transcript API를 설치하고 사용하는 방법을 설명하고, 일부 서버 환경에서 발생하는 이슈와 이에 대한 해결책도 다룹니다.
+YouTube Transcript API는 Python에서 YouTube 동영상 대본을 간편하게 가져올 수 있는 라이브러리입니다. 설치와 기본 사용법을 정리하고, 일부 서버 환경에서 만나기 쉬운 차단 이슈와 우회 방법도 함께 다룹니다.
 
 ---
 

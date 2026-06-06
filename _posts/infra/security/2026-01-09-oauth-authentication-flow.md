@@ -10,7 +10,7 @@ image: /assets/images/posts/oauth-authentication-flow.png
 
 # OAuth 2.0 인증 플로우 완벽 가이드
 
-OAuth 2.0은 현대 웹과 모바일 애플리케이션에서 가장 널리 사용되는 인증/인가 프로토콜입니다. 이 글에서는 가장 안전한 방식인 **Authorization Code Grant** 플로우를 상세히 설명합니다.
+"구글로 로그인" 버튼 하나 뒤에 OAuth가 있다는 건 다들 알지만, 막상 직접 서버에 연동해보면 흐름이 꽤 복잡하다. 콜백 URL, state, PKCE, refresh token 같은 개념이 한꺼번에 쏟아지기 때문이다. 이 글은 가장 안전한 방식인 **Authorization Code Grant** 흐름을 단계별로 정리한 메모다.
 
 ## 인증 방식 비교
 

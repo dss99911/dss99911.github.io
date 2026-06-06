@@ -9,7 +9,7 @@ redirect_from:
   - "/programming/ruby/2025/12/28/ruby-exception-regex.html"
 ---
 
-Ruby의 예외 처리와 정규 표현식 사용법에 대해 알아봅니다.
+Ruby에서 예외를 다루는 방법과 정규 표현식을 쓰는 패턴을 함께 정리합니다.
 
 ## 예외 처리
 

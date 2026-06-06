@@ -7,7 +7,7 @@ tags: [kotlin, jvm, functions, lambda, functional-programming]
 image: /assets/images/posts/kotlin-functions-lambdas.png
 ---
 
-Kotlin treats functions as first-class citizens, providing powerful features like lambdas, higher-order functions, and scope functions. This comprehensive guide covers everything you need to know about functions in Kotlin.
+Functions in Kotlin do a lot more heavy lifting than they do in Java. They can stand on their own, get passed around as values, host other functions, and quietly disappear into inline code when needed. This is the working notes I keep for the function-side of the language — declarations, lambdas, scope functions, and the inline tricks worth knowing.
 
 ## Function Declaration
 
@@ -441,6 +441,6 @@ println(triple(5))  // 15
 5. **Use inline functions** for performance-critical higher-order functions
 6. **Prefer lambdas outside parentheses** for readability
 
-## Conclusion
+## Wrapping up
 
-Kotlin's function system is one of its most powerful features. From simple function declarations to advanced concepts like inline functions with reified types, Kotlin provides tools that make functional programming natural and expressive. Understanding scope functions (`let`, `apply`, `run`, `also`, `with`) is particularly valuable for writing idiomatic Kotlin code.
+If there's one part of Kotlin worth practicing until it feels automatic, it's the scope functions. `let`, `apply`, `run`, `also`, and `with` show up in almost every nontrivial file, and once you have a feel for which one to pick, the code reads much more naturally. The inline + reified combo is rarer but indispensable when you need it.

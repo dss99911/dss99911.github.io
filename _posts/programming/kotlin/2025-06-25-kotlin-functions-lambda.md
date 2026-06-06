@@ -10,7 +10,7 @@ redirect_from:
   - "/programming/kotlin/2025/12/28/kotlin-functions-lambda.html"
 ---
 
-Kotlin은 함수형 프로그래밍을 강력하게 지원합니다. 이 포스트에서는 함수와 람다의 다양한 사용법을 알아보겠습니다.
+Kotlin은 함수형 프로그래밍 스타일을 다루기 좋은 언어입니다. 함수 선언부터 람다, 고차 함수까지 자주 쓰는 패턴들을 정리합니다.
 
 ## 함수 선언
 
@@ -401,4 +401,4 @@ mutableListOf(1, 2, 3)                 // 가변 리스트
 
 ## 다음 단계
 
-함수와 람다에 대해 알아보았습니다. 다음으로 [제어문](/kotlin/kotlin-control-flow)에 대해 알아보세요.
+함수와 람다는 여기까지 정리하고, 다음은 [제어문](/kotlin/kotlin-control-flow)으로 이어집니다.

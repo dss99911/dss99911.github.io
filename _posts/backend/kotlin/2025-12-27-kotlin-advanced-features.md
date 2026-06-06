@@ -7,7 +7,7 @@ tags: [kotlin, jvm, generics, extensions, delegation]
 image: /assets/images/posts/kotlin-advanced-features.png
 ---
 
-Kotlin provides powerful advanced features that enable expressive and type-safe code. This guide covers generics, extension functions, delegation, reflection, and annotations.
+Once you get past the basics of Kotlin, the language opens up a second layer of features that you find yourself using more and more — generics, extension functions, delegation, reflection, annotations. Here's a working reference for the pieces I tend to come back to.
 
 ## Generics
 
@@ -451,6 +451,6 @@ fun sum(a: Int, b: Int): Int {
 5. **Document public APIs**: Use KDoc format
 6. **Follow conventions**: Code is read more than written
 
-## Conclusion
+## Wrapping up
 
-Kotlin's advanced features like generics with variance, extension functions, and delegation patterns provide powerful tools for writing expressive and maintainable code. Understanding these concepts enables you to leverage Kotlin's full potential and create APIs that are both type-safe and flexible.
+The features in this post are the ones that take Kotlin from "Java with nicer syntax" to a language that genuinely changes how you design APIs. Variance, extensions, and delegation in particular are worth the time it takes to internalize them — once they click, they tend to stick.

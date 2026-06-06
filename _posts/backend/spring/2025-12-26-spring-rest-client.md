@@ -8,7 +8,7 @@ description: "Spring에서 외부 API를 호출하는 방법을 알아봅니다.
 image: /assets/images/posts/spring-rest-client.png
 ---
 
-Spring 애플리케이션에서 외부 REST API를 호출해야 하는 경우가 많습니다. 이 글에서는 RestTemplate, WebClient, 그리고 Spring 6의 RestClient까지 다양한 HTTP 클라이언트 사용법을 알아봅니다.
+서버 코드를 짜다 보면 외부 API를 두드릴 일이 끊임없이 생긴다. Spring에서는 그 도구가 시대에 따라 RestTemplate → WebClient → RestClient로 자연스럽게 옮겨왔는데, 프로젝트마다 셋이 섞여 있는 경우도 많아서 한 번에 정리해 두면 헷갈릴 일이 줄어든다.
 
 ## RestTemplate (Spring MVC)
 
@@ -479,9 +479,9 @@ public class UserApiService {
 - 리액티브 스택: **WebClient**
 - 레거시 프로젝트: **RestTemplate** (유지보수)
 
-## 결론
+## 정리하며
 
-Spring에서 REST API를 호출하는 방법은 프로젝트 요구사항에 따라 선택할 수 있습니다. 동기식 호출에는 RestClient(Spring 6.1+) 또는 RestTemplate을, 비동기/리액티브 환경에서는 WebClient를 사용하세요. UriComponentsBuilder를 활용하면 URL을 안전하고 깔끔하게 구성할 수 있습니다.
+새로 짜는 코드라면 동기 호출은 RestClient, 리액티브 스택이라면 WebClient 쪽으로 가닥을 잡고 시작하면 큰 후회 없이 작업할 수 있다. RestTemplate은 이미 유지보수 모드에 들어간 만큼, 기존 코드만 유지하고 새 코드에서는 굳이 손에 잡을 이유가 없다.
 
 ## 참고 자료
 

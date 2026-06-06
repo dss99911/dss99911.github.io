@@ -8,7 +8,7 @@ description: "Python에서 날짜와 시간을 다루는 방법을 상세히 설
 image: /assets/images/posts/python-datetime.png
 ---
 
-Python에서 날짜와 시간을 다루는 것은 매우 흔한 작업입니다. 이 글에서는 `time`, `datetime`, `calendar` 모듈을 활용한 날짜/시간 처리 방법을 상세히 알아봅니다.
+Python으로 날짜와 시간을 다루는 일은 거의 모든 프로젝트에서 마주칩니다. `time`, `datetime`, `calendar` 모듈을 어떻게 활용하면 좋은지 자주 쓰는 예제 위주로 정리해봅니다.
 
 ## time 모듈
 

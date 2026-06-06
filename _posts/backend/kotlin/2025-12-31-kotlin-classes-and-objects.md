@@ -7,7 +7,7 @@ tags: [kotlin, jvm, oop, classes, objects]
 image: /assets/images/posts/kotlin-classes-objects.png
 ---
 
-Kotlin provides a powerful and concise object-oriented programming model. This guide covers classes, objects, inheritance, interfaces, and all the OOP features you need to build robust applications.
+A surprising amount of OO modeling in Kotlin happens with constructs that don't really exist in Java — `data class`, `sealed class`, `object`, value classes. They reshape the kinds of designs that feel natural in the language. This is a working reference for the class-side of Kotlin, from the basics to the bits that change how you model your domain.
 
 ## Class Declaration
 
@@ -491,6 +491,6 @@ login(Password("secret"))
 5. **Use companion objects wisely**: For factory methods and constants
 6. **Prefer properties over getters**: More Kotlin idiomatic
 
-## Conclusion
+## Wrapping up
 
-Kotlin's OOP features combine the power of traditional object-oriented programming with modern conveniences like data classes, sealed classes, and object declarations. Understanding these concepts allows you to write clean, safe, and expressive code that's easy to maintain and extend.
+Most Kotlin codebases lean heavily on three constructs — `data class` for values, `sealed class` for bounded hierarchies, and `object` for singletons. Get those three to feel natural and the rest of the OO model falls into place quickly.

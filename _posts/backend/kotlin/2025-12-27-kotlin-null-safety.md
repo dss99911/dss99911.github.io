@@ -7,7 +7,7 @@ tags: [kotlin, jvm, null-safety, best-practices]
 image: /assets/images/posts/kotlin-null-safety.png
 ---
 
-Kotlin's null safety is one of its most powerful features, designed to eliminate the infamous NullPointerException from your code. This guide covers all the tools Kotlin provides for safe null handling.
+After a few years in Java, `NullPointerException` becomes background noise — annoying, ubiquitous, never quite gone. Kotlin pulls null into the type system instead of leaving it as a runtime surprise, and that single change quietly removes a huge category of bugs. Here are the pieces of the language that make it work.
 
 ## The Problem with Null
 
@@ -282,6 +282,6 @@ val city = user?.address?.city ?: "Unknown"
 | `?.let {}` | `.ifPresent()` |
 | `!!` | `.get()` |
 
-## Conclusion
+## Wrapping up
 
-Kotlin's null safety system catches null-related errors at compile time rather than runtime. By using nullable types (`?`), safe calls (`?.`), the Elvis operator (`?:`), and smart casts, you can write code that's inherently safer without the boilerplate of null checks. Embrace these features and say goodbye to NullPointerException!
+Once `?`, `?.`, `?:`, and smart casts become muscle memory, you stop writing defensive null checks almost entirely. The compiler does the bookkeeping for you, and the rare `!!` left in the codebase becomes a clear signal that something deserves a second look.

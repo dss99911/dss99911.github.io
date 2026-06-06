@@ -10,7 +10,7 @@ redirect_from:
   - "/backend/spring/2025/12/28/jpa-entity-annotations.html"
 ---
 
-JPA(Java Persistence API)는 자바 객체와 데이터베이스 테이블 간의 매핑을 어노테이션으로 간편하게 정의할 수 있습니다. 이 글에서는 Entity 정의의 기본부터 상속 전략, Named Query까지 살펴보겠습니다.
+JPA(Java Persistence API)를 쓰다 보면 Entity 어노테이션이 워낙 많아서 매번 헷갈리는 부분이 생긴다. 기본 매핑은 어디까지 줄일 수 있는지, 상속은 어떤 전략을 골라야 하는지, Named Query는 언제 의미가 있는지 — 자주 찾아보게 되는 내용을 한 곳에 모았다.
 
 ## 기본 Entity 어노테이션
 
@@ -312,12 +312,8 @@ public class Employee {
 }
 ```
 
-## 결론
+## 정리하며
 
-JPA 어노테이션을 활용하면 객체와 데이터베이스 간의 매핑을 선언적으로 정의할 수 있습니다.
+매핑 어노테이션은 결국 기본값을 얼마나 잘 외워두느냐가 코드 가독성을 좌우한다. 상속 전략은 처음 설계할 때 신중하게 골라야 하고, Named Query는 정적인 쿼리에서 컴파일 시점 검증을 받을 수 있다는 점에서 값어치를 한다.
 
-- **상속 전략 선택**: 데이터 구조와 성능 요구사항에 따라 적절한 전략을 선택하세요
-- **Named Query 활용**: 자주 사용하는 쿼리는 Named Query로 정의하여 컴파일 시점 검증과 재사용성을 높이세요
-- **기본 매핑 이해**: `@Entity`, `@Table`, `@Column` 등 기본 어노테이션의 기본값을 이해하면 코드를 간결하게 유지할 수 있습니다
-
-다음 글에서는 HQL(Hibernate Query Language)과 Criteria API를 활용한 동적 쿼리 작성 방법을 살펴보겠습니다.
+HQL과 Criteria API를 사용한 동적 쿼리는 다른 글에서 따로 다룬다.

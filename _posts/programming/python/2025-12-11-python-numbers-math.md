@@ -8,7 +8,7 @@ description: "Python의 숫자 타입(int, float, complex)과 수학 함수, 난
 image: /assets/images/posts/python-numbers-math.png
 ---
 
-Python은 다양한 숫자 타입과 풍부한 수학 함수를 제공합니다. 이 글에서는 숫자 타입의 특징과 `math`, `random` 모듈의 활용법을 상세히 알아봅니다.
+Python은 숫자 타입의 종류도 많고 수학 관련 함수도 풍부해서 한 번 정리해두면 도움이 됩니다. 각 숫자 타입의 특징과 `math`, `random` 모듈을 어떻게 쓰는지 차례로 살펴봅니다.
 
 ## 숫자 타입
 

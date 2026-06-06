@@ -10,7 +10,7 @@ redirect_from:
   - "/backend/spring/2025/12/28/hibernate-query-hql-criteria.html"
 ---
 
-Hibernate는 SQL을 직접 작성하지 않고도 데이터베이스를 조회할 수 있는 여러 방법을 제공합니다. 이 글에서는 HQL(Hibernate Query Language)과 Criteria API(HCQL)를 통한 쿼리 작성 방법을 살펴보겠습니다.
+Hibernate를 쓰면 SQL을 직접 박지 않아도 여러 가지 방식으로 데이터를 조회할 수 있다. 그중 손이 가장 많이 가는 게 HQL과 Criteria API다. 어떤 상황에서 어느 쪽을 쓰는 게 편한지, 문법은 어떻게 되는지 한 번에 정리해 둔다.
 
 ## HQL (Hibernate Query Language)
 
@@ -320,12 +320,6 @@ List<Emp> results = empRepository.findAll(
 );
 ```
 
-## 결론
+## 정리하며
 
-Hibernate의 쿼리 방식을 정리하면:
-
-- **HQL**: SQL과 유사한 문법으로 객체 중심 쿼리 작성
-- **Criteria API**: 프로그래밍 방식으로 동적 쿼리에 적합
-- **Spring Data JPA**: 메서드 이름이나 @Query로 간편하게 쿼리 정의
-
-상황에 맞는 쿼리 방식을 선택하여 유지보수하기 쉬운 코드를 작성하세요. 복잡한 동적 쿼리는 Criteria API나 QueryDSL을 활용하는 것이 좋습니다.
+정적인 쿼리는 HQL이 짧고 읽기 좋고, 조건이 런타임에 결정되는 쿼리는 Criteria API가 손에 잘 붙는다. Spring Data JPA를 쓴다면 메서드 이름과 `@Query`로 대부분의 단순 케이스는 해결되고, 그 이상의 동적 쿼리는 Specification이나 QueryDSL로 빠지는 흐름이 자연스럽다.

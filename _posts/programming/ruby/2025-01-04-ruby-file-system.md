@@ -9,7 +9,7 @@ redirect_from:
   - "/programming/ruby/2025/12/28/ruby-file-system.html"
 ---
 
-Ruby에서 파일 처리와 시스템 명령 실행 방법을 알아봅니다.
+Ruby로 파일을 읽고 쓰는 방법, 그리고 셸 명령을 호출하는 패턴을 정리해 봤습니다.
 
 ## 파일 읽기
 

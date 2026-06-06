@@ -7,7 +7,7 @@ tags: [testing, tdd, unit-test, integration-test, e2e-test, qa, software-quality
 image: /assets/images/posts/software-testing-methodology.png
 ---
 
-소프트웨어 품질을 보장하는 핵심인 테스팅 방법론에 대해 알아봅니다. TDD(Test-Driven Development)부터 클라이언트/서버 테스팅, QA 자동화까지 실무에서 바로 적용할 수 있는 가이드를 제공합니다.
+소프트웨어 품질을 지키는 데 빠질 수 없는 테스팅 이야기를 정리해 봅니다. TDD부터 클라이언트/서버 테스트, QA 자동화까지 실무에서 바로 써먹을 만한 부분 위주로 다뤘습니다.
 
 ## 테스팅의 기본 원칙
 

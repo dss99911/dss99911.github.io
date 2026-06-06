@@ -7,7 +7,7 @@ tags: [code-review, clean-code, best-practices, software-quality, development]
 image: /assets/images/posts/code-review-checklist.png
 ---
 
-효과적인 코드 리뷰는 소프트웨어 품질을 향상시키는 핵심 활동입니다. 셀프 리뷰만으로도 90%의 문제를 사전에 발견할 수 있습니다. 이 글에서는 실무에서 바로 사용할 수 있는 코드 리뷰 체크리스트와 베스트 프랙티스를 소개합니다.
+코드 리뷰는 품질을 높이는 가장 확실한 활동 중 하나입니다. 그런데 의외로 셀프 리뷰만 잘해도 문제의 90% 정도는 직접 잡을 수 있습니다. 실무에서 그대로 쓸 수 있는 체크리스트와 자주 쓰는 베스트 프랙티스를 모아봤습니다.
 
 ## 셀프 리뷰의 중요성
 

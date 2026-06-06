@@ -7,7 +7,7 @@ tags: [documentation, technical-writing, software-engineering, api-documentation
 image: /assets/images/posts/software-documentation-guide.png
 ---
 
-소프트웨어 개발에서 문서화는 필수적이지만, 문서화 자체가 업무가 되어서는 안 됩니다. 이 글에서는 효과적인 문서화 전략과 각 문서 유형별 작성 가이드를 제공합니다.
+개발하다 보면 문서화는 꼭 필요한데, 문서 작성 자체가 일이 돼버리는 순간이 있습니다. 부담을 줄이면서도 쓸모 있는 문서를 만드는 전략과, 문서 유형별로 어떻게 쓰면 좋은지 정리해봤습니다.
 
 ## 문서화의 핵심 원칙
 

@@ -7,7 +7,7 @@ tags: [agile, scrum, xp, kanban, development-methodology, software-engineering]
 image: /assets/images/posts/agile-development-methodology.png
 ---
 
-소프트웨어 개발 방법론의 핵심인 Agile에 대해 깊이 있게 알아봅니다. 전통적인 폭포수 모델과의 차이점, 다양한 Agile 방법론들, 그리고 실제 적용 방법까지 상세히 다룹니다.
+소프트웨어 개발 현장에서 자주 언급되는 Agile을 한번 정리해봤습니다. 폭포수 모델과 무엇이 다른지, 어떤 Agile 방법론들이 있는지, 그리고 실제로 어떻게 적용하면 좋은지 짚어봅니다.
 
 ## Agile이란?
 

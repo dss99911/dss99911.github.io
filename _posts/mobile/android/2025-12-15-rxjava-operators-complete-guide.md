@@ -9,7 +9,7 @@ redirect_from:
   - "/mobile/android/2025/12/28/rxjava-operators-complete-guide.html"
 ---
 
-RxJava의 다양한 연산자들을 상세히 알아봅니다.
+RxJava를 처음 쓸 때 가장 헷갈리는 부분이 연산자(operator)입니다. 비슷한 이름이 너무 많아서, 그때그때 필요한 것만 찾아 쓰다 보면 잘못된 걸 골라 쓰는 경우도 있습니다. 자주 쓰는 연산자를 카테고리별로 정리해뒀으니 필요할 때 찾아보기 좋게 활용하면 됩니다.
 
 ## Transforming Operators
 

@@ -10,7 +10,7 @@ description: "AWS EC2 인스턴스에 Atlassian Confluence를 설치하고 Postg
 
 # AWS EC2에 Confluence 설치하기
 
-Confluence는 Atlassian에서 제공하는 팀 협업 위키 도구입니다. 이 가이드에서는 AWS EC2 인스턴스에 Confluence를 설치하고 PostgreSQL 데이터베이스와 연동하는 방법을 다룹니다.
+Confluence는 Atlassian에서 만든 팀 협업 위키 도구다. SaaS 버전을 쓰면 편하지만, 데이터를 직접 들고 있어야 하거나 비용을 줄이고 싶을 때는 직접 호스팅하는 편이 낫다. 이 글은 AWS EC2에 Confluence를 설치하고 PostgreSQL과 연동하는 과정을 정리한 메모다.
 
 ## 사전 준비
 
@@ -375,14 +375,14 @@ sudo swapon /swapfile
 3. 데이터베이스 사용자 권한 확인
 4. 방화벽 설정 확인
 
-## 결론
+## 정리
 
-AWS EC2에 Confluence를 설치하면 팀 협업을 위한 강력한 위키 플랫폼을 구축할 수 있습니다. 주요 포인트:
+설치하면서 특히 헷갈렸거나 빠뜨리면 곤란했던 부분은 다음과 같다.
 
-1. **적절한 인스턴스 크기 선택**: 메모리는 충분히 확보
-2. **PostgreSQL 설정**: 인증 방식 및 권한 설정 주의
-3. **보안 설정**: HTTPS 설정 및 보안 그룹 관리
-4. **정기 백업**: S3를 활용한 자동 백업 권장
+1. **인스턴스 크기**: Confluence는 메모리를 많이 쓰니 처음부터 여유 있게 잡아두는 편이 낫다
+2. **PostgreSQL 설정**: 인증 방식(`ident` → `md5`)과 권한 설정에서 실수가 자주 난다
+3. **보안 설정**: HTTPS는 ALB + ACM 조합이 가장 무난하다
+4. **백업**: 데이터 손실 위험을 줄이려면 S3에 주기적으로 올려두는 게 마음 편하다
 
 ## 참고 자료
 

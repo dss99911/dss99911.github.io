@@ -7,7 +7,7 @@ tags: [android, mvvm, tdd, kotlin, clean-architecture, jetpack]
 image: /assets/images/posts/android-development-methodology.png
 ---
 
-현대적인 Android 앱 개발 방법론에 대해 알아봅니다. MVVM 아키텍처를 기반으로 한 계층별 개발 순서, TDD 적용 방법, 그리고 실무에서 바로 사용할 수 있는 개발 팁을 제공합니다.
+요즘 Android 앱을 만들 때 자주 쓰는 흐름을 정리해 봤습니다. MVVM을 기반으로 어떤 순서로 레이어를 쌓아가는지, TDD는 어디에 끼워 넣는지, 그리고 실무에서 챙겨두면 좋은 팁들을 함께 다룹니다.
 
 ## 개발 과정 개요
 

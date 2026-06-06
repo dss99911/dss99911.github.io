@@ -9,7 +9,7 @@ redirect_from:
   - "/programming/scala/2025/12/28/scala-getting-started.html"
 ---
 
-Scala 프로젝트를 생성하고 SBT를 설정하는 방법을 알아봅니다.
+Scala를 처음 다뤄볼 때 가장 먼저 부딪히는 것이 프로젝트 생성과 SBT 설정입니다. 기본 흐름을 차례대로 짚어봅니다.
 
 ## 참고 자료
 

@@ -9,7 +9,7 @@ redirect_from:
   - "/programming/golang/2025/12/28/golang-getting-started.html"
 ---
 
-Go 언어의 개요와 시작에 필요한 정보를 알아봅니다.
+Go를 처음 접할 때 알아두면 좋은 정보들을 한곳에 모아봤습니다. 학습 자료부터 자주 쓰는 프레임워크, 기본 문법까지 짧게 짚어봅니다.
 
 ## 학습 자료
 

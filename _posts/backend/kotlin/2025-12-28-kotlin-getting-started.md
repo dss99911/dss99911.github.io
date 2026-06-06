@@ -7,7 +7,7 @@ tags: [kotlin, jvm, gradle, setup]
 image: /assets/images/posts/kotlin-getting-started.png
 ---
 
-This guide covers how to set up a Kotlin project, create executable JARs, and understand the basic project structure. Whether you're coming from Java or starting fresh, this will get you up and running quickly.
+This is the rough notes I wish I'd had when I first picked Kotlin up — how to set the project up, build an executable JAR, and find your way around the standard project layout. Most of it carries over cleanly from Java, but there are enough small differences that it helps to have them written down.
 
 ## The Main Function
 
@@ -383,6 +383,6 @@ log("MyClass") { "Complex message: ${computeValue()}" }
 4. **Leverage backtick names** for readable test names
 5. **Don't overuse exceptions**: Use sealed classes for expected failures
 
-## Conclusion
+## Wrapping up
 
-Getting started with Kotlin is straightforward, especially with IDE support from IntelliJ IDEA. The language integrates smoothly with existing Java projects and provides modern features that make development more productive. Whether you're building server applications, Android apps, or multiplatform projects, Kotlin's clean syntax and powerful features will serve you well.
+The setup story for Kotlin is, honestly, the easy part — IntelliJ does most of the heavy lifting and the build files look very familiar if you've used Gradle in Java. Once a basic project is up and running, the more interesting work begins: writing idiomatic Kotlin instead of Java with a different syntax.

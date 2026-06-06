@@ -10,7 +10,7 @@ redirect_from:
   - "/programming/kotlin/2025/12/28/kotlin-classes-objects.html"
 ---
 
-Kotlin은 객체 지향 프로그래밍을 위한 풍부한 기능을 제공합니다. 이 포스트에서는 다양한 클래스 유형과 객체에 대해 알아보겠습니다.
+Kotlin은 객체 지향 프로그래밍을 위한 풍부한 기능을 갖추고 있습니다. 다양한 클래스 유형과 객체 선언 방식을 하나씩 살펴봅니다.
 
 ## 클래스 선언
 
@@ -431,4 +431,4 @@ val (key, value) = pair
 
 ## 다음 단계
 
-클래스와 객체에 대해 알아보았습니다. 다음으로 [함수와 람다](/kotlin/kotlin-functions-lambda)에 대해 알아보세요.
+클래스와 객체까지 다뤘으니, 이어서 [함수와 람다](/kotlin/kotlin-functions-lambda)로 넘어가 보세요.

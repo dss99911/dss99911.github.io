@@ -8,7 +8,7 @@ description: "Spring AOP(Aspect Oriented Programming)를 활용하여 횡단 관
 image: /assets/images/posts/spring-aop.png
 ---
 
-Spring AOP(Aspect Oriented Programming)는 횡단 관심사(Cross-Cutting Concerns)를 모듈화하는 프로그래밍 패러다임입니다. 로깅, 보안, 트랜잭션 관리 등 여러 모듈에 걸쳐 반복되는 코드를 분리하여 관리할 수 있습니다.
+서비스 코드 곳곳에 같은 로깅, 같은 트랜잭션 처리, 같은 권한 체크가 반복되기 시작하면 결국 AOP가 답이 된다. Spring AOP는 이런 횡단 관심사를 본문 코드에서 떼어내, 별도의 Aspect로 따로 관리할 수 있게 해 준다.
 
 ## AOP 핵심 개념
 
@@ -410,9 +410,9 @@ public class UserService {
 }
 ```
 
-## 결론
+## 정리하며
 
-Spring AOP는 횡단 관심사를 효과적으로 분리하여 코드의 모듈성을 높입니다. 로깅, 보안, 트랜잭션, 캐싱 등 비즈니스 로직과 분리해야 하는 공통 관심사에 적용하면 깔끔한 코드를 유지할 수 있습니다. 다만, 프록시 기반으로 동작하므로 self-invocation 문제와 Kotlin final 클래스 문제를 인지하고 사용해야 합니다.
+AOP는 한 번 적용해 두면 본문 코드가 눈에 띄게 가벼워지는 반면, 잘못 쓰면 어느 시점에 어떤 Advice가 끼어드는지 추적하기 어려워진다. self-invocation 문제와 Kotlin의 final 클래스 이슈처럼 프록시 기반 동작에서 비롯되는 함정만 미리 알고 있으면, 로깅·트랜잭션·권한 같은 공통 관심사를 깔끔하게 정리하는 좋은 도구다.
 
 ## 참고 자료
 
