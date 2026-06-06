@@ -16,6 +16,7 @@ Output:
 """
 
 import os
+import subprocess
 import yaml
 from pathlib import Path
 
@@ -207,24 +208,50 @@ def write_category_pages(structure: dict):
 
 
 def cleanup_orphan_pages(structure: dict):
-    """Remove category pages that no longer have corresponding folders."""
+    """Remove category pages that no longer have corresponding folders.
+
+    Auto-deletes orphan pages (categories with 0 posts) via `git rm` so the
+    next build does not serve empty "0 Posts" category pages. Static pages
+    listed in keep_pages are preserved.
+    """
     pages_path = Path(PAGES_DIR)
 
-    # Get all valid categories
+    # Build the same set of page filenames that write_category_pages() creates,
+    # plus the top-level menu pages (e.g., /Mobile/, /Tools/) which display all
+    # posts whose first category equals the menu name.
+    # For "common" categories the filename uses the menu name, not "common".
     valid_categories = set()
-    for categories in structure.values():
+    for menu, categories in structure.items():
+        # Top-level menu page (e.g., Mobile.md, Tools.md)
+        valid_categories.add(title_case(menu).replace(' ', '-').lower())
         for category in categories:
-            valid_categories.add(title_case(category).replace(' ', '-').lower())
+            title = title_case(menu) if category == "common" else title_case(category)
+            valid_categories.add(title.replace(' ', '-').lower())
 
-    # Special pages to keep
-    keep_pages = {"about"}
+    # Static pages that must always be kept (not category pages)
+    keep_pages = {"about", "contact", "privacy-policy", "resume", "home"}
 
     removed = []
     for page_file in pages_path.glob("*.md"):
         page_name = page_file.stem.lower()
-        if page_name not in valid_categories and page_name not in keep_pages:
-            # Don't auto-remove, just warn
-            print(f"Warning: Orphan page found: {page_file.name}")
+        if page_name in valid_categories or page_name in keep_pages:
+            continue
+        # Try git rm first (tracked files), fall back to unlink (untracked)
+        rc = subprocess.run(
+            ["git", "rm", "-f", str(page_file)],
+            capture_output=True,
+        ).returncode
+        if rc != 0:
+            try:
+                page_file.unlink()
+            except FileNotFoundError:
+                pass
+        removed.append(page_file.name)
+
+    if removed:
+        print(f"Removed orphan pages ({len(removed)}): {', '.join(sorted(removed))}")
+    else:
+        print("No orphan pages to remove")
 
 
 def main():

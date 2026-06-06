@@ -58,19 +58,7 @@
     link: /AI/
   - name: Knowledge
     link: /Knowledge/
-  - name: Health
-    link: /Health/
-  - name: History
-    link: /History/
   - name: Home
     link: /Home/
-  - name: Life
-    link: /Life/
-  - name: Miscellanea
-    link: /Miscellanea/
-  - name: Parenting
-    link: /Parenting/
-  - name: Science
-    link: /Science/
 - name: About
   link: /about
