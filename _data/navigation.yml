@@ -60,5 +60,7 @@
     link: /Knowledge/
   - name: Home
     link: /Home/
+  - name: Life
+    link: /Life/
 - name: About
   link: /about
