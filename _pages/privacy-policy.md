@@ -6,7 +6,7 @@ permalink: /privacy-policy/
 
 **최종 업데이트: 2026년 3월 5일**
 
-본 개인정보처리방침은 **Hyun's Tech Blog** (https://jeonghyeon.kim, 이하 "본 사이트")에서 수집하는 정보와 그 사용 방법에 대해 설명합니다.
+본 개인정보처리방침은 **Hyun's Tech Blog** (https://dss99911.github.io, 이하 "본 사이트")에서 수집하는 정보와 그 사용 방법에 대해 설명합니다.
 
 ## 수집하는 정보
 

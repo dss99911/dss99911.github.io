@@ -6,7 +6,7 @@ permalink: /resume/
 
 # 김 정 현
 
-[dss99911@gmail.com](mailto:dss99911@gmail.com) | [GitHub](https://github.com/dss99911) | [LinkedIn](http://www.linkedin.com/in/hyun-kim-7149b7b0) | [Blog](https://jeonghyeon.kim/)
+[dss99911@gmail.com](mailto:dss99911@gmail.com) | [GitHub](https://github.com/dss99911) | [LinkedIn](http://www.linkedin.com/in/hyun-kim-7149b7b0) | [Blog](https://dss99911.github.io/)
 
 ---
 
@@ -117,4 +117,4 @@ permalink: /resume/
 ## 기타
 
 - **어학** — 한국어 네이티브, 영어 비즈니스 (인도 5년 — 장기출장 2년 + 주재 3년), 인도네시아어 일상회화 (인도네시아 원격근무 중)
-- **블로그** — [jeonghyeon.kim](https://jeonghyeon.kim/)
+- **블로그** — [dss99911.github.io](https://dss99911.github.io/)
