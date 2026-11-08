@@ -2,6 +2,7 @@
 layout: post
 title: "아이와 11월 세종·공주·천안·안성 3박 4일 코스 (소요시간·식당 평점 정리)"
 date: 2026-11-08 12:00:00 +0900
+last_modified_at: 2026-11-08 14:00:00 +0900
 categories: [knowledge, life]
 tags: [가족여행, 아이와여행, 세종여행, 공주여행, 국립세종수목원, 베어트리파크, 공산성, 공주한옥마을, 안성팜랜드, 독립기념관단풍, 11월여행, 유아동반]
 image: /assets/images/posts/thumbnails/sejong-gongju-toddler-trip-november.jpg
@@ -11,8 +12,6 @@ description: "3살 아이와 11월 중순에 다녀오기 좋은 세종·공주�
 # 아이와 11월 세종·공주·천안·안성 3박 4일
 
 수도권(인천)에서 출발해 **세종 → 공주 한옥 1박 → 베어트리파크 → 천안 1박 → 안성팜랜드**를 도는 3박 4일 코스입니다. 3살 아이 기준으로 **큰 일정은 하루 2곳까지, 점심 뒤에는 낮잠 시간**을 비웠습니다. 1일차는 수요일, 4일차는 토요일 기준입니다. 평일인지 주말인지에 따라 열리는 프로그램이 다르기 때문입니다.
-
-![세종·공주·천안·안성 3박 4일 경로와 방문지](/assets/images/posts/thumbnails/sejong-gongju-toddler-trip-november.jpg)
 
 | 일차 | 일정 | 숙박 |
 |---|---|---|
