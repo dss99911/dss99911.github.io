@@ -13,6 +13,7 @@
 | `low-value-under-500-words/` | 59 | 본문 500단어 미만 (위 두 조건 외). 일반론·입문형 다수 |
 | `borderline-500-999-words/` | 203 | 본문 500~999단어. 짧지만 정독 후 복원 가치 있을 수 있음 |
 | `invest-blog-posts/` | 34 | `_posts/knowledge/invest/*` AI 자동 생성 투자 전망 글. 같은 slug에 잘못된 날짜 URL 다수 박혀있어 내부 링크 깨짐. 작업 문서는 `works/invest/` |
+| `removed-by-request/` | 1 | 사용자 요청으로 내린 글(세종·공주 아이 여행 코스, 2026-11-08). 지도 html·썸네일도 원래 경로 그대로 보관 |
 
 총 344글이 이동, `_posts/`에는 107글이 남아 있습니다.
 
