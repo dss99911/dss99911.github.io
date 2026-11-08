@@ -15,7 +15,7 @@ description: "3살 아이와 11월 중순에 다녀오기 좋은 세종·공주�
 
 **아래 지도에서 카드나 지도 번호를 누르면** 운영시간·요금·주의사항과 공식 사이트·네이버 지도 링크가 나옵니다.
 
-<iframe id="trip-map" src="/assets/html/sejong-gongju-toddler-trip-map.html?v=2" title="세종·공주·천안·안성 3박 4일 경로와 방문지" style="width:100%;height:1750px;border:0;border-radius:12px;background:#faf7f2" loading="lazy"></iframe>
+<iframe id="trip-map" src="/assets/html/sejong-gongju-toddler-trip-map.html?v=3" title="세종·공주·천안·안성 3박 4일 경로와 방문지" style="width:100%;height:1750px;border:0;border-radius:12px;background:#faf7f2" loading="lazy"></iframe>
 <script>
 window.addEventListener('message', function (e) {
   if (e.data && e.data.tripCardHeight) document.getElementById('trip-map').style.height = e.data.tripCardHeight + 'px';

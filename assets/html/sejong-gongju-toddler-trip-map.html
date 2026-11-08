@@ -57,12 +57,14 @@ function spread(){const ms=Object.values(byN), used=new Set();
 spread(); main.on('zoomend',spread);
 const tip=document.getElementById('tip'), wrap=document.getElementById('wrap');
 function hideTip(){tip.style.display='none';}
-function showTip(card,n){const e=byN[n]; if(!e||!e.p.detail) return;
+function showTip(card,n){const e=byN[n]; if(!e||!e.p.detail) return; hideTip(); const H=wrap.offsetHeight;
   tip.querySelector('.t').textContent=`${n}. ${e.p.name}`; const w=tip.querySelector('.w'); w.textContent=e.p.when; w.style.color=e.p.c;
   tip.querySelector('.d').innerHTML=e.p.detail; tip.style.display='block';
   const r=card.getBoundingClientRect(), wr=wrap.getBoundingClientRect(), tw=tip.offsetWidth;
   let left=r.left-wr.left+r.width/2-tw/2; left=Math.max(12,Math.min(left,wrap.clientWidth-tw-12));
-  tip.style.left=left+'px'; tip.style.top=(r.bottom-wr.top+8)+'px'; }
+  tip.style.left=left+'px'; let top=r.bottom-wr.top+8;
+  if(top+tip.offsetHeight>H-8) top=Math.max(8,r.top-wr.top-tip.offsetHeight-8);  // 아래 공간이 모자라면 카드 위로
+  tip.style.top=top+'px'; }
 if(document.body.classList.contains('interactive')){
   document.querySelectorAll('.card[data-n]').forEach(c=>c.addEventListener('click',ev=>{ev.stopPropagation();showTip(c,+c.dataset.n);}));
   tip.querySelector('.x').addEventListener('click',hideTip); tip.addEventListener('click',ev=>ev.stopPropagation());
