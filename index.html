@@ -7,7 +7,7 @@ title: Home
 <section class="hero">
   <div class="hero-content">
     <h1>Hyun's Tech Blog</h1>
-    <p class="hero-subtitle">Programming, Language Learning, and Knowledge Sharing</p>
+    <p class="hero-subtitle">보안과 AI 활용 팁을 공유합니다</p>
     <div class="hero-stats">
       <span><strong>{{ site.posts.size }}</strong> Posts</span>
       <span><strong>{{ site.categories.size }}</strong> Categories</span>
@@ -40,27 +40,22 @@ title: Home
   </script>
 </section>
 
-<!-- Category Sections -->
+<!-- Category Sections: one per top-level menu, shown only when it has posts -->
 <section class="category-sections">
-
-  <!-- Language Section -->
+  {% assign home_sections = "security:Security,ai:AI,android:Android,tools:Tools" | split: "," %}
+  {% for section in home_sections %}
+    {% assign parts = section | split: ":" %}
+    {% assign section_posts = site.categories[parts[0]] %}
+    {% if section_posts and section_posts.size > 0 %}
   <div class="category-section">
     <div class="section-header">
-      <h2>Language</h2>
-      <a href="{{ '/Korean/' | relative_url }}" class="view-all">View All</a>
+      <h2>{{ parts[1] }}</h2>
+      <a href="{{ '/' | append: parts[1] | append: '/' | relative_url }}" class="view-all">View All</a>
     </div>
     <div class="post-cards">
-      {% assign lang_categories = "korean,english,chinese,hindi,arabic,indonesian" | split: "," %}
-      {% assign lang_posts = "" | split: "" %}
-      {% for cat in lang_categories %}
-        {% for post in site.categories[cat] limit:2 %}
-          {% assign lang_posts = lang_posts | push: post %}
-        {% endfor %}
-      {% endfor %}
-      {% assign lang_posts = lang_posts | sort: "date" | reverse %}
-      {% for post in lang_posts limit:4 %}
+      {% for post in section_posts limit:4 %}
         <article class="post-card">
-          <div class="card-category">{{ post.categories | first }}</div>
+          <div class="card-category">{{ post.categories | last }}</div>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           <p class="card-excerpt">{{ post.description | default: post.excerpt | strip_html | truncate: 80 }}</p>
           <div class="card-meta">
@@ -70,63 +65,8 @@ title: Home
       {% endfor %}
     </div>
   </div>
-
-  <!-- Programming Section -->
-  <div class="category-section">
-    <div class="section-header">
-      <h2>Programming</h2>
-      <a href="{{ '/Android/' | relative_url }}" class="view-all">View All</a>
-    </div>
-    <div class="post-cards">
-      {% assign prog_categories = "android,python,devops,mac,jekyll,java,kotlin,javascript,frontend" | split: "," %}
-      {% assign prog_posts = "" | split: "" %}
-      {% for cat in prog_categories %}
-        {% for post in site.categories[cat] limit:2 %}
-          {% assign prog_posts = prog_posts | push: post %}
-        {% endfor %}
-      {% endfor %}
-      {% assign prog_posts = prog_posts | sort: "date" | reverse %}
-      {% for post in prog_posts limit:4 %}
-        <article class="post-card">
-          <div class="card-category">{{ post.categories | first }}</div>
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          <p class="card-excerpt">{{ post.description | default: post.excerpt | strip_html | truncate: 80 }}</p>
-          <div class="card-meta">
-            <span class="card-date">{{ post.date | date: "%b %d" }}</span>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
-  </div>
-
-  <!-- Knowledge Section -->
-  <div class="category-section">
-    <div class="section-header">
-      <h2>Knowledge</h2>
-      <a href="{{ '/AI/' | relative_url }}" class="view-all">View All</a>
-    </div>
-    <div class="post-cards">
-      {% assign know_categories = "ai,history,science,law,knowledge,miscellanea,tools" | split: "," %}
-      {% assign know_posts = "" | split: "" %}
-      {% for cat in know_categories %}
-        {% for post in site.categories[cat] limit:2 %}
-          {% assign know_posts = know_posts | push: post %}
-        {% endfor %}
-      {% endfor %}
-      {% assign know_posts = know_posts | sort: "date" | reverse %}
-      {% for post in know_posts limit:4 %}
-        <article class="post-card">
-          <div class="card-category">{{ post.categories | first }}</div>
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          <p class="card-excerpt">{{ post.description | default: post.excerpt | strip_html | truncate: 80 }}</p>
-          <div class="card-meta">
-            <span class="card-date">{{ post.date | date: "%b %d" }}</span>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
-  </div>
-
+    {% endif %}
+  {% endfor %}
 </section>
 
 <!-- Recent Posts with Pagination -->

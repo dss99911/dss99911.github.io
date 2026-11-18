@@ -28,14 +28,10 @@ NAVIGATION_FILE = os.path.join(DATA_DIR, "navigation.yml")
 
 # Menu display order (menus not listed here will be appended at the end)
 MENU_ORDER = [
-    "programming",
-    "frontend",
-    "mobile",
-    "backend",
-    "infra",
+    "security",
+    "ai",
+    "android",
     "tools",
-    "language",
-    "knowledge",
 ]
 
 # Fixed menu items (always included)
@@ -229,7 +225,7 @@ def cleanup_orphan_pages(structure: dict):
             valid_categories.add(title.replace(' ', '-').lower())
 
     # Static pages that must always be kept (not category pages)
-    keep_pages = {"about", "contact", "privacy-policy", "resume", "home"}
+    keep_pages = {"about", "contact", "privacy-policy", "resume"}
 
     removed = []
     for page_file in pages_path.glob("*.md"):

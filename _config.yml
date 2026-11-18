@@ -21,9 +21,8 @@
 title: Hyun's Tech Blog
 email: dss99911@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Programming tutorials and tips for Android, Python, Kotlin, Java, DevOps.
-  Language learning resources for Korean, English, Chinese.
-  Tech knowledge sharing blog by Hyun.
+  보안과 AI 활용 팁을 공유하는 Hyun의 기술 블로그.
+  macOS·Linux 보안 모델, 네트워크·인증, 모바일 보안, AI 에이전트 자동화.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dss99911.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: dss99911/dss99911.github.io

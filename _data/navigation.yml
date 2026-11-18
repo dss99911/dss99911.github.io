@@ -1,68 +1,20 @@
 - name: Home
   link: /
-- name: Programming
+- name: Security
   dropdown:
-  - name: Android
-    link: /Android/
-  - name: Career
-    link: /Career/
-  - name: Programming
-    link: /Programming/
-  - name: Golang
-    link: /Golang/
-  - name: Java
-    link: /Java/
-  - name: Kotlin
-    link: /Kotlin/
-  - name: Methodology
-    link: /Methodology/
-  - name: Python
-    link: /Python/
-  - name: Ruby
-    link: /Ruby/
-  - name: Scala
-    link: /Scala/
-- name: Frontend
+  - name: Mobile
+    link: /Mobile/
+  - name: Network
+    link: /Network/
+  - name: System
+    link: /System/
+- name: Android
   dropdown:
-  - name: Frontend
-    link: /Frontend/
-  - name: JavaScript
-    link: /JavaScript/
-- name: Mobile
-  dropdown:
-  - name: Android
-    link: /Android/
-- name: Backend
-  dropdown:
-  - name: Database
-    link: /Database/
-  - name: Kotlin
-    link: /Kotlin/
-  - name: Spring
-    link: /Spring/
-- name: Infra
-  dropdown:
-  - name: DevOps
-    link: /DevOps/
-  - name: Security
-    link: /Security/
-  - name: Spark
-    link: /Spark/
+  - name: Architecture
+    link: /Architecture/
 - name: Tools
   dropdown:
-  - name: Mac
-    link: /Mac/
-- name: Knowledge
-  dropdown:
-  - name: AI
-    link: /AI/
-  - name: Knowledge
-    link: /Knowledge/
-  - name: Home
-    link: /Home/
-  - name: Life
-    link: /Life/
-  - name: Miscellanea
-    link: /Miscellanea/
+  - name: Python
+    link: /Python/
 - name: About
   link: /about
