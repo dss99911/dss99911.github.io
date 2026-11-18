@@ -15,8 +15,9 @@
 | `invest-blog-posts/` | 34 | `_posts/knowledge/invest/*` AI 자동 생성 투자 전망 글. 같은 slug에 잘못된 날짜 URL 다수 박혀있어 내부 링크 깨짐. 작업 문서는 `works/invest/` |
 | `removed-by-request/` | 1 | 사용자 요청으로 내린 글(세종·공주 아이 여행 코스, 2026-11-08). 지도 html·썸네일도 원래 경로 그대로 보관 |
 | `blog-refocus-2026-11/` | 73 | 블로그를 "보안·AI 활용 팁"으로 재정비(2026-11-18). 지정한 14글만 남기고 내린 70글 + Obsidian 노트로 옮긴 3글(부업·수도 필터·여권사진). 이 글들에서만 쓰던 이미지 61개도 원래 경로 그대로 보관 |
+| `adsense-generic-2026-11/` | 4 | AdSense "replicated content" 거절 대응(2026-11-18). 교과서식 일반론 위주 글(encryption-basics, oauth-authentication-flow, ssl-tls-advanced, android-security-vulnerabilities). 이 글들에서만 쓰던 썸네일 2개도 원래 경로 그대로 보관 |
 
-2026-11-18 기준 `_trash/`에 439글, `_posts/`에는 14글이 남아 있습니다.
+2026-11-18 기준 `_trash/`에 443글, `_posts/`에는 10글이 남아 있습니다.
 
 ## 처리 가이드
 

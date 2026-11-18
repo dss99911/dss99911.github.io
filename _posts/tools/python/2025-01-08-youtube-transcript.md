@@ -7,6 +7,7 @@ description: "Python YouTube Transcript API로 유튜브 자막을 가져오는 
 tags: [python, youtube]
 image: /assets/images/posts/thumbnails/2025-01-09-youtube-transcript.png
 redirect_from:
+  - "/programming/python/2025/01/09/youtube-transcript.html"
   - "/miscellanea/2025/01/08/youtube-transcript.html"
   - "/programming/python/2025/01/07/youtube-transcript.html"
 ---

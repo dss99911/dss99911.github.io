@@ -4,6 +4,8 @@ title: "Simple Android Architecture : Refactoring to new architecture"
 date: 2023-12-23 01:05:37 +0900
 categories: [android, architecture]
 redirect_from:
+  - "/mobile/android/2023/12/25/simple-architecture-refactoring-to-new-arhictecture.html"
+  - "/android/2023/12/24/simple-architecture-refactoring-to-new-arhictecture.html"
   - "/mobile/android/2023/12/22/simple-architecture-refactoring-to-new-arhictecture.html"
 tags: [android, architecture, kotlin]
 image: /assets/images/posts/thumbnails/architecture-refactoring.png

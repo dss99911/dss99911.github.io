@@ -7,6 +7,7 @@ description: "Compare 5 approaches for Android API calls: Threading, Callback, C
 tags: [android, kotlin, coroutine, architecture]
 image: /assets/images/posts/thumbnails/2023-12-25-coroutine-retrofit.png
 redirect_from:
+  - "/mobile/android/2023/12/25/coroutine-retrofit.html"
   - "/android/2023/12/24/coroutine-retrofit.html"
   - "/mobile/android/2023/12/20/coroutine-retrofit.html"
 ---

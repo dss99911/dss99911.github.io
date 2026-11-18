@@ -4,6 +4,8 @@ title: "Simple Android Architecture : MVVM concept and reduce boilerplate code o
 date: 2023-12-24 01:05:37 +0900
 categories: [android, architecture]
 redirect_from:
+  - "/mobile/android/2023/12/25/reduce-boiler-plate-code.html"
+  - "/android/2023/12/24/reduce-boiler-plate-code.html"
   - "/mobile/android/2023/12/23/reduce-boiler-plate-code.html"
 tags: [android, kotlin, architecture]
 image: /assets/images/posts/thumbnails/2023-12-25-reduce-boiler-plate-code.png

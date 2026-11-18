@@ -4,6 +4,8 @@ title: "Simple Android Architecture : Testing efficiently with Android X"
 date: 2023-12-23 01:05:37 +0900
 categories: [android, architecture]
 redirect_from:
+  - "/mobile/android/2023/12/25/testing-efficiently.html"
+  - "/android/2023/12/24/testing-efficiently.html"
   - "/mobile/android/2023/12/22/testing-efficiently.html"
 tags: [android, testing, architecture]
 image: /assets/images/posts/thumbnails/android-testing.png
